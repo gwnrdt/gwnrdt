@@ -18,7 +18,7 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anura123&show_icons=true&theme=tokyonight&title_color=FF66C4&icon_color=66CCFF&text_color=ffffff&bg_color=0d1117" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Mscuaz&show_icons=true&theme=tokyonight&title_color=FF66C4&icon_color=66CCFF&text_color=ffffff&bg_color=0d1117" />
 </p>
 
 ---
@@ -26,7 +26,7 @@
 ### 🔥 My Contributions
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=anura123&theme=tokyonight&hide_border=true&ring=FF66C4&fire=66CCFF&currStreakLabel=ffffff" />
+  <img src="https://streak-stats.demolab.com?user=Mscuaz&theme=tokyonight&hide_border=true&ring=FF66C4&fire=66CCFF&currStreakLabel=ffffff" />
 </p>
 
 ---
@@ -48,5 +48,5 @@
 ---
 
 <p align="center" style="color:#888">
-  💻 Crafted with <span style="color:#FF66C4">💗</span>Anura Gaming On top</strong>
+  💻 Crafted with <span style="color:#FF66C4">💗</span>Mscuaz Gaming On top</strong>
 </p>
