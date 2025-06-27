@@ -9,35 +9,9 @@
 
 ---
 
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mscuaz&show_icons=true&theme=tokyonight&title_color=FF66C4&icon_color=66CCFF&text_color=ffffff&bg_color=0d1117" />
-</p>
-
 ---
 
-### 🔥 My Contributions
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Mscuaz&theme=tokyonight&hide_border=true&ring=FF66C4&fire=66CCFF&currStreakLabel=ffffff" />
-</p>
-
 ---
-
-### 📲 Connect with Me
-
-<p align="center">
-  <a href="" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-FF66C4?style=for-the-badge&logo=discord&logoColor=white" />
-  </a>
-  <a href="" target="_blank">
-    <img src="https://img.shields.io/badge/Youtube-66CCFF?style=for-the-badge&logo=youtube&logoColor=white" />
-  </a>
-  <a href="https://www.tiktok.com/@anurav2.0?_t=ZS-8xF6WiL1Kzf&_r=1" target="_blank">
-    <img src="https://img.shields.io/badge/TikTok-FF66C4?style=for-the-badge&logo=tiktok&logoColor=white" />
-  </a>
-</p>
 
 ---
 
