@@ -7,12 +7,6 @@
 
 ---
 
-### 🎧 I am a fan of Sơn Tùng M-TP 
-
-<p align="center">
-  <img src="<img src="https://open.spotify.com/user/313wevh4qwgdvhqg3kjgxidy5a34?si=6962aa5c8435476f"/>
-</p>
-
 ---
 
 ### 📈 GitHub Stats
