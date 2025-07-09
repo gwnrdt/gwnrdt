@@ -1,4 +1,4 @@
--- This script was generated using the Sigma Boy Obfuscator v1.3.0 [https://SigmaBoy]
+-- This script was generated using the SigmaBoy Obfuscator v1.3.0 [https://SigmaBoy]
 
 local hf,AM,kl=pairs,getmetatable,type;
 local SA,BD,oO,ho,TK,iT,Jx,CC,UY,on
