@@ -1,11111 +1,11104 @@
--- This script was generated using the Sigma Boy Obfuscator v1.3.0 [Sigma Boy]
+-- This script was generated using the Sigma Boy Obfuscator v1.3.0 [https://SigmaBoy]
 
-local qZ,cH,jv=type,getmetatable,pairs;
-local zt,Sr,Bg,Af,nv,_d,Wx,Sz,A,uf
-Bg,Wx={[-9785]=-25416,[5018]=8585,[-6483]=7834,[-7780]=22902,[7880]=24371,[-23741]=-26275,[-21939]=22902,[-26101]=23160,[32219]=5517,[-12555]=22902,[4148]=-25416,[-3866]=-26275,[-28082]=18797,[15445]=23160,[-11682]=-25416,[27640]=32073,[23879]=-25416,[4221]=-13304,[-743]=8585},function(lA)
-    return Bg[lA+-9357]
+local hf,AM,kl=pairs,getmetatable,type;
+local SA,BD,oO,ho,TK,iT,Jx,CC,UY,on
+UY,SA={[-28820]=17027,[19465]=-8252,[-10806]=29870,[5758]=-24383,[15776]=17152,[8069]=18773,[-1471]=28002,[12856]=-26494,[-11293]=-17523,[26779]=-24383,[32030]=17027,[-9652]=-17523,[-21868]=18773,[-23447]=-19409,[-25727]=18773,[1710]=18773,[4107]=17152,[-4701]=-24383,[-21338]=21917},function(Sb)
+    return UY[Sb- -19446]
 end
-_d=Wx(-12582)
+CC=SA(7333)
 repeat
     while true do
-        if _d==1240478797-1240455637 then
-            Af=(function(...)
-                return{[1]={...},[2]=uf('#',...)}
+        if CC==-1061863084- -1061881857 then
+            iT,ho,TK=(string.char),(string.byte),(bit32 .bxor);
+            CC=SA(12584);
+        elseif CC==-1.836786424551053e-05*954003131 then
+            Jx=(function(...)
+                return{[1]={...},[2]=oO('#',...)}
             end);
-            _d=Wx(14375);
-        elseif _d==23815145520936/1039871868 then
-            A=(getfenv());
-            _d=Wx(-428);
-        elseif _d==68899642+-68925917 then
-            uf=(select);
-            _d=Wx(-16744);
-        elseif _d==2095825760+-2095851176 then
-            Sr,nv,Sz=(string.char),(string.byte),(bit32 .bxor);
-            _d=Wx(5491);
-        elseif _d==-1457326890- -1457335475 then
-            zt=((function()
-                local function Tx(Hd,ck,bD)
-                    if ck>bD then
+            CC=SA(-3670);
+        elseif CC==1227613554+-1227596402 then
+            BD=((function()
+                local function KU(CX,gs,dv)
+                    if gs>dv then
                         return
                     end
-                    return Hd[ck],Tx(Hd,ck+1,bD)
+                    return CX[gs],KU(CX,gs+1,dv)
                 end
-                return Tx
+                return KU
             end)());
-            _d=Wx(36997);
+            CC=SA(-30252);
             break;
+        elseif CC==-1115173697+1115149314 then
+            on=(getfenv());
+            CC=SA(-11377);
+        elseif CC==1776277162+-1776260135 then
+            oO=(select);
+            CC=SA(-29098);
         end
     end
-until _d==1114167342+-1114135269
-local _W,yV,eF,ZJ=A[(function(rL,tQ)
-    local QB,wz,XN,Wf,Ub,Ae,gt,CS
-    gt,Ub={[-21096]=-4057,[3309]=29458,[6546]=9967,[29211]=14666,[-11933]=9785,[29655]=-4057},function(jZ)
-        return gt[jZ-32719]
+until CC==-887336481- -887366351
+local Nl,nU,Lx,rg=on[(function(dM,Zq)
+    local wI,YR,pT,jp,kc,kk,Jl,pU
+    kc,Jl={[29719]=24643,[14791]=-29755,[-17399]=-23462,[-14843]=-14915,[21219]=6799,[-31890]=-23462,[10539]=-18603,[-2327]=-29755},function(Zy)
+        return kc[Zy-1608]
     end
-    Wf=Ub(39265)
+    YR=Jl(31327)
     repeat
         while true do
-            if Wf==-4057 then
-                return Ae
-            elseif Wf==-18527 then
-                if(CS>=0 and QB>wz)or((CS<0 or CS~=CS)and QB<wz)then
-                    Wf=Ub(11623)
+            if YR==-23462 then
+                return pT
+            elseif YR==6799 then
+                jp=wI;
+                if kk~=kk then
+                    YR=Jl(-15791)
                 else
-                    Wf=Ub(36028)
+                    YR=Jl(-719)
                 end
-            elseif Wf==29458 then
-                Ae=Ae..Sr(Sz(nv(rL,(XN-75)+1),nv(tQ,(XN-75)%#tQ+1)))
-                Wf=Ub(20786)
-            elseif Wf==14666 then
-                XN=QB;
-                if wz~=wz then
-                    Wf=Ub(62374)
+            elseif YR==-14915 then
+                wI=wI+pU;
+                jp=wI;
+                if wI~=wI then
+                    YR=-23462
                 else
-                    Wf=-18527
+                    YR=Jl(16399)
                 end
-            elseif Wf==9785 then
-                QB=QB+CS;
-                XN=QB;
-                if QB~=QB then
-                    Wf=-4057
+            elseif YR==-18603 then
+                pT=pT..iT(TK(ho(dM,(jp-64)+1),ho(Zq,(jp-64)%#Zq+1)))
+                YR=Jl(-13235)
+            elseif YR==24643 then
+                pT='';
+                kk,wI,pU=(#dM-1)+64,64,1
+                YR=Jl(22827)
+            elseif YR==-29755 then
+                if(pU>=0 and wI>kk)or((pU<0 or pU~=pU)and wI<kk)then
+                    YR=Jl(-30282)
                 else
-                    Wf=-18527
+                    YR=Jl(12147)
                 end
-            elseif Wf==9967 then
-                Ae='';
-                wz,QB,CS=(#rL-1)+75,75,1
-                Wf=Ub(61930)
             end
         end
-    until Wf==-31584
-end)('\152\222\223\253B\128\195\215\247V','\244\177\190\153\49')](A[(function(ry,vn)
-    local cM,kU,pm,HQ,pg,JH,Zs,vs
-    pg,kU={[-15908]=-23072,[895]=-15674,[13776]=-14963,[-28186]=6375,[14775]=7045,[-26365]=-15674},function(HT)
-        return pg[HT- -23420]
+    until YR==21548
+end)('\235.^\174\3\243\51V\164\23','\135A?\202p')](on[(function(Ji,Oz)
+    local Qa,uA,To,FV,lp,fO,xc,ZU
+    To,uA={[23679]=22914,[-22921]=-26060,[-26736]=22914,[-15067]=2609,[-25594]=22914},function(ZQ)
+        return To[ZQ- -2937]
     end
-    HQ=kU(-8645)
+    ZU=uA(-18004)
     repeat
         while true do
-            if HQ==-15674 then
-                if(pm>=0 and Zs>cM)or((pm<0 or pm~=pm)and Zs<cM)then
-                    HQ=kU(-51606)
+            if ZU==1135 then
+                FV=Qa;
+                if lp~=lp then
+                    ZU=uA(20742)
                 else
-                    HQ=-22752
+                    ZU=13406
                 end
-            elseif HQ==-22752 then
-                JH=JH..Sr(Sz(nv(ry,(vs-56)+1),nv(vn,(vs-56)%#vn+1)))
-                HQ=kU(-9644)
-            elseif HQ==-23072 then
-                vs=Zs;
-                if cM~=cM then
-                    HQ=6375
+            elseif ZU==-26060 then
+                Qa=Qa+fO;
+                FV=Qa;
+                if Qa~=Qa then
+                    ZU=uA(-28531)
                 else
-                    HQ=kU(-22525)
+                    ZU=13406
                 end
-            elseif HQ==-14963 then
-                Zs=Zs+pm;
-                vs=Zs;
-                if Zs~=Zs then
-                    HQ=6375
+            elseif ZU==13406 then
+                if(fO>=0 and Qa>lp)or((fO<0 or fO~=fO)and Qa<lp)then
+                    ZU=uA(-29673)
                 else
-                    HQ=kU(-49785)
+                    ZU=-12523
                 end
-            elseif HQ==6375 then
-                return JH
-            elseif HQ==7045 then
-                JH='';
-                cM,Zs,pm=(#ry-1)+56,56,1
-                HQ=kU(-39328)
+            elseif ZU==22914 then
+                return xc
+            elseif ZU==-12523 then
+                xc=xc..iT(TK(ho(Ji,(FV-27)+1),ho(Oz,(FV-27)%#Oz+1)))
+                ZU=uA(-25858)
+            elseif ZU==2609 then
+                xc='';
+                Qa,lp,fO=27,(#Ji-1)+27,1
+                ZU=1135
             end
         end
-    until HQ==-13001
-end)('\19\229\25\225','t\132')][(function(IV,dR)
-    local yW,hy,FH,hF,YJ,EP,ln,QF
-    QF,FH={[22621]=20237,[-6165]=20416,[22203]=5302,[16594]=1235,[-12815]=-19333},function(qH)
-        return QF[qH-14220]
+    until ZU==-7103
+end)('\25\215\19\211','~\182')][(function(Kj,si)
+    local mD,qE,YH,ly,oV,eW,qN,d
+    d,YH={[-13487]=-4074,[12377]=-28571,[20102]=11581,[20871]=-28571},function(HJ)
+        return d[HJ+24334]
     end
-    yW=FH(36423)
+    oV=YH(-4232)
     repeat
         while true do
-            if yW==20416 then
-                EP=EP..Sr(Sz(nv(IV,(ln-138)+1),nv(dR,(ln-138)%#dR+1)))
-                yW=FH(36841)
-            elseif yW==1235 then
-                if(hy>=0 and hF>YJ)or((hy<0 or hy~=hy)and hF<YJ)then
-                    yW=-19333
+            if oV==-4074 then
+                qN=qN+eW;
+                qE=qN;
+                if qN~=qN then
+                    oV=-28571
                 else
-                    yW=FH(8055)
-                end
-            elseif yW==-19333 then
-                return EP
-            elseif yW==15755 then
-                ln=hF;
-                if YJ~=YJ then
-                    yW=FH(1405)
-                else
-                    yW=FH(30814)
-                end
-            elseif yW==5302 then
-                EP='';
-                hF,YJ,hy=138,(#IV-1)+138,1
-                yW=15755
-            elseif yW==20237 then
-                hF=hF+hy;
-                ln=hF;
-                if hF~=hF then
-                    yW=-19333
-                else
-                    yW=1235
-                end
-            end
-        end
-    until yW==-438
-end)('bsIZ@X^','*\a=')](A[(function(OS,aB)
-    local yB,fH,BZ,CP,fA,Hf,PU,PW
-    Hf,fH={[24226]=-22418,[25362]=-8724,[11766]=23824,[-15359]=-17981,[-32176]=23265,[-296]=12098},function(wf)
-        return Hf[wf- -8681]
-    end
-    BZ=fH(3085)
-    repeat
-        while true do
-            if BZ==-22418 then
-                fA=fA+PW;
-                CP=fA;
-                if fA~=fA then
-                    BZ=23265
-                else
-                    BZ=fH(-8977)
-                end
-            elseif BZ==12098 then
-                if(PW>=0 and fA>PU)or((PW<0 or PW~=PW)and fA<PU)then
-                    BZ=fH(-40857)
-                else
-                    BZ=fH(-24040)
-                end
-            elseif BZ==23824 then
-                yB='';
-                fA,PU,PW=60,(#OS-1)+60,1
-                BZ=fH(16681)
-            elseif BZ==-8724 then
-                CP=fA;
-                if PU~=PU then
-                    BZ=23265
-                else
-                    BZ=12098
-                end
-            elseif BZ==-17981 then
-                yB=yB..Sr(Sz(nv(OS,(CP-60)+1),nv(aB,(CP-60)%#aB+1)))
-                BZ=fH(15545)
-            elseif BZ==23265 then
-                return yB
-            end
-        end
-    until BZ==-32267
-end)('\19\229\25\225','t\132')],(function(PE,X)
-    local yq,ji,ua,zJ,nx,uo,bb,NI
-    yq,ji={[-12178]=9667,[1168]=8767,[-20124]=-9224,[-14644]=-31011},function(YE)
-        return yq[YE+28311]
-    end
-    bb=ji(-42955)
-    repeat
-        while true do
-            if bb==-9224 then
-                if(zJ>=0 and uo>nx)or((zJ<0 or zJ~=zJ)and uo<nx)then
-                    bb=8767
-                else
-                    bb=2081
-                end
-            elseif bb==-31011 then
-                ua='';
-                zJ,uo,nx=1,229,(#PE-1)+229
-                bb=6507
-            elseif bb==8767 then
-                return ua
-            elseif bb==9667 then
-                uo=uo+zJ;
-                NI=uo;
-                if uo~=uo then
-                    bb=ji(-27143)
-                else
-                    bb=-9224
-                end
-            elseif bb==6507 then
-                NI=uo;
-                if nx~=nx then
-                    bb=8767
-                else
-                    bb=ji(-48435)
-                end
-            elseif bb==2081 then
-                ua=ua..Sr(Sz(nv(PE,(NI-229)+1),nv(X,(NI-229)%#X+1)))
-                bb=ji(-40489)
-            end
-        end
-    until bb==-17001
-end)('\129\162\128\31\132\241x\175\3\t\250\150D[\21?\20\164\127* \177\149\194~]hk\243\156\127\238\253\r\186\160\249\134\n\155\174\54\243\1\19\161\146PM^/\15\230\52\3\56\176\141\204x\\4s\225\218F\169\255\28\142','\233\214\244o\247\203W\128d\96\142\254\49\57;\\{\201PlO\222\225\163\25\56\27\30\128\179(\135\147i\239')))(),A[(function(rC,st)
-    local ta,vo,vF,NG,Hk,Vd,TE,PL
-    Vd,PL={[12721]=-12320,[-13180]=-15811,[17036]=-15811,[-8056]=-8787,[-25067]=-15811},function(Gg)
-        return Vd[Gg-4550]
-    end
-    vo=PL(17271)
-    repeat
-        while true do
-            if vo==-8787 then
-                ta=ta+vF;
-                Hk=ta;
-                if ta~=ta then
-                    vo=PL(-20517)
-                else
-                    vo=-18728
-                end
-            elseif vo==-12320 then
-                TE='';
-                ta,vF,NG=132,1,(#rC-1)+132
-                vo=-32227
-            elseif vo==-814 then
-                TE=TE..Sr(Sz(nv(rC,(Hk-132)+1),nv(st,(Hk-132)%#st+1)))
-                vo=PL(-3506)
-            elseif vo==-15811 then
-                return TE
-            elseif vo==-32227 then
-                Hk=ta;
-                if NG~=NG then
-                    vo=PL(21586)
-                else
-                    vo=-18728
-                end
-            elseif vo==-18728 then
-                if(vF>=0 and ta>NG)or((vF<0 or vF~=vF)and ta<NG)then
-                    vo=PL(-8630)
-                else
-                    vo=-814
-                end
-            end
-        end
-    until vo==9215
-end)('\4\228\14\224','c\133')][(function(oj,xN)
-    local HL,Dg,gU,nW,Sx,rb,vR,Ad
-    rb,Ad={[4738]=18199,[-21239]=17525,[25759]=32075,[25268]=-7510,[-9506]=18199,[29643]=4615,[-33]=17525},function(sP)
-        return rb[sP-27299]
-    end
-    vR=Ad(52567)
-    repeat
-        while true do
-            if vR==27334 then
-                HL=gU;
-                if Dg~=Dg then
-                    vR=18199
-                else
-                    vR=Ad(6060)
-                end
-            elseif vR==18199 then
-                return Sx
-            elseif vR==17525 then
-                if(nW>=0 and gU>Dg)or((nW<0 or nW~=nW)and gU<Dg)then
-                    vR=Ad(17793)
-                else
-                    vR=Ad(56942)
-                end
-            elseif vR==32075 then
-                gU=gU+nW;
-                HL=gU;
-                if gU~=gU then
-                    vR=Ad(32037)
-                else
-                    vR=Ad(27266)
-                end
-            elseif vR==-7510 then
-                Sx='';
-                gU,nW,Dg=98,1,(#oj-1)+98
-                vR=27334
-            elseif vR==4615 then
-                Sx=Sx..Sr(Sz(nv(oj,(HL-98)+1),nv(xN,(HL-98)%#xN+1)))
-                vR=Ad(53058)
-            end
-        end
-    until vR==-4182
-end)('\180 |E\212\129\51au\212','\243E\b\22\177')](A[(function(El,Ot)
-    local ZX,Bb,aN,Bx,ps,ha,Ma,TX
-    Bx,aN={[-29279]=14753,[30953]=-7527,[10367]=14753,[6566]=-6402,[-6095]=-6904,[-6630]=-8141},function(qK)
-        return Bx[qK- -13150]
-    end
-    ha=aN(17803)
-    repeat
-        while true do
-            if ha==-8141 then
-                Ma=TX;
-                if Bb~=Bb then
-                    ha=14753
-                else
-                    ha=aN(-19245)
-                end
-            elseif ha==-6402 then
-                TX=TX+ps;
-                Ma=TX;
-                if TX~=TX then
-                    ha=aN(-42429)
-                else
-                    ha=-6904
-                end
-            elseif ha==-1502 then
-                ZX=ZX..Sr(Sz(nv(El,(Ma-54)+1),nv(Ot,(Ma-54)%#Ot+1)))
-                ha=aN(-6584)
-            elseif ha==14753 then
-                return ZX
-            elseif ha==-7527 then
-                ZX='';
-                ps,TX,Bb=1,54,(#El-1)+54
-                ha=aN(-19780)
-            elseif ha==-6904 then
-                if(ps>=0 and TX>Bb)or((ps<0 or ps~=ps)and TX<Bb)then
-                    ha=aN(-2783)
-                else
-                    ha=-1502
-                end
-            end
-        end
-    until ha==-11261
-end)('\4\228\14\224','c\133')],(function(oK,eq)
-    local Eq,_x,cQ,qB,Fz,KS,iJ,Ov
-    Eq,Ov={[-26051]=11803,[2842]=5633,[-31035]=-16527,[-4257]=-21511,[-30639]=4801},function(sQ)
-        return Eq[sQ+-10962]
-    end
-    Fz=Ov(-15089)
-    repeat
-        while true do
-            if Fz==5077 then
-                iJ=KS;
-                if _x~=_x then
-                    Fz=-21511
-                else
-                    Fz=Ov(-20073)
-                end
-            elseif Fz==-21511 then
-                return cQ
-            elseif Fz==4801 then
-                KS=KS+qB;
-                iJ=KS;
-                if KS~=KS then
-                    Fz=Ov(6705)
-                else
-                    Fz=-16527
-                end
-            elseif Fz==-16527 then
-                if(qB>=0 and KS>_x)or((qB<0 or qB~=qB)and KS<_x)then
-                    Fz=-21511
-                else
-                    Fz=Ov(13804)
-                end
-            elseif Fz==5633 then
-                cQ=cQ..Sr(Sz(nv(oK,(iJ-11)+1),nv(eq,(iJ-11)%#eq+1)))
-                Fz=Ov(-19677)
-            elseif Fz==11803 then
-                cQ='';
-                KS,qB,_x=11,1,(#oK-1)+11
-                Fz=5077
-            end
-        end
-    until Fz==30859
-end)('\18\197\176;\204\163\49','B\169\209')),A[(function(iN,xB)
-    local wD,Wu,fK,CN,_K,Ea,Qi,ml
-    _K,fK={[25362]=17506,[26570]=4609,[12379]=8861},function(xL)
-        return _K[xL+-16916]
-    end
-    CN=fK(42278)
-    repeat
-        while true do
-            if CN==-19167 then
-                Wu=Wu..Sr(Sz(nv(iN,(Qi-51)+1),nv(xB,(Qi-51)%#xB+1)))
-                CN=fK(43486)
-            elseif CN==-650 then
-                return Wu
-            elseif CN==17506 then
-                Wu='';
-                ml,Ea,wD=(#iN-1)+51,51,1
-                CN=fK(29295)
-            elseif CN==23090 then
-                if(wD>=0 and Ea>ml)or((wD<0 or wD~=wD)and Ea<ml)then
-                    CN=-650
-                else
-                    CN=-19167
-                end
-            elseif CN==8861 then
-                Qi=Ea;
-                if ml~=ml then
-                    CN=-650
-                else
-                    CN=23090
-                end
-            elseif CN==4609 then
-                Ea=Ea+wD;
-                Qi=Ea;
-                if Ea~=Ea then
-                    CN=-650
-                else
-                    CN=23090
-                end
-            end
-        end
-    until CN==26989
-end)('\205~\199z','\170\31')][(function(bn,jy)
-    local dY,Hw,sR,VY,WX,IP,xR,JQ
-    IP,JQ={[-13840]=-12202,[23794]=29980},function(Rq)
-        return IP[Rq-24771]
-    end
-    Hw=JQ(48565)
-    repeat
-        while true do
-            if Hw==-12894 then
-                xR=WX;
-                if sR~=sR then
-                    Hw=-31496
-                else
-                    Hw=8433
-                end
-            elseif Hw==8433 then
-                if(VY>=0 and WX>sR)or((VY<0 or VY~=VY)and WX<sR)then
-                    Hw=-31496
-                else
-                    Hw=2097
-                end
-            elseif Hw==29980 then
-                dY='';
-                WX,VY,sR=122,1,(#bn-1)+122
-                Hw=-12894
-            elseif Hw==-12202 then
-                WX=WX+VY;
-                xR=WX;
-                if WX~=WX then
-                    Hw=-31496
-                else
-                    Hw=8433
-                end
-            elseif Hw==-31496 then
-                return dY
-            elseif Hw==2097 then
-                dY=dY..Sr(Sz(nv(bn,(xR-122)+1),nv(jy,(xR-122)%#jy+1)))
-                Hw=JQ(10931)
-            end
-        end
-    until Hw==3336
-end)('\181,A!\158\128?\\\17\158','\242I5r\251')](A[(function(Fr,Iw)
-    local DP,Gp,Ef,jB,ai,IM,XU,Kn
-    XU,Kn={[21476]=14729,[29691]=32095,[-12228]=-8941,[12388]=18459,[-2231]=20566,[-17596]=-8941},function(cO)
-        return XU[cO+17494]
-    end
-    ai=Kn(12197)
-    repeat
-        while true do
-            if ai==20566 then
-                DP=Ef;
-                if jB~=jB then
-                    ai=Kn(3982)
-                else
-                    ai=Kn(-35090)
-                end
-            elseif ai==12722 then
-                IM=IM..Sr(Sz(nv(Fr,(DP-23)+1),nv(Iw,(DP-23)%#Iw+1)))
-                ai=Kn(-5106)
-            elseif ai==18459 then
-                Ef=Ef+Gp;
-                DP=Ef;
-                if Ef~=Ef then
-                    ai=14729
-                else
-                    ai=Kn(-29722)
-                end
-            elseif ai==32095 then
-                IM='';
-                Ef,Gp,jB=23,1,(#Fr-1)+23
-                ai=Kn(-19725)
-            elseif ai==-8941 then
-                if(Gp>=0 and Ef>jB)or((Gp<0 or Gp~=Gp)and Ef<jB)then
-                    ai=14729
-                else
-                    ai=12722
-                end
-            elseif ai==14729 then
-                return IM
-            end
-        end
-    until ai==-20357
-end)('\205~\199z','\170\31')],(function(DZ,Rl)
-    local dO,_r,HP,Mg,oc,Te,RS,jl
-    Mg,oc={[19918]=-23432,[28764]=-31713,[15495]=-2892,[-32009]=9248,[22970]=3743,[-3656]=-31713},function(BS)
-        return Mg[BS+11171]
-    end
-    dO=oc(4324)
-    repeat
-        while true do
-            if dO==3743 then
-                if(Te>=0 and jl>RS)or((Te<0 or Te~=Te)and jl<RS)then
-                    dO=oc(-14827)
-                else
-                    dO=24556
-                end
-            elseif dO==-2892 then
-                HP='';
-                RS,Te,jl=(#DZ-1)+49,1,49
-                dO=oc(8747)
-            elseif dO==-31713 then
-                return HP
-            elseif dO==24556 then
-                HP=HP..Sr(Sz(nv(DZ,(_r-49)+1),nv(Rl,(_r-49)%#Rl+1)))
-                dO=oc(-43180)
-            elseif dO==9248 then
-                jl=jl+Te;
-                _r=jl;
-                if jl~=jl then
-                    dO=-31713
-                else
-                    dO=oc(11799)
-                end
-            elseif dO==-23432 then
-                _r=jl;
-                if RS~=RS then
-                    dO=oc(17593)
-                else
-                    dO=3743
-                end
-            end
-        end
-    until dO==20625
-end)('\145t\195\174\249\181\221\136\166u\224\182\255\164\221\155\166','\195\17\179\194\144\214\188\252')),A[(function(Dx,bI)
-    local PA,fX,yz,cn,kX,Gt,Qg,KA
-    kX,Gt={[-6133]=3276,[-24037]=-12267,[-2647]=14671,[20138]=2238,[3400]=-29599,[5984]=-29599},function(xn)
-        return kX[xn+-26195]
-    end
-    Qg=Gt(23548)
-    repeat
-        while true do
-            if Qg==-12267 then
-                fX=fX..Sr(Sz(nv(Dx,(cn-119)+1),nv(bI,(cn-119)%#bI+1)))
-                Qg=Gt(46333)
-            elseif Qg==18036 then
-                if(KA>=0 and PA>yz)or((KA<0 or KA~=KA)and PA<yz)then
-                    Qg=Gt(29595)
-                else
-                    Qg=Gt(2158)
-                end
-            elseif Qg==2238 then
-                PA=PA+KA;
-                cn=PA;
-                if PA~=PA then
-                    Qg=Gt(32179)
-                else
-                    Qg=18036
-                end
-            elseif Qg==-29599 then
-                return fX
-            elseif Qg==14671 then
-                fX='';
-                KA,PA,yz=1,119,(#Dx-1)+119
-                Qg=Gt(20062)
-            elseif Qg==3276 then
-                cn=PA;
-                if yz~=yz then
-                    Qg=-29599
-                else
-                    Qg=18036
-                end
-            end
-        end
-    until Qg==-11159
-end)('\204$\198 ','\171E')][(function(wx,fF)
-    local dS,UH,CW,TP,im,d,tW,xi
-    TP,tW={[-28177]=3926,[29562]=13864,[27400]=-22921,[-23065]=3926,[3250]=21514,[-18015]=-30711},function(IQ)
-        return TP[IQ- -29993]
-    end
-    xi=tW(-26743)
-    repeat
-        while true do
-            if xi==-22921 then
-                im=im+dS;
-                UH=im;
-                if im~=im then
-                    xi=3926
-                else
-                    xi=-30711
-                end
-            elseif xi==-20137 then
-                d=d..Sr(Sz(nv(wx,(UH-226)+1),nv(fF,(UH-226)%#fF+1)))
-                xi=tW(-2593)
-            elseif xi==13864 then
-                UH=im;
-                if CW~=CW then
-                    xi=tW(-58170)
-                else
-                    xi=tW(-48008)
-                end
-            elseif xi==21514 then
-                d='';
-                im,dS,CW=226,1,(#wx-1)+226
-                xi=tW(-431)
-            elseif xi==3926 then
-                return d
-            elseif xi==-30711 then
-                if(dS>=0 and im>CW)or((dS<0 or dS~=dS)and im<CW)then
-                    xi=tW(-53058)
-                else
-                    xi=-20137
-                end
-            end
-        end
-    until xi==-22281
-end)('\207\161h\242p\250\178u\194p','\136\196\28\161\21')](A[(function(NB,mw)
-    local ML,ay,kP,CZ,tH,uq,Pr,UE
-    UE,CZ={[5036]=-14422,[-7816]=-21719,[24628]=-21823,[3915]=-21719,[3505]=-7228,[13061]=21734},function(Lx)
-        return UE[Lx+19421]
-    end
-    tH=CZ(5207)
-    repeat
-        while true do
-            if tH==21734 then
-                if(ML>=0 and kP>ay)or((ML<0 or ML~=ML)and kP<ay)then
-                    tH=CZ(-27237)
-                else
-                    tH=CZ(-14385)
-                end
-            elseif tH==-21719 then
-                return uq
-            elseif tH==-31955 then
-                Pr=kP;
-                if ay~=ay then
-                    tH=-21719
-                else
-                    tH=21734
-                end
-            elseif tH==-21823 then
-                uq='';
-                kP,ay,ML=172,(#NB-1)+172,1
-                tH=-31955
-            elseif tH==-14422 then
-                uq=uq..Sr(Sz(nv(NB,(Pr-172)+1),nv(mw,(Pr-172)%#mw+1)))
-                tH=CZ(-15916)
-            elseif tH==-7228 then
-                kP=kP+ML;
-                Pr=kP;
-                if kP~=kP then
-                    tH=CZ(-15506)
-                else
-                    tH=CZ(-6360)
-                end
-            end
-        end
-    until tH==-9897
-end)('\204$\198 ','\171E')],(function(XR,YO)
-    local QK,fU,Zp,nz,ii,AP,jq,wK
-    ii,QK={[16382]=-5744,[20827]=-6830,[-24674]=16289,[983]=-6830,[25478]=22505,[25549]=-2097,[15680]=-6830,[-4069]=-5342},function(Qd)
-        return ii[Qd-17078]
-    end
-    AP=QK(13009)
-    repeat
-        while true do
-            if AP==-2097 then
-                if(nz>=0 and fU>wK)or((nz<0 or nz~=nz)and fU<wK)then
-                    AP=QK(37905)
-                else
-                    AP=QK(-7596)
-                end
-            elseif AP==-5342 then
-                Zp='';
-                wK,fU,nz=(#XR-1)+109,109,1
-                AP=QK(33460)
-            elseif AP==16289 then
-                Zp=Zp..Sr(Sz(nv(XR,(jq-109)+1),nv(YO,(jq-109)%#YO+1)))
-                AP=QK(42556)
-            elseif AP==22505 then
-                fU=fU+nz;
-                jq=fU;
-                if fU~=fU then
-                    AP=QK(32758)
-                else
-                    AP=QK(42627)
-                end
-            elseif AP==-6830 then
-                return Zp
-            elseif AP==-5744 then
-                jq=fU;
-                if wK~=wK then
-                    AP=QK(18061)
-                else
-                    AP=-2097
-                end
-            end
-        end
-    until AP==-9874
-end)('f\254<\191qF\253;\143q','4\139R\236\20'))
-local Rf=yV[(function(ks,om)
-    local QZ,VN,XD,hd,gs,lT,Ip,Ai
-    Ip,XD={[-29097]=20042,[7378]=17774,[-7171]=-6305,[7085]=17463,[22854]=17774},function(rP)
-        return Ip[rP+-23088]
-    end
-    hd=XD(30173)
-    repeat
-        while true do
-            if hd==20042 then
-                if(lT>=0 and QZ>Ai)or((lT<0 or lT~=lT)and QZ<Ai)then
-                    hd=17774
-                else
-                    hd=3464
-                end
-            elseif hd==18004 then
-                VN=QZ;
-                if Ai~=Ai then
-                    hd=XD(30466)
-                else
-                    hd=XD(-6009)
-                end
-            elseif hd==-6305 then
-                QZ=QZ+lT;
-                VN=QZ;
-                if QZ~=QZ then
-                    hd=XD(45942)
-                else
-                    hd=20042
-                end
-            elseif hd==3464 then
-                gs=gs..Sr(Sz(nv(ks,(VN-166)+1),nv(om,(VN-166)%#om+1)))
-                hd=XD(15917)
-            elseif hd==17774 then
-                return gs
-            elseif hd==17463 then
-                gs='';
-                lT,QZ,Ai=1,166,(#ks-1)+166
-                hd=18004
-            end
-        end
-    until hd==-14743
-end)('\245\230\20r\128\233\229\22j\137\203','\185\137w\19\236')]
-A[(function(rA,LP)
-    local oM,_,qX,LW,uV,Dy,cr,lO
-    lO,_={[7097]=-32462,[22050]=-9698,[1943]=23502,[31184]=30621,[-3814]=23502,[-28394]=23502,[3987]=6958},function(ov)
-        return lO[ov+-31138]
-    end
-    uV=_(38235)
-    repeat
-        while true do
-            if uV==-9698 then
-                oM=oM+cr;
-                Dy=oM;
-                if oM~=oM then
-                    uV=_(33081)
-                else
-                    uV=6958
-                end
-            elseif uV==23502 then
-                return LW
-            elseif uV==13210 then
-                LW=LW..Sr(Sz(nv(rA,(Dy-55)+1),nv(LP,(Dy-55)%#LP+1)))
-                uV=_(53188)
-            elseif uV==30621 then
-                Dy=oM;
-                if qX~=qX then
-                    uV=_(27324)
-                else
-                    uV=_(35125)
-                end
-            elseif uV==6958 then
-                if(cr>=0 and oM>qX)or((cr<0 or cr~=cr)and oM<qX)then
-                    uV=_(2744)
-                else
-                    uV=13210
-                end
-            elseif uV==-32462 then
-                LW='';
-                cr,oM,qX=1,55,(#rA-1)+55
-                uV=_(62322)
-            end
-        end
-    until uV==-20500
-end)('\173\137\17\173\137\v\188','\202\236e')]()[(function(nu,gp)
-    local OJ,hv,bN,Tg,kA,Bv,iz,EI
-    OJ,hv={[-19807]=-14355,[11150]=-14355,[9560]=22859,[7637]=-5591,[-6318]=30715,[30829]=-14355},function(sq)
-        return OJ[sq-13732]
-    end
-    EI=hv(21369)
-    repeat
-        while true do
-            if EI==21180 then
-                if(Tg>=0 and Bv>bN)or((Tg<0 or Tg~=Tg)and Bv<bN)then
-                    EI=hv(24882)
-                else
-                    EI=hv(23292)
-                end
-            elseif EI==22859 then
-                iz=iz..Sr(Sz(nv(nu,(kA-188)+1),nv(gp,(kA-188)%#gp+1)))
-                EI=hv(7414)
-            elseif EI==10534 then
-                kA=Bv;
-                if bN~=bN then
-                    EI=hv(-6075)
-                else
-                    EI=21180
-                end
-            elseif EI==30715 then
-                Bv=Bv+Tg;
-                kA=Bv;
-                if Bv~=Bv then
-                    EI=hv(44561)
-                else
-                    EI=21180
-                end
-            elseif EI==-5591 then
-                iz='';
-                Bv,bN,Tg=188,(#nu-1)+188,1
-                EI=10534
-            elseif EI==-14355 then
-                return iz
-            end
-        end
-    until EI==-26647
-end)('\31\170\193,\169\195\56','K\197\166')]=A[(function(WF,Qf)
-    local Zn,ZP,qM,wB,jk,bq,Le,BK
-    jk,wB={[23093]=26189,[-29756]=-9847,[6553]=-4161,[-12609]=-21799,[10836]=-19692,[20161]=16071},function(Tk)
-        return jk[Tk- -13449]
-    end
-    ZP=wB(-26058)
-    repeat
-        while true do
-            if ZP==26189 then
-                Zn=Zn+Le;
-                bq=Zn;
-                if Zn~=Zn then
-                    ZP=16071
-                else
-                    ZP=wB(-6896)
-                end
-            elseif ZP==-21799 then
-                qM='';
-                Le,Zn,BK=1,149,(#WF-1)+149
-                ZP=wB(-43205)
-            elseif ZP==-19692 then
-                qM=qM..Sr(Sz(nv(WF,(bq-149)+1),nv(Qf,(bq-149)%#Qf+1)))
-                ZP=wB(9644)
-            elseif ZP==16071 then
-                return qM
-            elseif ZP==-4161 then
-                if(Le>=0 and Zn>BK)or((Le<0 or Le~=Le)and Zn<BK)then
-                    ZP=16071
-                else
-                    ZP=wB(-2613)
-                end
-            elseif ZP==-9847 then
-                bq=Zn;
-                if BK~=BK then
-                    ZP=wB(6712)
-                else
-                    ZP=-4161
-                end
-            end
-        end
-    until ZP==-26144
-end)('\226\139A\226\139[\243','\133\238\53')]()[(function(Er,Xl)
-    local Dj,IJ,mn,Ht,tz,TB,kJ,qL
-    tz,kJ={[-29502]=23823,[-1147]=23823,[9633]=-31219,[-30821]=8993,[-14837]=-2480,[-25080]=16608},function(Ge)
-        return tz[Ge-11064]
-    end
-    IJ=kJ(-19757)
-    repeat
-        while true do
-            if IJ==-31219 then
-                if(TB>=0 and Ht>mn)or((TB<0 or TB~=TB)and Ht<mn)then
-                    IJ=23823
-                else
-                    IJ=kJ(-3773)
-                end
-            elseif IJ==8993 then
-                qL='';
-                TB,Ht,mn=1,108,(#Er-1)+108
-                IJ=-19437
-            elseif IJ==-2480 then
-                qL=qL..Sr(Sz(nv(Er,(Dj-108)+1),nv(Xl,(Dj-108)%#Xl+1)))
-                IJ=kJ(-14016)
-            elseif IJ==23823 then
-                return qL
-            elseif IJ==16608 then
-                Ht=Ht+TB;
-                Dj=Ht;
-                if Ht~=Ht then
-                    IJ=kJ(9917)
-                else
-                    IJ=-31219
-                end
-            elseif IJ==-19437 then
-                Dj=Ht;
-                if mn~=mn then
-                    IJ=kJ(-18438)
-                else
-                    IJ=kJ(20697)
-                end
-            end
-        end
-    until IJ==-29471
-end)("\134\249%\181\250\'\161",'\210\150B')]or{}
-A[(function(Ru,fj)
-    local wy,jT,Cg,Nd,_i,lu,tK,cD
-    Nd,Cg={[-4349]=8285,[11494]=-2952,[29588]=17200,[7512]=-19182,[-13896]=-12136,[-19379]=16167},function(HM)
-        return Nd[HM-5263]
-    end
-    wy=Cg(-14116)
-    repeat
-        while true do
-            if wy==-12136 then
-                jT=lu;
-                if tK~=tK then
-                    wy=8285
-                else
-                    wy=17200
-                end
-            elseif wy==16167 then
-                _i='';
-                cD,tK,lu=1,(#Ru-1)+51,51
-                wy=Cg(-8633)
-            elseif wy==-19182 then
-                lu=lu+cD;
-                jT=lu;
-                if lu~=lu then
-                    wy=Cg(914)
-                else
-                    wy=Cg(34851)
-                end
-            elseif wy==8285 then
-                return _i
-            elseif wy==-2952 then
-                _i=_i..Sr(Sz(nv(Ru,(jT-51)+1),nv(fj,(jT-51)%#fj+1)))
-                wy=Cg(12775)
-            elseif wy==17200 then
-                if(cD>=0 and lu>tK)or((cD<0 or cD~=cD)and lu<tK)then
-                    wy=8285
-                else
-                    wy=Cg(16757)
-                end
-            end
-        end
-    until wy==15550
-end)('ss\166ss\188b','\20\22\210')]()[(function(wp,aS)
-    local _T,fr,sT,sz,Kq,CU,jb,wA
-    jb,sz={[-9595]=-27768,[-28242]=-5592,[23568]=15883,[-18607]=-3420,[-3587]=-3140,[28328]=-27768},function(yO)
-        return jb[yO+-4122]
-    end
-    wA=sz(-24120)
-    repeat
-        while true do
-            if wA==15883 then
-                _T=_T+fr;
-                CU=_T;
-                if _T~=_T then
-                    wA=-27768
-                else
-                    wA=-2279
-                end
-            elseif wA==-3420 then
-                CU=_T;
-                if sT~=sT then
-                    wA=sz(-5473)
-                else
-                    wA=-2279
-                end
-            elseif wA==-5592 then
-                Kq='';
-                _T,sT,fr=47,(#wp-1)+47,1
-                wA=sz(-14485)
-            elseif wA==-27768 then
-                return Kq
-            elseif wA==-3140 then
-                Kq=Kq..Sr(Sz(nv(wp,(CU-47)+1),nv(aS,(CU-47)%#aS+1)))
-                wA=sz(27690)
-            elseif wA==-2279 then
-                if(fr>=0 and _T>sT)or((fr<0 or fr~=fr)and _T<sT)then
-                    wA=sz(32450)
-                else
-                    wA=sz(535)
-                end
-            end
-        end
-    until wA==-6810
-end)('B\223Cd\192Y~','\r\175\55')]=A[(function(dM,ve)
-    local KX,th,je,UV,NY,UI,xb,VJ
-    VJ,xb={[16338]=-29234,[-21442]=30754,[-2667]=6748,[-12538]=30754,[-31872]=8758,[-12459]=9251,[-13529]=1516,[8939]=-29234},function(fP)
-        return VJ[fP+3182]
-    end
-    UV=xb(-5849)
-    repeat
-        while true do
-            if UV==1516 then
-                KX=KX..Sr(Sz(nv(dM,(je-147)+1),nv(ve,(je-147)%#ve+1)))
-                UV=xb(-35054)
-            elseif UV==30754 then
-                return KX
-            elseif UV==6748 then
-                KX='';
-                NY,UI,th=147,(#dM-1)+147,1
-                UV=xb(-15641)
-            elseif UV==9251 then
-                je=NY;
-                if UI~=UI then
-                    UV=xb(-24624)
-                else
-                    UV=xb(5757)
-                end
-            elseif UV==-29234 then
-                if(th>=0 and NY>UI)or((th<0 or th~=th)and NY<UI)then
-                    UV=30754
-                else
-                    UV=xb(-16711)
-                end
-            elseif UV==8758 then
-                NY=NY+th;
-                je=NY;
-                if NY~=NY then
-                    UV=xb(-15720)
-                else
-                    UV=xb(13156)
-                end
-            end
-        end
-    until UV==14769
-end)('\130\232f\130\232|\147','\229\141\18')]()[(function(vP,Uq)
-    local Qa,La,Ye,XW,HI,FB,nR,JZ
-    HI,nR={[2434]=29624,[22321]=-32507,[-3978]=-2761,[-21657]=18873},function(PV)
-        return HI[PV- -25091]
-    end
-    Qa=nR(-22657)
-    repeat
-        while true do
-            if Qa==25598 then
-                Ye=JZ;
-                if XW~=XW then
-                    Qa=-2761
-                else
-                    Qa=-32507
-                end
-            elseif Qa==18873 then
-                JZ=JZ+La;
-                Ye=JZ;
-                if JZ~=JZ then
-                    Qa=-2761
-                else
-                    Qa=nR(-2770)
-                end
-            elseif Qa==-2761 then
-                return FB
-            elseif Qa==29624 then
-                FB='';
-                La,XW,JZ=1,(#vP-1)+27,27
-                Qa=25598
-            elseif Qa==1470 then
-                FB=FB..Sr(Sz(nv(vP,(Ye-27)+1),nv(Uq,(Ye-27)%#Uq+1)))
-                Qa=nR(-46748)
-            elseif Qa==-32507 then
-                if(La>=0 and JZ>XW)or((La<0 or La~=La)and JZ<XW)then
-                    Qa=nR(-29069)
-                else
-                    Qa=1470
-                end
-            end
-        end
-    until Qa==-24322
-end)('\25\51\146?,\136%','VC\230')]or{}
-local xU=_W[(function(GV,oS)
-    local KM,SO,xh,YM,j,oY,YT,UF
-    UF,oY={[-25176]=2736,[-20361]=2758,[28731]=14617,[-2477]=-13155,[7181]=2758,[9534]=6783},function(tU)
-        return UF[tU+20858]
-    end
-    KM=oY(7873)
-    repeat
-        while true do
-            if KM==6783 then
-                if(YT>=0 and j>YM)or((YT<0 or YT~=YT)and j<YM)then
-                    KM=2758
-                else
-                    KM=25309
-                end
-            elseif KM==25309 then
-                SO=SO..Sr(Sz(nv(GV,(xh-7)+1),nv(oS,(xh-7)%#oS+1)))
-                KM=oY(-46034)
-            elseif KM==2758 then
-                return SO
-            elseif KM==14617 then
-                SO='';
-                YM,YT,j=(#GV-1)+7,1,7
-                KM=oY(-23335)
-            elseif KM==-13155 then
-                xh=j;
-                if YM~=YM then
-                    KM=oY(-13677)
-                else
-                    KM=oY(-11324)
-                end
-            elseif KM==2736 then
-                j=j+YT;
-                xh=j;
-                if j~=j then
-                    KM=oY(-41219)
-                else
-                    KM=6783
-                end
-            end
-        end
-    until KM==-26497
-end)('\247L\222\175Z\216\227W\213\170A\202','\180>\187\206.\189')](_W,{[(function(Gu,ep)
-    local fy,To,Eh,jw,ph,Xy,ye,Ij
-    To,ye={[-14120]=15866,[4780]=-13975,[-16008]=-16255,[-25933]=21284},function(GC)
-        return To[GC- -20979]
-    end
-    Xy=ye(-46912)
-    repeat
-        while true do
-            if Xy==-13975 then
-                return Ij
-            elseif Xy==-18264 then
-                Eh=jw;
-                if ph~=ph then
-                    Xy=-13975
-                else
-                    Xy=-16255
-                end
-            elseif Xy==15866 then
-                jw=jw+fy;
-                Eh=jw;
-                if jw~=jw then
-                    Xy=ye(-16199)
-                else
-                    Xy=ye(-36987)
-                end
-            elseif Xy==21284 then
-                Ij='';
-                ph,fy,jw=(#Gu-1)+153,1,153
-                Xy=-18264
-            elseif Xy==-16255 then
-                if(fy>=0 and jw>ph)or((fy<0 or fy~=fy)and jw<ph)then
-                    Xy=-13975
-                else
-                    Xy=14074
-                end
-            elseif Xy==14074 then
-                Ij=Ij..Sr(Sz(nv(Gu,(Eh-153)+1),nv(ep,(Eh-153)%#ep+1)))
-                Xy=ye(-35099)
-            end
-        end
-    until Xy==-1641
-end)('Bkw\96ai','\4\4\27')]=(function(_A,PX)
-    local vJ,Sg,cG,mF,Iu,Cp,nc,Zy
-    Zy,Iu={[-32392]=11157,[7736]=29077,[-1532]=-19322,[-11427]=-19322,[27101]=19593},function(hS)
-        return Zy[hS-17327]
-    end
-    nc=Iu(-15065)
-    repeat
-        while true do
-            if nc==29077 then
-                if(Cp>=0 and mF>cG)or((Cp<0 or Cp~=Cp)and mF<cG)then
-                    nc=Iu(15795)
-                else
-                    nc=26627
-                end
-            elseif nc==-27613 then
-                Sg=mF;
-                if cG~=cG then
-                    nc=-19322
-                else
-                    nc=29077
-                end
-            elseif nc==19593 then
-                mF=mF+Cp;
-                Sg=mF;
-                if mF~=mF then
-                    nc=Iu(5900)
-                else
-                    nc=Iu(25063)
-                end
-            elseif nc==11157 then
-                vJ='';
-                mF,Cp,cG=94,1,(#_A-1)+94
-                nc=-27613
-            elseif nc==-19322 then
-                return vJ
-            elseif nc==26627 then
-                vJ=vJ..Sr(Sz(nv(_A,(Sg-94)+1),nv(PX,(Sg-94)%#PX+1)))
-                nc=Iu(44428)
-            end
-        end
-    until nc==26672
-end)('1\27\217\231\197\231,6\139sN1\b\27\154\254\132\212b\14\200FF,\25',"|h\186\146\164\157\fe\232\1\'A"),[(function(dh,nM)
-    local Nm,qA,FN,UD,ti,lZ,XP,BU
-    ti,BU={[-15026]=-11407,[-6481]=27830,[-20854]=18483,[-11416]=-4336,[-6511]=18483,[6052]=27830,[10040]=7684,[-12284]=4238},function(RK)
-        return ti[RK+13550]
-    end
-    UD=BU(-24966)
-    repeat
-        while true do
-            if UD==27830 then
-                return Nm
-            elseif UD==-11407 then
-                qA=FN;
-                if lZ~=lZ then
-                    UD=BU(-20031)
-                else
-                    UD=BU(-34404)
-                end
-            elseif UD==-4336 then
-                Nm='';
-                XP,lZ,FN=1,(#dh-1)+197,197
-                UD=BU(-28576)
-            elseif UD==18483 then
-                if(XP>=0 and FN>lZ)or((XP<0 or XP~=XP)and FN<lZ)then
-                    UD=BU(-7498)
-                else
-                    UD=BU(-3510)
-                end
-            elseif UD==7684 then
-                Nm=Nm..Sr(Sz(nv(dh,(qA-197)+1),nv(nM,(qA-197)%#nM+1)))
-                UD=BU(-25834)
-            elseif UD==4238 then
-                FN=FN+XP;
-                qA=FN;
-                if FN~=FN then
-                    UD=27830
-                else
-                    UD=BU(-20061)
-                end
-            end
-        end
-    until UD==-5779
-end)('d\248D\253U','0\145')]=(function(NL,Hj)
-    local Uf,hx,kc,Ud,KH,gY,FA,hp
-    KH,hx={[1488]=-15711,[-7516]=-15742,[-11249]=-1273,[27667]=-1569,[10636]=-15711,[4987]=14364},function(qN)
-        return KH[qN-607]
-    end
-    Uf=hx(5594)
-    repeat
-        while true do
-            if Uf==-1119 then
-                gY=gY..Sr(Sz(nv(NL,(Ud-47)+1),nv(Hj,(Ud-47)%#Hj+1)))
-                Uf=hx(28274)
-            elseif Uf==-15742 then
-                return gY
-            elseif Uf==-1569 then
-                FA=FA+kc;
-                Ud=FA;
-                if FA~=FA then
-                    Uf=-15742
-                else
-                    Uf=hx(2095)
-                end
-            elseif Uf==-15711 then
-                if(kc>=0 and FA>hp)or((kc<0 or kc~=kc)and FA<hp)then
-                    Uf=hx(-6909)
-                else
-                    Uf=-1119
-                end
-            elseif Uf==14364 then
-                gY='';
-                FA,kc,hp=47,1,(#NL-1)+47
-                Uf=hx(-10642)
-            elseif Uf==-1273 then
-                Ud=FA;
-                if hp~=hp then
-                    Uf=-15742
-                else
-                    Uf=hx(11243)
-                end
-            end
-        end
-    until Uf==31502
-end)('!\144\231\25\130\254','l\227\132'),[(function(Hu,VE)
-    local Ey,CO,jd,oH,fz,tm,rp,Hr
-    Hr,jd={[10501]=-31800,[-31787]=-24516,[13483]=19933,[-22608]=19059,[-5226]=2594,[8532]=19059},function(rM)
-        return Hr[rM+-6359]
-    end
-    fz=jd(16860)
-    repeat
-        while true do
-            if fz==-31800 then
-                oH='';
-                Ey,tm,CO=194,1,(#Hu-1)+194
-                fz=-17864
-            elseif fz==19059 then
-                return oH
-            elseif fz==2594 then
-                if(tm>=0 and Ey>CO)or((tm<0 or tm~=tm)and Ey<CO)then
-                    fz=jd(14891)
-                else
-                    fz=jd(-25428)
-                end
-            elseif fz==19933 then
-                Ey=Ey+tm;
-                rp=Ey;
-                if Ey~=Ey then
-                    fz=19059
-                else
-                    fz=jd(1133)
-                end
-            elseif fz==-24516 then
-                oH=oH..Sr(Sz(nv(Hu,(rp-194)+1),nv(VE,(rp-194)%#VE+1)))
-                fz=jd(19842)
-            elseif fz==-17864 then
-                rp=Ey;
-                if CO~=CO then
-                    fz=jd(-16249)
-                else
-                    fz=2594
-                end
-            end
-        end
-    until fz==14774
-end)('g\173A\160','.\206')]=(function(nJ,zh)
-    local qW,Oa,Dp,ec,Aq,Nv,mi,It
-    Dp,Nv={[-23489]=17395,[2843]=-22756,[-28899]=-28025,[21383]=-4547,[-31590]=-22756},function(qo)
-        return Dp[qo+2831]
-    end
-    Aq=Nv(-31730)
-    repeat
-        while true do
-            if Aq==28864 then
-                mi=Oa;
-                if It~=It then
-                    Aq=-4547
-                else
-                    Aq=Nv(-34421)
-                end
-            elseif Aq==-4547 then
-                return qW
-            elseif Aq==17395 then
-                Oa=Oa+ec;
-                mi=Oa;
-                if Oa~=Oa then
-                    Aq=-4547
-                else
-                    Aq=Nv(12)
-                end
-            elseif Aq==22833 then
-                qW=qW..Sr(Sz(nv(nJ,(mi-128)+1),nv(zh,(mi-128)%#zh+1)))
-                Aq=Nv(-26320)
-            elseif Aq==-28025 then
-                qW='';
-                Oa,It,ec=128,(#nJ-1)+128,1
-                Aq=28864
-            elseif Aq==-22756 then
-                if(ec>=0 and Oa>It)or((ec<0 or ec~=ec)and Oa<It)then
-                    Aq=Nv(18552)
-                else
-                    Aq=22833
-                end
-            end
-        end
-    until Aq==-25658
-end)('\6\254\197\135O\254\218\144\f','b\145\170\245'),[(function(qv,yn)
-    local he,de,FR,kB,HC,_j,gx,qE
-    HC,kB={[9784]=2181,[-4117]=-7915,[-1834]=-7915,[14340]=4551,[16681]=128,[-30488]=-7915,[-10881]=17984},function(sa)
-        return HC[sa-1569]
-    end
-    gx=kB(11353)
-    repeat
-        while true do
-            if gx==4551 then
-                de=de+qE;
-                FR=de;
-                if de~=de then
-                    gx=kB(-2548)
-                else
-                    gx=128
-                end
-            elseif gx==2181 then
-                he='';
-                qE,_j,de=1,(#qv-1)+32,32
-                gx=kB(-9312)
-            elseif gx==128 then
-                if(qE>=0 and de>_j)or((qE<0 or qE~=qE)and de<_j)then
-                    gx=kB(-28919)
-                else
-                    gx=9906
-                end
-            elseif gx==-7915 then
-                return he
-            elseif gx==9906 then
-                he=he..Sr(Sz(nv(qv,(FR-32)+1),nv(yn,(FR-32)%#yn+1)))
-                gx=kB(15909)
-            elseif gx==17984 then
-                FR=de;
-                if _j~=_j then
-                    gx=kB(-265)
-                else
-                    gx=kB(18250)
-                end
-            end
-        end
-    until gx==-6947
-end)('\239\230\156\198\252\154','\174\147\232')]=(function(FK,Kh)
-    local VK,AZ,QI,tT,kW,t,GY,qe
-    kW,tT={[32194]=9382,[29510]=-23182,[27814]=9382,[-32175]=-26751},function(rf)
-        return kW[rf+-20189]
-    end
-    VK=tT(49699)
-    repeat
-        while true do
-            if VK==4118 then
-                if(t>=0 and QI>GY)or((t<0 or t~=t)and QI<GY)then
-                    VK=tT(52383)
-                else
-                    VK=4373
-                end
-            elseif VK==-26751 then
-                QI=QI+t;
-                AZ=QI;
-                if QI~=QI then
-                    VK=tT(48003)
-                else
-                    VK=4118
-                end
-            elseif VK==9382 then
-                return qe
-            elseif VK==-23182 then
-                qe='';
-                GY,t,QI=(#FK-1)+189,1,189
-                VK=14964
-            elseif VK==14964 then
-                AZ=QI;
-                if GY~=GY then
-                    VK=9382
-                else
-                    VK=4118
-                end
-            elseif VK==4373 then
-                qe=qe..Sr(Sz(nv(FK,(AZ-189)+1),nv(Kh,(AZ-189)%#Kh+1)))
-                VK=tT(-11986)
-            end
-        end
-    until VK==-23447
-end)('\182R|\140}S\17w1\181\20n\149|Y0\96b\177','\210;\15\239\18!uYV'),[(function(xX,Tz)
-    local fR,Tq,Si,pv,RI,UP,ds,Th
-    fR,Th={[-16437]=-19330,[-31516]=20708,[-23463]=-31306,[-5102]=-6176},function(jS)
-        return fR[jS-5605]
-    end
-    Tq=Th(-17858)
-    repeat
-        while true do
-            if Tq==16668 then
-                pv=Si;
-                if UP~=UP then
-                    Tq=20708
-                else
-                    Tq=-19330
-                end
-            elseif Tq==-6176 then
-                Si=Si+ds;
-                pv=Si;
-                if Si~=Si then
-                    Tq=Th(-25911)
-                else
-                    Tq=Th(-10832)
-                end
-            elseif Tq==20708 then
-                return RI
-            elseif Tq==-19330 then
-                if(ds>=0 and Si>UP)or((ds<0 or ds~=ds)and Si<UP)then
-                    Tq=20708
-                else
-                    Tq=-17032
-                end
-            elseif Tq==-17032 then
-                RI=RI..Sr(Sz(nv(xX,(pv-135)+1),nv(Tz,(pv-135)%#Tz+1)))
-                Tq=Th(503)
-            elseif Tq==-31306 then
-                RI='';
-                ds,Si,UP=1,135,(#xX-1)+135
-                Tq=16668
-            end
-        end
-    until Tq==8025
-end)('=\221\f\216\f','i\181')]=(function(DD,QG)
-    local Ab,oW,No,ZI,hP,OR,ub,ar
-    OR,hP={[-14568]=1648,[-26869]=27145,[22205]=14080,[2178]=-16070,[23921]=26927,[5955]=26927},function(AD)
-        return OR[AD+-31238]
-    end
-    oW=hP(33416)
-    repeat
-        while true do
-            if oW==1648 then
-                ub=ub..Sr(Sz(nv(DD,(Ab-183)+1),nv(QG,(Ab-183)%#QG+1)))
-                oW=hP(4369)
-            elseif oW==14080 then
-                return ub
-            elseif oW==-16070 then
-                ub='';
-                ar,No,ZI=(#DD-1)+183,1,183
-                oW=-20970
-            elseif oW==-20970 then
-                Ab=ZI;
-                if ar~=ar then
-                    oW=14080
-                else
-                    oW=hP(55159)
-                end
-            elseif oW==27145 then
-                ZI=ZI+No;
-                Ab=ZI;
-                if ZI~=ZI then
-                    oW=14080
-                else
-                    oW=hP(37193)
-                end
-            elseif oW==26927 then
-                if(No>=0 and ZI>ar)or((No<0 or No~=No)and ZI<ar)then
-                    oW=hP(53443)
-                else
-                    oW=hP(16670)
-                end
-            end
-        end
-    until oW==28347
-end)('b\190\246B\183\253','+\208\146'),[(function(eo,fT)
-    local iI,ah,Ga,Os,hz,Ez,bK,mz
-    mz,ah={[-3161]=19748,[20222]=9793,[16112]=3115,[32282]=-25015,[3006]=4382},function(tw)
-        return mz[tw+-13259]
-    end
-    Os=ah(10098)
-    repeat
-        while true do
-            if Os==-6690 then
-                Ez=Ez..Sr(Sz(nv(eo,(Ga-147)+1),nv(fT,(Ga-147)%#fT+1)))
-                Os=ah(45541)
-            elseif Os==19748 then
-                Ez='';
-                hz,bK,iI=147,1,(#eo-1)+147
-                Os=ah(29371)
-            elseif Os==4382 then
-                return Ez
-            elseif Os==-25015 then
-                hz=hz+bK;
-                Ga=hz;
-                if hz~=hz then
-                    Os=ah(16265)
-                else
-                    Os=ah(33481)
-                end
-            elseif Os==3115 then
-                Ga=hz;
-                if iI~=iI then
-                    Os=4382
-                else
-                    Os=9793
-                end
-            elseif Os==9793 then
-                if(bK>=0 and hz>iI)or((bK<0 or bK~=bK)and hz<iI)then
-                    Os=4382
-                else
-                    Os=-6690
-                end
-            end
-        end
-    until Os==-23449
-end)(')\154\0\150','z\243')]=A[(function(Xq,fk)
-    local cb,Im,xa,G,Bt,co,ru,Um
-    co,Um={[19889]=-15744,[-12229]=-7796,[-6021]=-27125,[27449]=28387},function(Xv)
-        return co[Xv-28803]
-    end
-    cb=Um(22782)
-    repeat
-        while true do
-            if cb==-27125 then
-                Im='';
-                xa,ru,G=1,(#Xq-1)+224,224
-                cb=-21372
-            elseif cb==-21372 then
-                Bt=G;
-                if ru~=ru then
-                    cb=Um(48692)
-                else
-                    cb=24954
-                end
-            elseif cb==24954 then
-                if(xa>=0 and G>ru)or((xa<0 or xa~=xa)and G<ru)then
-                    cb=-15744
-                else
-                    cb=Um(16574)
-                end
-            elseif cb==-15744 then
-                return Im
-            elseif cb==28387 then
-                G=G+xa;
-                Bt=G;
-                if G~=G then
-                    cb=-15744
-                else
-                    cb=24954
-                end
-            elseif cb==-7796 then
-                Im=Im..Sr(Sz(nv(Xq,(Bt-224)+1),nv(fk,(Bt-224)%#fk+1)))
-                cb=Um(56252)
-            end
-        end
-    until cb==-3359
-end)('lnPG\v','9*')][(function(xu,vf)
-    local DF,NN,zy,vx,oP,Jx,Wd,nk
-    nk,vx={[-5057]=23678,[-25975]=-749,[-10342]=-9879,[30262]=10685,[2412]=-3713},function(hh)
-        return nk[hh+-5082]
-    end
-    NN=vx(7494)
-    repeat
-        while true do
-            if NN==-749 then
-                oP=oP+Jx;
-                Wd=oP;
-                if oP~=oP then
-                    NN=10685
-                else
-                    NN=vx(-5260)
-                end
-            elseif NN==23678 then
-                Wd=oP;
-                if zy~=zy then
-                    NN=10685
-                else
-                    NN=-9879
-                end
-            elseif NN==-9879 then
-                if(Jx>=0 and oP>zy)or((Jx<0 or Jx~=Jx)and oP<zy)then
-                    NN=vx(35344)
-                else
-                    NN=-15871
-                end
-            elseif NN==10685 then
-                return DF
-            elseif NN==-15871 then
-                DF=DF..Sr(Sz(nv(xu,(Wd-35)+1),nv(vf,(Wd-35)%#vf+1)))
-                NN=vx(-20893)
-            elseif NN==-3713 then
-                DF='';
-                oP,zy,Jx=35,(#xu-1)+35,1
-                NN=vx(25)
-            end
-        end
-    until NN==-1656
-end)('\162\209\26\209\56\162\197\6\217\3','\196\163u\188w')](-3.5092341760007062e-07*-1424812295,-50503108600/-144294596),[(function(Hn,et)
-    local jE,vY,dC,Go,FG,xy,we,_V
-    FG,we={[556]=10752,[1067]=24201,[-5384]=20961,[-29902]=32368,[-4896]=-22754,[-9728]=24201,[-9985]=20961},function(Rk)
-        return FG[Rk-7804]
-    end
-    jE=we(-22098)
-    repeat
-        while true do
-            if jE==-22754 then
-                Go=Go..Sr(Sz(nv(Hn,(vY-78)+1),nv(et,(vY-78)%#et+1)))
-                jE=we(8360)
-            elseif jE==10752 then
-                dC=dC+xy;
-                vY=dC;
-                if dC~=dC then
-                    jE=we(2420)
-                else
-                    jE=we(-1924)
-                end
-            elseif jE==-9722 then
-                vY=dC;
-                if _V~=_V then
-                    jE=we(-2181)
-                else
-                    jE=we(8871)
-                end
-            elseif jE==24201 then
-                if(xy>=0 and dC>_V)or((xy<0 or xy~=xy)and dC<_V)then
-                    jE=20961
-                else
-                    jE=we(2908)
-                end
-            elseif jE==20961 then
-                return Go
-            elseif jE==32368 then
-                Go='';
-                dC,_V,xy=78,(#Hn-1)+78,1
-                jE=-9722
-            end
-        end
-    until jE==-7479
-end)('\139\21\253\146\3\175\6\238\153\30\171','\223g\156\252p')]=true,[(function(oN,lh)
-    local Kr,Dn,nO,jh,JT,WA,nT,Io
-    nO,Io={[-13906]=6750,[12781]=16525,[7227]=-18656,[29594]=6750,[-8451]=-9064,[-21368]=8250},function(ww)
-        return nO[ww+2366]
-    end
-    Dn=Io(-10817)
-    repeat
-        while true do
-            if Dn==2350 then
-                WA=WA..Sr(Sz(nv(oN,(jh-12)+1),nv(lh,(jh-12)%#lh+1)))
-                Dn=Io(-23734)
-            elseif Dn==16525 then
-                if(JT>=0 and nT>Kr)or((JT<0 or JT~=JT)and nT<Kr)then
-                    Dn=6750
-                else
-                    Dn=2350
-                end
-            elseif Dn==-9064 then
-                WA='';
-                Kr,nT,JT=(#oN-1)+12,12,1
-                Dn=Io(4861)
-            elseif Dn==6750 then
-                return WA
-            elseif Dn==-18656 then
-                jh=nT;
-                if Kr~=Kr then
-                    Dn=Io(27228)
-                else
-                    Dn=16525
-                end
-            elseif Dn==8250 then
-                nT=nT+JT;
-                jh=nT;
-                if nT~=nT then
-                    Dn=Io(-16272)
-                else
-                    Dn=Io(10415)
-                end
-            end
-        end
-    until Dn==-12125
-end)('hD\171_\238TI\177~\254',' %\216\16\155')]=true});
-xU[(function(sO,bH)
-    local lf,qz,Df,Sn,AU,us,Oy,mM
-    Sn,qz={[8881]=10339,[14308]=-2402,[-6936]=-25565,[5839]=-1250,[-20919]=31574,[19058]=24072,[13757]=31574},function(ss)
-        return Sn[ss+6680]
-    end
-    Oy=qz(2201)
-    repeat
-        while true do
-            if Oy==24072 then
-                Df=Df+AU;
-                us=Df;
-                if Df~=Df then
-                    Oy=-1250
-                else
-                    Oy=qz(7077)
-                end
-            elseif Oy==10339 then
-                mM='';
-                lf,Df,AU=(#sO-1)+100,100,1
-                Oy=qz(7628)
-            elseif Oy==-2402 then
-                us=Df;
-                if lf~=lf then
-                    Oy=-1250
-                else
-                    Oy=qz(-27599)
-                end
-            elseif Oy==-25565 then
-                mM=mM..Sr(Sz(nv(sO,(us-100)+1),nv(bH,(us-100)%#bH+1)))
-                Oy=qz(12378)
-            elseif Oy==-1250 then
-                return mM
-            elseif Oy==31574 then
-                if(AU>=0 and Df>lf)or((AU<0 or AU~=AU)and Df<lf)then
-                    Oy=qz(-841)
-                else
-                    Oy=qz(-13616)
-                end
-            end
-        end
-    until Oy==-28336
-end)('%\181|\222\16\161\19\14\147\96\222+\190\24','\96\209\21\170_\209v')](xU,{[(function(Ay,Wb)
-    local sN,Zm,Gb,De,Db,em,QV,sE
-    sE,em={[-15747]=-9215,[18068]=-5907,[29127]=17251,[-19179]=24569,[29324]=-5907,[765]=10749},function(IE)
-        return sE[IE- -13642]
-    end
-    De=em(-32821)
-    repeat
-        while true do
-            if De==10749 then
-                sN=Gb;
-                if Zm~=Zm then
-                    De=-5907
-                else
-                    De=-9215
-                end
-            elseif De==24569 then
-                Db='';
-                QV,Gb,Zm=1,66,(#Ay-1)+66
-                De=em(-12877)
-            elseif De==21086 then
-                Db=Db..Sr(Sz(nv(Ay,(sN-66)+1),nv(Wb,(sN-66)%#Wb+1)))
-                De=em(15485)
-            elseif De==-9215 then
-                if(QV>=0 and Gb>Zm)or((QV<0 or QV~=QV)and Gb<Zm)then
-                    De=em(4426)
-                else
-                    De=21086
-                end
-            elseif De==17251 then
-                Gb=Gb+QV;
-                sN=Gb;
-                if Gb~=Gb then
-                    De=em(15682)
-                else
-                    De=em(-29389)
-                end
-            elseif De==-5907 then
-                return Db
-            end
-        end
-    until De==-2494
-end)('\160Q\128T\145','\244\56')]=(function(RU,H)
-    local pQ,VD,_S,Dm,pz,Oc,TL,iO
-    pz,TL={[30550]=14720,[-15132]=7991,[-2476]=-2771,[25579]=14720,[-28021]=32283,[25007]=-6214,[-29554]=1515},function(bG)
-        return pz[bG- -17114]
-    end
-    Dm=TL(-45135)
-    repeat
-        while true do
-            if Dm==-2771 then
-                VD=VD+_S;
-                pQ=VD;
-                if VD~=VD then
-                    Dm=TL(8465)
-                else
-                    Dm=TL(-46668)
-                end
-            elseif Dm==7991 then
-                pQ=VD;
-                if iO~=iO then
-                    Dm=14720
-                else
-                    Dm=1515
-                end
-            elseif Dm==-6214 then
-                Oc=Oc..Sr(Sz(nv(RU,(pQ-163)+1),nv(H,(pQ-163)%#H+1)))
-                Dm=TL(-19590)
-            elseif Dm==32283 then
-                Oc='';
-                VD,iO,_S=163,(#RU-1)+163,1
-                Dm=TL(-32246)
-            elseif Dm==14720 then
-                return Oc
-            elseif Dm==1515 then
-                if(_S>=0 and VD>iO)or((_S<0 or _S~=_S)and VD<iO)then
-                    Dm=TL(13436)
-                else
-                    Dm=TL(7893)
-                end
-            end
-        end
-    until Dm==7363
-end)("9\143\163\160d\a\27\48\249\23\133\230\157\'8\1#\248",'v\255\198\206DJhS\140'),[(function(JL,kC)
-    local Vh,vB,jG,AA,TI,ud,RG,Uz
-    Uz,jG={[-28827]=-17166,[5377]=-23862,[-23018]=29260,[21397]=29260,[-3582]=-8168,[-14072]=29260},function(iq)
-        return Uz[iq+13668]
-    end
-    RG=jG(-42495)
-    repeat
-        while true do
-            if RG==29260 then
-                return AA
-            elseif RG==-8168 then
-                TI=vB;
-                if Vh~=Vh then
-                    RG=jG(-36686)
-                else
-                    RG=6902
-                end
-            elseif RG==6902 then
-                if(ud>=0 and vB>Vh)or((ud<0 or ud~=ud)and vB<Vh)then
-                    RG=jG(7729)
-                else
-                    RG=19051
-                end
-            elseif RG==-17166 then
-                AA='';
-                vB,ud,Vh=99,1,(#JL-1)+99
-                RG=jG(-17250)
-            elseif RG==19051 then
-                AA=AA..Sr(Sz(nv(JL,(TI-99)+1),nv(kC,(TI-99)%#kC+1)))
-                RG=jG(-8291)
-            elseif RG==-23862 then
-                vB=vB+ud;
-                TI=vB;
-                if vB~=vB then
-                    RG=jG(-27740)
-                else
-                    RG=6902
-                end
-            end
-        end
-    until RG==-32463
-end)('\fl*a','E\15')]=(function(hf,Gi)
-    local sM,CH,rn,yT,Px,av,Hh,MC
-    yT,Hh={[-30249]=7224,[-1136]=20125,[-4958]=27764,[22366]=1926,[16329]=10511,[14102]=30787},function(Me)
-        return yT[Me+29564]
-    end
-    rn=Hh(-34522)
-    repeat
-        while true do
-            if rn==20125 then
-                return CH
-            elseif rn==30787 then
-                Px=sM;
-                if MC~=MC then
-                    rn=20125
-                else
-                    rn=Hh(-59813)
-                end
-            elseif rn==10511 then
-                sM=sM+av;
-                Px=sM;
-                if sM~=sM then
-                    rn=20125
-                else
-                    rn=7224
-                end
-            elseif rn==7224 then
-                if(av>=0 and sM>MC)or((av<0 or av~=av)and sM<MC)then
-                    rn=Hh(-30700)
-                else
-                    rn=Hh(-7198)
-                end
-            elseif rn==27764 then
-                CH='';
-                MC,sM,av=(#hf-1)+240,240,1
-                rn=Hh(-15462)
-            elseif rn==1926 then
-                CH=CH..Sr(Sz(nv(hf,(Px-240)+1),nv(Gi,(Px-240)%#Gi+1)))
-                rn=Hh(-13235)
-            end
-        end
-    until rn==2756
-end)('\127\213m\211','\f\161'),[(function(hT,Fs)
-    local _Q,Fw,FS,oC,VI,tj,iy,UU
-    UU,Fw={[3718]=-16635,[-29582]=5528,[-9003]=21260,[-10362]=21260,[3059]=16780,[9906]=22544,[-25515]=22544,[30740]=-20228},function(uL)
-        return UU[uL+-18769]
-    end
-    FS=Fw(-10813)
-    repeat
-        while true do
-            if FS==16780 then
-                VI=VI..Sr(Sz(nv(hT,(oC-179)+1),nv(Fs,(oC-179)%#Fs+1)))
-                FS=Fw(49509)
-            elseif FS==22544 then
-                return VI
-            elseif FS==-20228 then
-                iy=iy+_Q;
-                oC=iy;
-                if iy~=iy then
-                    FS=22544
-                else
-                    FS=Fw(8407)
-                end
-            elseif FS==21260 then
-                if(_Q>=0 and iy>tj)or((_Q<0 or _Q~=_Q)and iy<tj)then
-                    FS=Fw(28675)
-                else
-                    FS=Fw(21828)
-                end
-            elseif FS==-16635 then
-                oC=iy;
-                if tj~=tj then
-                    FS=Fw(-6746)
-                else
-                    FS=Fw(9766)
-                end
-            elseif FS==5528 then
-                VI='';
-                _Q,iy,tj=1,179,(#hT-1)+179
-                FS=Fw(22487)
-            end
-        end
-    until FS==-5938
-end)("\183bX9\55\211\166lN>\'\210",'\244\r*WR\161')]=A[(function(JU,Qm)
-    local Xk,Xx,r,re,Pk,ET,AM,Fl
-    Pk,re={[-13133]=-16234,[-26902]=20261,[-21874]=-8131},function(sb)
-        return Pk[sb+17053]
-    end
-    AM=re(-30186)
-    repeat
-        while true do
-            if AM==-2142 then
-                Fl=Fl..Sr(Sz(nv(JU,(r-87)+1),nv(Qm,(r-87)%#Qm+1)))
-                AM=re(-38927)
-            elseif AM==20261 then
-                return Fl
-            elseif AM==-8131 then
-                Xx=Xx+ET;
-                r=Xx;
-                if Xx~=Xx then
-                    AM=re(-43955)
-                else
-                    AM=17738
-                end
-            elseif AM==-20137 then
-                r=Xx;
-                if Xk~=Xk then
-                    AM=20261
-                else
-                    AM=17738
-                end
-            elseif AM==17738 then
-                if(ET>=0 and Xx>Xk)or((ET<0 or ET~=ET)and Xx<Xk)then
-                    AM=20261
-                else
-                    AM=-2142
-                end
-            elseif AM==-16234 then
-                Fl='';
-                Xk,ET,Xx=(#JU-1)+87,1,87
-                AM=-20137
-            end
-        end
-    until AM==29886
-end)('\134^\186w','\211\26')][(function(WB,cC)
-    local ms,EB,ld,DJ,ag,Hg,bi,rF
-    ms,rF={[1268]=32228,[-5917]=32228,[15176]=3721,[7874]=-25738,[30596]=3721,[-24604]=10054},function(FW)
-        return ms[FW+-10225]
-    end
-    ld=rF(-14379)
-    repeat
-        while true do
-            if ld==-25738 then
-                DJ=DJ+EB;
-                bi=DJ;
-                if DJ~=DJ then
-                    ld=32228
-                else
-                    ld=rF(25401)
-                end
-            elseif ld==32228 then
-                return ag
-            elseif ld==-10859 then
-                ag=ag..Sr(Sz(nv(WB,(bi-6)+1),nv(cC,(bi-6)%#cC+1)))
-                ld=rF(18099)
-            elseif ld==-8705 then
-                bi=DJ;
-                if Hg~=Hg then
-                    ld=rF(4308)
-                else
-                    ld=rF(40821)
-                end
-            elseif ld==3721 then
-                if(EB>=0 and DJ>Hg)or((EB<0 or EB~=EB)and DJ<Hg)then
-                    ld=rF(11493)
-                else
-                    ld=-10859
-                end
-            elseif ld==10054 then
-                ag='';
-                Hg,DJ,EB=(#WB-1)+6,6,1
-                ld=-8705
-            end
-        end
-    until ld==-4307
-end)('\242\249\235','\156')](1273775974+-1273775974,6179520906/1029920151),[(function(ct,Xi)
-    local Bl,BN,OQ,OA,aJ,Lr,LI,lY
-    Bl,aJ={[-4844]=22923,[23301]=13482,[-20984]=20725,[-27644]=17738,[-30649]=11540,[12157]=28804},function(eT)
-        return Bl[eT+5747]
-    end
-    OA=aJ(-36396)
-    repeat
-        while true do
-            if OA==22923 then
-                BN=BN..Sr(Sz(nv(ct,(Lr-93)+1),nv(Xi,(Lr-93)%#Xi+1)))
-                OA=aJ(6410)
-            elseif OA==11540 then
-                BN='';
-                OQ,LI,lY=(#ct-1)+93,93,1
-                OA=aJ(-26731)
-            elseif OA==28804 then
-                LI=LI+lY;
-                Lr=LI;
-                if LI~=LI then
-                    OA=aJ(17554)
-                else
-                    OA=17738
-                end
-            elseif OA==20725 then
-                Lr=LI;
-                if OQ~=OQ then
-                    OA=13482
-                else
-                    OA=aJ(-33391)
-                end
-            elseif OA==13482 then
-                return BN
-            elseif OA==17738 then
-                if(lY>=0 and LI>OQ)or((lY<0 or lY~=lY)and LI<OQ)then
-                    OA=13482
-                else
-                    OA=aJ(-10591)
-                end
-            end
-        end
-    until OA==9416
-end)('\16\223|\30z\146\f+\194m\26\127\146+0','C\171\14q\17\247X')]=-4267177380/-2133588690,[(function(uM,Md)
-    local Pp,nF,ut,AV,TF,Of,AY,pt
-    Pp,Of={[3615]=-26230,[22711]=31861,[-19326]=84,[4998]=-27715,[13330]=-8889},function(xE)
-        return Pp[xE+-25049]
-    end
-    ut=Of(28664)
-    repeat
-        while true do
-            if ut==-8889 then
-                if(TF>=0 and AV>pt)or((TF<0 or TF~=TF)and AV<pt)then
-                    ut=31861
-                else
-                    ut=1646
-                end
-            elseif ut==1646 then
-                nF=nF..Sr(Sz(nv(uM,(AY-66)+1),nv(Md,(AY-66)%#Md+1)))
-                ut=Of(5723)
-            elseif ut==84 then
-                AV=AV+TF;
-                AY=AV;
-                if AV~=AV then
-                    ut=31861
-                else
-                    ut=-8889
-                end
-            elseif ut==31861 then
-                return nF
-            elseif ut==-26230 then
-                nF='';
-                TF,pt,AV=1,(#uM-1)+66,66
-                ut=Of(30047)
-            elseif ut==-27715 then
-                AY=AV;
-                if pt~=pt then
-                    ut=Of(47760)
-                else
-                    ut=Of(38379)
-                end
-            end
-        end
-    until ut==29329
-end)('\212\195\251\195\229','\151\172')]=A[(function(TR,vZ)
-    local Jw,Nq,ue,cU,EA,_G,vi,Yb
-    EA,Jw={[-29128]=3005,[19721]=3005,[18313]=29947,[-8055]=862,[15697]=-15293},function(tp)
-        return EA[tp- -18913]
-    end
-    Yb=Jw(-3216)
-    repeat
-        while true do
-            if Yb==-15293 then
-                vi='';
-                cU,_G,Nq=(#TR-1)+12,12,1
-                Yb=14830
-            elseif Yb==29947 then
-                _G=_G+Nq;
-                ue=_G;
-                if _G~=_G then
-                    Yb=Jw(-48041)
-                else
-                    Yb=22552
-                end
-            elseif Yb==22552 then
-                if(Nq>=0 and _G>cU)or((Nq<0 or Nq~=Nq)and _G<cU)then
-                    Yb=Jw(808)
-                else
-                    Yb=Jw(-26968)
-                end
-            elseif Yb==3005 then
-                return vi
-            elseif Yb==14830 then
-                ue=_G;
-                if cU~=cU then
-                    Yb=3005
-                else
-                    Yb=22552
-                end
-            elseif Yb==862 then
-                vi=vi..Sr(Sz(nv(TR,(ue-12)+1),nv(vZ,(ue-12)%#vZ+1)))
-                Yb=Jw(-600)
-            end
-        end
-    until Yb==-25663
-end)('\18\194\170\137\149\24\52\220\179\131\137(4','Q\173\198\230\231K')][(function(yu,mP)
-    local Vl,ch,vG,nE,vw,qb,Ws,Hz
-    Vl,vw={[-26424]=-17352,[14425]=22107,[21662]=24845,[8615]=19814,[15552]=-7478,[10957]=22107},function(Xm)
-        return Vl[Xm-31047]
-    end
-    nE=vw(46599)
-    repeat
-        while true do
-            if nE==19814 then
-                vG=qb;
-                if ch~=ch then
-                    nE=22107
-                else
-                    nE=31929
-                end
-            elseif nE==24845 then
-                Hz=Hz..Sr(Sz(nv(yu,(vG-165)+1),nv(mP,(vG-165)%#mP+1)))
-                nE=vw(4623)
-            elseif nE==-17352 then
-                qb=qb+Ws;
-                vG=qb;
-                if qb~=qb then
-                    nE=vw(45472)
-                else
-                    nE=31929
-                end
-            elseif nE==22107 then
-                return Hz
-            elseif nE==-7478 then
-                Hz='';
-                qb,ch,Ws=165,(#yu-1)+165,1
-                nE=vw(39662)
-            elseif nE==31929 then
-                if(Ws>=0 and qb>ch)or((Ws<0 or Ws~=Ws)and qb<ch)then
-                    nE=vw(42004)
-                else
-                    nE=vw(52709)
-                end
-            end
-        end
-    until nE==24353
-end)('\231\236\254','\137')](A[(function(iG,it)
-    local NZ,iP,uQ,Kv,jY,ri,pn,mW
-    iP,jY={[-5456]=-31035,[-25923]=2428,[18668]=-18944,[15219]=-23130,[-24216]=-2075},function(na)
-        return iP[na- -2126]
-    end
-    mW=jY(-28049)
-    repeat
-        while true do
-            if mW==7546 then
-                ri=ri..Sr(Sz(nv(iG,(NZ-126)+1),nv(it,(NZ-126)%#it+1)))
-                mW=jY(16542)
-            elseif mW==-2075 then
-                if(uQ>=0 and Kv>pn)or((uQ<0 or uQ~=uQ)and Kv<pn)then
-                    mW=jY(-7582)
-                else
-                    mW=7546
-                end
-            elseif mW==2428 then
-                ri='';
-                Kv,pn,uQ=126,(#iG-1)+126,1
-                mW=jY(13093)
-            elseif mW==-18944 then
-                Kv=Kv+uQ;
-                NZ=Kv;
-                if Kv~=Kv then
-                    mW=-31035
-                else
-                    mW=jY(-26342)
-                end
-            elseif mW==-23130 then
-                NZ=Kv;
-                if pn~=pn then
-                    mW=-31035
-                else
-                    mW=-2075
-                end
-            elseif mW==-31035 then
-                return ri
-            end
-        end
-    until mW==32372
-end)('\202\2\t\230\31V','\137me')][(function(np,bt)
-    local mf,Ph,sL,rT,zZ,eH,fe,fB
-    mf,rT={[14164]=-9397,[23795]=-20642,[-30271]=3412,[-25070]=-32338,[-9123]=20064},function(RN)
-        return mf[RN-103]
-    end
-    sL=rT(14267)
-    repeat
-        while true do
-            if sL==3412 then
-                if(fB>=0 and Ph>eH)or((fB<0 or fB~=fB)and Ph<eH)then
-                    sL=-20642
-                else
-                    sL=rT(-24967)
-                end
-            elseif sL==-32338 then
-                fe=fe..Sr(Sz(nv(np,(zZ-7)+1),nv(bt,(zZ-7)%#bt+1)))
-                sL=rT(-9020)
-            elseif sL==20064 then
-                Ph=Ph+fB;
-                zZ=Ph;
-                if Ph~=Ph then
-                    sL=-20642
-                else
-                    sL=rT(-30168)
-                end
-            elseif sL==-7783 then
-                zZ=Ph;
-                if eH~=eH then
-                    sL=rT(23898)
-                else
-                    sL=3412
-                end
-            elseif sL==-20642 then
-                return fe
-            elseif sL==-9397 then
-                fe='';
-                Ph,fB,eH=7,1,(#np-1)+7
-                sL=-7783
-            end
-        end
-    until sL==-17119
-end)('>\181\194\53\149\234\26','X\199\173')](1667723492-1667723292,-0*-1051680548,1.127613855347855e-06*226141244),A[(function(wr,AE)
-    local oe,sk,ZH,Fg,Ic,jK,zR,ca
-    oe,ZH={[7415]=-32666,[13634]=-13068,[-12465]=17273,[17382]=13477,[27417]=17038},function(HZ)
-        return oe[HZ- -19983]
-    end
-    jK=ZH(-32448)
-    repeat
-        while true do
-            if jK==-13068 then
-                ca=sk;
-                if Ic~=Ic then
-                    jK=ZH(-2601)
-                else
-                    jK=ZH(7434)
-                end
-            elseif jK==-32666 then
-                sk=sk+zR;
-                ca=sk;
-                if sk~=sk then
-                    jK=13477
-                else
-                    jK=17038
-                end
-            elseif jK==17038 then
-                if(zR>=0 and sk>Ic)or((zR<0 or zR~=zR)and sk<Ic)then
-                    jK=13477
-                else
-                    jK=-32164
-                end
-            elseif jK==-32164 then
-                Fg=Fg..Sr(Sz(nv(wr,(ca-34)+1),nv(AE,(ca-34)%#AE+1)))
-                jK=ZH(-12568)
-            elseif jK==13477 then
-                return Fg
-            elseif jK==17273 then
-                Fg='';
-                zR,sk,Ic=1,34,(#wr-1)+34
-                jK=ZH(-6349)
-            end
-        end
-    until jK==10726
-end)('\158x\234\178e\181','\221\23\134')][(function(vm,Je)
-    local CB,eQ,TU,a,rU,Cc,HK,oo
-    rU,oo={[-31531]=-32440,[-18687]=-31977,[3724]=-27151,[14509]=13428,[-7023]=-31977},function(Jc)
-        return rU[Jc+2888]
-    end
-    eQ=oo(-34419)
-    repeat
-        while true do
-            if eQ==-31977 then
-                if(Cc>=0 and a>CB)or((Cc<0 or Cc~=Cc)and a<CB)then
-                    eQ=oo(836)
-                else
-                    eQ=-13449
-                end
-            elseif eQ==-27151 then
-                return HK
-            elseif eQ==-9032 then
-                TU=a;
-                if CB~=CB then
-                    eQ=-27151
-                else
-                    eQ=oo(-9911)
-                end
-            elseif eQ==13428 then
-                a=a+Cc;
-                TU=a;
-                if a~=a then
-                    eQ=-27151
-                else
-                    eQ=oo(-21575)
-                end
-            elseif eQ==-13449 then
-                HK=HK..Sr(Sz(nv(vm,(TU-140)+1),nv(Je,(TU-140)%#Je+1)))
-                eQ=oo(11621)
-            elseif eQ==-32440 then
-                HK='';
-                Cc,a,CB=1,140,(#vm-1)+140
-                eQ=-9032
-            end
-        end
-    until eQ==-18690
-end)('\190\48\138\181\16\162\154','\216B\229')](-1571386842- -1571386842,1051189029+-1051188829,-979998913+979999168)),[(function(Wa,Zw)
-    local of,LF,Rt,Fk,xc,Fn,mk,iU
-    LF,xc={[-20597]=20973,[-23849]=32308,[-1087]=20973,[24456]=26745,[10707]=-18093,[25119]=20973},function(Rm)
-        return LF[Rm+825]
-    end
-    mk=xc(9882)
-    repeat
-        while true do
-            if mk==32308 then
-                iU=of;
-                if Rt~=Rt then
-                    mk=xc(-21422)
-                else
-                    mk=16782
-                end
-            elseif mk==-18093 then
-                Fk='';
-                Fn,Rt,of=1,(#Wa-1)+196,196
-                mk=xc(-24674)
-            elseif mk==-17161 then
-                Fk=Fk..Sr(Sz(nv(Wa,(iU-196)+1),nv(Zw,(iU-196)%#Zw+1)))
-                mk=xc(23631)
-            elseif mk==26745 then
-                of=of+Fn;
-                iU=of;
-                if of~=of then
-                    mk=xc(-1912)
-                else
-                    mk=16782
-                end
-            elseif mk==20973 then
-                return Fk
-            elseif mk==16782 then
-                if(Fn>=0 and of>Rt)or((Fn<0 or Fn~=Fn)and of<Rt)then
-                    mk=xc(24294)
-                else
-                    mk=-17161
-                end
-            end
-        end
-    until mk==-8077
-end)('\218\199\228\143\249\212\231\132\251','\158\181\133\232')]=true})
-local vS={[(function(Gd,yj)
-    local yJ,mI,Hl,pC,zQ,ja,JS,Xg
-    JS,yJ={[-30850]=15051,[12309]=-5807,[-27695]=-14129,[-1241]=19606,[-29899]=-107},function(Gn)
-        return JS[Gn+15567]
-    end
-    Xg=yJ(-46417)
-    repeat
-        while true do
-            if Xg==-107 then
-                ja=pC;
-                if Hl~=Hl then
-                    Xg=yJ(-3258)
-                else
-                    Xg=6444
-                end
-            elseif Xg==15051 then
-                mI='';
-                pC,zQ,Hl=228,1,(#Gd-1)+228
-                Xg=yJ(-45466)
-            elseif Xg==-5807 then
-                return mI
-            elseif Xg==6444 then
-                if(zQ>=0 and pC>Hl)or((zQ<0 or zQ~=zQ)and pC<Hl)then
-                    Xg=-5807
-                else
-                    Xg=yJ(-43262)
-                end
-            elseif Xg==19606 then
-                pC=pC+zQ;
-                ja=pC;
-                if pC~=pC then
-                    Xg=-5807
-                else
-                    Xg=6444
-                end
-            elseif Xg==-14129 then
-                mI=mI..Sr(Sz(nv(Gd,(ja-228)+1),nv(yj,(ja-228)%#yj+1)))
-                Xg=yJ(-16808)
-            end
-        end
-    until Xg==-9630
-end)('\221\27\249\20','\144z')]=xU[(function(GH,yD)
-    local aF,Zd,YX,Pa,jV,OH,pc,fd
-    YX,jV={[5283]=-18392,[30172]=-11375,[-14491]=-29054,[-11462]=-20565,[21121]=-29054,[-28074]=-1476},function(zT)
-        return YX[zT- -12429]
-    end
-    pc=jV(-7146)
-    repeat
-        while true do
-            if pc==-18392 then
-                fd='';
-                Pa,Zd,aF=123,1,(#GH-1)+123
-                pc=-15690
-            elseif pc==-11375 then
-                return fd
-            elseif pc==-1476 then
-                Pa=Pa+Zd;
-                OH=Pa;
-                if Pa~=Pa then
-                    pc=-11375
-                else
-                    pc=jV(-26920)
-                end
-            elseif pc==-15690 then
-                OH=Pa;
-                if aF~=aF then
-                    pc=-11375
-                else
-                    pc=jV(8692)
-                end
-            elseif pc==-20565 then
-                fd=fd..Sr(Sz(nv(GH,(OH-123)+1),nv(yD,(OH-123)%#yD+1)))
-                pc=jV(-40503)
-            elseif pc==-29054 then
-                if(Zd>=0 and Pa>aF)or((Zd<0 or Zd~=Zd)and Pa<aF)then
-                    pc=jV(17743)
-                else
-                    pc=jV(-23891)
-                end
-            end
-        end
-    until pc==-28571
-end)('\28)*','H')](xU,{[(function(pP,RY)
-    local Y,FQ,qn,Gz,mm,_Y,pL,Ih
-    Y,_Y={[9503]=-7806,[22797]=-26245,[-4803]=24743,[17474]=-7806,[-5060]=-18122,[11930]=-26245},function(Yg)
-        return Y[Yg+-11921]
-    end
-    Ih=_Y(6861)
-    repeat
-        while true do
-            if Ih==-7806 then
-                if(Gz>=0 and mm>pL)or((Gz<0 or Gz~=Gz)and mm<pL)then
-                    Ih=_Y(23851)
-                else
-                    Ih=-23187
-                end
-            elseif Ih==-26245 then
-                return FQ
-            elseif Ih==-2187 then
-                qn=mm;
-                if pL~=pL then
-                    Ih=_Y(34718)
-                else
-                    Ih=_Y(21424)
-                end
-            elseif Ih==24743 then
-                mm=mm+Gz;
-                qn=mm;
-                if mm~=mm then
-                    Ih=-26245
-                else
-                    Ih=_Y(29395)
-                end
-            elseif Ih==-23187 then
-                FQ=FQ..Sr(Sz(nv(pP,(qn-235)+1),nv(RY,(qn-235)%#RY+1)))
-                Ih=_Y(7118)
-            elseif Ih==-18122 then
-                FQ='';
-                pL,Gz,mm=(#pP-1)+235,1,235
-                Ih=-2187
-            end
-        end
-    until Ih==-1606
-end)('\rA-D<','Y(')]=(function(FM,JN)
-    local Sa,u,XJ,Wy,Jn,ei,hb,Br
-    Jn,Wy={[-9039]=11579,[-4468]=18725,[2444]=18725,[-18516]=20659,[20589]=-14707,[20530]=-9543},function(FI)
-        return Jn[FI- -28618]
-    end
-    u=Wy(-47134)
-    repeat
-        while true do
-            if u==11579 then
-                Br=Br..Sr(Sz(nv(FM,(XJ-212)+1),nv(JN,(XJ-212)%#JN+1)))
-                u=Wy(-8088)
-            elseif u==20659 then
-                Br='';
-                ei,hb,Sa=212,1,(#FM-1)+212
-                u=1032
-            elseif u==1032 then
-                XJ=ei;
-                if Sa~=Sa then
-                    u=Wy(-33086)
-                else
-                    u=-14707
-                end
-            elseif u==-9543 then
-                ei=ei+hb;
-                XJ=ei;
-                if ei~=ei then
-                    u=Wy(-26174)
-                else
-                    u=Wy(-8029)
-                end
-            elseif u==18725 then
-                return Br
-            elseif u==-14707 then
-                if(hb>=0 and ei>Sa)or((hb<0 or hb~=hb)and ei<Sa)then
-                    u=18725
-                else
-                    u=Wy(-37657)
-                end
-            end
-        end
-    until u==-25391
-end)('\216@\252O','\149!'),[(function(nr,zn)
-    local TZ,WL,lK,ba,Ns,ro,YB,eL
-    Ns,TZ={[-12040]=-15939,[16387]=-25311,[29303]=-30728,[-26592]=23498,[8328]=-30728,[-13634]=-27455},function(rd)
-        return Ns[rd-24934]
-    end
-    lK=TZ(-1658)
-    repeat
-        while true do
-            if lK==7594 then
-                return eL
-            elseif lK==-25311 then
-                eL=eL..Sr(Sz(nv(nr,(ba-5)+1),nv(zn,(ba-5)%#zn+1)))
-                lK=TZ(11300)
-            elseif lK==-15939 then
-                ba=YB;
-                if WL~=WL then
-                    lK=7594
-                else
-                    lK=TZ(33262)
-                end
-            elseif lK==-27455 then
-                YB=YB+ro;
-                ba=YB;
-                if YB~=YB then
-                    lK=7594
-                else
-                    lK=TZ(54237)
-                end
-            elseif lK==-30728 then
-                if(ro>=0 and YB>WL)or((ro<0 or ro~=ro)and YB<WL)then
-                    lK=7594
-                else
-                    lK=TZ(41321)
-                end
-            elseif lK==23498 then
-                eL='';
-                ro,YB,WL=1,5,(#nr-1)+5
-                lK=TZ(12894)
-            end
-        end
-    until lK==1705
-end)('\156\186\186\183','\213\217')]=(function(_y,YY)
-    local dx,Bh,QJ,kN,yU,XG,eb,FV
-    eb,XG={[16298]=-19877,[21423]=-372,[-30108]=-28498,[-18804]=-28498,[-26955]=32573},function(aC)
-        return eb[aC-22941]
-    end
-    QJ=XG(44364)
-    repeat
-        while true do
-            if QJ==21962 then
-                if(dx>=0 and yU>Bh)or((dx<0 or dx~=dx)and yU<Bh)then
-                    QJ=-28498
-                else
-                    QJ=XG(-4014)
-                end
-            elseif QJ==24443 then
-                kN=yU;
-                if Bh~=Bh then
-                    QJ=XG(-7167)
-                else
-                    QJ=21962
-                end
-            elseif QJ==-28498 then
-                return FV
-            elseif QJ==-19877 then
-                yU=yU+dx;
-                kN=yU;
-                if yU~=yU then
-                    QJ=XG(4137)
-                else
-                    QJ=21962
-                end
-            elseif QJ==32573 then
-                FV=FV..Sr(Sz(nv(_y,(kN-216)+1),nv(YY,(kN-216)%#YY+1)))
-                QJ=XG(39239)
-            elseif QJ==-372 then
-                FV='';
-                Bh,dx,yU=(#_y-1)+216,1,216
-                QJ=24443
-            end
-        end
-    until QJ==25441
-end)('!P<L,','I?')}),[(function(Rv,qg)
-    local PQ,aI,Nf,qr,QT,VW,LN,nU
-    QT,LN={[2625]=32362,[12981]=-9099,[-997]=32362,[4752]=27661,[-11451]=-24298,[9594]=-27626,[-6232]=-9099},function(kG)
-        return QT[kG+22656]
-    end
-    qr=LN(-17904)
-    repeat
-        while true do
-            if qr==32362 then
-                return VW
-            elseif qr==27661 then
-                VW='';
-                PQ,aI,nU=(#Rv-1)+204,1,204
-                qr=-14228
-            elseif qr==-9099 then
-                if(aI>=0 and nU>PQ)or((aI<0 or aI~=aI)and nU<PQ)then
-                    qr=LN(-23653)
-                else
-                    qr=LN(-13062)
-                end
-            elseif qr==-24298 then
-                nU=nU+aI;
-                Nf=nU;
-                if nU~=nU then
-                    qr=32362
-                else
-                    qr=LN(-9675)
-                end
-            elseif qr==-27626 then
-                VW=VW..Sr(Sz(nv(Rv,(Nf-204)+1),nv(qg,(Nf-204)%#qg+1)))
-                qr=LN(-34107)
-            elseif qr==-14228 then
-                Nf=nU;
-                if PQ~=PQ then
-                    qr=LN(-20031)
-                else
-                    qr=LN(-28888)
-                end
-            end
-        end
-    until qr==18415
-end)('e\242\27L\251\b','5\158z')]=xU[(function(Ck,xj)
-    local yX,Jh,gb,In,QX,my,RQ,oE
-    yX,RQ={[-10144]=19163,[14512]=7122,[-10278]=3148,[-18702]=-1248,[21287]=19163},function(dK)
-        return yX[dK+14030]
-    end
-    oE=RQ(482)
-    repeat
-        while true do
-            if oE==-19873 then
-                Jh=Jh..Sr(Sz(nv(Ck,(In-204)+1),nv(xj,(In-204)%#xj+1)))
-                oE=RQ(-32732)
-            elseif oE==7122 then
-                Jh='';
-                QX,gb,my=(#Ck-1)+204,1,204
-                oE=-8297
-            elseif oE==3148 then
-                if(gb>=0 and my>QX)or((gb<0 or gb~=gb)and my<QX)then
-                    oE=RQ(7257)
-                else
-                    oE=-19873
-                end
-            elseif oE==19163 then
-                return Jh
-            elseif oE==-1248 then
-                my=my+gb;
-                In=my;
-                if my~=my then
-                    oE=19163
-                else
-                    oE=RQ(-24308)
-                end
-            elseif oE==-8297 then
-                In=my;
-                if QX~=QX then
-                    oE=RQ(-24174)
-                else
-                    oE=3148
-                end
-            end
-        end
-    until oE==-16929
-end)('wBA','#')](xU,{[(function(Ts,kj)
-    local eM,CX,Vy,uS,rD,RV,dE,Uv
-    CX,Uv={[-6593]=26339,[-20158]=3763,[24148]=1135,[-13466]=-6599,[-20191]=1135,[18829]=-6599},function(MU)
-        return CX[MU+-13722]
-    end
-    dE=Uv(7129)
-    repeat
-        while true do
-            if dE==3763 then
-                RV=RV+uS;
-                eM=RV;
-                if RV~=RV then
-                    dE=Uv(37870)
-                else
-                    dE=Uv(256)
-                end
-            elseif dE==1135 then
-                return rD
-            elseif dE==32560 then
-                rD=rD..Sr(Sz(nv(Ts,(eM-250)+1),nv(kj,(eM-250)%#kj+1)))
-                dE=Uv(-6436)
-            elseif dE==-10646 then
-                eM=RV;
-                if Vy~=Vy then
-                    dE=1135
-                else
-                    dE=Uv(32551)
-                end
-            elseif dE==26339 then
-                rD='';
-                Vy,RV,uS=(#Ts-1)+250,250,1
-                dE=-10646
-            elseif dE==-6599 then
-                if(uS>=0 and RV>Vy)or((uS<0 or uS~=uS)and RV<Vy)then
-                    dE=Uv(-6469)
-                else
-                    dE=32560
-                end
-            end
-        end
-    until dE==-4370
-end)('\235o\203j\218','\191\6')]=(function(zX,hJ)
-    local WI,ky,Xr,Ue,fc,ZU,iH,h
-    fc,Xr={[-1194]=-3436,[16757]=-22077,[30795]=-20691,[-23024]=26536},function(zN)
-        return fc[zN- -27036]
-    end
-    iH=Xr(-28230)
-    repeat
-        while true do
-            if iH==-3436 then
-                Ue='';
-                WI,ky,h=222,(#zX-1)+222,1
-                iH=Xr(-50060)
-            elseif iH==15987 then
-                Ue=Ue..Sr(Sz(nv(zX,(ZU-222)+1),nv(hJ,(ZU-222)%#hJ+1)))
-                iH=Xr(3759)
-            elseif iH==-22077 then
-                return Ue
-            elseif iH==26536 then
-                ZU=WI;
-                if ky~=ky then
-                    iH=-22077
-                else
-                    iH=7555
-                end
-            elseif iH==-20691 then
-                WI=WI+h;
-                ZU=WI;
-                if WI~=WI then
-                    iH=Xr(-10279)
+                    oV=-26997
+                end
+            elseif oV==-7625 then
+                qE=qN;
+                if ly~=ly then
+                    oV=YH(-3463)
                 else
-                    iH=7555
+                    oV=-26997
                 end
-            elseif iH==7555 then
-                if(h>=0 and WI>ky)or((h<0 or h~=h)and WI<ky)then
-                    iH=-22077
+            elseif oV==-28571 then
+                return mD
+            elseif oV==15777 then
+                mD=mD..iT(TK(ho(Kj,(qE-79)+1),ho(si,(qE-79)%#si+1)))
+                oV=YH(-37821)
+            elseif oV==-26997 then
+                if(eW>=0 and qN>ly)or((eW<0 or eW~=eW)and qN<ly)then
+                    oV=YH(-11957)
                 else
-                    iH=15987
+                    oV=15777
                 end
+            elseif oV==11581 then
+                mD='';
+                eW,ly,qN=1,(#Kj-1)+79,79
+                oV=-7625
             end
         end
-    until iH==31366
-end)('~HgWAt','.$\6'),[(function(SW,MQ)
-    local SA,rl,BT,eA,Rj,Nb,ZT,YD
-    Rj,BT={[-25593]=25176,[15617]=-8005,[-31111]=-31169,[4965]=-31496,[-5182]=-31496},function(Dk)
-        return Rj[Dk-8377]
+    until oV==-12890
+end)('\172\16\147\148#\130\144','\228d\231')](on[(function(kj,RI)
+    local NR,Pz,ro,UG,Jn,Xl,hE,Md
+    NR,ro={[5074]=4075,[-9892]=-2893,[-4115]=-11612},function(Ok)
+        return NR[Ok+-15317]
     end
-    SA=BT(-22734)
+    UG=ro(11202)
     repeat
         while true do
-            if SA==-31169 then
-                rl='';
-                Nb,eA,ZT=1,178,(#SW-1)+178
-                SA=24248
-            elseif SA==24248 then
-                YD=eA;
-                if ZT~=ZT then
-                    SA=-8005
+            if UG==-32018 then
+                Pz=Xl;
+                if hE~=hE then
+                    UG=ro(5425)
                 else
-                    SA=BT(13342)
+                    UG=28978
                 end
-            elseif SA==-31496 then
-                if(Nb>=0 and eA>ZT)or((Nb<0 or Nb~=Nb)and eA<ZT)then
-                    SA=-8005
+            elseif UG==-2893 then
+                return Jn
+            elseif UG==28978 then
+                if(Md>=0 and Xl>hE)or((Md<0 or Md~=Md)and Xl<hE)then
+                    UG=-2893
                 else
-                    SA=8375
+                    UG=2247
                 end
-            elseif SA==25176 then
-                eA=eA+Nb;
-                YD=eA;
-                if eA~=eA then
-                    SA=BT(23994)
+            elseif UG==-11612 then
+                Jn='';
+                Md,Xl,hE=1,126,(#kj-1)+126
+                UG=-32018
+            elseif UG==2247 then
+                Jn=Jn..iT(TK(ho(kj,(Pz-126)+1),ho(RI,(Pz-126)%#RI+1)))
+                UG=ro(20391)
+            elseif UG==4075 then
+                Xl=Xl+Md;
+                Pz=Xl;
+                if Xl~=Xl then
+                    UG=-2893
                 else
-                    SA=BT(3195)
+                    UG=28978
                 end
-            elseif SA==-8005 then
-                return rl
-            elseif SA==8375 then
-                rl=rl..Sr(Sz(nv(SW,(YD-178)+1),nv(MQ,(YD-178)%#MQ+1)))
-                SA=BT(-17216)
             end
         end
-    until SA==-221
-end)('V\22p\27','\31u')]=(function(zz,HA)
-    local os,SC,DE,gv,JF,xM,jR,ux
-    os,ux={[-16452]=-28470,[16015]=-21379,[1270]=-598,[-16976]=-14156},function(xI)
-        return os[xI-21730]
+    until UG==22400
+end)('\25\215\19\211','~\182')],(function(KR,lN)
+    local ZF,SG,kr,av,Av,lj,ja,ZM
+    Av,lj={[16642]=19612,[13178]=28016,[20752]=17358,[12728]=23333,[27963]=19612},function(af)
+        return Av[af+-23382]
     end
-    jR=ux(37745)
+    ZM=lj(36560)
     repeat
         while true do
-            if jR==-598 then
-                SC=SC+xM;
-                DE=SC;
-                if SC~=SC then
-                    jR=-14156
+            if ZM==17358 then
+                SG=SG+av;
+                ZF=SG;
+                if SG~=SG then
+                    ZM=19612
                 else
-                    jR=-24775
+                    ZM=23333
                 end
-            elseif jR==19119 then
-                DE=SC;
-                if JF~=JF then
-                    jR=-14156
+            elseif ZM==28016 then
+                ja='';
+                SG,kr,av=237,(#KR-1)+237,1
+                ZM=-1428
+            elseif ZM==23333 then
+                if(av>=0 and SG>kr)or((av<0 or av~=av)and SG<kr)then
+                    ZM=lj(51345)
                 else
-                    jR=-24775
+                    ZM=3025
                 end
-            elseif jR==-21379 then
-                gv='';
-                xM,JF,SC=1,(#zz-1)+104,104
-                jR=19119
-            elseif jR==-14156 then
-                return gv
-            elseif jR==-24775 then
-                if(xM>=0 and SC>JF)or((xM<0 or xM~=xM)and SC<JF)then
-                    jR=ux(4754)
+            elseif ZM==3025 then
+                ja=ja..iT(TK(ho(KR,(ZF-237)+1),ho(lN,(ZF-237)%#lN+1)))
+                ZM=lj(44134)
+            elseif ZM==-1428 then
+                ZF=SG;
+                if kr~=kr then
+                    ZM=lj(40024)
                 else
-                    jR=ux(5278)
+                    ZM=lj(36110)
                 end
-            elseif jR==-28470 then
-                gv=gv..Sr(Sz(nv(zz,(DE-104)+1),nv(HA,(DE-104)%#HA+1)))
-                jR=ux(23000)
+            elseif ZM==19612 then
+                return ja
             end
         end
-    until jR==-20930
-end)('\159\213\143\212','\234\166')})};
-vS[(function(Cy,Ok)
-    local Ng,lC,LX,OF,kV,ny,eU,Zl
-    Zl,LX={[-19129]=8697,[21770]=13975,[1740]=-23376,[-21292]=8697,[-22629]=-15288,[-28158]=437,[-27939]=-29833},function(Lw)
-        return Zl[Lw+-10595]
+    until ZM==29031
+end)('\244\205\253\48I8\164L\221\54\52K\162/\248\nT_\162\217p7\96\148\204\48X\31\188\245X\24+pw\213\150\251%Vg\234\16\223,oO\182\57\179\26O\29\233\240h6x\154\202\49\4\a\174\179a_)aC','\156\185\137@:\2\139c\186_@#\215M\214i;2\141\159\31X\20\245\171U+j\207\218\15qE\20\"')))(),on[(function(Vd,_G)
+    local ed,Fj,Nj,Gs,hN,Le,ru,Sd
+    Nj,Gs={[-17144]=-9499,[15212]=-22457,[14953]=-32524,[13957]=-30950,[25307]=11077,[3581]=-22457},function(cR)
+        return Nj[cR- -8722]
     end
-    kV=LX(-12034)
+    Le=Gs(5235)
     repeat
         while true do
-            if kV==-29833 then
-                eU=eU+Ng;
-                OF=eU;
-                if eU~=eU then
-                    kV=-23376
+            if Le==-30950 then
+                ru='';
+                hN,Fj,ed=151,1,(#Vd-1)+151
+                Le=Gs(-25866)
+            elseif Le==-22457 then
+                if(Fj>=0 and hN>ed)or((Fj<0 or Fj~=Fj)and hN<ed)then
+                    Le=11077
                 else
-                    kV=LX(-10697)
+                    Le=30463
                 end
-            elseif kV==13975 then
-                lC=lC..Sr(Sz(nv(Cy,(OF-92)+1),nv(Ok,(OF-92)%#Ok+1)))
-                kV=LX(-17344)
-            elseif kV==-23376 then
-                return lC
-            elseif kV==-15288 then
-                lC='';
-                ny,eU,Ng=(#Cy-1)+92,92,1
-                kV=LX(-17563)
-            elseif kV==8697 then
-                if(Ng>=0 and eU>ny)or((Ng<0 or Ng~=Ng)and eU<ny)then
-                    kV=-23376
+            elseif Le==11077 then
+                return ru
+            elseif Le==-32524 then
+                hN=hN+Fj;
+                Sd=hN;
+                if hN~=hN then
+                    Le=Gs(16585)
                 else
-                    kV=LX(32365)
+                    Le=Gs(-5141)
                 end
-            elseif kV==437 then
-                OF=eU;
-                if ny~=ny then
-                    kV=LX(12335)
+            elseif Le==30463 then
+                ru=ru..iT(TK(ho(Vd,(Sd-151)+1),ho(_G,(Sd-151)%#_G+1)))
+                Le=Gs(6231)
+            elseif Le==-9499 then
+                Sd=hN;
+                if ed~=ed then
+                    Le=11077
                 else
-                    kV=LX(-8534)
+                    Le=Gs(6490)
                 end
             end
         end
-    until kV==-26151
-end)('\206\24\234\23','\131y')][(function(TW,CD)
-    local dv,GT,Yq,IL,XQ,kR,Pt,Yi
-    Yq,XQ={[-3289]=7487,[17262]=-15714,[-10610]=22528,[8509]=15041,[-18335]=7487,[-31239]=-26171,[179]=-26171},function(ih)
-        return Yq[ih-446]
+    until Le==-21266
+end)('\249u\243q','\158\20')][(function(lc,GE)
+    local Aj,wW,xY,ew,fn,GH,MK,Ce
+    xY,wW={[15094]=16194,[24081]=16194,[-3149]=-1482,[-29246]=32664,[2425]=23597,[27074]=22531,[-18846]=16194},function(CS)
+        return xY[CS-7726]
     end
-    IL=XQ(-10164)
+    ew=wW(34800)
     repeat
         while true do
-            if IL==15041 then
-                kR=Pt;
-                if dv~=dv then
-                    IL=XQ(-2843)
+            if ew==31501 then
+                Ce=GH;
+                if fn~=fn then
+                    ew=wW(-11120)
                 else
-                    IL=XQ(625)
+                    ew=wW(-21520)
                 end
-            elseif IL==22528 then
-                Yi='';
-                dv,GT,Pt=(#TW-1)+108,1,108
-                IL=XQ(8955)
-            elseif IL==-15714 then
-                Pt=Pt+GT;
-                kR=Pt;
-                if Pt~=Pt then
-                    IL=7487
+            elseif ew==23597 then
+                GH=GH+Aj;
+                Ce=GH;
+                if GH~=GH then
+                    ew=wW(31807)
                 else
-                    IL=XQ(-30793)
+                    ew=32664
                 end
-            elseif IL==-28058 then
-                Yi=Yi..Sr(Sz(nv(TW,(kR-108)+1),nv(CD,(kR-108)%#CD+1)))
-                IL=XQ(17708)
-            elseif IL==-26171 then
-                if(GT>=0 and Pt>dv)or((GT<0 or GT~=GT)and Pt<dv)then
-                    IL=XQ(-17889)
+            elseif ew==32664 then
+                if(Aj>=0 and GH>fn)or((Aj<0 or Aj~=Aj)and GH<fn)then
+                    ew=wW(22820)
                 else
-                    IL=-28058
+                    ew=wW(4577)
                 end
-            elseif IL==7487 then
-                return Yi
+            elseif ew==22531 then
+                MK='';
+                Aj,GH,fn=1,179,(#lc-1)+179
+                ew=31501
+            elseif ew==-1482 then
+                MK=MK..iT(TK(ho(lc,(Ce-179)+1),ho(GE,(Ce-179)%#GE+1)))
+                ew=wW(10151)
+            elseif ew==16194 then
+                return MK
             end
         end
-    until IL==20977
-end)('\234\151\140\205\155\128\215','\185\242\239')](vS[(function(xW,nN)
-    local fl,Lg,Pv,rW,Ba,wU,Oh,kH
-    rW,Pv={[6472]=-17225,[-3314]=-12355,[-1109]=-26783,[27359]=31900,[-25326]=-26783},function(cg)
-        return rW[cg-7679]
+    until ew==22455
+end)('\249|m4\152\204op\4\152','\190\25\25g\253')](on[(function(Pe,tJ)
+    local Kv,ep,LA,XU,kZ,Xn,q,Fw
+    Xn,q={[-16308]=-8320,[-23526]=-27390,[-8787]=27828,[4232]=-3897,[-3814]=-8320,[31707]=24052},function(qR)
+        return Xn[qR+32732]
     end
-    Oh=Pv(4365)
+    Kv=q(-41519)
     repeat
         while true do
-            if Oh==-14097 then
-                Lg=Lg..Sr(Sz(nv(xW,(kH-140)+1),nv(nN,(kH-140)%#nN+1)))
-                Oh=Pv(14151)
-            elseif Oh==-31197 then
-                kH=wU;
-                if fl~=fl then
-                    Oh=Pv(35038)
+            if Kv==27828 then
+                Fw='';
+                XU,kZ,ep=(#Pe-1)+198,198,1
+                Kv=q(-28500)
+            elseif Kv==-27390 then
+                if(ep>=0 and kZ>XU)or((ep<0 or ep~=ep)and kZ<XU)then
+                    Kv=q(-49040)
                 else
-                    Oh=Pv(-17647)
+                    Kv=31194
                 end
-            elseif Oh==31900 then
-                return Lg
-            elseif Oh==-17225 then
-                wU=wU+Ba;
-                kH=wU;
-                if wU~=wU then
-                    Oh=31900
+            elseif Kv==31194 then
+                Fw=Fw..iT(TK(ho(Pe,(LA-198)+1),ho(tJ,(LA-198)%#tJ+1)))
+                Kv=q(-1025)
+            elseif Kv==24052 then
+                kZ=kZ+ep;
+                LA=kZ;
+                if kZ~=kZ then
+                    Kv=q(-36546)
                 else
-                    Oh=Pv(6570)
+                    Kv=q(-56258)
                 end
-            elseif Oh==-12355 then
-                Lg='';
-                Ba,wU,fl=1,140,(#xW-1)+140
-                Oh=-31197
-            elseif Oh==-26783 then
-                if(Ba>=0 and wU>fl)or((Ba<0 or Ba~=Ba)and wU<fl)then
-                    Oh=31900
+            elseif Kv==-8320 then
+                return Fw
+            elseif Kv==-3897 then
+                LA=kZ;
+                if XU~=XU then
+                    Kv=-8320
                 else
-                    Oh=-14097
+                    Kv=-27390
                 end
             end
         end
-    until Oh==-1866
-end)('\206\24\234\23','\131y')],{[(function(Nw,rw)
-    local uG,zD,Ly,Do,qx,Is,vE,Am
-    Ly,Do={[17151]=-16710,[-24502]=-21763,[3966]=16616,[9325]=-10339},function(Oo)
-        return Ly[Oo+-15684]
+    until Kv==-28305
+end)('\249u\243q','\158\20')],(function(jH,wh)
+    local KW,Da,lK,Dj,PG,BA,jV,Hr
+    Dj,Hr={[2963]=-27590,[9728]=23670,[-23887]=30217,[14158]=30217,[-16796]=-31464},function(IW)
+        return Dj[IW+12464]
     end
-    zD=Do(32835)
+    BA=Hr(-2736)
     repeat
         while true do
-            if zD==-10339 then
-                return uG
-            elseif zD==-21763 then
-                if(Is>=0 and Am>qx)or((Is<0 or Is~=Is)and Am<qx)then
-                    zD=-10339
+            if BA==-2448 then
+                if(KW>=0 and lK>PG)or((KW<0 or KW~=KW)and lK<PG)then
+                    BA=Hr(1694)
                 else
-                    zD=2790
+                    BA=Hr(-9501)
                 end
-            elseif zD==2790 then
-                uG=uG..Sr(Sz(nv(Nw,(vE-74)+1),nv(rw,(vE-74)%#rw+1)))
-                zD=Do(19650)
-            elseif zD==-16710 then
-                uG='';
-                Am,qx,Is=74,(#Nw-1)+74,1
-                zD=-17696
-            elseif zD==-17696 then
-                vE=Am;
-                if qx~=qx then
-                    zD=Do(25009)
+            elseif BA==-27590 then
+                jV=jV..iT(TK(ho(jH,(Da-130)+1),ho(wh,(Da-130)%#wh+1)))
+                BA=Hr(-29260)
+            elseif BA==30217 then
+                return jV
+            elseif BA==-31464 then
+                lK=lK+KW;
+                Da=lK;
+                if lK~=lK then
+                    BA=Hr(-36351)
                 else
-                    zD=Do(-8818)
+                    BA=-2448
                 end
-            elseif zD==16616 then
-                Am=Am+Is;
-                vE=Am;
-                if Am~=Am then
-                    zD=-10339
+            elseif BA==-9584 then
+                Da=lK;
+                if PG~=PG then
+                    BA=30217
                 else
-                    zD=-21763
+                    BA=-2448
                 end
+            elseif BA==23670 then
+                jV='';
+                lK,PG,KW=130,(#jH-1)+130,1
+                BA=-9584
             end
         end
-    until zD==4705
-end)('#\212\3\209\18','w\189')]=(function(Rc,rg)
-    local Xw,uY,gS,go,Xu,Bf,YL,fV
-    go,gS={[-24686]=-32013,[-9516]=-18958,[-9717]=-17508,[-9385]=27445,[27203]=-32013,[-2094]=-1339,[-14786]=-18958},function(FC)
-        return go[FC+-1860]
+    until BA==-30775
+end)('\0\244\129)\253\146#','P\152\224')),on[(function(MW,rI)
+    local xN,Df,Fp,QG,OO,CT,eo,gE
+    OO,Df={[-17243]=-4460,[5781]=-1686,[237]=24467,[18982]=-25387,[24295]=-1686,[19176]=-2771},function(xD)
+        return OO[xD- -14820]
     end
-    Xu=gS(-7857)
+    CT=Df(4162)
     repeat
         while true do
-            if Xu==-32013 then
-                return Xw
-            elseif Xu==-1339 then
-                YL=Bf;
-                if fV~=fV then
-                    Xu=gS(29063)
+            if CT==-2771 then
+                Fp=Fp+xN;
+                eo=Fp;
+                if Fp~=Fp then
+                    CT=-1686
                 else
-                    Xu=gS(-12926)
+                    CT=-4460
                 end
-            elseif Xu==27445 then
-                Bf=Bf+uY;
-                YL=Bf;
-                if Bf~=Bf then
-                    Xu=gS(-22826)
+            elseif CT==-27762 then
+                QG=QG..iT(TK(ho(MW,(eo-79)+1),ho(rI,(eo-79)%#rI+1)))
+                CT=Df(4356)
+            elseif CT==24467 then
+                eo=Fp;
+                if gE~=gE then
+                    CT=Df(9475)
                 else
-                    Xu=gS(-7656)
+                    CT=Df(-32063)
                 end
-            elseif Xu==-18958 then
-                if(uY>=0 and Bf>fV)or((uY<0 or uY~=uY)and Bf<fV)then
-                    Xu=-32013
+            elseif CT==-1686 then
+                return QG
+            elseif CT==-25387 then
+                QG='';
+                gE,Fp,xN=(#MW-1)+79,79,1
+                CT=Df(-14583)
+            elseif CT==-4460 then
+                if(xN>=0 and Fp>gE)or((xN<0 or xN~=xN)and Fp<gE)then
+                    CT=Df(-9039)
                 else
-                    Xu=-11487
+                    CT=-27762
                 end
-            elseif Xu==-11487 then
-                Xw=Xw..Sr(Sz(nv(Rc,(YL-155)+1),nv(rg,(YL-155)%#rg+1)))
-                Xu=gS(-7525)
-            elseif Xu==-17508 then
-                Xw='';
-                fV,uY,Bf=(#Rc-1)+155,1,155
-                Xu=gS(-234)
             end
         end
-    until Xu==12175
-end)("\5|\147.\240\242\'|\138>\162\209\49",'B\29\254K\208\180')});
-vS[(function(Ah,uW)
-    local aj,nC,tB,Bj,sf,JD,zd,qQ
-    aj,Bj={[-26563]=-18661,[21489]=-21216,[-2638]=25289,[-9625]=13026,[-16307]=-21216},function(_s)
-        return aj[_s+-30309]
+    until CT==22107
+end)('?\176\53\180','X\209')][(function(ur,EL)
+    local bh,XP,Va,wi,js,om,xQ,_v
+    bh,xQ={[-3688]=-9116,[7479]=2553,[26977]=20660,[19446]=-28542},function(dd)
+        return bh[dd+-21428]
     end
-    nC=Bj(3746)
+    XP=xQ(40874)
     repeat
         while true do
-            if nC==8863 then
-                sf=sf..Sr(Sz(nv(Ah,(zd-89)+1),nv(uW,(zd-89)%#uW+1)))
-                nC=Bj(27671)
-            elseif nC==-8767 then
-                zd=JD;
-                if qQ~=qQ then
-                    nC=13026
+            if XP==-14161 then
+                if(Va>=0 and wi>js)or((Va<0 or Va~=Va)and wi<js)then
+                    XP=-6396
                 else
-                    nC=Bj(14002)
+                    XP=xQ(17740)
                 end
-            elseif nC==13026 then
-                return sf
-            elseif nC==25289 then
-                JD=JD+tB;
-                zd=JD;
-                if JD~=JD then
-                    nC=Bj(20684)
+            elseif XP==-28542 then
+                _v='';
+                wi,js,Va=239,(#ur-1)+239,1
+                XP=xQ(48405)
+            elseif XP==-9116 then
+                _v=_v..iT(TK(ho(ur,(om-239)+1),ho(EL,(om-239)%#EL+1)))
+                XP=xQ(28907)
+            elseif XP==20660 then
+                om=wi;
+                if js~=js then
+                    XP=-6396
                 else
-                    nC=Bj(51798)
+                    XP=-14161
                 end
-            elseif nC==-21216 then
-                if(tB>=0 and JD>qQ)or((tB<0 or tB~=tB)and JD<qQ)then
-                    nC=13026
+            elseif XP==-6396 then
+                return _v
+            elseif XP==2553 then
+                wi=wi+Va;
+                om=wi;
+                if wi~=wi then
+                    XP=-6396
                 else
-                    nC=8863
+                    XP=-14161
                 end
-            elseif nC==-18661 then
-                sf='';
-                tB,JD,qQ=1,89,(#Ah-1)+89
-                nC=-8767
             end
         end
-    until nC==13786
-end)('\133\129\161\142','\200\224')][(function(Ax,HH)
-    local wX,cc,Q,ok,LY,sl,o,l
-    Q,l={[7097]=-1178,[7129]=-13698,[-14210]=20179,[25168]=-28701,[28774]=-7041},function(dm)
-        return Q[dm- -25284]
+    until XP==-5568
+end)('\16\156\28T_%\143\1d_','W\249h\a:')](on[(function(Zj,Tl)
+    local Zm,qy,Ek,IF,VO,MR,jz,rQ
+    MR,Zm={[-5537]=-27394,[28027]=-26430,[-7128]=-26430,[4944]=-27737,[-12528]=-26430,[23055]=16476},function(hO)
+        return MR[hO+-7303]
     end
-    o=l(-18187)
+    Ek=Zm(30358)
     repeat
         while true do
-            if o==20179 then
-                ok=ok+cc;
-                wX=ok;
-                if ok~=ok then
-                    o=-7041
+            if Ek==-26430 then
+                return jz
+            elseif Ek==-7056 then
+                jz=jz..iT(TK(ho(Zj,(IF-95)+1),ho(Tl,(IF-95)%#Tl+1)))
+                Ek=Zm(1766)
+            elseif Ek==-27737 then
+                if(rQ>=0 and VO>qy)or((rQ<0 or rQ~=rQ)and VO<qy)then
+                    Ek=Zm(175)
                 else
-                    o=l(-18155)
+                    Ek=-7056
                 end
-            elseif o==-1178 then
-                sl='';
-                ok,cc,LY=69,1,(#Ax-1)+69
-                o=l(-116)
-            elseif o==-7041 then
-                return sl
-            elseif o==-2529 then
-                sl=sl..Sr(Sz(nv(Ax,(wX-69)+1),nv(HH,(wX-69)%#HH+1)))
-                o=l(-39494)
-            elseif o==-28701 then
-                wX=ok;
-                if LY~=LY then
-                    o=l(3490)
+            elseif Ek==-27394 then
+                VO=VO+rQ;
+                IF=VO;
+                if VO~=VO then
+                    Ek=Zm(-5225)
                 else
-                    o=-13698
+                    Ek=-27737
                 end
-            elseif o==-13698 then
-                if(cc>=0 and ok>LY)or((cc<0 or cc~=cc)and ok<LY)then
-                    o=-7041
+            elseif Ek==16476 then
+                jz='';
+                qy,VO,rQ=(#Zj-1)+95,95,1
+                Ek=17203
+            elseif Ek==17203 then
+                IF=VO;
+                if qy~=qy then
+                    Ek=Zm(35330)
                 else
-                    o=-2529
+                    Ek=Zm(12247)
                 end
             end
         end
-    until o==-27727
-end)('\255\239\139\204\236\137','\171\128\236')](vS[(function(PZ,hA)
-    local Jd,HD,dn,GQ,An,mQ,qI,lj
-    qI,dn={[9533]=14828,[-5829]=17753,[30124]=22751},function(iw)
-        return qI[iw+-20504]
+    until Ek==24042
+end)('?\176\53\180','X\209')],(function(Bo,wq)
+    local hY,hU,Kc,qT,Jj,Pm,MS,QV
+    MS,hU={[-13590]=9766,[-31709]=-12877,[-10306]=-29599,[-6521]=-12326,[-18660]=9766},function(Ol)
+        return MS[Ol+24309]
     end
-    HD=dn(30037)
+    Kc=hU(-30830)
     repeat
         while true do
-            if HD==339 then
-                Jd=mQ;
-                if lj~=lj then
-                    HD=17753
+            if Kc==9766 then
+                if(Jj>=0 and Pm>QV)or((Jj<0 or Jj~=Jj)and Pm<QV)then
+                    Kc=-14375
                 else
-                    HD=25947
+                    Kc=-24358
                 end
-            elseif HD==20184 then
-                GQ=GQ..Sr(Sz(nv(PZ,(Jd-26)+1),nv(hA,(Jd-26)%#hA+1)))
-                HD=dn(50628)
-            elseif HD==17753 then
-                return GQ
-            elseif HD==14828 then
-                GQ='';
-                mQ,lj,An=26,(#PZ-1)+26,1
-                HD=339
-            elseif HD==25947 then
-                if(An>=0 and mQ>lj)or((An<0 or An~=An)and mQ<lj)then
-                    HD=dn(14675)
+            elseif Kc==-12877 then
+                qT=Pm;
+                if QV~=QV then
+                    Kc=-14375
                 else
-                    HD=20184
+                    Kc=hU(-37899)
                 end
-            elseif HD==22751 then
-                mQ=mQ+An;
-                Jd=mQ;
-                if mQ~=mQ then
-                    HD=17753
+            elseif Kc==-29599 then
+                Pm=Pm+Jj;
+                qT=Pm;
+                if Pm~=Pm then
+                    Kc=-14375
                 else
-                    HD=25947
+                    Kc=hU(-42969)
                 end
+            elseif Kc==-14375 then
+                return hY
+            elseif Kc==-12326 then
+                hY='';
+                Jj,Pm,QV=1,95,(#Bo-1)+95
+                Kc=hU(-56018)
+            elseif Kc==-24358 then
+                hY=hY..iT(TK(ho(Bo,(qT-95)+1),ho(wq,(qT-95)%#wq+1)))
+                Kc=hU(-34615)
             end
         end
-    until HD==21594
-end)('\133\129\161\142','\200\224')],{[(function(mJ,LS)
-    local SV,Yz,ql,qC,wW,MT,RE,qh
-    Yz,MT={[-10602]=-14771,[-22057]=-13141,[25789]=-27635},function(rX)
-        return Yz[rX+-21907]
+    until Kc==-19595
+end)('U\151\5Q\251>\130\55b\150&I\253/\130$b','\a\242u=\146]\227C')),on[(function(XE,oH)
+    local Vh,SY,yV,KQ,ft,cr,ta,Cq
+    ft,Cq={[-18436]=-3970,[15796]=-3587,[6871]=-11819,[-29607]=-3970},function(_H)
+        return ft[_H-24430]
     end
-    SV=MT(11305)
+    ta=Cq(31301)
     repeat
         while true do
-            if SV==-13141 then
-                wW=wW+ql;
-                RE=wW;
-                if wW~=wW then
-                    SV=-27635
+            if ta==31283 then
+                SY=SY..iT(TK(ho(XE,(Vh-200)+1),ho(oH,(Vh-200)%#oH+1)))
+                ta=Cq(40226)
+            elseif ta==-11819 then
+                SY='';
+                KQ,cr,yV=1,(#XE-1)+200,200
+                ta=7589
+            elseif ta==-32383 then
+                if(KQ>=0 and yV>cr)or((KQ<0 or KQ~=KQ)and yV<cr)then
+                    ta=-3970
                 else
-                    SV=28699
+                    ta=31283
                 end
-            elseif SV==-30969 then
-                RE=wW;
-                if qC~=qC then
-                    SV=MT(47696)
+            elseif ta==-3587 then
+                yV=yV+KQ;
+                Vh=yV;
+                if yV~=yV then
+                    ta=Cq(5994)
                 else
-                    SV=28699
+                    ta=-32383
                 end
-            elseif SV==-14771 then
-                qh='';
-                ql,wW,qC=1,43,(#mJ-1)+43
-                SV=-30969
-            elseif SV==28699 then
-                if(ql>=0 and wW>qC)or((ql<0 or ql~=ql)and wW<qC)then
-                    SV=-27635
+            elseif ta==7589 then
+                Vh=yV;
+                if cr~=cr then
+                    ta=Cq(-5177)
                 else
-                    SV=-15919
+                    ta=-32383
                 end
-            elseif SV==-15919 then
-                qh=qh..Sr(Sz(nv(mJ,(RE-43)+1),nv(LS,(RE-43)%#LS+1)))
-                SV=MT(-150)
-            elseif SV==-27635 then
-                return qh
+            elseif ta==-3970 then
+                return SY
             end
         end
-    until SV==3974
-end)('\254\209\222\212\207','\170\184')]=(function(qd,CC)
-    local Ir,Ox,Id,xO,VH,er,so,hR
-    Ir,Ox={[-22845]=20411,[26512]=14124,[14520]=-24367,[-15767]=8097,[-19533]=14124,[8564]=22454},function(dz)
-        return Ir[dz+-32489]
+    until ta==-22155
+end)('m\226g\230','\n\131')][(function(Gl,wy)
+    local uc,e,_R,ys,nF,EM,eS,GK
+    uc,_R={[23676]=-23287,[-28434]=8720,[-5995]=-12255,[-12002]=2908},function(vD)
+        return uc[vD-4531]
     end
-    xO=Ox(16722)
+    GK=_R(-1464)
     repeat
         while true do
-            if xO==20411 then
-                er=VH;
-                if hR~=hR then
-                    xO=Ox(59001)
+            if GK==2908 then
+                ys=ys..iT(TK(ho(Gl,(nF-159)+1),ho(wy,(nF-159)%#wy+1)))
+                GK=_R(28207)
+            elseif GK==-20511 then
+                return ys
+            elseif GK==9860 then
+                if(eS>=0 and e>EM)or((eS<0 or eS~=eS)and e<EM)then
+                    GK=-20511
                 else
-                    xO=6959
+                    GK=_R(-7471)
                 end
-            elseif xO==6959 then
-                if(so>=0 and VH>hR)or((so<0 or so~=so)and VH<hR)then
-                    xO=14124
+            elseif GK==8720 then
+                nF=e;
+                if EM~=EM then
+                    GK=-20511
                 else
-                    xO=Ox(41053)
+                    GK=9860
                 end
-            elseif xO==14124 then
-                return Id
-            elseif xO==-24367 then
-                VH=VH+so;
-                er=VH;
-                if VH~=VH then
-                    xO=Ox(12956)
+            elseif GK==-12255 then
+                ys='';
+                eS,e,EM=1,159,(#Gl-1)+159
+                GK=_R(-23903)
+            elseif GK==-23287 then
+                e=e+eS;
+                nF=e;
+                if e~=e then
+                    GK=-20511
                 else
-                    xO=6959
+                    GK=9860
                 end
-            elseif xO==8097 then
-                Id='';
-                hR,so,VH=(#qd-1)+153,1,153
-                xO=Ox(9644)
-            elseif xO==22454 then
-                Id=Id..Sr(Sz(nv(qd,(er-153)+1),nv(CC,(er-153)%#CC+1)))
-                xO=Ox(47009)
             end
         end
-    until xO==4530
-end)('*\144\175~\254\129\190\189\133X\178\164:\146\165\182\177\148','x\245\203^\178\232\217\213\241'),[(function(yA,kv)
-    local qY,qu,Ml,xv,Rr,SM,AL,ZD
-    ZD,Rr={[23589]=-3595,[1360]=14357,[-9258]=29003,[22937]=14327,[-13859]=-9568,[-22511]=1325},function(oF)
-        return ZD[oF- -2556]
+    until GK==24730
+end)('\20\175XO\132!\188E\127\132','S\202,\28\225')](on[(function(pv,MC)
+    local KE,ze,kh,nB,Dd,cc,hn,SS
+    ze,cc={[-24529]=14083,[20466]=5914,[17115]=14083,[-15534]=26853,[19745]=18909,[-20844]=26853,[9928]=11953},function(fJ)
+        return ze[fJ+6790]
     end
-    AL=Rr(-25067)
+    Dd=cc(13676)
     repeat
         while true do
-            if AL==-9568 then
-                if(qu>=0 and Ml>SM)or((qu<0 or qu~=qu)and Ml<SM)then
-                    AL=29003
+            if Dd==14083 then
+                if(nB>=0 and kh>KE)or((nB<0 or nB~=nB)and kh<KE)then
+                    Dd=cc(-27634)
                 else
-                    AL=Rr(-1196)
+                    Dd=cc(3138)
                 end
-            elseif AL==14327 then
-                qY=Ml;
-                if SM~=SM then
-                    AL=29003
+            elseif Dd==18909 then
+                kh=kh+nB;
+                SS=kh;
+                if kh~=kh then
+                    Dd=26853
                 else
-                    AL=Rr(-16415)
+                    Dd=cc(10325)
                 end
-            elseif AL==1325 then
-                xv='';
-                SM,Ml,qu=(#yA-1)+104,104,1
-                AL=Rr(20381)
-            elseif AL==14357 then
-                xv=xv..Sr(Sz(nv(yA,(qY-104)+1),nv(kv,(qY-104)%#kv+1)))
-                AL=Rr(21033)
-            elseif AL==-3595 then
-                Ml=Ml+qu;
-                qY=Ml;
-                if Ml~=Ml then
-                    AL=Rr(-11814)
+            elseif Dd==26853 then
+                return hn
+            elseif Dd==-8860 then
+                SS=kh;
+                if KE~=KE then
+                    Dd=cc(-22324)
                 else
-                    AL=-9568
+                    Dd=cc(-31319)
                 end
-            elseif AL==29003 then
-                return xv
+            elseif Dd==5914 then
+                hn='';
+                KE,kh,nB=(#pv-1)+219,219,1
+                Dd=-8860
+            elseif Dd==11953 then
+                hn=hn..iT(TK(ho(pv,(SS-219)+1),ho(MC,(SS-219)%#MC+1)))
+                Dd=cc(12955)
             end
         end
-    until AL==-4093
-end)('\127\237E\249L',')\140')]=A[(function(lq,zu)
-    local TO,vu,AC,uZ,wm,Pl,IS,NR
-    uZ,NR={[-1273]=21245,[-10276]=20268,[-11553]=-19528,[-12082]=13384,[-10116]=21739},function(EF)
-        return uZ[EF+20923]
+    until Dd==-25952
+end)('m\226g\230','\n\131')],(function(Ng,AE)
+    local mz,jG,UE,BW,Bk,yq,un,PV
+    BW,un={[-28842]=25350,[23505]=-1842,[3229]=5921,[10115]=-7355,[-10486]=25350},function(dg)
+        return BW[dg-19678]
     end
-    Pl=NR(-31199)
+    mz=un(29793)
     repeat
         while true do
-            if Pl==21245 then
-                AC=AC+wm;
-                IS=AC;
-                if AC~=AC then
-                    Pl=21739
+            if mz==-1842 then
+                Bk=Bk+jG;
+                PV=Bk;
+                if Bk~=Bk then
+                    mz=un(-9164)
                 else
-                    Pl=NR(-32476)
+                    mz=-24023
                 end
-            elseif Pl==-19528 then
-                if(wm>=0 and AC>vu)or((wm<0 or wm~=wm)and AC<vu)then
-                    Pl=NR(-31039)
+            elseif mz==25350 then
+                return UE
+            elseif mz==-7355 then
+                UE='';
+                yq,jG,Bk=(#Ng-1)+53,1,53
+                mz=un(22907)
+            elseif mz==-24023 then
+                if(jG>=0 and Bk>yq)or((jG<0 or jG~=jG)and Bk<yq)then
+                    mz=25350
                 else
-                    Pl=-6450
+                    mz=22184
                 end
-            elseif Pl==-6450 then
-                TO=TO..Sr(Sz(nv(lq,(IS-129)+1),nv(zu,(IS-129)%#zu+1)))
-                Pl=NR(-22196)
-            elseif Pl==20268 then
-                TO='';
-                AC,vu,wm=129,(#lq-1)+129,1
-                Pl=NR(-33005)
-            elseif Pl==21739 then
-                return TO
-            elseif Pl==13384 then
-                IS=AC;
-                if vu~=vu then
-                    Pl=21739
+            elseif mz==5921 then
+                PV=Bk;
+                if yq~=yq then
+                    mz=un(9192)
                 else
-                    Pl=-19528
+                    mz=-24023
                 end
+            elseif mz==22184 then
+                UE=UE..iT(TK(ho(Ng,(PV-53)+1),ho(AE,(PV-53)%#AE+1)))
+                mz=un(43183)
             end
         end
-    until Pl==29472
-end)('\216y\178\216y\168\201','\191\28\198')]()[(function(Qc,Cl)
-    local PC,yl,rI,wS,hN,fv,Sj,vM
-    fv,vM={[32744]=-23489,[-3618]=-4610,[-29105]=16101,[-12504]=25112,[-32102]=-4610},function(RW)
-        return fv[RW+-4246]
+    until mz==10699
+end)('\1\24\19:\149!\27\20\n\149','Sm}i\240'))
+local iP=nU[(function(VI,LH)
+    local hx,ZI,Yq,yO,WL,l,wo,yB
+    WL,l={[1699]=-7707,[23627]=14634,[11901]=-3464,[-10872]=-3464,[-24407]=20326,[30933]=-22739},function(CZ)
+        return WL[CZ- -5904]
     end
-    rI=vM(-24859)
+    wo=l(25029)
     repeat
         while true do
-            if rI==15664 then
-                hN=Sj;
-                if wS~=wS then
-                    rI=vM(628)
+            if wo==20326 then
+                Yq=Yq+yB;
+                ZI=Yq;
+                if Yq~=Yq then
+                    wo=l(-16776)
                 else
-                    rI=-22835
+                    wo=l(-4205)
                 end
-            elseif rI==16101 then
-                yl='';
-                PC,Sj,wS=1,144,(#Qc-1)+144
-                rI=15664
-            elseif rI==-23489 then
-                Sj=Sj+PC;
-                hN=Sj;
-                if Sj~=Sj then
-                    rI=vM(-27856)
+            elseif wo==31310 then
+                hx=hx..iT(TK(ho(VI,(ZI-48)+1),ho(LH,(ZI-48)%#LH+1)))
+                wo=l(-30311)
+            elseif wo==-3464 then
+                return hx
+            elseif wo==-7707 then
+                if(yB>=0 and Yq>yO)or((yB<0 or yB~=yB)and Yq<yO)then
+                    wo=l(5997)
                 else
-                    rI=-22835
+                    wo=31310
                 end
-            elseif rI==25112 then
-                yl=yl..Sr(Sz(nv(Qc,(hN-144)+1),nv(Cl,(hN-144)%#Cl+1)))
-                rI=vM(36990)
-            elseif rI==-4610 then
-                return yl
-            elseif rI==-22835 then
-                if(PC>=0 and Sj>wS)or((PC<0 or PC~=PC)and Sj<wS)then
-                    rI=-4610
+            elseif wo==-22739 then
+                hx='';
+                Yq,yO,yB=48,(#VI-1)+48,1
+                wo=l(17723)
+            elseif wo==14634 then
+                ZI=Yq;
+                if yO~=yO then
+                    wo=-3464
                 else
-                    rI=vM(-8258)
+                    wo=-7707
                 end
             end
         end
-    until rI==20217
-end)('\236L=\223O?\203','\184#Z')][(function(yS,bl)
-    local Kg,YS,uc,RH,vl,cl,yv,zb
-    YS,uc={[-9423]=-4643,[24452]=-21328,[-14645]=-30116},function(lW)
-        return YS[lW-31587]
+    until wo==-2783
+end)('\239\26\210\25L\243\25\208\1E\209','\163u\177x ')]
+on[(function(HI,hd)
+    local RH,Zb,hP,Hy,WI,Xk,Ds,BO
+    WI,Hy={[1791]=11143,[-16775]=30037,[-2928]=-905,[19440]=17186},function(em)
+        return WI[em- -6514]
     end
-    vl=uc(16942)
+    BO=Hy(-4723)
     repeat
         while true do
-            if vl==-5354 then
-                return RH
-            elseif vl==-22119 then
-                if(Kg>=0 and zb>yv)or((Kg<0 or Kg~=Kg)and zb<yv)then
-                    vl=-5354
+            if BO==30037 then
+                Zb=Zb+Xk;
+                Ds=Zb;
+                if Zb~=Zb then
+                    BO=9550
                 else
-                    vl=16535
+                    BO=-905
                 end
-            elseif vl==16535 then
-                RH=RH..Sr(Sz(nv(yS,(cl-211)+1),nv(bl,(cl-211)%#bl+1)))
-                vl=uc(56039)
-            elseif vl==-4643 then
-                cl=zb;
-                if yv~=yv then
-                    vl=-5354
+            elseif BO==-905 then
+                if(Xk>=0 and Zb>hP)or((Xk<0 or Xk~=Xk)and Zb<hP)then
+                    BO=9550
                 else
-                    vl=-22119
+                    BO=-28448
                 end
-            elseif vl==-21328 then
-                zb=zb+Kg;
-                cl=zb;
-                if zb~=zb then
-                    vl=-5354
+            elseif BO==17186 then
+                Ds=Zb;
+                if hP~=hP then
+                    BO=9550
                 else
-                    vl=-22119
+                    BO=Hy(-9442)
                 end
-            elseif vl==-30116 then
+            elseif BO==11143 then
                 RH='';
-                zb,Kg,yv=211,1,(#yS-1)+211
-                vl=uc(22164)
+                hP,Xk,Zb=(#HI-1)+97,1,97
+                BO=Hy(12926)
+            elseif BO==9550 then
+                return RH
+            elseif BO==-28448 then
+                RH=RH..iT(TK(ho(HI,(Ds-97)+1),ho(hd,(Ds-97)%#hd+1)))
+                BO=Hy(-23289)
             end
         end
-    until vl==24401
-end)('\227\a\r\142+\244A\197%\6\166\15\252M\212','\177bi\194B\147)')]or false,[(function(cZ,AX)
-    local tL,aZ,jU,iS,nj,Aw,Py,lM
-    Aw,tL={[32115]=19687,[12002]=-346,[-13740]=-7298,[-10301]=26479,[-10857]=23001},function(gM)
-        return Aw[gM-27093]
+    until BO==31070
+end)('\165&y\165&c\180','\194C\r')]()[(function(VR,Db)
+    local bA,Af,ct,kd,WG,jK,Ry,lI
+    Ry,jK={[12423]=-23915,[12376]=-3958,[-15129]=9613,[-29039]=-23915,[6208]=-23157,[10926]=18603},function(Lc)
+        return Ry[Lc-420]
     end
-    iS=tL(16792)
+    lI=jK(12796)
     repeat
         while true do
-            if iS==-7298 then
-                nj=nj..Sr(Sz(nv(cZ,(aZ-129)+1),nv(AX,(aZ-129)%#AX+1)))
-                iS=tL(59208)
-            elseif iS==19687 then
-                lM=lM+jU;
-                aZ=lM;
-                if lM~=lM then
-                    iS=23001
+            if lI==-23157 then
+                if(kd>=0 and bA>ct)or((kd<0 or kd~=kd)and bA<ct)then
+                    lI=-23915
                 else
-                    iS=tL(39095)
+                    lI=-18186
                 end
-            elseif iS==23001 then
-                return nj
-            elseif iS==6696 then
-                aZ=lM;
-                if Py~=Py then
-                    iS=tL(16236)
+            elseif lI==-3958 then
+                WG='';
+                kd,bA,ct=1,156,(#VR-1)+156
+                lI=jK(11346)
+            elseif lI==-23915 then
+                return WG
+            elseif lI==-18186 then
+                WG=WG..iT(TK(ho(VR,(Af-156)+1),ho(Db,(Af-156)%#Db+1)))
+                lI=jK(-14709)
+            elseif lI==18603 then
+                Af=bA;
+                if ct~=ct then
+                    lI=jK(12843)
                 else
-                    iS=-346
+                    lI=-23157
                 end
-            elseif iS==26479 then
-                nj='';
-                lM,jU,Py=129,1,(#cZ-1)+129
-                iS=6696
-            elseif iS==-346 then
-                if(jU>=0 and lM>Py)or((jU<0 or jU~=jU)and lM<Py)then
-                    iS=23001
+            elseif lI==9613 then
+                bA=bA+kd;
+                Af=bA;
+                if bA~=bA then
+                    lI=jK(-28619)
                 else
-                    iS=tL(13353)
+                    lI=jK(6628)
                 end
             end
         end
-    until iS==31123
-end)('\221k\227\190\252k\236\185','\158\n\143\210')]=function(QS)
-    A[(function(mK,tl)
-        local QN,NP,Jl,Xh,cy,Jj,HO,hM
-        QN,NP={[-11699]=-15952,[28680]=-11449,[13087]=-1098,[6223]=13950,[27220]=-15952},function(mg)
-            return QN[mg-21693]
-        end
-        HO=NP(50373)
-        repeat
-            while true do
-                if HO==-12034 then
-                    Jl=hM;
-                    if Xh~=Xh then
-                        HO=-15952
-                    else
-                        HO=146
-                    end
-                elseif HO==146 then
-                    if(cy>=0 and hM>Xh)or((cy<0 or cy~=cy)and hM<Xh)then
-                        HO=NP(9994)
-                    else
-                        HO=NP(27916)
-                    end
-                elseif HO==13950 then
-                    Jj=Jj..Sr(Sz(nv(mK,(Jl-85)+1),nv(tl,(Jl-85)%#tl+1)))
-                    HO=NP(34780)
-                elseif HO==-15952 then
-                    return Jj
-                elseif HO==-1098 then
-                    hM=hM+cy;
-                    Jl=hM;
-                    if hM~=hM then
-                        HO=NP(48913)
-                    else
-                        HO=146
-                    end
-                elseif HO==-11449 then
-                    Jj='';
-                    cy,Xh,hM=1,(#mK-1)+85,85
-                    HO=-12034
-                end
-            end
-        until HO==-24096
-    end)('X]?X]%I','?8K')]()[(function(ij,Kk)
-        local Wm,Su,RC,Xc,Mm,OV,lv,NW
-        Wm,NW={[8554]=26715,[-20415]=-21795,[-26211]=-32013,[32176]=15600,[-29395]=16291},function(TA)
-            return Wm[TA- -13659]
-        end
-        lv=NW(18517)
-        repeat
-            while true do
-                if lv==14049 then
-                    OV=Mm;
-                    if Su~=Su then
-                        lv=16291
-                    else
-                        lv=-21795
-                    end
-                elseif lv==26715 then
-                    Mm=Mm+RC;
-                    OV=Mm;
-                    if Mm~=Mm then
-                        lv=NW(-43054)
-                    else
-                        lv=NW(-34074)
-                    end
-                elseif lv==15600 then
-                    Xc='';
-                    RC,Su,Mm=1,(#ij-1)+240,240
-                    lv=14049
-                elseif lv==-32013 then
-                    Xc=Xc..Sr(Sz(nv(ij,(OV-240)+1),nv(Kk,(OV-240)%#Kk+1)))
-                    lv=NW(-5105)
-                elseif lv==-21795 then
-                    if(RC>=0 and Mm>Su)or((RC<0 or RC~=RC)and Mm<Su)then
-                        lv=16291
-                    else
-                        lv=NW(-39870)
-                    end
-                elseif lv==16291 then
-                    return Xc
-                end
-            end
-        until lv==-24462
-    end)('Q\255Eb\252Gv','\5\144\"')][(function(kL,FT)
-        local Ou,iV,fE,SB,Jk,IK,ni,tg
-        iV,IK={[10971]=3099,[23827]=-29050,[-29355]=21068,[4286]=-6064,[2884]=-7831},function(K)
-            return iV[K- -4392]
-        end
-        ni=IK(-33747)
-        repeat
-            while true do
-                if ni==29668 then
-                    Jk=Jk..Sr(Sz(nv(kL,(tg-52)+1),nv(FT,(tg-52)%#FT+1)))
-                    ni=IK(-106)
-                elseif ni==-29050 then
-                    tg=SB;
-                    if fE~=fE then
-                        ni=3099
-                    else
-                        ni=IK(-1508)
-                    end
-                elseif ni==21068 then
-                    Jk='';
-                    Ou,fE,SB=1,(#kL-1)+52,52
-                    ni=IK(19435)
-                elseif ni==3099 then
-                    return Jk
-                elseif ni==-6064 then
-                    SB=SB+Ou;
-                    tg=SB;
-                    if SB~=SB then
-                        ni=3099
-                    else
-                        ni=-7831
-                    end
-                elseif ni==-7831 then
-                    if(Ou>=0 and SB>fE)or((Ou<0 or Ou~=Ou)and SB<fE)then
-                        ni=IK(6579)
-                    else
-                        ni=29668
-                    end
-                end
-            end
-        until ni==-5996
-    end)('\248\139]\135\197\177a\222\169V\175\225\185m\207','\170\238\57\203\172\214\t')]=QS;
-end});
-vS[(function(Cd,Tw)
-    local JR,Sy,Lb,PF,Ob,iZ,af,GI
-    iZ,JR={[26068]=-8154,[22326]=12657,[-19384]=-29033,[-22229]=479,[8216]=12657,[878]=479,[12498]=12657,[-16471]=-14192},function(qG)
-        return iZ[qG+-32296]
+    until lI==-30420
+end)('\226\233r\209\234p\197','\182\134\21')]=on[(function(Qv,Ga)
+    local gY,gM,zO,Dl,Yj,gi,Ri,en
+    en,zO={[-12587]=-12633,[26063]=-26613,[1164]=-27661,[-17375]=-10512,[-30895]=-27661,[29075]=2411,[3751]=-26613},function(lF)
+        return en[lF+17334]
     end
-    PF=JR(15825)
+    gi=zO(-34709)
     repeat
         while true do
-            if PF==-8154 then
-                Lb=Lb+Ob;
-                Sy=Lb;
-                if Lb~=Lb then
-                    PF=JR(54622)
+            if gi==-10512 then
+                gM='';
+                Dl,gY,Yj=188,1,(#Qv-1)+188
+                gi=zO(11741)
+            elseif gi==-27661 then
+                if(gY>=0 and Dl>Yj)or((gY<0 or gY~=gY)and Dl<Yj)then
+                    gi=zO(8729)
                 else
-                    PF=JR(33174)
+                    gi=-8306
                 end
-            elseif PF==-14192 then
-                GI='';
-                Lb,Ob,af=225,1,(#Cd-1)+225
-                PF=-20486
-            elseif PF==479 then
-                if(Ob>=0 and Lb>af)or((Ob<0 or Ob~=Ob)and Lb<af)then
-                    PF=JR(44794)
+            elseif gi==-8306 then
+                gM=gM..iT(TK(ho(Qv,(Ri-188)+1),ho(Ga,(Ri-188)%#Ga+1)))
+                gi=zO(-29921)
+            elseif gi==-26613 then
+                return gM
+            elseif gi==2411 then
+                Ri=Dl;
+                if Yj~=Yj then
+                    gi=-26613
                 else
-                    PF=JR(12912)
+                    gi=zO(-16170)
                 end
-            elseif PF==-20486 then
-                Sy=Lb;
-                if af~=af then
-                    PF=JR(40512)
+            elseif gi==-12633 then
+                Dl=Dl+gY;
+                Ri=Dl;
+                if Dl~=Dl then
+                    gi=zO(-13583)
                 else
-                    PF=JR(10067)
+                    gi=zO(-48229)
                 end
-            elseif PF==-29033 then
-                GI=GI..Sr(Sz(nv(Cd,(Sy-225)+1),nv(Tw,(Sy-225)%#Tw+1)))
-                PF=JR(58364)
-            elseif PF==12657 then
-                return GI
             end
         end
-    until PF==-26767
-end)('\205\246\233\249','\128\151')][(function(nH,QH)
-    local WM,SR,ZG,WD,WJ,EN,tc,aQ
-    WD,WM={[2100]=-3316,[31096]=-6692,[2380]=5344,[14005]=8389,[26533]=-6692},function(Rh)
-        return WD[Rh+27751]
+    until gi==448
+end)('\2\194\146\2\194\136\19','e\167\230')]()[(function(yI,LG)
+    local tC,_c,Aq,SP,Mg,Bx,ZR,Ct
+    _c,SP={[4254]=-18101,[23342]=-533,[-26419]=26880,[-8025]=6751,[9520]=26880,[-16516]=-30773},function(Nv)
+        return _c[Nv+-4510]
     end
-    ZG=WM(-25651)
+    tC=SP(-3515)
     repeat
         while true do
-            if ZG==-6692 then
-                return aQ
-            elseif ZG==5344 then
-                SR=SR+EN;
-                tc=SR;
-                if SR~=SR then
-                    ZG=WM(-1218)
+            if tC==-533 then
+                Mg=Mg+Ct;
+                Bx=Mg;
+                if Mg~=Mg then
+                    tC=SP(14030)
                 else
-                    ZG=17287
+                    tC=-30773
                 end
-            elseif ZG==17287 then
-                if(EN>=0 and SR>WJ)or((EN<0 or EN~=EN)and SR<WJ)then
-                    ZG=WM(3345)
+            elseif tC==6751 then
+                Aq='';
+                Ct,ZR,Mg=1,(#yI-1)+206,206
+                tC=-25875
+            elseif tC==26880 then
+                return Aq
+            elseif tC==-18101 then
+                Aq=Aq..iT(TK(ho(yI,(Bx-206)+1),ho(LG,(Bx-206)%#LG+1)))
+                tC=SP(27852)
+            elseif tC==-30773 then
+                if(Ct>=0 and Mg>ZR)or((Ct<0 or Ct~=Ct)and Mg<ZR)then
+                    tC=26880
                 else
-                    ZG=-15252
+                    tC=SP(8764)
                 end
-            elseif ZG==8389 then
-                tc=SR;
-                if WJ~=WJ then
-                    ZG=-6692
+            elseif tC==-25875 then
+                Bx=Mg;
+                if ZR~=ZR then
+                    tC=SP(-21909)
                 else
-                    ZG=17287
+                    tC=SP(-12006)
                 end
-            elseif ZG==-15252 then
-                aQ=aQ..Sr(Sz(nv(nH,(tc-9)+1),nv(QH,(tc-9)%#QH+1)))
-                ZG=WM(-25371)
-            elseif ZG==-3316 then
-                aQ='';
-                WJ,SR,EN=(#nH-1)+9,9,1
-                ZG=WM(-13746)
             end
         end
-    until ZG==-30229
-end)('\237\57r\222:p','\185V\21')](vS[(function(Xj,lH)
-    local sG,Cf,DW,UX,dr,Ed,Qq,VZ
-    Cf,dr={[15537]=23231,[-5324]=9535,[12294]=-20716,[-8089]=16748,[-13371]=-20716,[-23713]=-20716},function(do_)
-        return Cf[do_+-10369]
+    until tC==-2447
+end)('\220z\170\239y\168\251','\136\21\205')]or{}
+on[(function(SK,ht)
+    local Cc,dL,rK,_m,jl,Vs,Wz,jO
+    _m,dL={[-14095]=26910,[19463]=-28805,[2157]=-11006,[-20215]=-28805,[14856]=23101},function(fo)
+        return _m[fo-14827]
     end
-    Qq=dr(5045)
+    Wz=dL(732)
     repeat
         while true do
-            if Qq==11249 then
-                UX=UX..Sr(Sz(nv(Xj,(Ed-224)+1),nv(lH,(Ed-224)%#lH+1)))
-                Qq=dr(2280)
-            elseif Qq==-7049 then
-                Ed=sG;
-                if VZ~=VZ then
-                    Qq=dr(-13344)
+            if Wz==-11006 then
+                Cc=Cc+jl;
+                rK=Cc;
+                if Cc~=Cc then
+                    Wz=dL(29683)
                 else
-                    Qq=dr(25906)
+                    Wz=dL(34290)
                 end
-            elseif Qq==-20716 then
-                return UX
-            elseif Qq==23231 then
-                if(DW>=0 and sG>VZ)or((DW<0 or DW~=DW)and sG<VZ)then
-                    Qq=dr(22663)
+            elseif Wz==-1907 then
+                rK=Cc;
+                if Vs~=Vs then
+                    Wz=23101
                 else
-                    Qq=11249
+                    Wz=dL(-5388)
                 end
-            elseif Qq==16748 then
-                sG=sG+DW;
-                Ed=sG;
-                if sG~=sG then
-                    Qq=dr(-3002)
+            elseif Wz==-28805 then
+                if(jl>=0 and Cc>Vs)or((jl<0 or jl~=jl)and Cc<Vs)then
+                    Wz=23101
                 else
-                    Qq=23231
+                    Wz=-4967
                 end
-            elseif Qq==9535 then
-                UX='';
-                DW,VZ,sG=1,(#Xj-1)+224,224
-                Qq=-7049
+            elseif Wz==-4967 then
+                jO=jO..iT(TK(ho(SK,(rK-209)+1),ho(ht,(rK-209)%#ht+1)))
+                Wz=dL(16984)
+            elseif Wz==26910 then
+                jO='';
+                Cc,Vs,jl=209,(#SK-1)+209,1
+                Wz=-1907
+            elseif Wz==23101 then
+                return jO
             end
         end
-    until Qq==2859
-end)('\205\246\233\249','\128\151')],{[(function(fm,ZV)
-    local L,Yp,zL,Fc,k,rh,TD,oT
-    k,zL={[3157]=8063,[-3837]=24416,[-25107]=-9622,[-23988]=3733,[-8050]=-9622},function(RR)
-        return k[RR-26726]
+    until Wz==9465
+end)("6\153\241\54\153\235\'",'Q\252\133')]()[(function(dn,pr)
+    local eq,W,Ko,Lg,Hz,eN,Rk,fK
+    Rk,fK={[22204]=21029,[26959]=-22457,[-13736]=-25973,[13458]=-14052,[4882]=20416,[-26016]=30611,[12214]=-14052},function(xB)
+        return Rk[xB-730]
     end
-    Fc=zL(29883)
+    eq=fK(-13006)
     repeat
         while true do
-            if Fc==3733 then
-                rh=rh+Yp;
-                TD=rh;
-                if rh~=rh then
-                    Fc=zL(1619)
+            if eq==20416 then
+                Ko=Ko+eN;
+                W=Ko;
+                if Ko~=Ko then
+                    eq=fK(12944)
                 else
-                    Fc=2262
+                    eq=30611
                 end
-            elseif Fc==-9622 then
-                return oT
-            elseif Fc==24416 then
-                oT=oT..Sr(Sz(nv(fm,(TD-178)+1),nv(ZV,(TD-178)%#ZV+1)))
-                Fc=zL(2738)
-            elseif Fc==2262 then
-                if(Yp>=0 and rh>L)or((Yp<0 or Yp~=Yp)and rh<L)then
-                    Fc=zL(18676)
+            elseif eq==-25973 then
+                Lg='';
+                Ko,Hz,eN=184,(#dn-1)+184,1
+                eq=fK(22934)
+            elseif eq==30611 then
+                if(eN>=0 and Ko>Hz)or((eN<0 or eN~=eN)and Ko<Hz)then
+                    eq=-14052
                 else
-                    Fc=zL(22889)
+                    eq=fK(27689)
                 end
-            elseif Fc==8063 then
-                oT='';
-                Yp,rh,L=1,178,(#fm-1)+178
-                Fc=6257
-            elseif Fc==6257 then
-                TD=rh;
-                if L~=L then
-                    Fc=-9622
+            elseif eq==-14052 then
+                return Lg
+            elseif eq==-22457 then
+                Lg=Lg..iT(TK(ho(dn,(W-184)+1),ho(pr,(W-184)%#pr+1)))
+                eq=fK(5612)
+            elseif eq==21029 then
+                W=Ko;
+                if Hz~=Hz then
+                    eq=fK(14188)
                 else
-                    Fc=2262
+                    eq=fK(-25286)
                 end
             end
         end
-    until Fc==-24751
-end)('\191\193\159\196\142','\235\168')]=(function(JA,wR)
-    local cI,yP,Ui,lw,Yd,BD,BF,Qp
-    cI,yP={[-7143]=-22852,[16814]=-29788,[2019]=20839,[-25434]=-22852,[515]=-22852,[22215]=23513},function(_X)
-        return cI[_X- -28582]
+    until eq==13577
+end)('^\164Fx\187\\b','\17\212\50')]=on[(function(gf,wg)
+    local n,Vo,nI,yD,Wq,bQ,IT,dQ
+    Vo,IT={[-19227]=-22092,[7194]=-24486,[-21384]=-8212,[27627]=-24486,[-16486]=4639},function(qg)
+        return Vo[qg+6414]
     end
-    BD=yP(-26563)
+    dQ=IT(-22900)
     repeat
         while true do
-            if BD==20839 then
-                lw='';
-                Yd,Ui,Qp=(#JA-1)+109,109,1
-                BD=16301
-            elseif BD==23513 then
-                Ui=Ui+Qp;
-                BF=Ui;
-                if Ui~=Ui then
-                    BD=yP(-35725)
+            if dQ==-8212 then
+                bQ=bQ+yD;
+                n=bQ;
+                if bQ~=bQ then
+                    dQ=-24486
                 else
-                    BD=4251
+                    dQ=-22092
                 end
-            elseif BD==4251 then
-                if(Qp>=0 and Ui>Yd)or((Qp<0 or Qp~=Qp)and Ui<Yd)then
-                    BD=yP(-54016)
+            elseif dQ==-22092 then
+                if(yD>=0 and bQ>Wq)or((yD<0 or yD~=yD)and bQ<Wq)then
+                    dQ=IT(780)
                 else
-                    BD=yP(-11768)
+                    dQ=-4162
                 end
-            elseif BD==-29788 then
-                lw=lw..Sr(Sz(nv(JA,(BF-109)+1),nv(wR,(BF-109)%#wR+1)))
-                BD=yP(-6367)
-            elseif BD==16301 then
-                BF=Ui;
-                if Yd~=Yd then
-                    BD=yP(-28067)
+            elseif dQ==-24486 then
+                return nI
+            elseif dQ==-14321 then
+                n=bQ;
+                if Wq~=Wq then
+                    dQ=IT(21213)
                 else
-                    BD=4251
+                    dQ=IT(-25641)
                 end
-            elseif BD==-22852 then
-                return lw
+            elseif dQ==4639 then
+                nI='';
+                Wq,yD,bQ=(#gf-1)+133,1,133
+                dQ=-14321
+            elseif dQ==-4162 then
+                nI=nI..iT(TK(ho(gf,(n-133)+1),ho(wg,(n-133)%#wg+1)))
+                dQ=IT(-27798)
             end
         end
-    until BD==-9963
-end)('\216\210!<y\174\221\235\137\244\232\220m\24y\173\204\167\173\245\249','\156\179M[\22\192\188\203\200\129'),[(function(BP,qj)
-    local tR,dl,aw,LO,Lh,wT,oy,yy
-    LO,yy={[-22344]=9787,[-10039]=-18331,[-21145]=-7776},function(KQ)
-        return LO[KQ- -21081]
+    until dQ==17613
+end)(',j\249,j\227=','K\15\141')]()[(function(Up,HM)
+    local Ev,IS,pQ,po,D,gN,oD,yc
+    gN,po={[-29202]=-12164,[-2420]=22699,[-7075]=-30453,[31116]=27260},function(pI)
+        return gN[pI+10811]
     end
-    oy=yy(-43425)
+    IS=po(20305)
     repeat
         while true do
-            if oy==-7776 then
-                tR=tR+aw;
-                Lh=tR;
-                if tR~=tR then
-                    oy=-6294
+            if IS==22699 then
+                oD=D;
+                if yc~=yc then
+                    IS=-7375
                 else
-                    oy=yy(-31120)
+                    IS=24726
                 end
-            elseif oy==17860 then
-                Lh=tR;
-                if wT~=wT then
-                    oy=-6294
+            elseif IS==-12164 then
+                Ev=Ev..iT(TK(ho(Up,(oD-116)+1),ho(HM,(oD-116)%#HM+1)))
+                IS=po(-17886)
+            elseif IS==-7375 then
+                return Ev
+            elseif IS==27260 then
+                Ev='';
+                D,yc,pQ=116,(#Up-1)+116,1
+                IS=po(-13231)
+            elseif IS==-30453 then
+                D=D+pQ;
+                oD=D;
+                if D~=D then
+                    IS=-7375
                 else
-                    oy=-18331
+                    IS=24726
                 end
-            elseif oy==-6294 then
-                return dl
-            elseif oy==-18331 then
-                if(aw>=0 and tR>wT)or((aw<0 or aw~=aw)and tR<wT)then
-                    oy=-6294
+            elseif IS==24726 then
+                if(pQ>=0 and D>yc)or((pQ<0 or pQ~=pQ)and D<yc)then
+                    IS=-7375
                 else
-                    oy=-19601
+                    IS=po(-40013)
                 end
-            elseif oy==-19601 then
-                dl=dl..Sr(Sz(nv(BP,(Lh-42)+1),nv(qj,(Lh-42)%#qj+1)))
-                oy=yy(-42226)
-            elseif oy==9787 then
-                dl='';
-                aw,wT,tR=1,(#BP-1)+42,42
-                oy=17860
             end
         end
-    until oy==-9821
-end)('\173x\151l\158','\251\25')]=A[(function(ZA,kh)
-    local mq,OC,kO,vd,Kz,O,XM,e
-    vd,e={[-27006]=-18034,[-20738]=26811,[-331]=6983,[-1818]=-2604,[-10324]=2194,[27523]=3985},function(gf)
-        return vd[gf- -12665]
+    until IS==650
+end)('\168\218\251\142\197\225\148','\231\170\143')]or{}
+local dw=Nl[(function(Pl,qA)
+    local dj,LY,qH,RK,CJ,zT,dU,Cz
+    qH,LY={[16609]=7330,[-2492]=-20538,[-29502]=-20158,[29709]=422},function(o)
+        return qH[o- -925]
     end
-    Kz=e(-33403)
+    dU=LY(15684)
     repeat
         while true do
-            if Kz==2194 then
-                O=kO;
-                if mq~=mq then
-                    Kz=6983
+            if dU==-20538 then
+                if(zT>=0 and RK>Cz)or((zT<0 or zT~=zT)and RK<Cz)then
+                    dU=-27403
                 else
-                    Kz=3985
+                    dU=-1166
                 end
-            elseif Kz==-2604 then
-                OC=OC..Sr(Sz(nv(ZA,(O-247)+1),nv(kh,(O-247)%#kh+1)))
-                Kz=e(-39671)
-            elseif Kz==6983 then
-                return OC
-            elseif Kz==26811 then
-                OC='';
-                XM,mq,kO=1,(#ZA-1)+247,247
-                Kz=e(-22989)
-            elseif Kz==-18034 then
-                kO=kO+XM;
-                O=kO;
-                if kO~=kO then
-                    Kz=e(-12996)
+            elseif dU==-27403 then
+                return dj
+            elseif dU==-20158 then
+                RK=RK+zT;
+                CJ=RK;
+                if RK~=RK then
+                    dU=-27403
                 else
-                    Kz=e(14858)
+                    dU=-20538
                 end
-            elseif Kz==3985 then
-                if(XM>=0 and kO>mq)or((XM<0 or XM~=XM)and kO<mq)then
-                    Kz=6983
+            elseif dU==-1166 then
+                dj=dj..iT(TK(ho(Pl,(CJ-79)+1),ho(qA,(CJ-79)%#qA+1)))
+                dU=LY(-30427)
+            elseif dU==7330 then
+                dj='';
+                Cz,RK,zT=(#Pl-1)+79,79,1
+                dU=LY(28784)
+            elseif dU==422 then
+                CJ=RK;
+                if Cz~=Cz then
+                    dU=-27403
                 else
-                    Kz=e(-14483)
+                    dU=LY(-3417)
                 end
             end
         end
-    until Kz==-18851
-end)('2\135\96\50\135z#','U\226\20')]()[(function(pa,xx)
-    local jc,vK,Da,vv,Kp,CL,zM,ka
-    Da,CL={[4813]=-23135,[-14397]=-11201,[12383]=5641,[25295]=-15761,[-7348]=-20639,[-21419]=-23135,[-7077]=-23135},function(mH)
-        return Da[mH+4977]
+    until dU==8237
+end)('\185\1\31\132\51\6\173\26\20\129(\20','\250sz\229Gc')](Nl,{[(function(JN,LF)
+    local yA,yr,LR,il,sX,HF,XL,ky
+    sX,yr={[3020]=-25468,[-6571]=-19953,[-10259]=-25468,[14548]=-25468,[-20058]=-31478,[-28567]=23143,[9428]=23143},function(Qc)
+        return sX[Qc+2531]
     end
-    jc=CL(-12325)
+    il=yr(-22589)
     repeat
         while true do
-            if jc==-11201 then
-                ka=ka+vv;
-                zM=ka;
-                if ka~=ka then
-                    jc=CL(-26396)
+            if il==914 then
+                XL=HF;
+                if ky~=ky then
+                    il=yr(489)
                 else
-                    jc=-15761
+                    il=yr(6897)
                 end
-            elseif jc==-20639 then
-                vK='';
-                ka,vv,Kp=136,1,(#pa-1)+136
-                jc=6467
-            elseif jc==5641 then
-                vK=vK..Sr(Sz(nv(pa,(zM-136)+1),nv(xx,(zM-136)%#xx+1)))
-                jc=CL(-19374)
-            elseif jc==-23135 then
-                return vK
-            elseif jc==-15761 then
-                if(vv>=0 and ka>Kp)or((vv<0 or vv~=vv)and ka<Kp)then
-                    jc=CL(-164)
+            elseif il==-25468 then
+                return yA
+            elseif il==-31478 then
+                yA='';
+                HF,LR,ky=79,1,(#JN-1)+79
+                il=914
+            elseif il==23143 then
+                if(LR>=0 and HF>ky)or((LR<0 or LR~=LR)and HF<ky)then
+                    il=yr(12017)
                 else
-                    jc=CL(7406)
+                    il=-28586
                 end
-            elseif jc==6467 then
-                zM=ka;
-                if Kp~=Kp then
-                    jc=CL(-12054)
+            elseif il==-19953 then
+                HF=HF+LR;
+                XL=HF;
+                if HF~=HF then
+                    il=yr(-12790)
                 else
-                    jc=CL(20318)
+                    il=yr(-31098)
                 end
+            elseif il==-28586 then
+                yA=yA..iT(TK(ho(JN,(XL-79)+1),ho(LF,(XL-79)%#LF+1)))
+                il=yr(-9102)
             end
         end
-    until jc==-12650
-end)('?\210\132\f\209\134\24','k\189\227')][(function(OG,gV)
-    local Gv,EU,Ps,YK,UY,bV,Js,MG
-    bV,Ps={[17960]=11442,[-30150]=3547,[13624]=-10407,[-1136]=-24714},function(fG)
-        return bV[fG-15594]
+    until il==16802
+end)('0\"t\18(j','vM\24')]=(function(GQ,dH)
+    local NP,Wv,Cy,Nx,fz,lw,Wm,qt
+    Nx,Wm={[-10111]=-7186,[30590]=-7186,[15576]=7780,[-6492]=-21415},function(fs)
+        return Nx[fs- -8764]
     end
-    EU=Ps(33554)
+    lw=Wm(6812)
     repeat
         while true do
-            if EU==11442 then
-                UY='';
-                MG,Js,YK=115,(#OG-1)+115,1
-                EU=4379
-            elseif EU==4379 then
-                Gv=MG;
-                if Js~=Js then
-                    EU=3547
+            if lw==27127 then
+                fz=Cy;
+                if NP~=NP then
+                    lw=-4138
                 else
-                    EU=Ps(14458)
+                    lw=Wm(-18875)
                 end
-            elseif EU==-24714 then
-                if(YK>=0 and MG>Js)or((YK<0 or YK~=YK)and MG<Js)then
-                    EU=Ps(-14556)
+            elseif lw==-21415 then
+                Cy=Cy+qt;
+                fz=Cy;
+                if Cy~=Cy then
+                    lw=-4138
                 else
-                    EU=-6274
+                    lw=Wm(21826)
                 end
-            elseif EU==-6274 then
-                UY=UY..Sr(Sz(nv(OG,(Gv-115)+1),nv(gV,(Gv-115)%#gV+1)))
-                EU=Ps(29218)
-            elseif EU==-10407 then
-                MG=MG+YK;
-                Gv=MG;
-                if MG~=MG then
-                    EU=3547
+            elseif lw==7780 then
+                Wv='';
+                NP,Cy,qt=(#GQ-1)+11,11,1
+                lw=27127
+            elseif lw==-7186 then
+                if(qt>=0 and Cy>NP)or((qt<0 or qt~=qt)and Cy<NP)then
+                    lw=-4138
                 else
-                    EU=-24714
+                    lw=30573
                 end
-            elseif EU==3547 then
-                return UY
+            elseif lw==30573 then
+                Wv=Wv..iT(TK(ho(GQ,(fz-11)+1),ho(dH,(fz-11)%#dH+1)))
+                lw=Wm(-15256)
+            elseif lw==-4138 then
+                return Wv
             end
         end
-    until EU==31902
-end)('+I\182\18\241\1I\155\0\234\0','o(\218u\158')]or false,[(function(Ni,VG)
-    local UN,sD,hB,Mf,WK,Vp,Hm,US
-    Vp,WK={[31448]=-21248,[264]=-28867,[26152]=-21248,[19125]=-28867,[-13086]=834,[-23084]=28156,[-2405]=-3222},function(HS)
-        return Vp[HS+-10967]
+    until lw==-19648
+end)('\30\205d\162\184\170@\0\221u\190\169\164\19','S\190\a\215\217\208\96'),[(function(FQ,nf)
+    local HO,WQ,su,Ws,UQ,sR,Ix,ey
+    HO,Ws={[-17624]=-1855,[7165]=19292,[28554]=6582,[26873]=11705,[-16258]=-19351,[28257]=6582},function(jn)
+        return HO[jn- -31526]
     end
-    sD=WK(-2119)
+    sR=Ws(-47784)
     repeat
         while true do
-            if sD==-28867 then
-                return US
-            elseif sD==28156 then
-                US=US..Sr(Sz(nv(Ni,(hB-89)+1),nv(VG,(hB-89)%#VG+1)))
-                sD=WK(8562)
-            elseif sD==834 then
-                US='';
-                Mf,UN,Hm=1,89,(#Ni-1)+89
-                sD=-12705
-            elseif sD==-3222 then
-                UN=UN+Mf;
-                hB=UN;
-                if UN~=UN then
-                    sD=WK(30092)
+            if sR==6582 then
+                return su
+            elseif sR==11705 then
+                if(UQ>=0 and WQ>ey)or((UQ<0 or UQ~=UQ)and WQ<ey)then
+                    sR=Ws(-3269)
                 else
-                    sD=WK(37119)
+                    sR=Ws(-24361)
                 end
-            elseif sD==-12705 then
-                hB=UN;
-                if Hm~=Hm then
-                    sD=-28867
+            elseif sR==-1855 then
+                WQ=WQ+UQ;
+                Ix=WQ;
+                if WQ~=WQ then
+                    sR=6582
                 else
-                    sD=WK(42415)
+                    sR=11705
                 end
-            elseif sD==-21248 then
-                if(Mf>=0 and UN>Hm)or((Mf<0 or Mf~=Mf)and UN<Hm)then
-                    sD=WK(11231)
+            elseif sR==-19351 then
+                su='';
+                WQ,ey,UQ=231,(#FQ-1)+231,1
+                sR=-2683
+            elseif sR==-2683 then
+                Ix=WQ;
+                if ey~=ey then
+                    sR=Ws(-2972)
                 else
-                    sD=WK(-12117)
+                    sR=Ws(-4653)
                 end
+            elseif sR==19292 then
+                su=su..iT(TK(ho(FQ,(Ix-231)+1),ho(nf,(Ix-231)%#nf+1)))
+                sR=Ws(-49150)
             end
         end
-    until sD==-22545
-end)('\228\225\201a\197\225\198f','\167\128\165\r')]=function(p)
-    local Tr,IN,Kj,Ju,zk
-    Ju,zk={[-21407]=26851,[-8371]=21950,[-24434]=5648,[-16646]=21950,[577]=21950,[-17331]=-26146,[-24257]=-20395,[-3084]=-11822,[24145]=5648,[17218]=4220,[-2500]=21950,[-7985]=5648,[25353]=-13623},function(kn)
-        return Ju[kn- -9457]
+    until sR==-32006
+end)('\234\96\202e\219','\190\t')]=(function(fh,tc)
+    local Jo,mY,RC,MA,R,Be,lg,oX
+    Be,RC={[-18427]=20358,[-28843]=-17836,[-22769]=-22620,[-6203]=-18810,[-6763]=-17836,[-23281]=-13027},function(BZ)
+        return Be[BZ-29285]
     end
-    Kj=zk(14688)
+    MA=RC(6516)
     repeat
         while true do
-            if Kj==-1.0616818644303599e-05*-1140454632 then
-                Tr=A[Tr]
-                Kj=zk(15896)
-            elseif Kj==556367713+-556345763 then
-                Kj=zk(-26788);
-                break;
-            elseif Kj==-6.5097778716931141e-06*-925377197 then
-                IN='SU\201\20\243\20Q'
-                Kj=1.47675269707038e-06*1503975584
-            elseif Kj==-34967900820530/1714533014 then
-                Tr='\16:\164d\159q%6\17\168x\148{?2'
-                Kj=946120264-946114240
-            elseif Kj==-1871351743+1871338120 then
-                Tr=Tr()
-                Kj=zk(-26103)
-            elseif Kj==2046987216-2046984995 then
-                Tr=(function(CE,oz)
-                    local Jg,jo,jD,pu,Eg,Og,KI,Cm
-                    Eg,Cm={[-983]=-21646,[25783]=-13616,[18578]=9013},function(wc)
-                        return Eg[wc+6542]
-                    end
-                    jo=Cm(-7525)
-                    repeat
-                        while true do
-                            if jo==-21646 then
-                                Og='';
-                                KI,Jg,jD=1,52,(#CE-1)+52
-                                jo=14354
-                            elseif jo==30803 then
-                                if(KI>=0 and Jg>jD)or((KI<0 or KI~=KI)and Jg<jD)then
-                                    jo=Cm(19241)
-                                else
-                                    jo=3988
-                                end
-                            elseif jo==3988 then
-                                Og=Og..Sr(Sz(nv(CE,(pu-52)+1),nv(oz,(pu-52)%#oz+1)))
-                                jo=Cm(12036)
-                            elseif jo==9013 then
-                                Jg=Jg+KI;
-                                pu=Jg;
-                                if Jg~=Jg then
-                                    jo=-13616
-                                else
-                                    jo=30803
-                                end
-                            elseif jo==14354 then
-                                pu=Jg;
-                                if jD~=jD then
-                                    jo=-13616
-                                else
-                                    jo=30803
-                                end
-                            elseif jo==-13616 then
-                                return Og
-                            end
-                        end
-                    until jo==17173
-                end)(Tr,IN)
-                Kj=4.7941566974630392e-05*252557452
-            elseif Kj==6.9168765184912143e-06*816553539 then
-                A[(function(zG,rq)
-                    local mu,xm,SH,IT,TS,Bw,mC,vH
-                    mC,IT={[-5045]=28185,[31692]=28185,[-31892]=28185,[3754]=19411,[-28572]=-1674,[-16569]=-1741},function(LH)
-                        return mC[LH+-17318]
-                    end
-                    SH=IT(-11254)
-                    repeat
-                        while true do
-                            if SH==-1674 then
-                                Bw='';
-                                vH,mu,TS=157,(#zG-1)+157,1
-                                SH=-11691
-                            elseif SH==22009 then
-                                Bw=Bw..Sr(Sz(nv(zG,(xm-157)+1),nv(rq,(xm-157)%#rq+1)))
-                                SH=IT(749)
-                            elseif SH==19411 then
-                                if(TS>=0 and vH>mu)or((TS<0 or TS~=TS)and vH<mu)then
-                                    SH=IT(49010)
-                                else
-                                    SH=22009
-                                end
-                            elseif SH==28185 then
-                                return Bw
-                            elseif SH==-1741 then
-                                vH=vH+TS;
-                                xm=vH;
-                                if vH~=vH then
-                                    SH=IT(-14574)
-                                else
-                                    SH=19411
-                                end
-                            elseif SH==-11691 then
-                                xm=vH;
-                                if mu~=mu then
-                                    SH=IT(12273)
-                                else
-                                    SH=IT(21072)
-                                end
-                            end
-                        end
-                    until SH==16418
-                end)('\145\250\170\145\250\176\128','\246\159\222')]()[(function(q,ME)
-                    local nh,QE,Lj,rx,OM,Mr,Xo,bo
-                    bo,OM={[20179]=-91,[17996]=-91,[32087]=-25017,[-2461]=26102,[28949]=1076,[-10633]=26102,[30583]=32098,[-25032]=-28024},function(Vw)
-                        return bo[Vw-12373]
-                    end
-                    Lj=OM(-12659)
-                    repeat
-                        while true do
-                            if Lj==-28024 then
-                                Mr='';
-                                Xo,QE,nh=106,1,(#q-1)+106
-                                Lj=OM(44460)
-                            elseif Lj==-91 then
-                                return Mr
-                            elseif Lj==-25017 then
-                                rx=Xo;
-                                if nh~=nh then
-                                    Lj=OM(32552)
-                                else
-                                    Lj=OM(9912)
-                                end
-                            elseif Lj==32098 then
-                                Xo=Xo+QE;
-                                rx=Xo;
-                                if Xo~=Xo then
-                                    Lj=OM(30369)
-                                else
-                                    Lj=OM(1740)
-                                end
-                            elseif Lj==26102 then
-                                if(QE>=0 and Xo>nh)or((QE<0 or QE~=QE)and Xo<nh)then
-                                    Lj=-91
-                                else
-                                    Lj=OM(41322)
-                                end
-                            elseif Lj==1076 then
-                                Mr=Mr..Sr(Sz(nv(q,(rx-106)+1),nv(ME,(rx-106)%#ME+1)))
-                                Lj=OM(42956)
-                            end
-                        end
-                    until Lj==-32229
-                end)('d^\214W]\212C','0\49\177')][(function(yr,es)
-                    local ku,Fb,IF,kY,ff,HR,Mz,oG
-                    ff,HR={[-11092]=13089,[30386]=26427,[-7676]=26427,[-17075]=-30106,[-19508]=16545,[25415]=-28996},function(kd)
-                        return ff[kd+29025]
-                    end
-                    kY=HR(-3610)
-                    repeat
-                        while true do
-                            if kY==-28996 then
-                                Mz='';
-                                oG,Fb,IF=(#yr-1)+45,45,1
-                                kY=HR(-48533)
-                            elseif kY==-30106 then
-                                Fb=Fb+IF;
-                                ku=Fb;
-                                if Fb~=Fb then
-                                    kY=26427
-                                else
-                                    kY=HR(-40117)
-                                end
-                            elseif kY==26427 then
-                                return Mz
-                            elseif kY==13089 then
-                                if(IF>=0 and Fb>oG)or((IF<0 or IF~=IF)and Fb<oG)then
-                                    kY=HR(-36701)
-                                else
-                                    kY=31397
-                                end
-                            elseif kY==16545 then
-                                ku=Fb;
-                                if oG~=oG then
-                                    kY=HR(1361)
-                                else
-                                    kY=13089
-                                end
-                            elseif kY==31397 then
-                                Mz=Mz..Sr(Sz(nv(yr,(ku-45)+1),nv(es,(ku-45)%#es+1)))
-                                kY=HR(-46100)
-                            end
-                        end
-                    until kY==-21912
-                end)('\15\187y\216\157%\187T\202\134$','K\218\21\191\242')]=p;
-                if p then
-                    Kj=zk(-33714)
-                    break
+            if MA==-13027 then
+                if(R>=0 and mY>oX)or((R<0 or R~=R)and mY<oX)then
+                    MA=-17836
+                else
+                    MA=-7973
                 end
-                Kj=zk(-11957)
-            end
-        end
-    until Kj==1.6471697048858662e-05*-1587328854
-end})
-do
-    local Oq=A[(function(gI,wZ)
-        local gj,kp,wE,Yk,lS,Ql,NS,jX
-        wE,NS={[-7082]=17892,[-24883]=21970,[9122]=-28270,[-12454]=-10543,[-7114]=-22627},function(Uc)
-            return wE[Uc+23780]
-        end
-        Ql=NS(-30894)
-        repeat
-            while true do
-                if Ql==17892 then
-                    return jX
-                elseif Ql==-15997 then
-                    if(gj>=0 and lS>Yk)or((gj<0 or gj~=gj)and lS<Yk)then
-                        Ql=17892
-                    else
-                        Ql=NS(-14658)
-                    end
-                elseif Ql==-28270 then
-                    jX=jX..Sr(Sz(nv(gI,(kp-48)+1),nv(wZ,(kp-48)%#wZ+1)))
-                    Ql=NS(-48663)
-                elseif Ql==-10543 then
-                    kp=lS;
-                    if Yk~=Yk then
-                        Ql=NS(-30862)
-                    else
-                        Ql=-15997
-                    end
-                elseif Ql==-22627 then
-                    jX='';
-                    lS,gj,Yk=48,1,(#gI-1)+48
-                    Ql=NS(-36234)
-                elseif Ql==21970 then
-                    lS=lS+gj;
-                    kp=lS;
-                    if lS~=lS then
-                        Ql=17892
-                    else
-                        Ql=-15997
-                    end
+            elseif MA==-7973 then
+                lg=lg..iT(TK(ho(fh,(Jo-58)+1),ho(tc,(Jo-58)%#tc+1)))
+                MA=RC(23082)
+            elseif MA==-17836 then
+                return lg
+            elseif MA==-22620 then
+                lg='';
+                R,mY,oX=1,58,(#fh-1)+58
+                MA=RC(10858)
+            elseif MA==-18810 then
+                mY=mY+R;
+                Jo=mY;
+                if mY~=mY then
+                    MA=RC(442)
+                else
+                    MA=RC(6004)
+                end
+            elseif MA==20358 then
+                Jo=mY;
+                if oX~=oX then
+                    MA=RC(22522)
+                else
+                    MA=-13027
                 end
             end
-        until Ql==28292
-    end)('\175\238\165\234','\200\143')][(function(Mp,XF)
-        local xF,_B,mj,oJ,jt,Fj,nK,tx
-        oJ,tx={[29993]=16243,[-17320]=-21790,[-31168]=-21790,[-2976]=-4671},function(MS)
-            return oJ[MS+11942]
         end
-        mj=tx(-14918)
-        repeat
-            while true do
-                if mj==19516 then
-                    xF=xF..Sr(Sz(nv(Mp,(jt-202)+1),nv(XF,(jt-202)%#XF+1)))
-                    mj=tx(18051)
-                elseif mj==23144 then
-                    jt=Fj;
-                    if _B~=_B then
-                        mj=tx(-29262)
-                    else
-                        mj=-21200
-                    end
-                elseif mj==16243 then
-                    Fj=Fj+nK;
-                    jt=Fj;
-                    if Fj~=Fj then
-                        mj=tx(-43110)
-                    else
-                        mj=-21200
-                    end
-                elseif mj==-21200 then
-                    if(nK>=0 and Fj>_B)or((nK<0 or nK~=nK)and Fj<_B)then
-                        mj=-21790
-                    else
-                        mj=19516
-                    end
-                elseif mj==-21790 then
-                    return xF
-                elseif mj==-4671 then
-                    xF='';
-                    _B,nK,Fj=(#Mp-1)+202,1,202
-                    mj=23144
-                end
-            end
-        until mj==21610
-    end)('\164\201\145!k.\162\251\147\200\178\57m?\162\232\147','\246\172\225M\2M\195\143')][(function(FZ,pw)
-        local Qt,wh,MK,Di,cz,EM,tX,mh
-        MK,Qt={[19664]=32325,[8783]=18577,[4421]=18577,[-16687]=-16281,[4672]=-22490,[2763]=-16281},function(vW)
-            return MK[vW+24298]
-        end
-        mh=Qt(-19626)
-        repeat
-            while true do
-                if mh==11737 then
-                    cz=tX;
-                    if EM~=EM then
-                        mh=Qt(-19877)
-                    else
-                        mh=Qt(-21535)
-                    end
-                elseif mh==-4150 then
-                    Di=Di..Sr(Sz(nv(FZ,(cz-69)+1),nv(pw,(cz-69)%#pw+1)))
-                    mh=Qt(-4634)
-                elseif mh==-16281 then
-                    if(wh>=0 and tX>EM)or((wh<0 or wh~=wh)and tX<EM)then
-                        mh=18577
-                    else
-                        mh=-4150
-                    end
-                elseif mh==18577 then
-                    return Di
-                elseif mh==-22490 then
-                    Di='';
-                    EM,wh,tX=(#FZ-1)+69,1,69
-                    mh=11737
-                elseif mh==32325 then
-                    tX=tX+wh;
-                    cz=tX;
-                    if tX~=tX then
-                        mh=Qt(-15515)
-                    else
-                        mh=Qt(-40985)
-                    end
-                end
-            end
-        until mh==14290
-    end)('\24\249\131 \250\130&','U\150\231')][(function(BA,yb)
-        local MM,eG,tN,ik,io,Ol,qq,se
-        Ol,qq={[17750]=23701,[14113]=-2640},function(LG)
-            return Ol[LG+-15970]
-        end
-        tN=qq(33720)
-        repeat
-            while true do
-                if tN==-2640 then
-                    ik=ik+MM;
-                    se=ik;
-                    if ik~=ik then
-                        tN=11314
-                    else
-                        tN=10947
-                    end
-                elseif tN==15195 then
-                    eG=eG..Sr(Sz(nv(BA,(se-245)+1),nv(yb,(se-245)%#yb+1)))
-                    tN=qq(30083)
-                elseif tN==11314 then
-                    return eG
-                elseif tN==4099 then
-                    se=ik;
-                    if io~=io then
-                        tN=11314
-                    else
-                        tN=10947
-                    end
-                elseif tN==23701 then
-                    eG='';
-                    io,MM,ik=(#BA-1)+245,1,245
-                    tN=4099
-                elseif tN==10947 then
-                    if(MM>=0 and ik>io)or((MM<0 or MM~=MM)and ik<io)then
-                        tN=11314
-                    else
-                        tN=15195
-                    end
-                end
-            end
-        until tN==-9223
-    end)('\138I\160M\190','\205(')][(function(nQ,eg)
-        local MN,Mt,Iq,Ep,gC,sm,xz,ef
-        Ep,xz={[23637]=-18957,[-12012]=1549,[8053]=-18957,[-16353]=25647},function(xr)
-            return Ep[xr-25050]
-        end
-        Mt=xz(8697)
-        repeat
-            while true do
-                if Mt==-1025 then
-                    return ef
-                elseif Mt==25647 then
-                    ef='';
-                    Iq,MN,sm=1,64,(#nQ-1)+64
-                    Mt=-17674
-                elseif Mt==-18957 then
-                    if(Iq>=0 and MN>sm)or((Iq<0 or Iq~=Iq)and MN<sm)then
-                        Mt=-1025
-                    else
-                        Mt=17616
-                    end
-                elseif Mt==-17674 then
-                    gC=MN;
-                    if sm~=sm then
-                        Mt=-1025
-                    else
-                        Mt=xz(33103)
-                    end
-                elseif Mt==17616 then
-                    ef=ef..Sr(Sz(nv(nQ,(gC-64)+1),nv(eg,(gC-64)%#eg+1)))
-                    Mt=xz(13038)
-                elseif Mt==1549 then
-                    MN=MN+Iq;
-                    gC=MN;
-                    if MN~=MN then
-                        Mt=-1025
-                    else
-                        Mt=xz(48687)
-                    end
-                end
-            end
-        until Mt==-5748
-    end)('M\145\22\168\51Nh\179\22\166\57N}','\t\240z\207\\ ')]
-    A[(function(mx,xZ)
-        local Sm,M,iC,NM,pl,oq,tn,qR
-        M,Sm={[20270]=-26265,[23470]=7148,[30314]=32602,[-1790]=23753,[14572]=23753},function(wN)
-            return M[wN+25582]
-        end
-        tn=Sm(-5312)
-        repeat
-            while true do
-                if tn==23753 then
-                    return iC
-                elseif tn==7148 then
-                    iC=iC..Sr(Sz(nv(mx,(qR-188)+1),nv(xZ,(qR-188)%#xZ+1)))
-                    tn=Sm(4732)
-                elseif tn==-8608 then
-                    if(pl>=0 and oq>NM)or((pl<0 or pl~=pl)and oq<NM)then
-                        tn=Sm(-11010)
-                    else
-                        tn=Sm(-2112)
-                    end
-                elseif tn==-26265 then
-                    iC='';
-                    NM,pl,oq=(#mx-1)+188,1,188
-                    tn=30969
-                elseif tn==30969 then
-                    qR=oq;
-                    if NM~=NM then
-                        tn=Sm(-27372)
-                    else
-                        tn=-8608
-                    end
-                elseif tn==32602 then
-                    oq=oq+pl;
-                    qR=oq;
-                    if oq~=oq then
-                        tn=23753
-                    else
-                        tn=-8608
-                    end
-                end
-            end
-        until tn==-6188
-    end)(',\212\141,\139\175\183\n\255\129\48\128\165\173\14','o\187\224\\\231\202\195')]=function()
-        local Gh,Ff,Wr,df,Mj,Cj,Wv,Gh,EX,Ym,fY,Zb,yt,fu,fY
-        yt,EX={[-23828]=-4890,[25342]=22571,[-8022]=12732,[-1531]=-12015,[23289]=-2248,[-26481]=-15434,[-28123]=-2248,[-913]=-2248,[-15779]=-2248,[-8803]=29033,[30917]=-2248,[23924]=-26398,[6635]=-19643,[-30306]=4639,[689]=-32600,[-23606]=16167,[-25273]=9759,[-6871]=12117,[-419]=30199,[-31295]=7754,[-4027]=-23303,[-31745]=-29570,[-26401]=-12279,[-16346]=18245,[14040]=-2248,[-19252]=30199,[-7108]=-3761,[-24625]=-19643,[-10014]=27255,[-9718]=20996,[19808]=24923,[7624]=-11008,[13040]=-15434,[8985]=9759,[18157]=-23303,[-22415]=-2248,[-16332]=-8166,[2932]=22571,[-17432]=-25611,[1653]=-32420,[-14794]=-15308,[-16235]=-12015,[1378]=-2248,[-17505]=-27000,[-19685]=-2248,[32762]=-9605,[18978]=2912,[-11787]=-11608,[27850]=-2248,[28530]=-2248,[2870]=31511,[-2574]=-6262,[28809]=-15434,[18057]=-2248,[-31418]=-19643,[-11952]=-15434,[31269]=-11608,[-9907]=-25611,[5048]=4479,[26873]=-31119,[9400]=-2248,[19817]=-8676,[6660]=-636,[-13815]=16167,[-13446]=18245},function(Rn)
-            return yt[Rn+-7370]
-        end
-        Wr=EX(-23925)
-        repeat
-            while true do
-                if Wr==-1219620698- -1219642053 then
-                    Ff=Ff(Gh,Ym,fu)
-                    Wr=EX(-8865)
-                elseif Wr==170131702+-170162085 then
-                    Ym=A[zt(Ym[1],1,Ym[2])]
-                    Wr=EX(14030)
-                elseif Wr==-1.4783349388708746e-05*-1845048729 then
-                    Ff=A[Ff]
-                    Wr=1390083170+-1390081269
-                elseif Wr==-26580435544135/-843528785 then
-                    Ff=A[zt(Ff[1],1,Ff[2])]
-                    Wr=1477520383-1477534321
-                elseif Wr==284949447-284950083 then
-                    Ym=Af(Ym())
-                    Wr=EX(8059)
-                elseif Wr==1132832466-1132831843 then
-                    fu=-980644359
-                    Wr=1.3380325321412913e-05*-821803636
-                elseif Wr==-2645759894106/-271109734 then
-                    Wr=EX(40132);
-                    break;
-                elseif Wr==-1045737688+1045726692 then
-                    Ym=Ym+fu
-                    Wr=25948237417584/-2009621857
-                elseif Wr==-1001760518+1001766751 then
-                    Mj=-1759796542
-                    Wr=EX(-24375)
-                elseif Wr==575621145+-575608413 then
-                    if A[(function(bw,HU)
-                        local qD,DB,GS,PN,CR,GR,Cv,AW
-                        PN,AW={[-31757]=-13670,[-27674]=-12494,[-13360]=-11408,[21846]=-24600,[2666]=-30308,[9228]=-12494,[-9038]=-14154},function(tk)
-                            return PN[tk+-25577]
-                        end
-                        DB=AW(12217)
-                        repeat
-                            while true do
-                                if DB==-13670 then
-                                    qD=qD+GR;
-                                    CR=qD;
-                                    if qD~=qD then
-                                        DB=AW(34805)
-                                    else
-                                        DB=AW(47423)
-                                    end
-                                elseif DB==-24600 then
-                                    if(GR>=0 and qD>Cv)or((GR<0 or GR~=GR)and qD<Cv)then
-                                        DB=AW(-2097)
-                                    else
-                                        DB=AW(16539)
-                                    end
-                                elseif DB==-30308 then
-                                    CR=qD;
-                                    if Cv~=Cv then
-                                        DB=-12494
-                                    else
-                                        DB=-24600
-                                    end
-                                elseif DB==-12494 then
-                                    return GS
-                                elseif DB==-14154 then
-                                    GS=GS..Sr(Sz(nv(bw,(CR-61)+1),nv(HU,(CR-61)%#HU+1)))
-                                    DB=AW(-6180)
-                                elseif DB==-11408 then
-                                    GS='';
-                                    qD,Cv,GR=61,(#bw-1)+61,1
-                                    DB=AW(28243)
-                                end
-                            end
-                        until DB==-18984
-                    end)('i^CxHU',"\29\'3")](Gh)==(function(yx,Tv)
-                        local NK,yG,bv,zl,Sl,nd,AS,Fi
-                        AS,Fi={[-8808]=-18377,[15165]=-14568,[7379]=-31006,[-24108]=-13198},function(Yo)
-                            return AS[Yo+4190]
-                        end
-                        nd=Fi(-28298)
-                        repeat
-                            while true do
-                                if nd==-31006 then
-                                    NK=NK+yG;
-                                    zl=NK;
-                                    if NK~=NK then
-                                        nd=Fi(-12998)
-                                    else
-                                        nd=-14568
-                                    end
-                                elseif nd==-13198 then
-                                    Sl='';
-                                    NK,bv,yG=135,(#yx-1)+135,1
-                                    nd=-19058
-                                elseif nd==20329 then
-                                    Sl=Sl..Sr(Sz(nv(yx,(zl-135)+1),nv(Tv,(zl-135)%#Tv+1)))
-                                    nd=Fi(3189)
-                                elseif nd==-18377 then
-                                    return Sl
-                                elseif nd==-14568 then
-                                    if(yG>=0 and NK>bv)or((yG<0 or yG~=yG)and NK<bv)then
-                                        nd=-18377
-                                    else
-                                        nd=20329
-                                    end
-                                elseif nd==-19058 then
-                                    zl=NK;
-                                    if bv~=bv then
-                                        nd=-18377
-                                    else
-                                        nd=Fi(10975)
-                                    end
-                                end
-                            end
-                        until nd==-19309
-                    end)('\143t9-\157h8 ','\233\1WN')and A[(function(nX,qt)
-                        local Sd,kE,SL,VL,zw,uI,uB,vX
-                        SL,zw={[23006]=18712,[-25179]=16523,[-15281]=26839,[8043]=26839,[-17413]=26839},function(kb)
-                            return SL[kb-2931]
-                        end
-                        kE=zw(-22248)
-                        repeat
-                            while true do
-                                if kE==20458 then
-                                    uI=uI..Sr(Sz(nv(nX,(Sd-40)+1),nv(qt,(Sd-40)%#qt+1)))
-                                    kE=zw(25937)
-                                elseif kE==18712 then
-                                    uB=uB+vX;
-                                    Sd=uB;
-                                    if uB~=uB then
-                                        kE=zw(10974)
-                                    else
-                                        kE=-27096
-                                    end
-                                elseif kE==-2562 then
-                                    Sd=uB;
-                                    if VL~=VL then
-                                        kE=zw(-14482)
-                                    else
-                                        kE=-27096
-                                    end
-                                elseif kE==16523 then
-                                    uI='';
-                                    vX,VL,uB=1,(#nX-1)+40,40
-                                    kE=-2562
-                                elseif kE==26839 then
-                                    return uI
-                                elseif kE==-27096 then
-                                    if(vX>=0 and uB>VL)or((vX<0 or vX~=vX)and uB<VL)then
-                                        kE=zw(-12350)
-                                    else
-                                        kE=20458
-                                    end
-                                end
-                            end
-                        until kE==-32414
-                    end)('\178\161\227\198_\180\161\250\215V','\219\210\143\165\51')](Gh)then
-                        Wr=EX(-2348)
-                        break
-                    end
-                    Wr=EX(16770)
-                elseif Wr==-796715693+796684574 then
-                    Ym='\211\27\57'
-                    Wr=-184404554+184405865
-                elseif Wr==-31255460275522/2025104333 then
-                    Ff='\186kX\186iJ'
-                    Wr=EX(34243)
-                elseif Wr==9.9811852557407508e-05*121398408 then
-                    Ff=Af(jv(Wv))
-                    Wr=EX(-2537)
-                elseif Wr==-467267152+467296185 then
-                    if A[(function(ZM,KK)
-                        local PK,Pq,Xz,fw,aW,Mv,vQ,Jt
-                        fw,Xz={[-9283]=-20951,[24280]=-4816,[27197]=-27727,[-29076]=-13978},function(pM)
-                            return fw[pM-12067]
-                        end
-                        Pq=Xz(2784)
-                        repeat
-                            while true do
-                                if Pq==29558 then
-                                    return Mv
-                                elseif Pq==-13978 then
-                                    Mv=Mv..Sr(Sz(nv(ZM,(aW-77)+1),nv(KK,(aW-77)%#KK+1)))
-                                    Pq=Xz(36347)
-                                elseif Pq==-27727 then
-                                    aW=vQ;
-                                    if PK~=PK then
-                                        Pq=29558
-                                    else
-                                        Pq=16920
-                                    end
-                                elseif Pq==-4816 then
-                                    vQ=vQ+Jt;
-                                    aW=vQ;
-                                    if vQ~=vQ then
-                                        Pq=29558
-                                    else
-                                        Pq=16920
-                                    end
-                                elseif Pq==-20951 then
-                                    Mv='';
-                                    Jt,PK,vQ=1,(#ZM-1)+77,77
-                                    Pq=Xz(39264)
-                                elseif Pq==16920 then
-                                    if(Jt>=0 and vQ>PK)or((Jt<0 or Jt~=Jt)and vQ<PK)then
-                                        Pq=29558
-                                    else
-                                        Pq=Xz(-17009)
-                                    end
-                                end
-                            end
-                        until Pq==-30824
-                    end)('\201{\207k\202','\173\30')][(function(RO,jP)
-                        local On,WW,VS,aX,JO,Sc,gl,tI
-                        WW,gl={[5296]=-30564,[-23752]=-30564,[-18836]=28341,[-6080]=-1278,[-20323]=-11555},function(Mi)
-                            return WW[Mi+20380]
-                        end
-                        aX=gl(-26460)
-                        repeat
-                            while true do
-                                if aX==-16889 then
-                                    tI=JO;
-                                    if On~=On then
-                                        aX=gl(-15084)
-                                    else
-                                        aX=-11555
-                                    end
-                                elseif aX==-30564 then
-                                    return Sc
-                                elseif aX==-11555 then
-                                    if(VS>=0 and JO>On)or((VS<0 or VS~=VS)and JO<On)then
-                                        aX=-30564
-                                    else
-                                        aX=17705
-                                    end
-                                elseif aX==28341 then
-                                    JO=JO+VS;
-                                    tI=JO;
-                                    if JO~=JO then
-                                        aX=gl(-44132)
-                                    else
-                                        aX=gl(-40703)
-                                    end
-                                elseif aX==-1278 then
-                                    Sc='';
-                                    VS,On,JO=1,(#RO-1)+17,17
-                                    aX=-16889
-                                elseif aX==17705 then
-                                    Sc=Sc..Sr(Sz(nv(RO,(tI-17)+1),nv(jP,(tI-17)%#jP+1)))
-                                    aX=gl(-39216)
-                                end
-                            end
-                        until aX==-2183
-                    end)('\128\147x\142\152j\136','\231\246\f')](Gh)[(function(Tl,iA)
-                        local Mb,kT,yR,Av,Km,fg,OL,Tt
-                        Mb,Tt={[10777]=2149,[-31033]=-13541,[12343]=-31449,[7312]=-27869,[5341]=-24877},function(fM)
-                            return Mb[fM- -3871]
-                        end
-                        Av=Tt(3441)
-                        repeat
-                            while true do
-                                if Av==12376 then
-                                    yR=OL;
-                                    if Km~=Km then
-                                        Av=-24877
-                                    else
-                                        Av=Tt(-34904)
-                                    end
-                                elseif Av==2149 then
-                                    kT=kT..Sr(Sz(nv(Tl,(yR-229)+1),nv(iA,(yR-229)%#iA+1)))
-                                    Av=Tt(8472)
-                                elseif Av==-27869 then
-                                    kT='';
-                                    fg,OL,Km=1,229,(#Tl-1)+229
-                                    Av=12376
-                                elseif Av==-31449 then
-                                    OL=OL+fg;
-                                    yR=OL;
-                                    if OL~=OL then
-                                        Av=Tt(1470)
-                                    else
-                                        Av=-13541
-                                    end
-                                elseif Av==-24877 then
-                                    return kT
-                                elseif Av==-13541 then
-                                    if(fg>=0 and OL>Km)or((fg<0 or fg~=fg)and OL<Km)then
-                                        Av=-24877
-                                    else
-                                        Av=Tt(6906)
-                                    end
-                                end
-                            end
-                        until Av==11821
-                    end)(')\130\55\132','G\247')]==71787084268/983384716 then
-                        Wr=EX(-2644)
-                        break
-                    end
-                    Wr=EX(-12315)
-                elseif Wr==4.4719855810710279e-05*675292875 then
-                    Ff=Af(cH(Wv))
-                    Wr=EX(10302)
-                elseif Wr==-1908710815- -1908718569 then
-                    if not(not A[(function(az,IG)
-                        local hD,ZE,_n,ke,pO,GG,sK,YU
-                        ke,GG={[-9015]=2085,[-29162]=-25805,[-23015]=-26108,[6993]=-26108,[-20196]=3966,[1124]=22283},function(uh)
-                            return ke[uh+-8748]
-                        end
-                        pO=GG(-11448)
-                        repeat
-                            while true do
-                                if pO==22283 then
-                                    if(_n>=0 and sK>hD)or((_n<0 or _n~=_n)and sK<hD)then
-                                        pO=-26108
-                                    else
-                                        pO=GG(-267)
-                                    end
-                                elseif pO==-15144 then
-                                    YU=sK;
-                                    if hD~=hD then
-                                        pO=GG(-14267)
-                                    else
-                                        pO=22283
-                                    end
-                                elseif pO==2085 then
-                                    ZE=ZE..Sr(Sz(nv(az,(YU-196)+1),nv(IG,(YU-196)%#IG+1)))
-                                    pO=GG(-20414)
-                                elseif pO==-26108 then
-                                    return ZE
-                                elseif pO==-25805 then
-                                    sK=sK+_n;
-                                    YU=sK;
-                                    if sK~=sK then
-                                        pO=GG(15741)
-                                    else
-                                        pO=GG(9872)
-                                    end
-                                elseif pO==3966 then
-                                    ZE='';
-                                    sK,_n,hD=196,1,(#az-1)+196
-                                    pO=-15144
-                                end
-                            end
-                        until pO==-18482
-                    end)((function(En,IA)
-                        local bX,bZ,lI,dB,fZ,kZ,tM,yg
-                        fZ,bX={[25888]=-9821,[-12223]=-14579,[13470]=21692,[7570]=-9821,[-16541]=22026,[8789]=-2578},function(Oj)
-                            return fZ[Oj+11033]
-                        end
-                        yg=bX(-27574)
-                        repeat
-                            while true do
-                                if yg==11579 then
-                                    dB=tM;
-                                    if lI~=lI then
-                                        yg=bX(14855)
-                                    else
-                                        yg=bX(-2244)
-                                    end
-                                elseif yg==22026 then
-                                    kZ='';
-                                    bZ,lI,tM=1,(#En-1)+61,61
-                                    yg=11579
-                                elseif yg==-14579 then
-                                    tM=tM+bZ;
-                                    dB=tM;
-                                    if tM~=tM then
-                                        yg=bX(-3463)
-                                    else
-                                        yg=-2578
-                                    end
-                                elseif yg==-2578 then
-                                    if(bZ>=0 and tM>lI)or((bZ<0 or bZ~=bZ)and tM<lI)then
-                                        yg=-9821
-                                    else
-                                        yg=bX(2437)
-                                    end
-                                elseif yg==-9821 then
-                                    return kZ
-                                elseif yg==21692 then
-                                    kZ=kZ..Sr(Sz(nv(En,(dB-61)+1),nv(IA,(dB-61)%#IA+1)))
-                                    yg=bX(-23256)
-                                end
-                            end
-                        until yg==32493
-                    end)('\205\n\191\205\n\165\220','\193~\205'),(function(DA,pJ)
-                        local ZW,UR,uk,dQ,NT,IZ,Ik,Vu
-                        uk,UR={[7397]=-22407,[25954]=16001,[31424]=-8327,[-21230]=-12072,[29171]=-22407,[28635]=-13016,[20847]=-13016,[22107]=16718},function(NQ)
-                            return uk[NQ+-9985]
-                        end
-                        Vu=UR(-11245)
-                        repeat
-                            while true do
-                                if Vu==-8327 then
-                                    IZ=IZ+ZW;
-                                    Ik=IZ;
-                                    if IZ~=IZ then
-                                        Vu=UR(17382)
-                                    else
-                                        Vu=UR(30832)
-                                    end
-                                elseif Vu==16718 then
-                                    NT=NT..Sr(Sz(nv(DA,(Ik-94)+1),nv(pJ,(Ik-94)%#pJ+1)))
-                                    Vu=UR(41409)
-                                elseif Vu==16001 then
-                                    Ik=IZ;
-                                    if dQ~=dQ then
-                                        Vu=-22407
-                                    else
-                                        Vu=UR(38620)
-                                    end
-                                elseif Vu==-12072 then
-                                    NT='';
-                                    dQ,IZ,ZW=(#DA-1)+94,94,1
-                                    Vu=UR(35939)
-                                elseif Vu==-13016 then
-                                    if(ZW>=0 and IZ>dQ)or((ZW<0 or ZW~=ZW)and IZ<dQ)then
-                                        Vu=UR(39156)
-                                    else
-                                        Vu=UR(32092)
-                                    end
-                                elseif Vu==-22407 then
-                                    return NT
-                                end
-                            end
-                        until Vu==28511
-                    end)('\128\250\237','\235'))]()[(function(VR,ze)
-                        local ls,aT,lx,nL,DS,SZ,bj,yi
-                        bj,DS={[20072]=-7045,[7549]=-21938,[23228]=-24961,[6613]=9683,[-18333]=9683,[-983]=-15257,[27435]=9683},function(dj)
-                            return bj[dj+8936]
-                        end
-                        ls=DS(-1387)
-                        repeat
-                            while true do
-                                if ls==-21938 then
-                                    lx='';
-                                    nL,SZ,yi=1,(#VR-1)+112,112
-                                    ls=DS(11136)
-                                elseif ls==-24961 then
-                                    yi=yi+nL;
-                                    aT=yi;
-                                    if yi~=yi then
-                                        ls=DS(18499)
-                                    else
-                                        ls=11845
-                                    end
-                                elseif ls==11845 then
-                                    if(nL>=0 and yi>SZ)or((nL<0 or nL~=nL)and yi<SZ)then
-                                        ls=DS(-2323)
-                                    else
-                                        ls=DS(-9919)
-                                    end
-                                elseif ls==-15257 then
-                                    lx=lx..Sr(Sz(nv(VR,(aT-112)+1),nv(ze,(aT-112)%#ze+1)))
-                                    ls=DS(14292)
-                                elseif ls==9683 then
-                                    return lx
-                                elseif ls==-7045 then
-                                    aT=yi;
-                                    if SZ~=SZ then
-                                        ls=DS(-27269)
-                                    else
-                                        ls=11845
-                                    end
-                                end
-                            end
-                        until ls==-17057
-                    end)((function(iE,Hq)
-                        local At,Xb,aR,pi,ZR,nV,kM,C
-                        C,pi={[5672]=22478,[24975]=-8017,[-15298]=-17446,[-22812]=28488,[27238]=4120,[9834]=-8017},function(oB)
-                            return C[oB-17867]
-                        end
-                        Xb=pi(2569)
-                        repeat
-                            while true do
-                                if Xb==9702 then
-                                    nV=ZR;
-                                    if At~=At then
-                                        Xb=-8017
-                                    else
-                                        Xb=28488
-                                    end
-                                elseif Xb==28488 then
-                                    if(aR>=0 and ZR>At)or((aR<0 or aR~=aR)and ZR<At)then
-                                        Xb=pi(27701)
-                                    else
-                                        Xb=pi(23539)
-                                    end
-                                elseif Xb==-8017 then
-                                    return kM
-                                elseif Xb==22478 then
-                                    kM=kM..Sr(Sz(nv(iE,(nV-142)+1),nv(Hq,(nV-142)%#Hq+1)))
-                                    Xb=pi(45105)
-                                elseif Xb==4120 then
-                                    ZR=ZR+aR;
-                                    nV=ZR;
-                                    if ZR~=ZR then
-                                        Xb=pi(42842)
-                                    else
-                                        Xb=pi(-4945)
-                                    end
-                                elseif Xb==-17446 then
-                                    kM='';
-                                    ZR,At,aR=142,(#iE-1)+142,1
-                                    Xb=9702
-                                end
-                            end
-                        until Xb==-8951
-                    end)('\130\181L\177\182N\165','6\197\133'),(function(Lc,rO)
-                        local SG,Zx,hZ,aD,Vb,yI,LU,pe
-                        aD,SG={[17780]=-25105,[-31489]=-4478,[-22616]=-9568,[-20911]=-12270,[17372]=-22115,[-16336]=-25105},function(WQ)
-                            return aD[WQ- -5641]
-                        end
-                        Vb=SG(-37130)
-                        repeat
-                            while true do
-                                if Vb==-14117 then
-                                    LU=LU..Sr(Sz(nv(Lc,(Zx-131)+1),nv(rO,(Zx-131)%#rO+1)))
-                                    Vb=SG(-26552)
-                                elseif Vb==-9568 then
-                                    return LU
-                                elseif Vb==-12270 then
-                                    hZ=hZ+yI;
-                                    Zx=hZ;
-                                    if hZ~=hZ then
-                                        Vb=-9568
-                                    else
-                                        Vb=SG(12139)
-                                    end
-                                elseif Vb==-22115 then
-                                    Zx=hZ;
-                                    if pe~=pe then
-                                        Vb=SG(-28257)
-                                    else
-                                        Vb=SG(-21977)
-                                    end
-                                elseif Vb==-25105 then
-                                    if(yI>=0 and hZ>pe)or((yI<0 or yI~=yI)and hZ<pe)then
-                                        Vb=-9568
-                                    else
-                                        Vb=-14117
-                                    end
-                                elseif Vb==-4478 then
-                                    LU='';
-                                    hZ,yI,pe=131,1,(#Lc-1)+131
-                                    Vb=SG(11731)
-                                end
-                            end
-                        until Vb==-3536
-                    end)('\245\n\187','\21'))][(function(Nk,Lq)
-                        local Tc,mb,zv,kt,sW,Qs,vD,id
-                        zv,kt={[9072]=-12384,[27558]=-12384,[-32529]=-22270,[21726]=28301,[22938]=28301,[-9408]=-16863,[-29843]=-21616},function(nS)
-                            return zv[nS-16845]
-                        end
-                        mb=kt(-15684)
-                        repeat
-                            while true do
-                                if mb==-16863 then
-                                    id=id+Qs;
-                                    sW=id;
-                                    if id~=id then
-                                        mb=-12384
-                                    else
-                                        mb=kt(38571)
-                                    end
-                                elseif mb==-21616 then
-                                    vD=vD..Sr(Sz(nv(Nk,(sW-101)+1),nv(Lq,(sW-101)%#Lq+1)))
-                                    mb=kt(7437)
-                                elseif mb==-12384 then
-                                    return vD
-                                elseif mb==28301 then
-                                    if(Qs>=0 and id>Tc)or((Qs<0 or Qs~=Qs)and id<Tc)then
-                                        mb=kt(44403)
-                                    else
-                                        mb=kt(-12998)
-                                    end
-                                elseif mb==-22270 then
-                                    vD='';
-                                    id,Tc,Qs=101,(#Nk-1)+101,1
-                                    mb=11107
-                                elseif mb==11107 then
-                                    sW=id;
-                                    if Tc~=Tc then
-                                        mb=kt(25917)
-                                    else
-                                        mb=kt(39783)
-                                    end
-                                end
-                            end
-                        until mb==-122
-                    end)((function(sX,RT)
-                        local bE,EE,Iy,fS,KE,Ev,GU,N
-                        bE,Iy={[-23460]=24760,[-1054]=31062,[29207]=15724,[-28642]=15036,[-20438]=31062,[3791]=7342,[25919]=31062},function(_m)
-                            return bE[_m-12670]
-                        end
-                        GU=Iy(-15972)
-                        repeat
-                            while true do
-                                if GU==7342 then
-                                    Ev=fS;
-                                    if KE~=KE then
-                                        GU=Iy(38589)
-                                    else
-                                        GU=Iy(-10790)
-                                    end
-                                elseif GU==-7645 then
-                                    N=N..Sr(Sz(nv(sX,(Ev-254)+1),nv(RT,(Ev-254)%#RT+1)))
-                                    GU=Iy(41877)
-                                elseif GU==31062 then
-                                    return N
-                                elseif GU==15036 then
-                                    N='';
-                                    fS,KE,EE=254,(#sX-1)+254,1
-                                    GU=Iy(16461)
-                                elseif GU==15724 then
-                                    fS=fS+EE;
-                                    Ev=fS;
-                                    if fS~=fS then
-                                        GU=Iy(-7768)
-                                    else
-                                        GU=24760
-                                    end
-                                elseif GU==24760 then
-                                    if(EE>=0 and fS>KE)or((EE<0 or EE~=EE)and fS<KE)then
-                                        GU=Iy(11616)
-                                    else
-                                        GU=-7645
-                                    end
-                                end
-                            end
-                        until GU==1305
-                    end)('\243R<\1 \217R\17\19;\216','[u\194]4'),(function(AK,ZQ)
-                        local Lt,rt,ZB,Ca,zP,Oz,vh,YI
-                        zP,Lt={[-28142]=29981,[-15531]=-17723,[5019]=7846,[-12561]=-25700,[-26877]=-25700,[23087]=8408},function(XA)
-                            return zP[XA+9003]
-                        end
-                        rt=Lt(-3984)
-                        repeat
-                            while true do
-                                if rt==8408 then
-                                    Ca=Ca+Oz;
-                                    vh=Ca;
-                                    if Ca~=Ca then
-                                        rt=-25700
-                                    else
-                                        rt=29981
-                                    end
-                                elseif rt==7846 then
-                                    YI='';
-                                    Ca,Oz,ZB=219,1,(#AK-1)+219
-                                    rt=Lt(-24534)
-                                elseif rt==-25700 then
-                                    return YI
-                                elseif rt==29981 then
-                                    if(Oz>=0 and Ca>ZB)or((Oz<0 or Oz~=Oz)and Ca<ZB)then
-                                        rt=Lt(-35880)
-                                    else
-                                        rt=22824
-                                    end
-                                elseif rt==22824 then
-                                    YI=YI..Sr(Sz(nv(AK,(vh-219)+1),nv(ZQ,(vh-219)%#ZQ+1)))
-                                    rt=Lt(14084)
-                                elseif rt==-17723 then
-                                    vh=Ca;
-                                    if ZB~=ZB then
-                                        rt=Lt(-21564)
-                                    else
-                                        rt=Lt(-37145)
-                                    end
-                                end
-                            end
-                        until rt==19850
-                    end)('\212\129\170\252C','8\199'))])then
-                        Wr=EX(-4582)
-                        break
-                    else
-                        Wr=EX(12418)
-                        break
-                    end
-                    Wr=EX(36179)
-                elseif Wr==-1458718987+1458739983 then
-                    if A[(function(bB,tD)
-                        local aE,KW,Az,TM,pB,wH,AB,fW
-                        wH,fW={[-15448]=19023,[12823]=-27103,[-9871]=9596,[2093]=-27103,[16717]=-16577,[-24181]=-16031},function(ac)
-                            return wH[ac- -27572]
-                        end
-                        KW=fW(-37443)
-                        repeat
-                            while true do
-                                if KW==-27103 then
-                                    return TM
-                                elseif KW==-31554 then
-                                    TM=TM..Sr(Sz(nv(bB,(AB-115)+1),nv(tD,(AB-115)%#tD+1)))
-                                    KW=fW(-43020)
-                                elseif KW==-16031 then
-                                    AB=pB;
-                                    if aE~=aE then
-                                        KW=fW(-14749)
-                                    else
-                                        KW=fW(-10855)
-                                    end
-                                elseif KW==19023 then
-                                    pB=pB+Az;
-                                    AB=pB;
-                                    if pB~=pB then
-                                        KW=fW(-25479)
-                                    else
-                                        KW=-16577
-                                    end
-                                elseif KW==-16577 then
-                                    if(Az>=0 and pB>aE)or((Az<0 or Az~=Az)and pB<aE)then
-                                        KW=-27103
-                                    else
-                                        KW=-31554
-                                    end
-                                elseif KW==9596 then
-                                    TM='';
-                                    pB,aE,Az=115,(#bB-1)+115,1
-                                    KW=fW(-51753)
-                                end
-                            end
-                        until KW==32511
-                    end)('\195\96\17\194\96\v\210','\164\5e')](Gh)[(function(Mo,rm)
-                        local ic,gL,Mu,aV,_u,Np,U,RM
-                        _u,Np={[-22735]=9778,[5649]=31949,[18130]=10675,[26961]=9778,[-17495]=6462},function(xC)
-                            return _u[xC- -26592]
-                        end
-                        aV=Np(-8462)
-                        repeat
-                            while true do
-                                if aV==10675 then
-                                    Mu='';
-                                    U,gL,ic=1,139,(#Mo-1)+139
-                                    aV=Np(-44087)
-                                elseif aV==21503 then
-                                    Mu=Mu..Sr(Sz(nv(Mo,(RM-139)+1),nv(rm,(RM-139)%#rm+1)))
-                                    aV=Np(-20943)
-                                elseif aV==6462 then
-                                    RM=gL;
-                                    if ic~=ic then
-                                        aV=Np(-49327)
-                                    else
-                                        aV=-2654
-                                    end
-                                elseif aV==9778 then
-                                    return Mu
-                                elseif aV==-2654 then
-                                    if(U>=0 and gL>ic)or((U<0 or U~=U)and gL<ic)then
-                                        aV=Np(369)
-                                    else
-                                        aV=21503
-                                    end
-                                elseif aV==31949 then
-                                    gL=gL+U;
-                                    RM=gL;
-                                    if gL~=gL then
-                                        aV=9778
-                                    else
-                                        aV=-2654
-                                    end
-                                end
-                            end
-                        until aV==6665
-                    end)('\\\96\221Fs\219','/\3\175')]==Oq then
-                        Wr=EX(-1433)
-                        break
-                    end
-                    Wr=EX(-15045)
-                elseif Wr==-1199484040+1199488679 then
-                    Ff=Zb.__iter
-                    Wr=-31653338+31677864
-                elseif Wr==43825921338696/1786916796 then
-                    Ff=Af(Ff(Wv))
-                    Wr=EX(3343)
-                elseif Wr==-3757541920424/1671504413 then
-                    fY,Gh=Wv(Cj,df);
-                    df=fY;
-                    if df==nil then
-                        Wr=EX(16355)
-                    else
-                        Wr=EX(-652)
-                    end
-                elseif Wr==17049979645458/-1223273041 then
-                    Ym='\255\187\30\234\187\r'
-                    Wr=-1417018533+1417041697
-                elseif Wr==6674076757792/-574954924 then
-                    Wv,Cj,df=zt(Ff[1],1,Ff[2]);
-                    if qZ(Wv)~='function'then
-                        Wr=EX(6951)
-                        break
-                    end;
-                    Wr=EX(6457);
-                elseif Wr==353833267-353828788 then
-                    return
-                elseif Wr==-9.5965727041817765e-06*904072763 then
-                    Ym=Af((function(gd,eI)
-                        local Wz,KB,kK,BV,Lu,am,OY,YV
-                        Wz,KB={[11981]=-3849,[30586]=-14318,[-31788]=-16931,[-943]=4067,[20772]=4067,[28542]=-6583},function(uE)
-                            return Wz[uE+-26192]
-                        end
-                        am=KB(-5596)
-                        repeat
-                            while true do
-                                if am==4067 then
-                                    if(Lu>=0 and kK>OY)or((Lu<0 or Lu~=Lu)and kK<OY)then
-                                        am=KB(38173)
-                                    else
-                                        am=KB(54734)
-                                    end
-                                elseif am==-21405 then
-                                    BV=kK;
-                                    if OY~=OY then
-                                        am=-3849
-                                    else
-                                        am=KB(25249)
-                                    end
-                                elseif am==-16931 then
-                                    YV='';
-                                    Lu,kK,OY=1,223,(#gd-1)+223
-                                    am=-21405
-                                elseif am==-6583 then
-                                    YV=YV..Sr(Sz(nv(gd,(BV-223)+1),nv(eI,(BV-223)%#eI+1)))
-                                    am=KB(56778)
-                                elseif am==-3849 then
-                                    return YV
-                                elseif am==-14318 then
-                                    kK=kK+Lu;
-                                    BV=kK;
-                                    if kK~=kK then
-                                        am=-3849
-                                    else
-                                        am=KB(46964)
-                                    end
-                                end
-                            end
-                        until am==-31836
-                    end)(Ym,fu))
-                    Wr=15891712481919/-523046193
-                elseif Wr==2.2889744204824956e-05*-1291844930 then
-                    fu=fu+Mj
-                    Wr=755077847-755056492
-                elseif Wr==619688589-619665425 then
-                    fu='\152\222j'
-                    Wr=EX(27187)
-                elseif Wr==784658554+-784671466 then
-                    fu=10759796542
-                    Wr=6295766010816/1010069952
-                elseif Wr==882859109-882857798 then
-                    Ff=Af((function(ZY,Bp)
-                        local eX,Ee,MA,Mh,JC,ol,DI,bO
-                        eX,JC={[18268]=-30077,[9491]=18816,[23382]=-5146,[4762]=-30077,[-17409]=-14971},function(Pj)
-                            return eX[Pj+-25568]
-                        end
-                        Ee=JC(35059)
-                        repeat
-                            while true do
-                                if Ee==-14971 then
-                                    Mh=Mh+bO;
-                                    MA=Mh;
-                                    if Mh~=Mh then
-                                        Ee=JC(30330)
-                                    else
-                                        Ee=JC(48950)
-                                    end
-                                elseif Ee==18816 then
-                                    ol='';
-                                    DI,Mh,bO=(#ZY-1)+175,175,1
-                                    Ee=-29695
-                                elseif Ee==-29695 then
-                                    MA=Mh;
-                                    if DI~=DI then
-                                        Ee=JC(43836)
-                                    else
-                                        Ee=-5146
-                                    end
-                                elseif Ee==4704 then
-                                    ol=ol..Sr(Sz(nv(ZY,(MA-175)+1),nv(Bp,(MA-175)%#Bp+1)))
-                                    Ee=JC(8159)
-                                elseif Ee==-5146 then
-                                    if(bO>=0 and Mh>DI)or((bO<0 or bO~=bO)and Mh<DI)then
-                                        Ee=-30077
-                                    else
-                                        Ee=4704
-                                    end
-                                elseif Ee==-30077 then
-                                    return ol
-                                end
-                            end
-                        until Ee==23344
-                    end)(Ff,Ym))
-                    Wr=EX(10240)
-                elseif Wr==803855936-803879239 then
-                    Wv,Cj,df=zt(Ff[1],1,Ff[2]);
-                    Wr=EX(21410)
-                elseif Wr==2049420480-2049393225 then
-                    Ff='D\194\183\248+A\198\175\248>'
-                    Wr=EX(-16458)
-                elseif Wr==-2.7795316940032864e-05*921414210 then
-                    Wv,Cj,df=zt(Ff[1],1,Ff[2]);
-                    Wr=EX(-8409)
-                elseif Wr==1.4658241340006593e-05*-518957208 then
-                    Ff=(function(Ze,mX)
-                        local Nz,Jo,QP,JK,HX,ts,SD,Lv
-                        JK,HX={[-27413]=-4865,[-16926]=-1344,[32552]=-4832,[924]=2577},function(ex)
-                            return JK[ex+-13774]
-                        end
-                        Lv=HX(-13639)
-                        repeat
-                            while true do
-                                if Lv==19953 then
-                                    return Jo
-                                elseif Lv==-4865 then
-                                    Jo='';
-                                    ts,SD,Nz=1,(#Ze-1)+42,42
-                                    Lv=17513
-                                elseif Lv==17513 then
-                                    QP=Nz;
-                                    if SD~=SD then
-                                        Lv=19953
-                                    else
-                                        Lv=-1344
-                                    end
-                                elseif Lv==-1344 then
-                                    if(ts>=0 and Nz>SD)or((ts<0 or ts~=ts)and Nz<SD)then
-                                        Lv=19953
-                                    else
-                                        Lv=HX(46326)
-                                    end
-                                elseif Lv==-4832 then
-                                    Jo=Jo..Sr(Sz(nv(Ze,(QP-42)+1),nv(mX,(QP-42)%#mX+1)))
-                                    Lv=HX(14698)
-                                elseif Lv==2577 then
-                                    Nz=Nz+ts;
-                                    QP=Nz;
-                                    if Nz~=Nz then
-                                        Lv=19953
-                                    else
-                                        Lv=HX(-3152)
-                                    end
-                                end
-                            end
-                        until Lv==-21927
-                    end)(Ff,Ym)
-                    Wr=985042819-985015543
-                elseif Wr==1543720376-1543725266 then
-                    Ym='7\167\195\141['
-                    Wr=314264651+-314272258
-                elseif Wr==-1.5984857456271725e-05*2039430135 then
-                    Ff=Af(Ff(zt(Ym[1],1,Ym[2])))
-                    Wr=EX(38639)
-                elseif Wr==3653338644340/1921798340 then
-                    Ym=980644390
-                    Wr=-288062494+288063117
-                elseif Wr==-469593972- -469616543 then
-                    Zb=zt(Ff[1],1,Ff[2]);
-                    if Zb~=nil and Zb.__iter~=nil then
-                        Wr=EX(-22936)
-                        break
-                    elseif qZ(Wv)==(function(Wo,UB)
-                        local ug,kk,mZ,kF,ir,Vi,lB,xw
-                        kF,ir={[24192]=22145,[-11082]=23302,[-659]=-20727,[-32137]=-27888,[31277]=-24460,[23536]=-24460},function(fC)
-                            return kF[fC-17940]
-                        end
-                        Vi=ir(42132)
-                        repeat
-                            while true do
-                                if Vi==-24460 then
-                                    if(kk>=0 and mZ>ug)or((kk<0 or kk~=kk)and mZ<ug)then
-                                        Vi=-27888
-                                    else
-                                        Vi=ir(6858)
-                                    end
-                                elseif Vi==22145 then
-                                    xw='';
-                                    kk,ug,mZ=1,(#Wo-1)+184,184
-                                    Vi=-15236
-                                elseif Vi==-15236 then
-                                    lB=mZ;
-                                    if ug~=ug then
-                                        Vi=ir(-14197)
-                                    else
-                                        Vi=ir(49217)
-                                    end
-                                elseif Vi==-27888 then
-                                    return xw
-                                elseif Vi==23302 then
-                                    xw=xw..Sr(Sz(nv(Wo,(lB-184)+1),nv(UB,(lB-184)%#UB+1)))
-                                    Vi=ir(17281)
-                                elseif Vi==-20727 then
-                                    mZ=mZ+kk;
-                                    lB=mZ;
-                                    if mZ~=mZ then
-                                        Vi=-27888
-                                    else
-                                        Vi=ir(41476)
-                                    end
-                                end
-                            end
-                        until Vi==-9733
-                    end)('TUBXE',' 4')then
-                        Wr=EX(499)
-                        break
-                    end
-                    Wr=EX(30659)
-                elseif Wr==-18220676515380/1516494092 then
-                    Wr=EX(-17903)
-                    break
-                end
-            end
-        until Wr==-413586296+413576691
+    until MA==-2533
+end)('\n\14\28\224\181\247\160\48,\156\255\154\51]\19\181\157\227\235C\b\143\251\143','G}\127\149\212\141\128cO\238\150\234'),[(function(xt,FF)
+    local Hv,sg,gz,Sv,zJ,jw,aB,GZ
+    zJ,sg={[-5708]=-27816,[8666]=-12778,[5678]=-22404,[25418]=28698,[16498]=-3404,[28499]=-22404},function(aR)
+        return zJ[aR+26844]
     end
-    local Sp
-    local Cu,TC,Kd,HV,MO,E
-    Cu,Kd={[9018]=-22744,[-25319]=-21740,[19943]=-16548,[24735]=-27557,[10255]=-26129,[22487]=-30815,[22056]=-16548,[28353]=28141,[-27475]=6964,[19701]=-22744},function(ia)
-        return Cu[ia+-6653]
-    end
-    E=Kd(15671)
+    aB=sg(-18178)
     repeat
         while true do
-            if E==12720566966402/1866828143 then
-                TC=TC(Oq)
-                E=Kd(-20822)
-            elseif E==299196092-299202852 then
-                TC=A[TC]
-                E=-112392116+112398930
-            elseif E==370096223-370072780 then
-                HV=A[zt(HV[1],1,HV[2])]
-                E=-926844862+926832792
-            elseif E==3670930388156/527129579 then
-                HV=Af(HV(TC,function(...)
-                    local qk,cL,hL,xT,Wp,CT,Zq
-                    cL,hL={[-16330]=-1877,[-23657]=15392,[29191]=-6321,[9306]=31867,[-18377]=-28904,[6653]=29710,[30208]=29710,[7714]=-2940,[20776]=29710,[-27348]=615,[-30473]=6889,[-27304]=-2433,[11989]=5099,[-5019]=-2433},function(ya)
-                        return cL[ya+14662]
-                    end
-                    Zq=hL(-33039)
-                    repeat
-                        while true do
-                            if Zq==1657313075-1657297028 then
-                                qk=1896010830
-                                Zq=-4905280011962/-956941087
-                            elseif Zq==2.3498997033810406e-05*-562832532 then
-                                CT=CT(qk,xT)
-                                Zq=hL(-8009)
-                            elseif Zq==-2097860306+2097831601 then
-                                qk='\249\235\241\239\228'
-                                Zq=6.8527131763270996e-06*866809955
-                            elseif Zq==1.6178260838390604e-05*-181725343 then
-                                qk=(function(xk,Cx)
-                                    local _o,zS,GE,VO,BC,Dz,Lk,xl
-                                    BC,VO={[15341]=14043,[14463]=-26231,[-22852]=-31768,[-21390]=-3367,[-14210]=-30594},function(Cz)
-                                        return BC[Cz+11516]
-                                    end
-                                    zS=VO(-34368)
-                                    repeat
-                                        while true do
-                                            if zS==18332 then
-                                                GE=Lk;
-                                                if Dz~=Dz then
-                                                    zS=14043
-                                                else
-                                                    zS=VO(-25726)
-                                                end
-                                            elseif zS==14043 then
-                                                return _o
-                                            elseif zS==-3367 then
-                                                _o=_o..Sr(Sz(nv(xk,(GE-195)+1),nv(Cx,(GE-195)%#Cx+1)))
-                                                zS=VO(2947)
-                                            elseif zS==-31768 then
-                                                _o='';
-                                                xl,Dz,Lk=1,(#xk-1)+195,195
-                                                zS=18332
-                                            elseif zS==-26231 then
-                                                Lk=Lk+xl;
-                                                GE=Lk;
-                                                if Lk~=Lk then
-                                                    zS=VO(3825)
-                                                else
-                                                    zS=-30594
-                                                end
-                                            elseif zS==-30594 then
-                                                if(xl>=0 and Lk>Dz)or((xl<0 or xl~=xl)and Lk<Dz)then
-                                                    zS=14043
-                                                else
-                                                    zS=VO(-32906)
-                                                end
-                                            end
-                                        end
-                                    until zS==11706
-                                end)(qk,xT)
-                                Zq=hL(-45135)
-                            elseif Zq==-1.4564970423903369e-05*-2039825632 then
-                                CT=Af(...)
-                                Zq=2.1844695774631716e-05*-1013701460
-                            elseif Zq==3.5106850032620707e-05*169197749 then
-                                xT='\157\142'
-                                Zq=hL(-6948)
-                            elseif Zq==-0.00010317324254137687*214629292 then
-                                CT=Af(Sp(zt(CT[1],1,CT[2])))
-                                Zq=hL(-19681)
-                            elseif Zq==1661073828+-1661104096 then
-                                CT=A[CT]
-                                Zq=824508321+-824537026
-                            elseif Zq==2982866072094/407606733 then
-                                xT=Af((function(PO,ZS)
-                                    local HY,Kc,cP,bR,aL,Cs,zA,hs
-                                    cP,Kc={[17012]=32725,[25475]=-23546,[10722]=-19899,[12352]=13236,[-25768]=3788,[-15122]=-9197,[31256]=13236},function(BB)
-                                        return cP[BB+23241]
-                                    end
-                                    bR=Kc(-6229)
-                                    repeat
-                                        while true do
-                                            if bR==-23546 then
-                                                aL=hs;
-                                                if HY~=HY then
-                                                    bR=-19899
-                                                else
-                                                    bR=Kc(-10889)
-                                                end
-                                            elseif bR==-9197 then
-                                                Cs=Cs..Sr(Sz(nv(PO,(aL-96)+1),nv(ZS,(aL-96)%#ZS+1)))
-                                                bR=Kc(-49009)
-                                            elseif bR==3788 then
-                                                hs=hs+zA;
-                                                aL=hs;
-                                                if hs~=hs then
-                                                    bR=-19899
-                                                else
-                                                    bR=Kc(8015)
-                                                end
-                                            elseif bR==32725 then
-                                                Cs='';
-                                                hs,HY,zA=96,(#PO-1)+96,1
-                                                bR=Kc(2234)
-                                            elseif bR==-19899 then
-                                                return Cs
-                                            elseif bR==13236 then
-                                                if(zA>=0 and hs>HY)or((zA<0 or zA~=zA)and hs<HY)then
-                                                    bR=Kc(-12519)
-                                                else
-                                                    bR=Kc(-38363)
-                                                end
-                                            end
-                                        end
-                                    until bR==-21554
-                                end)(xT,Wp))
-                                Zq=5.0653662434689804e-06*2079810125
-                            elseif Zq==-1.3969123557282016e-06*1345825307 then
-                                qk=qk/xT
-                                Zq=hL(-30992)
-                            elseif Zq==-1.4357213872737288e-05*-733777465 then
-                                xT=A[zt(xT[1],1,xT[2])]
-                                Zq=1.2616558275381389e-05*-1048304911
-                            elseif Zq==553548663-553548048 then
-                                Wp="\177\236\5\183\186\'\150"
-                                Zq=-3.5578631935530253e-06*-2056852555
-                            elseif Zq==1.3475279591281977e-06*-1805528400 then
-                                return zt(CT[1],1,CT[2])
-                            elseif Zq==-339929320- -339934446 then
-                                xT=632003610
-                                Zq=1.8385256018259531e-05*-102255851
-                            elseif Zq==-0.00028096451877396809*-54782718 then
-                                qk='\185\241'
-                                Zq=-42975377649974/-1445911367
-                            elseif Zq==3.5106731331798545e-05*-823317891 then
-                                CT='\205\144\202\154'
-                                Zq=hL(-38319)
-                            elseif Zq==1.3043760956503591e-05*528145220 then
-                                CT=CT[qk]
-                                Zq=-2.1966018983395804e-05*-730537473
-                            elseif Zq==-475554251+475583973 then
-                                CT=(function(Ku,Et)
-                                    local gF,Sh,NJ,pE,dq,Xa,xQ,yp
-                                    pE,Sh={[28718]=26240,[30000]=26240,[30207]=-9094,[-8662]=1946,[22621]=10118,[-3127]=-19760,[-12054]=-30910},function(PS)
-                                        return pE[PS- -14810]
-                                    end
-                                    dq=Sh(7811)
-                                    repeat
-                                        while true do
-                                            if dq==10118 then
-                                                gF='';
-                                                NJ,yp,xQ=114,(#Ku-1)+114,1
-                                                dq=Sh(15397)
-                                            elseif dq==1946 then
-                                                NJ=NJ+xQ;
-                                                Xa=NJ;
-                                                if NJ~=NJ then
-                                                    dq=Sh(-26864)
-                                                else
-                                                    dq=Sh(15190)
-                                                end
-                                            elseif dq==26240 then
-                                                if(xQ>=0 and NJ>yp)or((xQ<0 or xQ~=xQ)and NJ<yp)then
-                                                    dq=-30910
-                                                else
-                                                    dq=Sh(-17937)
-                                                end
-                                            elseif dq==-30910 then
-                                                return gF
-                                            elseif dq==-9094 then
-                                                Xa=NJ;
-                                                if yp~=yp then
-                                                    dq=-30910
-                                                else
-                                                    dq=Sh(13908)
-                                                end
-                                            elseif dq==-19760 then
-                                                gF=gF..Sr(Sz(nv(Ku,(Xa-114)+1),nv(Et,(Xa-114)%#Et+1)))
-                                                dq=Sh(-23472)
-                                            end
-                                        end
-                                    until dq==29299
-                                end)(CT,qk)
-                                Zq=-28080923519796/927742947
-                            elseif Zq==1338216809+-1338218686 then
-                                xT='\242\131h\199\214B\226\212\168d\219\221H\248\208'
-                                Zq=hL(-42010)
-                            end
-                        end
-                    until Zq==1481934405-1481944380
-                end))
-                E=Kd(28709)
-            elseif E==8790888079619/-336441811 then
-                TC=(function(vU,jn)
-                    local VT,ap,sU,gQ,Aj,Yu,Kb,op
-                    Aj,sU={[23702]=15217,[-3311]=11466,[-25978]=-29875},function(yM)
-                        return Aj[yM+32078]
-                    end
-                    op=sU(-58056)
-                    repeat
-                        while true do
-                            if op==-29875 then
-                                Kb='';
-                                gQ,ap,Yu=245,(#vU-1)+245,1
-                                op=-25646
-                            elseif op==11466 then
-                                gQ=gQ+Yu;
-                                VT=gQ;
-                                if gQ~=gQ then
-                                    op=-7403
-                                else
-                                    op=sU(-8376)
-                                end
-                            elseif op==-25646 then
-                                VT=gQ;
-                                if ap~=ap then
-                                    op=-7403
-                                else
-                                    op=15217
-                                end
-                            elseif op==-7403 then
-                                return Kb
-                            elseif op==3429 then
-                                Kb=Kb..Sr(Sz(nv(vU,(VT-245)+1),nv(jn,(VT-245)%#jn+1)))
-                                op=sU(-35389)
-                            elseif op==15217 then
-                                if(Yu>=0 and gQ>ap)or((Yu<0 or Yu~=Yu)and gQ<ap)then
-                                    op=-7403
-                                else
-                                    op=3429
-                                end
-                            end
-                        end
-                    until op==9853
-                end)(TC,MO)
-                E=-12211933983600/1806499110
-            elseif E==-39702584998358/1440744094 then
-                TC='\128\159\184z\243\168'
-                E=1786380536-1786390056
-            elseif E==-1818503942+1818481198 then
-                HV='\232\240\215\17\149\221\238\252\204\19\156\198'
-                E=Kd(31388)
-            elseif E==-1637053965- -1637032308 then
-                MO='\213\172\30'
-                E=Kd(16908)
-            elseif E==1768164366-1768180914 then
-                Sp=zt(HV[1],1,HV[2]);
-                E=Kd(-18666);
-                break;
-            elseif E==-6.6213158693345216e-06*1437780675 then
-                HV=Af((function(lD,Om)
-                    local GO,Vf,fD,CF,RJ,bM,mT,kz
-                    fD,RJ={[7390]=-20590,[-9570]=-20590,[7598]=19543,[-25809]=5402,[6299]=682,[11212]=-20590},function(dZ)
-                        return fD[dZ+6372]
-                    end
-                    mT=RJ(-73)
-                    repeat
-                        while true do
-                            if mT==-13686 then
-                                if(bM>=0 and GO>Vf)or((bM<0 or bM~=bM)and GO<Vf)then
-                                    mT=RJ(-15942)
-                                else
-                                    mT=13846
-                                end
-                            elseif mT==-20590 then
-                                return CF
-                            elseif mT==19543 then
-                                kz=GO;
-                                if Vf~=Vf then
-                                    mT=RJ(4840)
-                                else
-                                    mT=-13686
-                                end
-                            elseif mT==13846 then
-                                CF=CF..Sr(Sz(nv(lD,(kz-77)+1),nv(Om,(kz-77)%#Om+1)))
-                                mT=RJ(-32181)
-                            elseif mT==682 then
-                                CF='';
-                                Vf,bM,GO=(#lD-1)+77,1,77
-                                mT=RJ(1226)
-                            elseif mT==5402 then
-                                GO=GO+bM;
-                                kz=GO;
-                                if GO~=GO then
-                                    mT=RJ(1018)
-                                else
-                                    mT=-13686
-                                end
-                            end
-                        end
-                    until mT==-32715
-                end)(HV,TC))
-                E=-1645944291- -1645967734
-            elseif E==-25476441419890/2110724227 then
-                TC='\167\201o\160\197l\176'
-                E=-1868696008- -1868674351
+            if aB==-22404 then
+                return gz
+            elseif aB==28698 then
+                if(jw>=0 and Sv>GZ)or((jw<0 or jw~=jw)and Sv<GZ)then
+                    aB=sg(-21166)
+                else
+                    aB=-1242
+                end
+            elseif aB==-1242 then
+                gz=gz..iT(TK(ho(xt,(Hv-90)+1),ho(FF,(Hv-90)%#FF+1)))
+                aB=sg(-32552)
+            elseif aB==-12778 then
+                gz='';
+                jw,Sv,GZ=1,90,(#xt-1)+90
+                aB=sg(-10346)
+            elseif aB==-27816 then
+                Sv=Sv+jw;
+                Hv=Sv;
+                if Sv~=Sv then
+                    aB=sg(1655)
+                else
+                    aB=sg(-1426)
+                end
+            elseif aB==-3404 then
+                Hv=Sv;
+                if GZ~=GZ then
+                    aB=-22404
+                else
+                    aB=28698
+                end
             end
         end
-    until E==1631229910-1631251650
-end;
-vS[(function(YN,HE)
-    local pj,SJ,Gj,Nc,wL,me,Ds,RB
-    pj,wL={[18778]=11822,[-28351]=16235,[-15042]=-18046,[-14535]=21116,[-10521]=4374},function(zi)
-        return pj[zi+-28557]
+    until aB==-19020
+end)('a\193G\204','(\162')]=(function(kq,pw)
+    local TE,xF,cz,vq,Ef,FK,by,wU
+    xF,TE={[26882]=-5277,[-4445]=30039,[1713]=-17308},function(xw)
+        return xF[xw+1724]
     end
-    Nc=wL(14022)
+    Ef=TE(-6169)
     repeat
         while true do
-            if Nc==11822 then
-                Gj=Gj+Ds;
-                me=Gj;
-                if Gj~=Gj then
-                    Nc=4374
+            if Ef==6945 then
+                by=by..iT(TK(ho(kq,(vq-190)+1),ho(pw,(vq-190)%#pw+1)))
+                Ef=TE(-11)
+            elseif Ef==-5277 then
+                return by
+            elseif Ef==-13923 then
+                if(FK>=0 and cz>wU)or((FK<0 or FK~=FK)and cz<wU)then
+                    Ef=TE(25158)
                 else
-                    Nc=wL(206)
+                    Ef=6945
                 end
-            elseif Nc==16235 then
-                if(Ds>=0 and Gj>RB)or((Ds<0 or Ds~=Ds)and Gj<RB)then
-                    Nc=wL(18036)
+            elseif Ef==-17308 then
+                cz=cz+FK;
+                vq=cz;
+                if cz~=cz then
+                    Ef=-5277
                 else
-                    Nc=-16006
+                    Ef=-13923
                 end
-            elseif Nc==-18046 then
-                me=Gj;
-                if RB~=RB then
-                    Nc=4374
+            elseif Ef==-28045 then
+                vq=cz;
+                if wU~=wU then
+                    Ef=-5277
                 else
-                    Nc=16235
+                    Ef=-13923
                 end
-            elseif Nc==21116 then
-                SJ='';
-                Gj,RB,Ds=190,(#YN-1)+190,1
-                Nc=wL(13515)
-            elseif Nc==4374 then
-                return SJ
-            elseif Nc==-16006 then
-                SJ=SJ..Sr(Sz(nv(YN,(me-190)+1),nv(HE,(me-190)%#HE+1)))
-                Nc=wL(47335)
+            elseif Ef==30039 then
+                by='';
+                FK,cz,wU=1,190,(#kq-1)+190
+                Ef=-28045
             end
         end
-    until Nc==-31353
-end)('9\20\29\27','tu')][(function(KJ,Qy)
-    local kg,wk,iL,aU,pW,Ao,AT,VQ
-    pW,wk={[-18537]=-13500,[-10475]=12939,[-26413]=-15690,[-21269]=12939,[7618]=-15468,[27612]=12939},function(lt)
-        return pW[lt-10324]
+    until Ef==-14251
+end)('t]\213\163=]\202\180~','\16\50\186\209'),[(function(qG,re)
+    local qr,_o,eF,bM,rt,Rr,oy,cf
+    oy,Rr={[3472]=-25337,[-9802]=-21952,[8228]=19116,[-6555]=2129,[-26574]=2516},function(Mb)
+        return oy[Mb+-28675]
     end
-    kg=wk(-8213)
+    rt=Rr(22120)
     repeat
         while true do
-            if kg==18811 then
-                VQ=iL;
-                if aU~=aU then
-                    kg=wk(-10945)
+            if rt==-25337 then
+                bM=bM..iT(TK(ho(qG,(qr-23)+1),ho(re,(qr-23)%#re+1)))
+                rt=Rr(18873)
+            elseif rt==5304 then
+                return bM
+            elseif rt==2129 then
+                bM='';
+                eF,_o,cf=23,1,(#qG-1)+23
+                rt=Rr(36903)
+            elseif rt==-21952 then
+                eF=eF+_o;
+                qr=eF;
+                if eF~=eF then
+                    rt=5304
                 else
-                    kg=-21034
+                    rt=2516
                 end
-            elseif kg==-21034 then
-                if(AT>=0 and iL>aU)or((AT<0 or AT~=AT)and iL<aU)then
-                    kg=wk(37936)
+            elseif rt==19116 then
+                qr=eF;
+                if cf~=cf then
+                    rt=5304
                 else
-                    kg=wk(-16089)
+                    rt=Rr(2101)
                 end
-            elseif kg==-13500 then
-                Ao='';
-                iL,aU,AT=17,(#KJ-1)+17,1
-                kg=18811
-            elseif kg==-15690 then
-                Ao=Ao..Sr(Sz(nv(KJ,(VQ-17)+1),nv(Qy,(VQ-17)%#Qy+1)))
-                kg=wk(17942)
-            elseif kg==-15468 then
-                iL=iL+AT;
-                VQ=iL;
-                if iL~=iL then
-                    kg=wk(-151)
+            elseif rt==2516 then
+                if(_o>=0 and eF>cf)or((_o<0 or _o~=_o)and eF<cf)then
+                    rt=5304
                 else
-                    kg=-21034
+                    rt=Rr(32147)
                 end
-            elseif kg==12939 then
-                return Ao
             end
         end
-    until kg==-11575
-end)('Ht\17{w\19','\28\27v')](vS[(function(z,CG)
-    local on,nD,kw,wF,JP,LQ,uF,cE
-    nD,JP={[-2340]=13134,[-26981]=7914,[6405]=-10250,[-30352]=13134,[25982]=16559,[-27131]=-3233},function(pD)
-        return nD[pD+12640]
+    until rt==32355
+end)("\'oH\14uN",'f\26<')]=(function(BE,V)
+    local mL,FL,YG,fg,Ki,jL,EK,DE
+    jL,mL={[9297]=-22735,[-18228]=-22403,[-13587]=3514,[-8822]=-21395,[24570]=-3153,[-23175]=-3153},function(RY)
+        return jL[RY+-30204]
     end
-    on=JP(-39771)
+    EK=mL(11976)
     repeat
         while true do
-            if on==7914 then
-                return uF
-            elseif on==16559 then
-                wF=LQ;
-                if kw~=kw then
-                    on=7914
+            if EK==-3153 then
+                return fg
+            elseif EK==29671 then
+                YG=Ki;
+                if DE~=DE then
+                    EK=mL(7029)
                 else
-                    on=JP(-14980)
+                    EK=-21395
                 end
-            elseif on==2148 then
-                uF=uF..Sr(Sz(nv(z,(wF-25)+1),nv(CG,(wF-25)%#CG+1)))
-                on=JP(-6235)
-            elseif on==13134 then
-                if(cE>=0 and LQ>kw)or((cE<0 or cE~=cE)and LQ<kw)then
-                    on=JP(-39621)
+            elseif EK==3514 then
+                Ki=Ki+FL;
+                YG=Ki;
+                if Ki~=Ki then
+                    EK=mL(54774)
                 else
-                    on=2148
+                    EK=mL(21382)
                 end
-            elseif on==-10250 then
-                LQ=LQ+cE;
-                wF=LQ;
-                if LQ~=LQ then
-                    on=7914
+            elseif EK==-22735 then
+                fg=fg..iT(TK(ho(BE,(YG-53)+1),ho(V,(YG-53)%#V+1)))
+                EK=mL(16617)
+            elseif EK==-21395 then
+                if(FL>=0 and Ki>DE)or((FL<0 or FL~=FL)and Ki<DE)then
+                    EK=-3153
                 else
-                    on=JP(-42992)
+                    EK=mL(39501)
                 end
-            elseif on==-3233 then
-                uF='';
-                kw,cE,LQ=(#z-1)+25,1,25
-                on=JP(13342)
+            elseif EK==-22403 then
+                fg='';
+                DE,FL,Ki=(#BE-1)+53,1,53
+                EK=29671
             end
         end
-    until on==27719
-end)('9\20\29\27','tu')],{[(function(rN,MJ)
-    local dT,Hc,bY,tb,Jy,wC,UA,vI
-    tb,vI={[26952]=-22903,[29468]=19497,[-27282]=-22903,[16417]=-6292,[12964]=-27580,[-1192]=32705},function(tv)
-        return tb[tv+-268]
+    until EK==-8466
+end)('JB\211\194\219\147\239U\221I\4\193\219\218\153\206B\142M','.+\160\161\180\225\139{\186'),[(function(An,vY)
+    local cE,Vp,xy,vy,wn,vi,FG,ni
+    cE,Vp={[-18155]=3640,[18005]=-28740,[18039]=-11212,[1768]=-11212,[27093]=29687,[2410]=-7778,[-18284]=-27788},function(Zz)
+        return cE[Zz+15032]
     end
-    bY=vI(29736)
+    wn=Vp(-33187)
     repeat
         while true do
-            if bY==-27580 then
-                if(wC>=0 and UA>Hc)or((wC<0 or wC~=wC)and UA<Hc)then
-                    bY=-22903
+            if wn==3640 then
+                ni='';
+                FG,xy,vi=1,(#An-1)+180,180
+                wn=Vp(-12622)
+            elseif wn==-28740 then
+                ni=ni..iT(TK(ho(An,(vy-180)+1),ho(vY,(vy-180)%#vY+1)))
+                wn=Vp(-33316)
+            elseif wn==-11212 then
+                if(FG>=0 and vi>xy)or((FG<0 or FG~=FG)and vi<xy)then
+                    wn=29687
                 else
-                    bY=4510
+                    wn=Vp(2973)
                 end
-            elseif bY==-6292 then
-                Jy=UA;
-                if Hc~=Hc then
-                    bY=vI(-27014)
+            elseif wn==29687 then
+                return ni
+            elseif wn==-7778 then
+                vy=vi;
+                if xy~=xy then
+                    wn=Vp(12061)
                 else
-                    bY=-27580
+                    wn=Vp(-13264)
                 end
-            elseif bY==19497 then
-                dT='';
-                Hc,wC,UA=(#rN-1)+43,1,43
-                bY=vI(16685)
-            elseif bY==4510 then
-                dT=dT..Sr(Sz(nv(rN,(Jy-43)+1),nv(MJ,(Jy-43)%#MJ+1)))
-                bY=vI(-924)
-            elseif bY==32705 then
-                UA=UA+wC;
-                Jy=UA;
-                if UA~=UA then
-                    bY=vI(27220)
+            elseif wn==-27788 then
+                vi=vi+FG;
+                vy=vi;
+                if vi~=vi then
+                    wn=29687
                 else
-                    bY=vI(13232)
+                    wn=Vp(3007)
                 end
-            elseif bY==-22903 then
-                return dT
             end
         end
-    until bY==4616
-end)('\236]\204X\221','\184\52')]=(function(iY,cf)
-    local yo,hl,bg,tf,Vs,kQ,EL,du
-    tf,yo={[3344]=-32064,[-3141]=-15472,[-7923]=11580,[32581]=-15096,[27806]=3067},function(xD)
-        return tf[xD- -18073]
+    until wn==8328
+end)('\197\221\244\216\244','\145\181')]=(function(KV,cX)
+    local mh,Wy,pS,PM,Mf,vr,ON,eD
+    ON,PM={[-28100]=-1914,[28572]=11696,[797]=-5028,[22086]=-758},function(bx)
+        return ON[bx+7207]
     end
-    Vs=yo(-25996)
+    vr=PM(-6410)
     repeat
         while true do
-            if Vs==-32064 then
-                if(kQ>=0 and hl>EL)or((kQ<0 or kQ~=kQ)and hl<EL)then
-                    Vs=-15096
+            if vr==24125 then
+                eD=eD..iT(TK(ho(KV,(Mf-209)+1),ho(cX,(Mf-209)%#cX+1)))
+                vr=PM(-35307)
+            elseif vr==11696 then
+                if(pS>=0 and mh>Wy)or((pS<0 or pS~=pS)and mh<Wy)then
+                    vr=PM(14879)
                 else
-                    Vs=27686
+                    vr=24125
                 end
-            elseif Vs==11580 then
-                du='';
-                kQ,EL,hl=1,(#iY-1)+231,231
-                Vs=yo(-21214)
-            elseif Vs==-15096 then
-                return du
-            elseif Vs==-15472 then
-                bg=hl;
-                if EL~=EL then
-                    Vs=yo(14508)
+            elseif vr==-1914 then
+                mh=mh+pS;
+                Mf=mh;
+                if mh~=mh then
+                    vr=-758
                 else
-                    Vs=yo(-14729)
+                    vr=PM(21365)
                 end
-            elseif Vs==3067 then
-                hl=hl+kQ;
-                bg=hl;
-                if hl~=hl then
-                    Vs=-15096
+            elseif vr==-758 then
+                return eD
+            elseif vr==-4616 then
+                Mf=mh;
+                if Wy~=Wy then
+                    vr=-758
                 else
-                    Vs=-32064
+                    vr=11696
                 end
-            elseif Vs==27686 then
-                du=du..Sr(Sz(nv(iY,(bg-231)+1),nv(cf,(bg-231)%#cf+1)))
-                Vs=yo(9733)
+            elseif vr==-5028 then
+                eD='';
+                pS,Wy,mh=1,(#KV-1)+209,209
+                vr=-4616
             end
         end
-    until Vs==-1898
-end)('@\241_\152\3\237\253\131\164\24\52\197M\204\3\171\141\161\169\6','\20\132\56\184l\139\221\212\197j'),[(function(KC,xH)
-    local sZ,zf,eS,gq,Ia,jW,by,le
-    jW,by={[3763]=17145,[3787]=19198,[27121]=22111,[-21777]=30348},function(zC)
-        return jW[zC+-11286]
+    until vr==-4215
+end)('n>wN7|',"\'P\19"),[(function(BX,AA)
+    local Qh,Jh,Gy,dq,hI,Iy,aY,cm
+    dq,aY={[19733]=5144,[13331]=12224,[22804]=15738},function(Pi)
+        return dq[Pi+-22935]
     end
-    eS=by(38407)
+    Jh=aY(36266)
     repeat
         while true do
-            if eS==19198 then
-                return sZ
-            elseif eS==18460 then
-                sZ=sZ..Sr(Sz(nv(KC,(zf-205)+1),nv(xH,(zf-205)%#xH+1)))
-                eS=by(-10491)
-            elseif eS==17145 then
-                zf=Ia;
-                if le~=le then
-                    eS=19198
+            if Jh==15738 then
+                if(Iy>=0 and Qh>hI)or((Iy<0 or Iy~=Iy)and Qh<hI)then
+                    Jh=8035
                 else
-                    eS=-30864
+                    Jh=18288
                 end
-            elseif eS==22111 then
-                sZ='';
-                le,Ia,gq=(#KC-1)+205,205,1
-                eS=by(15049)
-            elseif eS==30348 then
-                Ia=Ia+gq;
-                zf=Ia;
-                if Ia~=Ia then
-                    eS=by(15073)
+            elseif Jh==18288 then
+                Gy=Gy..iT(TK(ho(BX,(cm-160)+1),ho(AA,(cm-160)%#AA+1)))
+                Jh=aY(42668)
+            elseif Jh==8035 then
+                return Gy
+            elseif Jh==5144 then
+                Qh=Qh+Iy;
+                cm=Qh;
+                if Qh~=Qh then
+                    Jh=8035
                 else
-                    eS=-30864
+                    Jh=15738
                 end
-            elseif eS==-30864 then
-                if(gq>=0 and Ia>le)or((gq<0 or gq~=gq)and Ia<le)then
-                    eS=19198
+            elseif Jh==12224 then
+                Gy='';
+                Qh,hI,Iy=160,(#BX-1)+160,1
+                Jh=-29289
+            elseif Jh==-29289 then
+                cm=Qh;
+                if hI~=hI then
+                    Jh=8035
                 else
-                    eS=18460
+                    Jh=aY(45739)
                 end
             end
         end
-    until eS==860
-end)('\127\152E\140L',')\249')]=A[(function(yd,nb)
-    local xe,_b,sF,fN,EW,rE,v,WY
-    sF,WY={[29]=3692,[-12717]=22765,[-23798]=-23219,[-31271]=-26284},function(Nj)
-        return sF[Nj-5109]
+    until Jh==-9089
+end)('\186\57\147\53','\233P')]=on[(function(DP,Aa)
+    local ds,lk,fp,_Y,aA,PH,mp,Tv
+    aA,ds={[13075]=-4117,[-19090]=-20567,[15804]=-12829,[-4295]=13597,[404]=5245},function(sL)
+        return aA[sL+14828]
     end
-    xe=WY(5138)
+    _Y=ds(976)
     repeat
         while true do
-            if xe==22765 then
-                _b=_b+rE;
-                v=_b;
-                if _b~=_b then
-                    xe=WY(-26162)
+            if _Y==13597 then
+                if(fp>=0 and lk>PH)or((fp<0 or fp~=fp)and lk<PH)then
+                    _Y=-4117
                 else
-                    xe=-23219
+                    _Y=ds(-14424)
                 end
-            elseif xe==12522 then
-                EW=EW..Sr(Sz(nv(yd,(v-147)+1),nv(nb,(v-147)%#nb+1)))
-                xe=WY(-7608)
-            elseif xe==-23219 then
-                if(rE>=0 and _b>fN)or((rE<0 or rE~=rE)and _b<fN)then
-                    xe=-26284
+            elseif _Y==-4117 then
+                return Tv
+            elseif _Y==-12829 then
+                Tv='';
+                fp,PH,lk=1,(#DP-1)+124,124
+                _Y=12142
+            elseif _Y==-20567 then
+                lk=lk+fp;
+                mp=lk;
+                if lk~=lk then
+                    _Y=-4117
                 else
-                    xe=12522
+                    _Y=13597
                 end
-            elseif xe==-26284 then
-                return EW
-            elseif xe==3692 then
-                EW='';
-                rE,fN,_b=1,(#yd-1)+147,147
-                xe=9741
-            elseif xe==9741 then
-                v=_b;
-                if fN~=fN then
-                    xe=-26284
+            elseif _Y==5245 then
+                Tv=Tv..iT(TK(ho(DP,(mp-124)+1),ho(Aa,(mp-124)%#Aa+1)))
+                _Y=ds(-33918)
+            elseif _Y==12142 then
+                mp=lk;
+                if PH~=PH then
+                    _Y=ds(-1753)
                 else
-                    xe=WY(-18689)
+                    _Y=ds(-19123)
                 end
             end
         end
-    until xe==23863
-end)('\17\6\203\17\6\209\0','vc\191')]()[(function(su,TV)
-    local jF,UT,hE,Rx,hG,Mn,OB,ZO
-    ZO,Rx={[-30317]=12767,[-2182]=-9952,[18003]=-10637},function(gD)
-        return ZO[gD- -25067]
+    until _Y==9824
+end)('\221\242\225\219\186','\136\182')][(function(Dg,xG)
+    local pN,cs,OK,_y,oT,QQ,U,nn
+    U,QQ={[21567]=-5487,[-31071]=21195,[15352]=297,[-16265]=-5487,[11660]=15286,[15651]=217},function(nq)
+        return U[nq- -13781]
     end
-    jF=Rx(-7064)
+    oT=QQ(-44852)
     repeat
         while true do
-            if jF==-5073 then
-                return UT
-            elseif jF==-21312 then
-                hE=OB;
-                if hG~=hG then
-                    jF=-5073
+            if oT==297 then
+                if(nn>=0 and cs>pN)or((nn<0 or nn~=nn)and cs<pN)then
+                    oT=-5487
                 else
-                    jF=12767
+                    oT=QQ(-2121)
                 end
-            elseif jF==12767 then
-                if(Mn>=0 and OB>hG)or((Mn<0 or Mn~=Mn)and OB<hG)then
-                    jF=-5073
+            elseif oT==15286 then
+                OK=OK..iT(TK(ho(Dg,(_y-157)+1),ho(xG,(_y-157)%#xG+1)))
+                oT=QQ(1870)
+            elseif oT==-13088 then
+                _y=cs;
+                if pN~=pN then
+                    oT=QQ(7786)
                 else
-                    jF=-32501
+                    oT=297
                 end
-            elseif jF==-10637 then
-                UT='';
-                OB,hG,Mn=233,(#su-1)+233,1
-                jF=-21312
-            elseif jF==-32501 then
-                UT=UT..Sr(Sz(nv(su,(hE-233)+1),nv(TV,(hE-233)%#TV+1)))
-                jF=Rx(-27249)
-            elseif jF==-9952 then
-                OB=OB+Mn;
-                hE=OB;
-                if OB~=OB then
-                    jF=-5073
+            elseif oT==21195 then
+                OK='';
+                cs,pN,nn=157,(#Dg-1)+157,1
+                oT=-13088
+            elseif oT==217 then
+                cs=cs+nn;
+                _y=cs;
+                if cs~=cs then
+                    oT=QQ(-30046)
                 else
-                    jF=Rx(-55384)
+                    oT=QQ(1571)
                 end
+            elseif oT==-5487 then
+                return OK
             end
         end
-    until jF==-21051
-end)('\151\135\t\164\132\v\176','\195\232n')][(function(Au,IY)
-    local gB,VB,ma,Wi,SX,tS,eV,tZ
-    gB,VB={[9689]=-12214,[-952]=23711,[24988]=15513,[-12717]=-12214,[16263]=-11415,[16728]=-12214},function(la)
-        return gB[la-6070]
+    until oT==2367
+end)('x9c\249jx-\127\241Q','\30K\f\148%')](612478217-612477717,600747194950/1716420557),[(function(_k,dV)
+    local sO,pq,sS,zf,VA,hZ,Wh,rA
+    zf,Wh={[-12059]=32136,[-27276]=24506,[8026]=32136,[15050]=-12317,[29045]=-13723},function(vh)
+        return zf[vh+29364]
     end
-    Wi=VB(22333)
+    rA=Wh(-14314)
     repeat
         while true do
-            if Wi==23711 then
-                tS=tS..Sr(Sz(nv(Au,(eV-224)+1),nv(IY,(eV-224)%#IY+1)))
-                Wi=VB(31058)
-            elseif Wi==11425 then
-                if(tZ>=0 and ma>SX)or((tZ<0 or tZ~=tZ)and ma<SX)then
-                    Wi=VB(-6647)
+            if rA==24506 then
+                sS=pq;
+                if sO~=sO then
+                    rA=Wh(-21338)
                 else
-                    Wi=VB(5118)
+                    rA=32113
                 end
-            elseif Wi==16784 then
-                eV=ma;
-                if SX~=SX then
-                    Wi=VB(15759)
+            elseif rA==-13723 then
+                pq=pq+hZ;
+                sS=pq;
+                if pq~=pq then
+                    rA=32136
                 else
-                    Wi=11425
+                    rA=32113
                 end
-            elseif Wi==-12214 then
-                return tS
-            elseif Wi==-11415 then
-                tS='';
-                SX,ma,tZ=(#Au-1)+224,224,1
-                Wi=16784
-            elseif Wi==15513 then
-                ma=ma+tZ;
-                eV=ma;
-                if ma~=ma then
-                    Wi=VB(22798)
+            elseif rA==32113 then
+                if(hZ>=0 and pq>sO)or((hZ<0 or hZ~=hZ)and pq<sO)then
+                    rA=Wh(-41423)
                 else
-                    Wi=11425
+                    rA=-2096
                 end
+            elseif rA==32136 then
+                return VA
+            elseif rA==-12317 then
+                VA='';
+                pq,sO,hZ=182,(#_k-1)+182,1
+                rA=Wh(-56640)
+            elseif rA==-2096 then
+                VA=VA..iT(TK(ho(_k,(sS-182)+1),ho(dV,(sS-182)%#dV+1)))
+                rA=Wh(-319)
             end
         end
-    until Wi==11305
-end)("\96[\129\207\138\'U\\\167\245\152\31",'4.\230\128\236p')]or false,[(function(ki,Wk)
-    local oL,Fy,vy,YC,as,Dt,zW,ns
-    vy,Fy={[-13959]=17506,[21038]=17506,[21858]=7205,[9393]=-3903,[27459]=-21569,[-27761]=-13156,[27359]=-21569},function(qc)
-        return vy[qc- -26878]
+    until rA==11701
+end)('\26\6/\226\4>\21<\233\25:','NtN\140w')]=true,[(function(_V,di)
+    local Tt,dX,cl,Nr,Ml,XO,Et,y
+    Et,Ml={[-7403]=5333,[-7162]=6225,[29801]=-26503,[18751]=-25897},function(KB)
+        return Et[KB- -4140]
     end
-    YC=Fy(-54639)
+    XO=Ml(25661)
     repeat
         while true do
-            if YC==-21569 then
-                if(ns>=0 and zW>Dt)or((ns<0 or ns~=ns)and zW<Dt)then
-                    YC=17506
+            if XO==6123 then
+                dX=cl;
+                if Tt~=Tt then
+                    XO=5333
                 else
-                    YC=Fy(-17485)
+                    XO=-16249
                 end
-            elseif YC==-13156 then
-                oL='';
-                zW,ns,Dt=101,1,(#ki-1)+101
-                YC=26063
-            elseif YC==17506 then
-                return oL
-            elseif YC==26063 then
-                as=zW;
-                if Dt~=Dt then
-                    YC=Fy(-5840)
+            elseif XO==6225 then
+                cl=cl+Nr;
+                dX=cl;
+                if cl~=cl then
+                    XO=Ml(-11543)
                 else
-                    YC=Fy(481)
+                    XO=-16249
                 end
-            elseif YC==-3903 then
-                oL=oL..Sr(Sz(nv(ki,(as-101)+1),nv(Wk,(as-101)%#Wk+1)))
-                YC=Fy(-5020)
-            elseif YC==7205 then
-                zW=zW+ns;
-                as=zW;
-                if zW~=zW then
-                    YC=Fy(-40837)
+            elseif XO==-26503 then
+                y='';
+                Nr,cl,Tt=1,129,(#_V-1)+129
+                XO=6123
+            elseif XO==-16249 then
+                if(Nr>=0 and cl>Tt)or((Nr<0 or Nr~=Nr)and cl<Tt)then
+                    XO=5333
                 else
-                    YC=Fy(581)
+                    XO=Ml(14611)
                 end
+            elseif XO==-25897 then
+                y=y..iT(TK(ho(_V,(dX-129)+1),ho(di,(dX-129)%#di+1)))
+                XO=Ml(-11302)
+            elseif XO==5333 then
+                return y
             end
         end
-    until YC==4870
-end)('Q\191f\130p\191i\133','\18\222\n\238')]=function(_F)
-    A[(function(hq,nl)
-        local Xd,RZ,px,wv,br,Ei,Na,rH
-        Ei,RZ={[4610]=-28638,[-27069]=21329,[4561]=27056,[-21911]=-31820},function(Bm)
-            return Ei[Bm+30759]
-        end
-        br=RZ(-26149)
-        repeat
-            while true do
-                if br==-28638 then
-                    rH='';
-                    px,Xd,Na=17,1,(#hq-1)+17
-                    br=RZ(-52670)
-                elseif br==27056 then
-                    px=px+Xd;
-                    wv=px;
-                    if px~=px then
-                        br=RZ(-57828)
-                    else
-                        br=17409
-                    end
-                elseif br==-31820 then
-                    wv=px;
-                    if Na~=Na then
-                        br=21329
-                    else
-                        br=17409
-                    end
-                elseif br==21329 then
-                    return rH
-                elseif br==-11585 then
-                    rH=rH..Sr(Sz(nv(hq,(wv-17)+1),nv(nl,(wv-17)%#nl+1)))
-                    br=RZ(-26198)
-                elseif br==17409 then
-                    if(Xd>=0 and px>Na)or((Xd<0 or Xd~=Xd)and px<Na)then
-                        br=21329
-                    else
-                        br=-11585
-                    end
-                end
-            end
-        until br==29023
-    end)('\226\204R\226\204H\243','\133\169&')]()[(function(Zo,Uo)
-        local zI,UG,Wj,Lz,TT,AH,FU,Yr
-        FU,UG={[6334]=28324,[7061]=5310,[-2237]=23154,[28011]=-29611},function(c)
-            return FU[c+16660]
-        end
-        AH=UG(-18897)
-        repeat
-            while true do
-                if AH==18482 then
-                    return TT
-                elseif AH==-29611 then
-                    Yr=Yr+Wj;
-                    Lz=Yr;
-                    if Yr~=Yr then
-                        AH=18482
-                    else
-                        AH=UG(-9599)
-                    end
-                elseif AH==5310 then
-                    if(Wj>=0 and Yr>zI)or((Wj<0 or Wj~=Wj)and Yr<zI)then
-                        AH=18482
-                    else
-                        AH=30987
-                    end
-                elseif AH==28324 then
-                    Lz=Yr;
-                    if zI~=zI then
-                        AH=18482
-                    else
-                        AH=5310
-                    end
-                elseif AH==30987 then
-                    TT=TT..Sr(Sz(nv(Zo,(Lz-247)+1),nv(Uo,(Lz-247)%#Uo+1)))
-                    AH=UG(11351)
-                elseif AH==23154 then
-                    TT='';
-                    Wj,Yr,zI=1,247,(#Zo-1)+247
-                    AH=UG(-10326)
-                end
-            end
-        until AH==26626
-    end)('x\133\228K\134\230_',',\234\131')][(function(Eo,JE)
-        local _q,NU,Ii,Iv,JJ,Ty,ui,lL
-        lL,Ty={[18491]=-2872,[-19867]=-31003,[-24650]=16685,[9340]=11759,[30877]=-26310},function(AF)
-            return lL[AF+-14266]
-        end
-        NU=Ty(45143)
-        repeat
-            while true do
-                if NU==-26310 then
-                    JJ='';
-                    Iv,_q,ui=35,1,(#Eo-1)+35
-                    NU=373
-                elseif NU==-2872 then
-                    return JJ
-                elseif NU==11759 then
-                    JJ=JJ..Sr(Sz(nv(Eo,(Ii-35)+1),nv(JE,(Ii-35)%#JE+1)))
-                    NU=Ty(-5601)
-                elseif NU==373 then
-                    Ii=Iv;
-                    if ui~=ui then
-                        NU=Ty(32757)
-                    else
-                        NU=16685
-                    end
-                elseif NU==-31003 then
-                    Iv=Iv+_q;
-                    Ii=Iv;
-                    if Iv~=Iv then
-                        NU=-2872
-                    else
-                        NU=Ty(-10384)
-                    end
-                elseif NU==16685 then
-                    if(_q>=0 and Iv>ui)or((_q<0 or _q~=_q)and Iv<ui)then
-                        NU=-2872
-                    else
-                        NU=Ty(23606)
-                    end
-                end
-            end
-        until NU==13129
-    end)('\223\156\254\140-\129\234\155\216\182?\185','\139\233\153\195K\214')]=_F;
-end})
-do
-    local Qj=A[(function(Wn,Dd)
-        local XL,qm,RL,Nn,Ce,ev,oQ,xg
-        RL,qm={[22486]=-2811,[6278]=-946,[-16390]=-4926,[-15955]=-17203,[18918]=-6056,[31213]=19039},function(JY)
-            return RL[JY-12704]
-        end
-        Nn=qm(18982)
-        repeat
-            while true do
-                if Nn==-4926 then
-                    oQ=Ce;
-                    if ev~=ev then
-                        Nn=19039
-                    else
-                        Nn=qm(35190)
-                    end
-                elseif Nn==-2811 then
-                    if(XL>=0 and Ce>ev)or((XL<0 or XL~=XL)and Ce<ev)then
-                        Nn=19039
-                    else
-                        Nn=qm(-3251)
-                    end
-                elseif Nn==-946 then
-                    xg='';
-                    XL,ev,Ce=1,(#Wn-1)+254,254
-                    Nn=qm(-3686)
-                elseif Nn==-6056 then
-                    Ce=Ce+XL;
-                    oQ=Ce;
-                    if Ce~=Ce then
-                        Nn=qm(43917)
-                    else
-                        Nn=-2811
-                    end
-                elseif Nn==-17203 then
-                    xg=xg..Sr(Sz(nv(Wn,(oQ-254)+1),nv(Dd,(oQ-254)%#Dd+1)))
-                    Nn=qm(31622)
-                elseif Nn==19039 then
-                    return xg
-                end
-            end
-        until Nn==29056
-    end)('\29\152\23\156','z\249')][(function(m,FL)
-        local eO,Ek,Ut,lr,Ho,BI,Sw,BH
-        Ek,BI={[25795]=23117,[-9390]=4696,[5352]=22183,[-5355]=4696,[30320]=19449},function(kf)
-            return Ek[kf-11809]
-        end
-        eO=BI(42129)
-        repeat
-            while true do
-                if eO==6994 then
-                    if(BH>=0 and Sw>Ut)or((BH<0 or BH~=BH)and Sw<Ut)then
-                        eO=BI(2419)
-                    else
-                        eO=-24064
-                    end
-                elseif eO==19449 then
-                    lr='';
-                    BH,Sw,Ut=1,40,(#m-1)+40
-                    eO=BI(37604)
-                elseif eO==22183 then
-                    Sw=Sw+BH;
-                    Ho=Sw;
-                    if Sw~=Sw then
-                        eO=BI(6454)
-                    else
-                        eO=6994
-                    end
-                elseif eO==23117 then
-                    Ho=Sw;
-                    if Ut~=Ut then
-                        eO=4696
-                    else
-                        eO=6994
-                    end
-                elseif eO==-24064 then
-                    lr=lr..Sr(Sz(nv(m,(Ho-40)+1),nv(FL,(Ho-40)%#FL+1)))
-                    eO=BI(17161)
-                elseif eO==4696 then
-                    return lr
-                end
-            end
-        until eO==17078
-    end)('=\167\188\\\189\b\180\161l\189','z\194\200\15\216')](A[(function(lP,cB)
-        local VM,km,Nh,XY,nw,Gy,Oe,Ll
-        Oe,Nh={[-19573]=31583,[-18623]=-7906,[25894]=-29263,[-23531]=-12550,[3509]=6910,[3566]=-5996,[27888]=-29263,[-30585]=-12550,[-22369]=-12550},function(eD)
-            return Oe[eD+-29433]
-        end
-        km=Nh(9860)
-        repeat
-            while true do
-                if km==-12550 then
-                    return Gy
-                elseif km==31583 then
-                    Gy='';
-                    VM,Ll,XY=(#lP-1)+75,75,1
-                    km=Nh(32942)
-                elseif km==-29263 then
-                    if(XY>=0 and Ll>VM)or((XY<0 or XY~=XY)and Ll<VM)then
-                        km=Nh(7064)
-                    else
-                        km=Nh(32999)
-                    end
-                elseif km==6910 then
-                    nw=Ll;
-                    if VM~=VM then
-                        km=Nh(5902)
-                    else
-                        km=Nh(57321)
-                    end
-                elseif km==-5996 then
-                    Gy=Gy..Sr(Sz(nv(lP,(nw-75)+1),nv(cB,(nw-75)%#cB+1)))
-                    km=Nh(10810)
-                elseif km==-7906 then
-                    Ll=Ll+XY;
-                    nw=Ll;
-                    if Ll~=Ll then
-                        km=Nh(-1152)
-                    else
-                        km=Nh(55327)
-                    end
-                end
-            end
-        until km==5473
-    end)('\29\152\23\156','z\249')],(function(VP,_f)
-        local Sb,Li,uN,cx,NF,mD,BW,pU
-        pU,NF={[-6440]=30587,[13598]=22633,[-14840]=30587,[-18602]=-350,[-27398]=-7128,[6892]=3100,[-23680]=22633,[-18416]=22633},function(sn)
-            return pU[sn-20079]
-        end
-        uN=NF(-7319)
-        repeat
-            while true do
-                if uN==-17319 then
-                    cx=cx..Sr(Sz(nv(VP,(Li-136)+1),nv(_f,(Li-136)%#_f+1)))
-                    uN=NF(1477)
-                elseif uN==-7128 then
-                    cx='';
-                    mD,BW,Sb=136,(#VP-1)+136,1
-                    uN=NF(26971)
-                elseif uN==30587 then
-                    if(Sb>=0 and mD>BW)or((Sb<0 or Sb~=Sb)and mD<BW)then
-                        uN=NF(1663)
-                    else
-                        uN=-17319
-                    end
-                elseif uN==-350 then
-                    mD=mD+Sb;
-                    Li=mD;
-                    if mD~=mD then
-                        uN=NF(33677)
-                    else
-                        uN=NF(13639)
-                    end
-                elseif uN==3100 then
-                    Li=mD;
-                    if BW~=BW then
-                        uN=NF(-3601)
-                    else
-                        uN=NF(5239)
-                    end
-                elseif uN==22633 then
-                    return cx
-                end
-            end
-        until uN==-14827
-    end)('\170X\246h\243A{\232\157Y\213p\245P{\251\157','\248=\134\4\154\"\26\156'))
-    local dA,md=Qj[(function(_I,cF)
-        local rG,oh,Hs,Mc,gT,Vk,hm,yF
-        yF,gT={[-22224]=-26139,[-13567]=-27580,[-29978]=-27580,[20504]=7787,[-27468]=19985},function(Be)
-            return yF[Be+-19841]
-        end
-        Hs=gT(-2383)
-        repeat
-            while true do
-                if Hs==19715 then
-                    rG=oh;
-                    if Vk~=Vk then
-                        Hs=gT(-7627)
-                    else
-                        Hs=gT(-10137)
-                    end
-                elseif Hs==-26139 then
-                    hm='';
-                    Vk,Mc,oh=(#_I-1)+22,1,22
-                    Hs=19715
-                elseif Hs==19985 then
-                    return hm
-                elseif Hs==-23034 then
-                    hm=hm..Sr(Sz(nv(_I,(rG-22)+1),nv(cF,(rG-22)%#cF+1)))
-                    Hs=gT(40345)
-                elseif Hs==-27580 then
-                    if(Mc>=0 and oh>Vk)or((Mc<0 or Mc~=Mc)and oh<Vk)then
-                        Hs=19985
-                    else
-                        Hs=-23034
-                    end
-                elseif Hs==7787 then
-                    oh=oh+Mc;
-                    rG=oh;
-                    if oh~=oh then
-                        Hs=19985
-                    else
-                        Hs=gT(6274)
-                    end
-                end
-            end
-        until Hs==26698
-    end)('[\137?f\152\55z','\t\236R')][(function(hi,xJ)
-        local mB,sx,NO,Gm,an,FP,qO,Ta
-        qO,sx={[-27154]=-7420,[30302]=-943,[-13021]=21340,[-15640]=-7420,[-10913]=21340,[20843]=-8457,[-3494]=-32627,[-25199]=-7420},function(Ac)
-            return qO[Ac-27482]
-        end
-        mB=sx(48325)
-        repeat
-            while true do
-                if mB==-8457 then
-                    Gm='';
-                    FP,Ta,NO=136,(#hi-1)+136,1
-                    mB=sx(23988)
-                elseif mB==-24338 then
-                    Gm=Gm..Sr(Sz(nv(hi,(an-136)+1),nv(xJ,(an-136)%#xJ+1)))
-                    mB=sx(57784)
-                elseif mB==-7420 then
-                    return Gm
-                elseif mB==21340 then
-                    if(NO>=0 and FP>Ta)or((NO<0 or NO~=NO)and FP<Ta)then
-                        mB=sx(11842)
-                    else
-                        mB=-24338
-                    end
-                elseif mB==-943 then
-                    FP=FP+NO;
-                    an=FP;
-                    if FP~=FP then
-                        mB=sx(328)
-                    else
-                        mB=sx(14461)
-                    end
-                elseif mB==-32627 then
-                    an=FP;
-                    if Ta~=Ta then
-                        mB=sx(2283)
-                    else
-                        mB=sx(16569)
-                    end
-                end
-            end
-        until mB==-10972
-    end)('\185\185d\185\179\244%\221h\237PF\142\180l\173\158\239*\203p\221YB',"\237\220\t\201\220\134D\175\17\191\53\'")],{[(function(ZL,wQ)
-        local vA,tt,uP,CV,GZ,or_,fh,YG
-        uP,or_={[26745]=-29595,[15536]=14594,[10331]=11752,[-528]=-22142,[2431]=-22142},function(pN)
-            return uP[pN- -15980]
-        end
-        fh=or_(-5649)
-        repeat
-            while true do
-                if fh==11752 then
-                    CV='';
-                    vA,GZ,tt=22,(#ZL-1)+22,1
-                    fh=23365
-                elseif fh==-29595 then
-                    vA=vA+tt;
-                    YG=vA;
-                    if vA~=vA then
-                        fh=or_(-16508)
-                    else
-                        fh=or_(-444)
-                    end
-                elseif fh==14594 then
-                    if(tt>=0 and vA>GZ)or((tt<0 or tt~=tt)and vA<GZ)then
-                        fh=-22142
-                    else
-                        fh=1167
-                    end
-                elseif fh==1167 then
-                    CV=CV..Sr(Sz(nv(ZL,(YG-22)+1),nv(wQ,(YG-22)%#wQ+1)))
-                    fh=or_(10765)
-                elseif fh==-22142 then
-                    return CV
-                elseif fh==23365 then
-                    YG=vA;
-                    if GZ~=GZ then
-                        fh=or_(-13549)
-                    else
-                        fh=14594
-                    end
-                end
-            end
-        until fh==-23956
-    end)('Q\253\15[\219b\236,i\251','\1\152}=\190')]=true}
-    local EK,IC,Qu,uX,Eu,Pu
-    Qu,Pu={[-28345]=620,[21157]=13744,[-23468]=3485,[-9625]=3485,[20647]=-569,[-23122]=4307,[3519]=-25967,[19141]=620,[-20953]=-26983,[14848]=17842},function(_U)
-        return Qu[_U- -7315]
+    until XO==-28196
+end)('\180SH\211\174\136^R\242\190','\252\50;\156\219')]=true});
+dw[(function(PJ,rh)
+    local YJ,Xb,iD,Dz,dl,Sh,AN,Rq
+    AN,dl={[27236]=-29986,[16319]=1672,[-13228]=-29986,[-11723]=17334,[-11904]=-5293,[-32120]=-29986,[-5801]=24609},function(yf)
+        return AN[yf+7919]
     end
-    IC=Pu(-16940)
+    Sh=dl(-13720)
     repeat
         while true do
-            if IC==-8.9802783786599186e-06*-268811266 then
-                EK='\157\200\143\207\128'
-                IC=Pu(-3796)
-            elseif IC==1.2946782370237351e-05*1531422977 then
-                Eu=(function(il,II)
-                    local jH,Mk,RA,Pd,Pe,Xt,Mx,Lf
-                    Pe,Xt={[19088]=-28467,[-8557]=-28467,[21920]=14556,[-30295]=-28467,[-25018]=-27741},function(uu)
-                        return Pe[uu- -15732]
-                    end
-                    jH=Xt(6188)
-                    repeat
-                        while true do
-                            if jH==-28467 then
-                                return Mx
-                            elseif jH==-17418 then
-                                Lf=Pd;
-                                if Mk~=Mk then
-                                    jH=Xt(3356)
-                                else
-                                    jH=2576
-                                end
-                            elseif jH==14556 then
-                                Mx='';
-                                Pd,RA,Mk=113,1,(#il-1)+113
-                                jH=-17418
-                            elseif jH==2576 then
-                                if(RA>=0 and Pd>Mk)or((RA<0 or RA~=RA)and Pd<Mk)then
-                                    jH=Xt(-46027)
-                                else
-                                    jH=25086
-                                end
-                            elseif jH==-27741 then
-                                Pd=Pd+RA;
-                                Lf=Pd;
-                                if Pd~=Pd then
-                                    jH=Xt(-24289)
-                                else
-                                    jH=2576
-                                end
-                            elseif jH==25086 then
-                                Mx=Mx..Sr(Sz(nv(il,(Lf-113)+1),nv(II,(Lf-113)%#II+1)))
-                                jH=Xt(-40750)
-                            end
-                        end
-                    until jH==-27590
-                end)(Eu,EK)
-                IC=1713478790-1713491274
-            elseif IC==-1418744947+1418745567 then
-                IC=Pu(-28268);
-                break;
-            elseif IC==-5152362950435/-1478439871 then
-                Eu='h\143o\133'
-                IC=Pu(-30437)
-            elseif IC==212601507+-212597200 then
-                EK='\28\238'
-                IC=-2.2116782025906871e-05*-896468572
-            elseif IC==-8.8997215949083284e-06*1402740509 then
-                Eu=A[Eu]
-                IC=-6.8664875607576058e-06*-351562568
-            elseif IC==8.7849467348792463e-06*2030974181 then
-                Eu=Eu(function()
-                    local Dw,Qr,Hv,cq,LZ
-                    Dw,Qr={[-14908]=23772,[2707]=18295,[-4181]=5095,[-11077]=30852,[-29179]=-16365,[3324]=29480,[11797]=30852,[-3869]=30852,[-31591]=20227,[19899]=30852,[-29955]=30852,[-17436]=30852,[-29545]=30852,[25608]=19467,[32530]=29479,[-29747]=27949,[-17671]=-29626,[6886]=30852,[17043]=20227,[-29803]=4687,[-27787]=-23895,[-12623]=30852},function(eE)
-                        return Dw[eE+-9146]
-                    end
-                    LZ=Qr(-20399)
-                    repeat
-                        while true do
-                            if LZ==-524108023- -524112710 then
-                                Hv='<\148ka\197\31\143oa\228'
-                                LZ=Qr(-18641)
-                            elseif LZ==-4927510715708/-167153252 then
-                                Hv=(function(Al,HN)
-                                    local qV,XO,MB,Gs,VV,SI,lU,eN
-                                    qV,Gs={[3470]=11801,[-19792]=8904,[6782]=-21115,[-9407]=9202,[-2614]=11801,[452]=11801,[-22992]=28098},function(rs)
-                                        return qV[rs+-413]
-                                    end
-                                    SI=Gs(7195)
-                                    repeat
-                                        while true do
-                                            if SI==11801 then
-                                                return MB
-                                            elseif SI==8904 then
-                                                if(lU>=0 and eN>VV)or((lU<0 or lU~=lU)and eN<VV)then
-                                                    SI=Gs(-2201)
-                                                else
-                                                    SI=Gs(-22579)
-                                                end
-                                            elseif SI==-93 then
-                                                XO=eN;
-                                                if VV~=VV then
-                                                    SI=Gs(3883)
-                                                else
-                                                    SI=8904
-                                                end
-                                            elseif SI==-21115 then
-                                                MB='';
-                                                VV,eN,lU=(#Al-1)+19,19,1
-                                                SI=-93
-                                            elseif SI==28098 then
-                                                MB=MB..Sr(Sz(nv(Al,(XO-19)+1),nv(HN,(XO-19)%#HN+1)))
-                                                SI=Gs(-8994)
-                                            elseif SI==9202 then
-                                                eN=eN+lU;
-                                                XO=eN;
-                                                if eN~=eN then
-                                                    SI=Gs(865)
-                                                else
-                                                    SI=Gs(-19379)
-                                                end
-                                            end
-                                        end
-                                    until SI==-24680
-                                end)(Hv,cq)
-                                LZ=Qr(12470)
-                            elseif LZ==11659985228520/-487967576 then
-                                cq='z\253\25\4\150'
-                                LZ=Qr(41676)
-                            elseif LZ==-20307301+20336781 then
-                                Hv=dA[Hv]
-                                LZ=Qr(-20601)
-                            elseif LZ==-274447255+274472590 then
-                                if not(A[(function(Yw,bf)
-                                    local J,Ig,hV,y,hc,ow,AQ,TY
-                                    J,hc={[28775]=-2993,[32377]=3186,[24373]=-16303,[1145]=1271,[18039]=-4013},function(fQ)
-                                        return J[fQ+29593]
-                                    end
-                                    ow=hc(-818)
-                                    repeat
-                                        while true do
-                                            if ow==-16303 then
-                                                return AQ
-                                            elseif ow==-4013 then
-                                                Ig=Ig+TY;
-                                                y=Ig;
-                                                if Ig~=Ig then
-                                                    ow=-16303
-                                                else
-                                                    ow=hc(-28448)
-                                                end
-                                            elseif ow==7197 then
-                                                y=Ig;
-                                                if hV~=hV then
-                                                    ow=hc(-5220)
-                                                else
-                                                    ow=1271
-                                                end
-                                            elseif ow==-2993 then
-                                                AQ='';
-                                                hV,TY,Ig=(#Yw-1)+26,1,26
-                                                ow=7197
-                                            elseif ow==3186 then
-                                                AQ=AQ..Sr(Sz(nv(Yw,(y-26)+1),nv(bf,(y-26)%#bf+1)))
-                                                ow=hc(-11554)
-                                            elseif ow==1271 then
-                                                if(TY>=0 and Ig>hV)or((TY<0 or TY~=TY)and Ig<hV)then
-                                                    ow=-16303
-                                                else
-                                                    ow=hc(2784)
-                                                end
-                                            end
-                                        end
-                                    until ow==2465
-                                end)((function(jA,Ti)
-                                    local _w,lV,rj,xf,VF,Hy,SN,Vn
-                                    Hy,VF={[7388]=28603,[791]=28603,[6460]=-28551,[20092]=-16651,[-2086]=32645,[3692]=32645,[27557]=-18035,[-20669]=28910},function(Bz)
-                                        return Hy[Bz- -10290]
-                                    end
-                                    lV=VF(17267)
-                                    repeat
-                                        while true do
-                                            if lV==-18035 then
-                                                xf='';
-                                                rj,_w,Vn=1,(#jA-1)+221,221
-                                                lV=VF(-3830)
-                                            elseif lV==-28551 then
-                                                SN=Vn;
-                                                if _w~=_w then
-                                                    lV=VF(-2902)
-                                                else
-                                                    lV=VF(-6598)
-                                                end
-                                            elseif lV==28910 then
-                                                xf=xf..Sr(Sz(nv(jA,(SN-221)+1),nv(Ti,(SN-221)%#Ti+1)))
-                                                lV=VF(9802)
-                                            elseif lV==-16651 then
-                                                Vn=Vn+rj;
-                                                SN=Vn;
-                                                if Vn~=Vn then
-                                                    lV=28603
-                                                else
-                                                    lV=VF(-12376)
-                                                end
-                                            elseif lV==28603 then
-                                                return xf
-                                            elseif lV==32645 then
-                                                if(rj>=0 and Vn>_w)or((rj<0 or rj~=rj)and Vn<_w)then
-                                                    lV=VF(-9499)
-                                                else
-                                                    lV=VF(-30959)
-                                                end
-                                            end
-                                        end
-                                    until lV==-3161
-                                end)('S4\217S4\195B','\24t]'),(function(tq,Pi)
-                                    local _M,iu,xY,fs,cm,Po,gP,Ci
-                                    fs,xY={[24014]=31102,[-2437]=27025,[9856]=29654,[-31459]=31102,[-23172]=29654,[-8362]=29654,[-20633]=-8280,[29672]=-32237,[-1512]=9418},function(ix)
-                                        return fs[ix-13997]
-                                    end
-                                    Po=xY(43669)
-                                    repeat
-                                        while true do
-                                            if Po==29654 then
-                                                return gP
-                                            elseif Po==27025 then
-                                                gP=gP..Sr(Sz(nv(tq,(_M-81)+1),nv(Pi,(_M-81)%#Pi+1)))
-                                                Po=xY(-6636)
-                                            elseif Po==-8280 then
-                                                cm=cm+Ci;
-                                                _M=cm;
-                                                if cm~=cm then
-                                                    Po=xY(-9175)
-                                                else
-                                                    Po=xY(-17462)
-                                                end
-                                            elseif Po==31102 then
-                                                if(Ci>=0 and cm>iu)or((Ci<0 or Ci~=Ci)and cm<iu)then
-                                                    Po=xY(5635)
-                                                else
-                                                    Po=xY(11560)
-                                                end
-                                            elseif Po==9418 then
-                                                _M=cm;
-                                                if iu~=iu then
-                                                    Po=xY(23853)
-                                                else
-                                                    Po=xY(38011)
-                                                end
-                                            elseif Po==-32237 then
-                                                gP='';
-                                                Ci,cm,iu=1,81,(#tq-1)+81
-                                                Po=xY(12485)
-                                            end
-                                        end
-                                    until Po==-754
-                                end)('LE\144','\96'))]()[(function(Dr,pX)
-                                    local Ew,gu,YW,vz,mO,bx,_v,CQ
-                                    CQ,bx={[10990]=29334,[27412]=-23680,[-9938]=-26368,[-23430]=-23406,[13993]=-26368},function(xd)
-                                        return CQ[xd+30209]
-                                    end
-                                    _v=bx(-19219)
-                                    repeat
-                                        while true do
-                                            if _v==-23680 then
-                                                YW=YW..Sr(Sz(nv(Dr,(vz-226)+1),nv(pX,(vz-226)%#pX+1)))
-                                                _v=bx(-53639)
-                                            elseif _v==21721 then
-                                                vz=Ew;
-                                                if gu~=gu then
-                                                    _v=bx(-16216)
-                                                else
-                                                    _v=-25044
-                                                end
-                                            elseif _v==29334 then
-                                                YW='';
-                                                gu,Ew,mO=(#Dr-1)+226,226,1
-                                                _v=21721
-                                            elseif _v==-25044 then
-                                                if(mO>=0 and Ew>gu)or((mO<0 or mO~=mO)and Ew<gu)then
-                                                    _v=-26368
-                                                else
-                                                    _v=bx(-2797)
-                                                end
-                                            elseif _v==-26368 then
-                                                return YW
-                                            elseif _v==-23406 then
-                                                Ew=Ew+mO;
-                                                vz=Ew;
-                                                if Ew~=Ew then
-                                                    _v=bx(-40147)
-                                                else
-                                                    _v=-25044
-                                                end
-                                            end
-                                        end
-                                    until _v==18906
-                                end)((function(Tp,pd)
-                                    local Fp,in_,bm,gz,UC,Jq,Uw,CJ
-                                    UC,Uw={[16097]=-19892,[-32125]=-875,[-24135]=-4740,[28841]=-8882,[31193]=-19892,[13061]=-4740,[20355]=-25562},function(wt)
-                                        return UC[wt- -23142]
-                                    end
-                                    Jq=Uw(-55267)
-                                    repeat
-                                        while true do
-                                            if Jq==-8882 then
-                                                Fp=Fp+in_;
-                                                gz=Fp;
-                                                if Fp~=Fp then
-                                                    Jq=Uw(-47277)
-                                                else
-                                                    Jq=Uw(8051)
-                                                end
-                                            elseif Jq==-14562 then
-                                                gz=Fp;
-                                                if bm~=bm then
-                                                    Jq=-4740
-                                                else
-                                                    Jq=Uw(-7045)
-                                                end
-                                            elseif Jq==-4740 then
-                                                return CJ
-                                            elseif Jq==-19892 then
-                                                if(in_>=0 and Fp>bm)or((in_<0 or in_~=in_)and Fp<bm)then
-                                                    Jq=Uw(-10081)
-                                                else
-                                                    Jq=Uw(-2787)
-                                                end
-                                            elseif Jq==-875 then
-                                                CJ='';
-                                                Fp,bm,in_=243,(#Tp-1)+243,1
-                                                Jq=-14562
-                                            elseif Jq==-25562 then
-                                                CJ=CJ..Sr(Sz(nv(Tp,(gz-243)+1),nv(pd,(gz-243)%#pd+1)))
-                                                Jq=Uw(5699)
-                                            end
-                                        end
-                                    until Jq==-31821
-                                end)('R\238\247a\237\245u','\ve\188'),(function(rz,_t)
-                                    local xG,cT,GW,AR,vq,Rp,mL,gE
-                                    xG,mL={[-8814]=4648,[6759]=-16857,[26625]=-22831},function(_D)
-                                        return xG[_D-7230]
-                                    end
-                                    AR=mL(33855)
-                                    repeat
-                                        while true do
-                                            if AR==22833 then
-                                                Rp=GW;
-                                                if cT~=cT then
-                                                    AR=12764
-                                                else
-                                                    AR=31193
-                                                end
-                                            elseif AR==12764 then
-                                                return gE
-                                            elseif AR==-22831 then
-                                                gE='';
-                                                vq,cT,GW=1,(#rz-1)+222,222
-                                                AR=22833
-                                            elseif AR==4648 then
-                                                gE=gE..Sr(Sz(nv(rz,(Rp-222)+1),nv(_t,(Rp-222)%#_t+1)))
-                                                AR=mL(13989)
-                                            elseif AR==-16857 then
-                                                GW=GW+vq;
-                                                Rp=GW;
-                                                if GW~=GW then
-                                                    AR=12764
-                                                else
-                                                    AR=31193
-                                                end
-                                            elseif AR==31193 then
-                                                if(vq>=0 and GW>cT)or((vq<0 or vq~=vq)and GW<cT)then
-                                                    AR=12764
-                                                else
-                                                    AR=mL(-1584)
-                                                end
-                                            end
-                                        end
-                                    until AR==11951
-                                end)('\242\27\211','\255'))][(function(JW,sw)
-                                    local _E,mG,Cb,WR,JX,Cq,OW,gH
-                                    OW,gH={[28591]=14498,[32754]=1808,[-7000]=1808,[2527]=10062,[-23369]=-32158,[-23143]=-10080},function(DL)
-                                        return OW[DL+-241]
-                                    end
-                                    WR=gH(-23128)
-                                    repeat
-                                        while true do
-                                            if WR==-20935 then
-                                                mG=mG..Sr(Sz(nv(JW,(JX-172)+1),nv(sw,(JX-172)%#sw+1)))
-                                                WR=gH(28832)
-                                            elseif WR==-10080 then
-                                                return mG
-                                            elseif WR==14498 then
-                                                Cb=Cb+_E;
-                                                JX=Cb;
-                                                if Cb~=Cb then
-                                                    WR=gH(-22902)
-                                                else
-                                                    WR=gH(32995)
-                                                end
-                                            elseif WR==-32158 then
-                                                mG='';
-                                                Cq,_E,Cb=(#JW-1)+172,1,172
-                                                WR=gH(2768)
-                                            elseif WR==1808 then
-                                                if(_E>=0 and Cb>Cq)or((_E<0 or _E~=_E)and Cb<Cq)then
-                                                    WR=-10080
-                                                else
-                                                    WR=-20935
-                                                end
-                                            elseif WR==10062 then
-                                                JX=Cb;
-                                                if Cq~=Cq then
-                                                    WR=-10080
-                                                else
-                                                    WR=gH(-6759)
-                                                end
-                                            end
-                                        end
-                                    until WR==-5149
-                                end)((function(zB,AI)
-                                    local zc,ib,PB,be,QU,hY,lc,gG
-                                    ib,QU={[32443]=-7184,[6301]=-7978,[11724]=4430,[-24933]=-7978,[-10105]=-25334},function(Cr)
-                                        return ib[Cr+-8357]
-                                    end
-                                    hY=QU(20081)
-                                    repeat
-                                        while true do
-                                            if hY==-28256 then
-                                                zc=zc..Sr(Sz(nv(zB,(gG-16)+1),nv(AI,(gG-16)%#AI+1)))
-                                                hY=QU(-1748)
-                                            elseif hY==-25334 then
-                                                be=be+PB;
-                                                gG=be;
-                                                if be~=be then
-                                                    hY=QU(14658)
-                                                else
-                                                    hY=-7184
-                                                end
-                                            elseif hY==4430 then
-                                                zc='';
-                                                PB,lc,be=1,(#zB-1)+16,16
-                                                hY=13190
-                                            elseif hY==-7978 then
-                                                return zc
-                                            elseif hY==13190 then
-                                                gG=be;
-                                                if lc~=lc then
-                                                    hY=-7978
-                                                else
-                                                    hY=QU(40800)
-                                                end
-                                            elseif hY==-7184 then
-                                                if(PB>=0 and be>lc)or((PB<0 or PB~=PB)and be<lc)then
-                                                    hY=QU(-16576)
-                                                else
-                                                    hY=-28256
-                                                end
-                                            end
-                                        end
-                                    until hY==-11946
-                                end)('\213\f^o\139k\224\vxU\153S','g\244\28\"\243\186'),(function(ci,BO)
-                                    local gg,RX,_O,sj,Uk,sC,GF,Ld
-                                    Uk,gg={[-4228]=11598,[11407]=11598,[-3755]=19987,[-18601]=28830,[-25841]=-29499,[11440]=-28536},function(eB)
-                                        return Uk[eB- -15530]
-                                    end
-                                    sC=gg(-41371)
-                                    repeat
-                                        while true do
-                                            if sC==22219 then
-                                                Ld=RX;
-                                                if _O~=_O then
-                                                    sC=gg(-19758)
-                                                else
-                                                    sC=gg(-4090)
-                                                end
-                                            elseif sC==-28536 then
-                                                if(sj>=0 and RX>_O)or((sj<0 or sj~=sj)and RX<_O)then
-                                                    sC=gg(-4123)
-                                                else
-                                                    sC=gg(-34131)
-                                                end
-                                            elseif sC==28830 then
-                                                GF=GF..Sr(Sz(nv(ci,(Ld-52)+1),nv(BO,(Ld-52)%#BO+1)))
-                                                sC=gg(-19285)
-                                            elseif sC==-29499 then
-                                                GF='';
-                                                sj,_O,RX=1,(#ci-1)+52,52
-                                                sC=22219
-                                            elseif sC==11598 then
-                                                return GF
-                                            elseif sC==19987 then
-                                                RX=RX+sj;
-                                                Ld=RX;
-                                                if RX~=RX then
-                                                    sC=11598
-                                                else
-                                                    sC=-28536
-                                                end
-                                            end
-                                        end
-                                    until sC==-24636
-                                end)('v\\3\146\207\144','\144\209\22'))])then
-                                    LZ=Qr(29045)
-                                    break
-                                else
-                                    LZ=Qr(-20657)
-                                    break
-                                end
-                                LZ=Qr(-1931)
-                            elseif LZ==-2.6290999226605891e-05*-1063063437 then
-                                Hv=Hv(dA,md)
-                                LZ=Qr(-8290)
-                            elseif LZ==-49321581423300/-1598651025 then
-                                if A[(function(KU,pZ)
-                                    local V,FE,gc,w,hU,yL,KZ,UO
-                                    gc,FE={[5548]=-20801,[-7485]=27714,[-4099]=18866,[-5128]=-10760,[-25189]=-15564},function(ZK)
-                                        return gc[ZK+-19397]
-                                    end
-                                    yL=FE(-5792)
-                                    repeat
-                                        while true do
-                                            if yL==18866 then
-                                                w=w+hU;
-                                                KZ=w;
-                                                if w~=w then
-                                                    yL=FE(24945)
-                                                else
-                                                    yL=FE(14269)
-                                                end
-                                            elseif yL==-20801 then
-                                                return UO
-                                            elseif yL==22548 then
-                                                UO=UO..Sr(Sz(nv(KU,(KZ-68)+1),nv(pZ,(KZ-68)%#pZ+1)))
-                                                yL=FE(15298)
-                                            elseif yL==-15564 then
-                                                UO='';
-                                                V,hU,w=(#KU-1)+68,1,68
-                                                yL=FE(11912)
-                                            elseif yL==-10760 then
-                                                if(hU>=0 and w>V)or((hU<0 or hU~=hU)and w<V)then
-                                                    yL=-20801
-                                                else
-                                                    yL=22548
-                                                end
-                                            elseif yL==27714 then
-                                                KZ=w;
-                                                if V~=V then
-                                                    yL=-20801
-                                                else
-                                                    yL=-10760
-                                                end
-                                            end
-                                        end
-                                    until yL==-20614
-                                end)('\19\250\20\240','g\155')][(function(uA,pK)
-                                    local ot,Ec,FD,dV,if_,HF,hI,Bd
-                                    ot,Ec={[25874]=29569,[-15707]=32156,[8123]=32156,[5995]=-24367},function(vV)
-                                        return ot[vV+-21828]
-                                    end
-                                    dV=Ec(47702)
-                                    repeat
-                                        while true do
-                                            if dV==-11504 then
-                                                if(if_>=0 and Bd>FD)or((if_<0 or if_~=if_)and Bd<FD)then
-                                                    dV=Ec(29951)
-                                                else
-                                                    dV=25238
-                                                end
-                                            elseif dV==32156 then
-                                                return hI
-                                            elseif dV==25238 then
-                                                hI=hI..Sr(Sz(nv(uA,(HF-171)+1),nv(pK,(HF-171)%#pK+1)))
-                                                dV=Ec(27823)
-                                            elseif dV==-22238 then
-                                                HF=Bd;
-                                                if FD~=FD then
-                                                    dV=Ec(6121)
-                                                else
-                                                    dV=-11504
-                                                end
-                                            elseif dV==-24367 then
-                                                Bd=Bd+if_;
-                                                HF=Bd;
-                                                if Bd~=Bd then
-                                                    dV=32156
-                                                else
-                                                    dV=-11504
-                                                end
-                                            elseif dV==29569 then
-                                                hI='';
-                                                FD,Bd,if_=(#uA-1)+171,171,1
-                                                dV=-22238
-                                            end
-                                        end
-                                    until dV==26009
-                                end)('\139;\149.','\252Z')](-2359945.875/-94397835)then
-                                    LZ=3.531745464568649e-05*717350677
-                                else
-                                    LZ=Qr(-5762)
-                                end
-                            elseif LZ==1075633778-1075610006 then
-                                LZ=Qr(34754);
-                                break;
-                            end
-                        end
-                    until LZ==5269887606123/270708769
-                end)
-                IC=Pu(11826)
-            elseif IC==1108530526-1108556493 then
-                uX='\238\184'
-                IC=Pu(13332)
-            elseif IC==-8.9474166263102885e-06*-1522338857 then
-                Eu=Eu[EK]
-                IC=Pu(7533)
-            elseif IC==-54316213- -54315644 then
-                EK=(function(fq,MZ)
-                    local Wl,pb,rS,mY,xV,cR,LA,QY
-                    Wl,LA={[-18617]=-11911,[20707]=1924,[-9757]=3211,[5000]=-3487,[3426]=-9128,[-9693]=-1213},function(bW)
-                        return Wl[bW- -24947]
-                    end
-                    QY=LA(-21521)
-                    repeat
-                        while true do
-                            if QY==-9128 then
-                                xV='';
-                                rS,cR,mY=(#fq-1)+74,74,1
-                                QY=LA(-43564)
-                            elseif QY==-3487 then
-                                return xV
-                            elseif QY==1924 then
-                                if(mY>=0 and cR>rS)or((mY<0 or mY~=mY)and cR<rS)then
-                                    QY=LA(-19947)
-                                else
-                                    QY=LA(-34704)
-                                end
-                            elseif QY==-1213 then
-                                cR=cR+mY;
-                                pb=cR;
-                                if cR~=cR then
-                                    QY=-3487
-                                else
-                                    QY=LA(-4240)
-                                end
-                            elseif QY==-11911 then
-                                pb=cR;
-                                if rS~=rS then
-                                    QY=-3487
-                                else
-                                    QY=1924
-                                end
-                            elseif QY==3211 then
-                                xV=xV..Sr(Sz(nv(fq,(pb-74)+1),nv(MZ,(pb-74)%#MZ+1)))
-                                QY=LA(-34640)
-                            end
-                        end
-                    until QY==9063
-                end)(EK,uX)
-                IC=30776009+-30762388
+            if Sh==20788 then
+                Xb=Xb..iT(TK(ho(PJ,(iD-95)+1),ho(rh,(iD-95)%#rh+1)))
+                Sh=dl(-19823)
+            elseif Sh==17334 then
+                iD=Dz;
+                if Rq~=Rq then
+                    Sh=dl(19317)
+                else
+                    Sh=1672
+                end
+            elseif Sh==24609 then
+                Xb='';
+                Dz,YJ,Rq=95,1,(#PJ-1)+95
+                Sh=dl(-19642)
+            elseif Sh==1672 then
+                if(YJ>=0 and Dz>Rq)or((YJ<0 or YJ~=YJ)and Dz<Rq)then
+                    Sh=dl(-21147)
+                else
+                    Sh=20788
+                end
+            elseif Sh==-5293 then
+                Dz=Dz+YJ;
+                iD=Dz;
+                if Dz~=Dz then
+                    Sh=dl(-40039)
+                else
+                    Sh=dl(8400)
+                end
+            elseif Sh==-29986 then
+                return Xb
             end
         end
-    until IC==49992258651610/-1852731670
-end;
-vS[(function(YA,LT)
-    local eZ,Zg,sS,Up,EJ,kq,dX,CY
-    eZ,EJ={[12999]=23749,[-26874]=-24706,[17608]=17422,[-12767]=4133,[-5600]=14441,[1180]=-16639},function(PR)
-        return eZ[PR+19735]
+    until Sh==16683
+end)('!\224\150\226\128\26\208\n\198\138\226\187\5\219','d\132\255\150\207j\181')](dw,{[(function(eU,ra)
+    local fY,xJ,OV,zn,tB,gx,kH,CR
+    fY,xJ={[-7263]=8589,[-25690]=-22647,[13243]=22930,[-5248]=8289,[-10448]=22930},function(NT)
+        return fY[NT-18856]
     end
-    CY=EJ(-2127)
+    OV=xJ(13608)
     repeat
         while true do
-            if CY==23749 then
-                if(Zg>=0 and Up>sS)or((Zg<0 or Zg~=Zg)and Up<sS)then
-                    CY=-24706
+            if OV==22930 then
+                return gx
+            elseif OV==11305 then
+                gx=gx..iT(TK(ho(eU,(tB-200)+1),ho(ra,(tB-200)%#ra+1)))
+                OV=xJ(-6834)
+            elseif OV==8289 then
+                gx='';
+                kH,CR,zn=(#eU-1)+200,200,1
+                OV=1931
+            elseif OV==-22647 then
+                CR=CR+zn;
+                tB=CR;
+                if CR~=CR then
+                    OV=xJ(8408)
                 else
-                    CY=EJ(-18555)
+                    OV=8589
                 end
-            elseif CY==-24706 then
-                return dX
-            elseif CY==17422 then
-                dX='';
-                Zg,sS,Up=1,(#YA-1)+39,39
-                CY=EJ(-32502)
-            elseif CY==14441 then
-                Up=Up+Zg;
-                kq=Up;
-                if Up~=Up then
-                    CY=-24706
+            elseif OV==1931 then
+                tB=CR;
+                if kH~=kH then
+                    OV=xJ(32099)
                 else
-                    CY=23749
+                    OV=xJ(11593)
                 end
-            elseif CY==4133 then
-                kq=Up;
-                if sS~=sS then
-                    CY=EJ(-46609)
+            elseif OV==8589 then
+                if(zn>=0 and CR>kH)or((zn<0 or zn~=zn)and CR<kH)then
+                    OV=22930
                 else
-                    CY=EJ(-6736)
-                end
-            elseif CY==-16639 then
-                dX=dX..Sr(Sz(nv(YA,(kq-39)+1),nv(LT,(kq-39)%#LT+1)))
-                CY=EJ(-25335)
-            end
-        end
-    until CY==22980
-end)('\146\48\182?','\223Q')][(function(ty,bC)
-    local jN,dI,gn,Vr,hH,dd,Eb,SK
-    hH,SK={[-11922]=17515,[4169]=20712,[-12030]=21043,[3394]=20712,[-12370]=26570,[-8680]=9775,[-28465]=-22230},function(wu)
-        return hH[wu-20024]
-    end
-    dI=SK(8102)
-    repeat
-        while true do
-            if dI==17515 then
-                dd='';
-                Eb,gn,jN=215,1,(#ty-1)+215
-                dI=SK(11344)
-            elseif dI==26570 then
-                dd=dd..Sr(Sz(nv(ty,(Vr-215)+1),nv(bC,(Vr-215)%#bC+1)))
-                dI=SK(-8441)
-            elseif dI==20712 then
-                return dd
-            elseif dI==21043 then
-                if(gn>=0 and Eb>jN)or((gn<0 or gn~=gn)and Eb<jN)then
-                    dI=SK(24193)
-                else
-                    dI=SK(7654)
-                end
-            elseif dI==-22230 then
-                Eb=Eb+gn;
-                Vr=Eb;
-                if Eb~=Eb then
-                    dI=20712
-                else
-                    dI=SK(7994)
-                end
-            elseif dI==9775 then
-                Vr=Eb;
-                if jN~=jN then
-                    dI=SK(23418)
-                else
-                    dI=21043
+                    OV=11305
                 end
             end
         end
-    until dI==14877
-end)(':>\222\t=\220','nQ\185')](vS[(function(ht,St)
-    local zY,mv,PJ,wV,gR,pR,ll,eP
-    mv,gR={[-24912]=-18309,[-11616]=10102,[-17091]=-1714,[12353]=26199,[-6488]=-19329,[734]=-18309},function(Uy)
-        return mv[Uy+22650]
+    until OV==-21397
+end)('\200m\232h\249','\156\4')]=(function(SU,Wx)
+    local rF,tI,AH,Kw,ob,kB,sQ,dm
+    kB,sQ={[21249]=28265,[6685]=-28305,[-28809]=-20302,[-17240]=28265,[-2761]=10148,[8639]=15334},function(Xz)
+        return kB[Xz+2901]
     end
-    PJ=gR(-10297)
+    AH=sQ(3784)
     repeat
         while true do
-            if PJ==10102 then
-                if(pR>=0 and ll>zY)or((pR<0 or pR~=pR)and ll<zY)then
-                    PJ=-18309
+            if AH==-28305 then
+                ob='';
+                Kw,dm,tI=38,(#SU-1)+38,1
+                AH=6645
+            elseif AH==10148 then
+                if(tI>=0 and Kw>dm)or((tI<0 or tI~=tI)and Kw<dm)then
+                    AH=sQ(18348)
                 else
-                    PJ=gR(-39741)
+                    AH=sQ(5738)
                 end
-            elseif PJ==-18309 then
-                return eP
-            elseif PJ==26199 then
-                eP='';
-                ll,zY,pR=193,(#ht-1)+193,1
-                PJ=24070
-            elseif PJ==-1714 then
-                eP=eP..Sr(Sz(nv(ht,(wV-193)+1),nv(St,(wV-193)%#St+1)))
-                PJ=gR(-29138)
-            elseif PJ==24070 then
-                wV=ll;
-                if zY~=zY then
-                    PJ=gR(-21916)
+            elseif AH==28265 then
+                return ob
+            elseif AH==-20302 then
+                Kw=Kw+tI;
+                rF=Kw;
+                if Kw~=Kw then
+                    AH=28265
                 else
-                    PJ=gR(-34266)
+                    AH=10148
                 end
-            elseif PJ==-19329 then
-                ll=ll+pR;
-                wV=ll;
-                if ll~=ll then
-                    PJ=gR(-47562)
+            elseif AH==15334 then
+                ob=ob..iT(TK(ho(SU,(rF-38)+1),ho(Wx,(rF-38)%#Wx+1)))
+                AH=sQ(-31710)
+            elseif AH==6645 then
+                rF=Kw;
+                if dm~=dm then
+                    AH=sQ(-20141)
                 else
-                    PJ=10102
+                    AH=sQ(-5662)
                 end
             end
         end
-    until PJ==-5455
-end)('\146\48\182?','\223Q')],{[(function(HW,_g)
-    local lG,LV,LB,Lo,ZC,SF,is,ul
-    ZC,LV={[9820]=-26069,[12013]=28593,[-1554]=3084,[-30644]=1363,[3946]=31550,[27610]=31550,[-21342]=-9564,[6216]=-9564},function(Ag)
-        return ZC[Ag-1625]
+    until AH==29971
+end)('\31\221\54\208b5h\4x1\215s\237!\nr\23y','P\173S\190Bx\27g\r'),[(function(CG,iq)
+    local Pa,dB,dW,fx,mG,Nu,jg,ES
+    jg,Nu={[-30818]=5543,[-30847]=19733,[-25919]=19733,[-20910]=30207},function(lx)
+        return jg[lx-21993]
     end
-    is=LV(11445)
+    Pa=Nu(1083)
     repeat
         while true do
-            if is==28593 then
-                lG=lG..Sr(Sz(nv(HW,(ul-233)+1),nv(_g,(ul-233)%#_g+1)))
-                is=LV(-29019)
-            elseif is==1363 then
-                LB=LB+SF;
-                ul=LB;
-                if LB~=LB then
-                    is=31550
+            if Pa==5543 then
+                ES=ES+fx;
+                dB=ES;
+                if ES~=ES then
+                    Pa=Nu(-8854)
                 else
-                    is=LV(-19717)
+                    Pa=11843
                 end
-            elseif is==31550 then
-                return lG
-            elseif is==-9564 then
-                if(SF>=0 and LB>Lo)or((SF<0 or SF~=SF)and LB<Lo)then
-                    is=LV(29235)
+            elseif Pa==11843 then
+                if(fx>=0 and ES>mG)or((fx<0 or fx~=fx)and ES<mG)then
+                    Pa=Nu(-3926)
                 else
-                    is=LV(13638)
+                    Pa=-2207
                 end
-            elseif is==-26069 then
-                lG='';
-                SF,LB,Lo=1,233,(#HW-1)+233
-                is=LV(71)
-            elseif is==3084 then
-                ul=LB;
-                if Lo~=Lo then
-                    is=LV(5571)
+            elseif Pa==30207 then
+                dW='';
+                mG,ES,fx=(#CG-1)+89,89,1
+                Pa=13614
+            elseif Pa==13614 then
+                dB=ES;
+                if mG~=mG then
+                    Pa=19733
                 else
-                    is=LV(7841)
+                    Pa=11843
+                end
+            elseif Pa==19733 then
+                return dW
+            elseif Pa==-2207 then
+                dW=dW..iT(TK(ho(CG,(dB-89)+1),ho(iq,(dB-89)%#iq+1)))
+                Pa=Nu(-8825)
+            end
+        end
+    until Pa==3459
+end)('u\132S\137','<\231')]=(function(PF,FW)
+    local uB,WK,HW,xs,jE,Dk,wY,Hl
+    uB,wY={[9414]=-24399,[-10769]=-12513,[17436]=-11361,[9506]=-21703,[26991]=-12513,[-15888]=-12513,[-16805]=28086,[22506]=-11911},function(NK)
+        return uB[NK+5680]
+    end
+    jE=wY(-22485)
+    repeat
+        while true do
+            if jE==-24399 then
+                xs=xs+Hl;
+                Dk=xs;
+                if xs~=xs then
+                    jE=wY(21311)
+                else
+                    jE=-11361
+                end
+            elseif jE==-11361 then
+                if(Hl>=0 and xs>HW)or((Hl<0 or Hl~=Hl)and xs<HW)then
+                    jE=wY(-21568)
+                else
+                    jE=wY(16826)
+                end
+            elseif jE==-21703 then
+                Dk=xs;
+                if HW~=HW then
+                    jE=wY(-16449)
+                else
+                    jE=wY(11756)
+                end
+            elseif jE==28086 then
+                WK='';
+                HW,Hl,xs=(#PF-1)+98,1,98
+                jE=wY(3826)
+            elseif jE==-11911 then
+                WK=WK..iT(TK(ho(PF,(Dk-98)+1),ho(FW,(Dk-98)%#FW+1)))
+                jE=wY(3734)
+            elseif jE==-12513 then
+                return WK
+            end
+        end
+    until jE==-30392
+end)('g\229u\227','\20\145'),[(function(lH,Wa)
+    local VG,QH,Hw,aI,El,Hs,jq,ZO
+    VG,El={[-12097]=31558,[-29664]=-4177,[-16425]=25912,[32073]=10845,[17340]=-26461},function(iE)
+        return VG[iE-13120]
+    end
+    QH=El(30460)
+    repeat
+        while true do
+            if QH==999 then
+                jq=jq..iT(TK(ho(lH,(aI-35)+1),ho(Wa,(aI-35)%#Wa+1)))
+                QH=El(45193)
+            elseif QH==31558 then
+                aI=ZO;
+                if Hw~=Hw then
+                    QH=El(-3305)
+                else
+                    QH=El(-16544)
+                end
+            elseif QH==-4177 then
+                if(Hs>=0 and ZO>Hw)or((Hs<0 or Hs~=Hs)and ZO<Hw)then
+                    QH=25912
+                else
+                    QH=999
+                end
+            elseif QH==25912 then
+                return jq
+            elseif QH==-26461 then
+                jq='';
+                ZO,Hs,Hw=35,1,(#lH-1)+35
+                QH=El(1023)
+            elseif QH==10845 then
+                ZO=ZO+Hs;
+                aI=ZO;
+                if ZO~=ZO then
+                    QH=25912
+                else
+                    QH=-4177
                 end
             end
         end
-    until is==14667
-end)('\24\172\56\169)','L\197')]=(function(jp,fO)
-    local ga,Rz,pq,HG,Fe,NC,Sq,Wc
-    pq,ga={[-18273]=21093,[-27223]=-13215,[-5330]=-8002},function(hW)
-        return pq[hW+27245]
+    until QH==19568
+end)('\214\168\165>.z\199\166\179\57>{','\149\199\215PK\b')]=on[(function(wf,ZS)
+    local xC,wJ,as,TX,YI,Vn,OE,hs
+    hs,wJ={[-6093]=5937,[11022]=5937,[8773]=27381,[15070]=24203,[32679]=5072},function(xr)
+        return hs[xr+15259]
     end
-    Rz=ga(-32575)
+    OE=wJ(17420)
     repeat
         while true do
-            if Rz==-11575 then
-                Sq=Sq..Sr(Sz(nv(jp,(Wc-250)+1),nv(fO,(Wc-250)%#fO+1)))
-                Rz=ga(-54468)
-            elseif Rz==-15595 then
-                Wc=NC;
-                if Fe~=Fe then
-                    Rz=21093
+            if OE==27381 then
+                Vn=Vn+TX;
+                YI=Vn;
+                if Vn~=Vn then
+                    OE=24203
                 else
-                    Rz=-11793
+                    OE=wJ(-4237)
                 end
-            elseif Rz==-13215 then
-                NC=NC+HG;
-                Wc=NC;
-                if NC~=NC then
-                    Rz=21093
+            elseif OE==-8768 then
+                xC=xC..iT(TK(ho(wf,(YI-241)+1),ho(ZS,(YI-241)%#ZS+1)))
+                OE=wJ(-6486)
+            elseif OE==9076 then
+                YI=Vn;
+                if as~=as then
+                    OE=24203
                 else
-                    Rz=-11793
+                    OE=wJ(-21352)
                 end
-            elseif Rz==21093 then
-                return Sq
-            elseif Rz==-8002 then
-                Sq='';
-                Fe,NC,HG=(#jp-1)+250,250,1
-                Rz=-15595
-            elseif Rz==-11793 then
-                if(HG>=0 and NC>Fe)or((HG<0 or HG~=HG)and NC<Fe)then
-                    Rz=ga(-45518)
+            elseif OE==5937 then
+                if(TX>=0 and Vn>as)or((TX<0 or TX~=TX)and Vn<as)then
+                    OE=wJ(-189)
                 else
-                    Rz=-11575
+                    OE=-8768
+                end
+            elseif OE==24203 then
+                return xC
+            elseif OE==5072 then
+                xC='';
+                Vn,TX,as=241,1,(#wf-1)+241
+                OE=9076
+            end
+        end
+    until OE==5369
+end)('\131\168\191\129','\214\236')][(function(AW,yn)
+    local lQ,j,g,JO,wP,uW,ty,gk
+    g,JO={[-13660]=-22709,[-1007]=26691,[27923]=-12836,[16185]=20949},function(RQ)
+        return g[RQ-30529]
+    end
+    j=JO(58452)
+    repeat
+        while true do
+            if j==7119 then
+                uW=uW..iT(TK(ho(AW,(gk-80)+1),ho(yn,(gk-80)%#yn+1)))
+                j=JO(29522)
+            elseif j==26691 then
+                wP=wP+lQ;
+                gk=wP;
+                if wP~=wP then
+                    j=-8489
+                else
+                    j=JO(46714)
+                end
+            elseif j==-8489 then
+                return uW
+            elseif j==-22709 then
+                gk=wP;
+                if ty~=ty then
+                    j=-8489
+                else
+                    j=20949
+                end
+            elseif j==-12836 then
+                uW='';
+                ty,wP,lQ=(#AW-1)+80,80,1
+                j=JO(16869)
+            elseif j==20949 then
+                if(lQ>=0 and wP>ty)or((lQ<0 or lQ~=lQ)and wP<ty)then
+                    j=-8489
+                else
+                    j=7119
                 end
             end
         end
-    until Rz==-28154
-end)('\244\254\rD8\212\138\130\218\246\vRk\177\155\160','\179\146l7K\244\200\240'),[(function(Xs,Tf)
-    local Kx,wJ,uH,CK,Z,gy,Bu,zr
-    Bu,Kx={[-32442]=28194,[7807]=30203,[11647]=-969,[-10873]=-32618,[-12845]=28194,[-2596]=26732},function(cN)
-        return Bu[cN-21734]
+    until j==-32606
+end)('\170\161\179','\196')](-2009512723- -2009512723,-1487006036+1487006042),[(function(ar,vm)
+    local WT,SR,pP,ya,fi,xL,tV,JB
+    SR,pP={[26502]=19014,[23851]=908,[26941]=908,[12093]=22699,[28324]=31703,[-29527]=-22400,[-31110]=20445},function(op)
+        return SR[op+-8405]
     end
-    gy=Kx(33381)
+    fi=pP(34907)
     repeat
         while true do
-            if gy==28194 then
-                if(CK>=0 and Z>zr)or((CK<0 or CK~=CK)and Z<zr)then
-                    gy=Kx(29541)
+            if fi==20445 then
+                ya=ya..iT(TK(ho(ar,(JB-246)+1),ho(vm,(JB-246)%#vm+1)))
+                fi=pP(-21122)
+            elseif fi==908 then
+                if(WT>=0 and xL>tV)or((WT<0 or WT~=WT)and xL<tV)then
+                    fi=pP(20498)
                 else
-                    gy=Kx(19138)
+                    fi=pP(-22705)
                 end
-            elseif gy==26732 then
-                uH=uH..Sr(Sz(nv(Xs,(wJ-118)+1),nv(Tf,(wJ-118)%#Tf+1)))
-                gy=Kx(10861)
-            elseif gy==30203 then
-                return uH
-            elseif gy==-4998 then
-                wJ=Z;
-                if zr~=zr then
-                    gy=30203
-                else
-                    gy=Kx(8889)
-                end
-            elseif gy==-969 then
-                uH='';
-                CK,Z,zr=1,118,(#Xs-1)+118
-                gy=-4998
-            elseif gy==-32618 then
-                Z=Z+CK;
-                wJ=Z;
-                if Z~=Z then
-                    gy=30203
-                else
-                    gy=Kx(-10708)
-                end
-            end
-        end
-    until gy==15913
-end)('\130\228\184\240\177','\212\133')]=A[(function(_C,Bc)
-    local QO,wi,JG,KR,iW,KF,QC,jM
-    KR,KF={[-12481]=-24292,[-11856]=25325,[-30994]=-24292,[12457]=18088,[14213]=11157,[-11624]=14407},function(_N)
-        return KR[_N+-15472]
-    end
-    JG=KF(3848)
-    repeat
-        while true do
-            if JG==18088 then
-                QO=QO+jM;
-                iW=QO;
-                if QO~=QO then
-                    JG=KF(29685)
-                else
-                    JG=KF(2991)
-                end
-            elseif JG==14407 then
-                wi='';
-                QC,jM,QO=(#_C-1)+234,1,234
-                JG=KF(3616)
-            elseif JG==25325 then
-                iW=QO;
-                if QC~=QC then
-                    JG=11157
-                else
-                    JG=KF(-15522)
-                end
-            elseif JG==11157 then
-                return wi
-            elseif JG==23916 then
-                wi=wi..Sr(Sz(nv(_C,(iW-234)+1),nv(Bc,(iW-234)%#Bc+1)))
-                JG=KF(27929)
-            elseif JG==-24292 then
-                if(jM>=0 and QO>QC)or((jM<0 or jM~=jM)and QO<QC)then
-                    JG=11157
-                else
-                    JG=23916
-                end
-            end
-        end
-    until JG==-23910
-end)('.\1Z.\1@?','Id.')]()[(function(wn,dD)
-    local _Z,Za,mN,zx,UZ,bc,ce,lR
-    mN,ce={[26409]=-18522,[5114]=28077,[-22782]=-2001,[-11784]=7440,[-16129]=7440},function(aP)
-        return mN[aP+31934]
-    end
-    lR=ce(-54716)
-    repeat
-        while true do
-            if lR==-22580 then
-                if(zx>=0 and _Z>bc)or((zx<0 or zx~=zx)and _Z<bc)then
-                    lR=7440
-                else
-                    lR=ce(-5525)
-                end
-            elseif lR==28077 then
-                _Z=_Z+zx;
-                Za=_Z;
-                if _Z~=_Z then
-                    lR=ce(-43718)
-                else
-                    lR=-22580
-                end
-            elseif lR==7440 then
-                return UZ
-            elseif lR==-2001 then
-                UZ='';
-                bc,zx,_Z=(#wn-1)+187,1,187
-                lR=2182
-            elseif lR==2182 then
-                Za=_Z;
-                if bc~=bc then
-                    lR=ce(-48063)
-                else
-                    lR=-22580
-                end
-            elseif lR==-18522 then
-                UZ=UZ..Sr(Sz(nv(wn,(Za-187)+1),nv(dD,(Za-187)%#dD+1)))
-                lR=ce(-26820)
-            end
-        end
-    until lR==-22910
-end)('\n{Q9xS-','^\20\54')][(function(sH,Tm)
-    local uU,pG,bu,mo,Qo,qa,Ch,hj
-    uU,mo={[8557]=-23198,[-30570]=-23103,[17256]=14773,[16120]=-197,[-3869]=14773},function(ed)
-        return uU[ed+28730]
-    end
-    bu=mo(-12610)
-    repeat
-        while true do
-            if bu==14773 then
-                return Qo
-            elseif bu==-23103 then
-                Qo=Qo..Sr(Sz(nv(sH,(pG-111)+1),nv(Tm,(pG-111)%#Tm+1)))
-                bu=mo(-20173)
-            elseif bu==-17328 then
-                if(qa>=0 and hj>Ch)or((qa<0 or qa~=qa)and hj<Ch)then
-                    bu=mo(-32599)
-                else
-                    bu=mo(-59300)
-                end
-            elseif bu==3044 then
-                pG=hj;
-                if Ch~=Ch then
-                    bu=14773
-                else
-                    bu=-17328
-                end
-            elseif bu==-23198 then
-                hj=hj+qa;
-                pG=hj;
-                if hj~=hj then
-                    bu=mo(-11474)
-                else
-                    bu=-17328
-                end
-            elseif bu==-197 then
-                Qo='';
-                qa,Ch,hj=1,(#sH-1)+111,111
-                bu=3044
-            end
-        end
-    until bu==6350
-end)('\247\143~\203\144o\24\217\135x\221\166~:','\176\227\31\184\227-j')]or false,[(function(jL,UJ)
-    local Kt,tV,Ve,sv,SQ,OP,Yt,Se
-    OP,Yt={[16150]=28775,[-3244]=-20822,[19049]=28775,[-11630]=11605},function(Du)
-        return OP[Du+27783]
-    end
-    Se=Yt(-31027)
-    repeat
-        while true do
-            if Se==28775 then
-                return SQ
-            elseif Se==-20822 then
-                SQ='';
-                tV,Kt,sv=224,(#jL-1)+224,1
-                Se=-18347
-            elseif Se==-18347 then
-                Ve=tV;
-                if Kt~=Kt then
-                    Se=28775
-                else
-                    Se=2072
-                end
-            elseif Se==-30265 then
-                SQ=SQ..Sr(Sz(nv(jL,(Ve-224)+1),nv(UJ,(Ve-224)%#UJ+1)))
-                Se=Yt(-39413)
-            elseif Se==2072 then
-                if(sv>=0 and tV>Kt)or((sv<0 or sv~=sv)and tV<Kt)then
-                    Se=Yt(-11633)
-                else
-                    Se=-30265
-                end
-            elseif Se==11605 then
-                tV=tV+sv;
-                Ve=tV;
+            elseif fi==22699 then
+                return ya
+            elseif fi==19014 then
+                ya='';
+                xL,tV,WT=246,(#ar-1)+246,1
+                fi=pP(36729)
+            elseif fi==31703 then
+                JB=xL;
                 if tV~=tV then
-                    Se=Yt(-8734)
+                    fi=22699
                 else
-                    Se=2072
+                    fi=pP(32256)
+                end
+            elseif fi==-22400 then
+                xL=xL+WT;
+                JB=xL;
+                if xL~=xL then
+                    fi=22699
+                else
+                    fi=pP(35346)
                 end
             end
         end
-    until Se==22100
-end)('\247\193\149|\214\193\154{','\180\160\249\16')]=function(eC)
-    A[(function(kx,zs)
-        local mp,IR,BX,KT,VC,s,zU,Uu
-        s,mp={[-1608]=5033,[8384]=5033,[-28961]=15901,[11331]=-25985,[-12599]=18002},function(aA)
-            return s[aA- -20395]
-        end
-        BX=mp(-32994)
-        repeat
-            while true do
-                if BX==18002 then
-                    KT='';
-                    VC,Uu,IR=(#kx-1)+27,1,27
-                    BX=mp(-9064)
-                elseif BX==15234 then
-                    return KT
-                elseif BX==15901 then
-                    IR=IR+Uu;
-                    zU=IR;
-                    if IR~=IR then
-                        BX=15234
-                    else
-                        BX=mp(-22003)
-                    end
-                elseif BX==-25348 then
-                    KT=KT..Sr(Sz(nv(kx,(zU-27)+1),nv(zs,(zU-27)%#zs+1)))
-                    BX=mp(-49356)
-                elseif BX==5033 then
-                    if(Uu>=0 and IR>VC)or((Uu<0 or Uu~=Uu)and IR<VC)then
-                        BX=15234
-                    else
-                        BX=-25348
-                    end
-                elseif BX==-25985 then
-                    zU=IR;
-                    if VC~=VC then
-                        BX=15234
-                    else
-                        BX=mp(-12011)
-                    end
-                end
-            end
-        until BX==29162
-    end)('\213\141\239\213\141\245\196','\178\232\155')]()[(function(gZ,Cw)
-        local DK,XS,vj,QL,f,UQ,di,dU
-        vj,f={[-21908]=-16267,[30930]=-16267,[-29863]=27026,[-6860]=10638,[-1940]=23005},function(_e)
-            return vj[_e+15798]
-        end
-        XS=f(-17738)
-        repeat
-            while true do
-                if XS==-17185 then
-                    if(di>=0 and dU>DK)or((di<0 or di~=di)and dU<DK)then
-                        XS=f(15132)
-                    else
-                        XS=5490
-                    end
-                elseif XS==10638 then
-                    dU=dU+di;
-                    UQ=dU;
-                    if dU~=dU then
-                        XS=-16267
-                    else
-                        XS=-17185
-                    end
-                elseif XS==-16267 then
-                    return QL
-                elseif XS==23005 then
-                    QL='';
-                    di,dU,DK=1,157,(#gZ-1)+157
-                    XS=f(-45661)
-                elseif XS==27026 then
-                    UQ=dU;
-                    if DK~=DK then
-                        XS=f(-37706)
-                    else
-                        XS=-17185
-                    end
-                elseif XS==5490 then
-                    QL=QL..Sr(Sz(nv(gZ,(UQ-157)+1),nv(Cw,(UQ-157)%#Cw+1)))
-                    XS=f(-22658)
-                end
-            end
-        until XS==-29247
-    end)('\194\56/\241;-\229','\150WH')][(function(uT,ly)
-        local _h,UK,ES,KP,qs,Ln,mE,dH
-        mE,_h={[22681]=5312,[-2754]=-7322,[-4054]=-14533,[12507]=-8705,[-8140]=-30285,[10123]=-14533},function(cA)
-            return mE[cA- -26337]
-        end
-        qs=_h(-13830)
-        repeat
-            while true do
-                if qs==-8705 then
-                    dH='';
-                    ES,KP,UK=5,(#uT-1)+5,1
-                    qs=9298
-                elseif qs==9298 then
-                    Ln=ES;
-                    if KP~=KP then
-                        qs=-7322
-                    else
-                        qs=_h(-30391)
-                    end
-                elseif qs==-14533 then
-                    if(UK>=0 and ES>KP)or((UK<0 or UK~=UK)and ES<KP)then
-                        qs=-7322
-                    else
-                        qs=_h(-3656)
-                    end
-                elseif qs==5312 then
-                    dH=dH..Sr(Sz(nv(uT,(Ln-5)+1),nv(ly,(Ln-5)%#ly+1)))
-                    qs=_h(-34477)
-                elseif qs==-30285 then
-                    ES=ES+UK;
-                    Ln=ES;
-                    if ES~=ES then
-                        qs=_h(-29091)
-                    else
-                        qs=_h(-16214)
-                    end
-                elseif qs==-7322 then
-                    return dH
-                end
-            end
-        until qs==-4968
-    end)(')\242N\151\53\145P\a\250H\129\3\128r','n\158/\228F\211\"')]=eC;
-end})
-do
-    local pk=A[(function(VX,KL)
-        local Qe,ST,vt,Yh,iQ,cK,DC,b
-        Yh,b={[1737]=30057,[-18857]=31373,[23512]=16745,[-362]=-9454,[-19073]=-9454},function(Sk)
-            return Yh[Sk+-18138]
-        end
-        vt=b(19875)
-        repeat
-            while true do
-                if vt==13453 then
-                    ST=ST..Sr(Sz(nv(VX,(iQ-38)+1),nv(KL,(iQ-38)%#KL+1)))
-                    vt=b(41650)
-                elseif vt==31373 then
-                    iQ=DC;
-                    if cK~=cK then
-                        vt=-9454
-                    else
-                        vt=-14977
-                    end
-                elseif vt==16745 then
-                    DC=DC+Qe;
-                    iQ=DC;
-                    if DC~=DC then
-                        vt=b(-935)
-                    else
-                        vt=-14977
-                    end
-                elseif vt==-14977 then
-                    if(Qe>=0 and DC>cK)or((Qe<0 or Qe~=Qe)and DC<cK)then
-                        vt=b(17776)
-                    else
-                        vt=13453
-                    end
-                elseif vt==30057 then
-                    ST='';
-                    Qe,cK,DC=1,(#VX-1)+38,38
-                    vt=b(-719)
-                elseif vt==-9454 then
-                    return ST
-                end
-            end
-        until vt==-15117
-    end)('\151\178\4\r\147\173\23\5\133','\224\221vf')][(function(hk,IW)
-        local pS,Nu,Ar,oa,jj,zp,WO,oi
-        oa,oi={[31926]=7149,[-916]=1703,[31220]=7149,[27918]=-13344,[-803]=6779},function(wo)
-            return oa[wo- -28243]
-        end
-        Nu=oi(-325)
-        repeat
-            while true do
-                if Nu==-26801 then
-                    zp=pS;
-                    if jj~=jj then
-                        Nu=oi(3683)
-                    else
-                        Nu=-3482
-                    end
-                elseif Nu==-13344 then
-                    WO='';
-                    jj,Ar,pS=(#hk-1)+68,1,68
-                    Nu=-26801
-                elseif Nu==1703 then
-                    WO=WO..Sr(Sz(nv(hk,(zp-68)+1),nv(IW,(zp-68)%#IW+1)))
-                    Nu=oi(-29046)
-                elseif Nu==6779 then
-                    pS=pS+Ar;
-                    zp=pS;
-                    if pS~=pS then
-                        Nu=7149
-                    else
-                        Nu=-3482
-                    end
-                elseif Nu==7149 then
-                    return WO
-                elseif Nu==-3482 then
-                    if(Ar>=0 and pS>jj)or((Ar<0 or Ar~=Ar)and pS<jj)then
-                        Nu=oi(2977)
-                    else
-                        Nu=oi(-29159)
-                    end
-                end
-            end
-        until Nu==610
-    end)('fh\201L\194YCJ\200Q\232R','1\t\160\56\132\54')](A[(function(YH,rV)
-        local Ja,dw,jz,cs,GN,QD,RF,fb
-        QD,jz={[-14835]=7577,[-6782]=-15204,[-9]=-7061,[1714]=-15926,[-14134]=-11153,[10180]=-31155},function(wG)
-            return QD[wG+-26560]
-        end
-        dw=jz(19778)
-        repeat
-            while true do
-                if dw==-15204 then
-                    fb='';
-                    RF,Ja,cs=(#YH-1)+141,1,141
-                    dw=jz(26551)
-                elseif dw==-7061 then
-                    GN=cs;
-                    if RF~=RF then
-                        dw=-15926
-                    else
-                        dw=jz(11725)
-                    end
-                elseif dw==-11153 then
-                    cs=cs+Ja;
-                    GN=cs;
-                    if cs~=cs then
-                        dw=jz(28274)
-                    else
-                        dw=7577
-                    end
-                elseif dw==-31155 then
-                    fb=fb..Sr(Sz(nv(YH,(GN-141)+1),nv(rV,(GN-141)%#rV+1)))
-                    dw=jz(12426)
-                elseif dw==-15926 then
-                    return fb
-                elseif dw==7577 then
-                    if(Ja>=0 and cs>RF)or((Ja<0 or Ja~=Ja)and cs<RF)then
-                        dw=-15926
-                    else
-                        dw=jz(36740)
-                    end
-                end
-            end
-        until dw==21793
-    end)('\151\178\4\r\147\173\23\5\133','\224\221vf')],(function(no,JB)
-        local te,Mw,lQ,bJ,sV,rZ,Qz,RD
-        lQ,RD={[-20385]=16075,[15680]=16075,[61]=-6990,[-23361]=-13384,[-29074]=-1830,[13987]=17190},function(BR)
-            return lQ[BR+19229]
-        end
-        Mw=RD(-42590)
-        repeat
-            while true do
-                if Mw==-6990 then
-                    Qz=Qz+rZ;
-                    sV=Qz;
-                    if Qz~=Qz then
-                        Mw=RD(-3549)
-                    else
-                        Mw=RD(-5242)
-                    end
-                elseif Mw==16075 then
-                    return te
-                elseif Mw==-13384 then
-                    te='';
-                    Qz,rZ,bJ=113,1,(#no-1)+113
-                    Mw=-25211
-                elseif Mw==-25211 then
-                    sV=Qz;
-                    if bJ~=bJ then
-                        Mw=16075
-                    else
-                        Mw=17190
-                    end
-                elseif Mw==17190 then
-                    if(rZ>=0 and Qz>bJ)or((rZ<0 or rZ~=rZ)and Qz<bJ)then
-                        Mw=RD(-39614)
-                    else
-                        Mw=RD(-48303)
-                    end
-                elseif Mw==-1830 then
-                    te=te..Sr(Sz(nv(no,(sV-113)+1),nv(JB,(sV-113)%#JB+1)))
-                    Mw=RD(-19168)
-                end
-            end
-        until Mw==22487
-    end)('d{$h\25ae,\127\rF','#\23E\27j'))[(function(MW,HJ)
-        local PM,pT,Qv,ER,gm,EQ,lE,yw
-        ER,Qv={[30065]=20797,[-21377]=-25687,[30076]=29669,[16072]=29669,[-17615]=29669,[-25536]=4956},function(WH)
-            return ER[WH+-23770]
-        end
-        gm=Qv(2393)
-        repeat
-            while true do
-                if gm==5041 then
-                    if(pT>=0 and EQ>yw)or((pT<0 or pT~=pT)and EQ<yw)then
-                        gm=Qv(39842)
-                    else
-                        gm=Qv(-1766)
-                    end
-                elseif gm==4956 then
-                    PM=PM..Sr(Sz(nv(MW,(lE-54)+1),nv(HJ,(lE-54)%#HJ+1)))
-                    gm=Qv(53835)
-                elseif gm==20797 then
-                    EQ=EQ+pT;
-                    lE=EQ;
-                    if EQ~=EQ then
-                        gm=Qv(6155)
-                    else
-                        gm=5041
-                    end
-                elseif gm==-25687 then
-                    PM='';
-                    EQ,yw,pT=54,(#MW-1)+54,1
-                    gm=14271
-                elseif gm==14271 then
-                    lE=EQ;
-                    if yw~=yw then
-                        gm=Qv(53846)
-                    else
-                        gm=5041
-                    end
-                elseif gm==29669 then
-                    return PM
-                end
-            end
-        until gm==28424
-    end)('\5v\210\180\52\221 T\211\169\30\214','R\23\187\192r\178')](A[(function(XK,up)
-        local Tu,My,yE,XE,QA,Ri,Ul,Tn
-        My,Ri={[-13252]=-6514,[32144]=15601,[25662]=15601,[-16746]=4732,[23131]=15601,[401]=11228},function(GM)
-            return My[GM+-1379]
-        end
-        yE=Ri(-15367)
-        repeat
-            while true do
-                if yE==-24957 then
-                    Ul=Ul..Sr(Sz(nv(XK,(XE-239)+1),nv(up,(XE-239)%#up+1)))
-                    yE=Ri(-11873)
-                elseif yE==4732 then
-                    Ul='';
-                    Tu,Tn,QA=(#XK-1)+239,239,1
-                    yE=-17798
-                elseif yE==-17798 then
-                    XE=Tn;
-                    if Tu~=Tu then
-                        yE=Ri(33523)
-                    else
-                        yE=11228
-                    end
-                elseif yE==15601 then
-                    return Ul
-                elseif yE==11228 then
-                    if(QA>=0 and Tn>Tu)or((QA<0 or QA~=QA)and Tn<Tu)then
-                        yE=Ri(24510)
-                    else
-                        yE=-24957
-                    end
-                elseif yE==-6514 then
-                    Tn=Tn+QA;
-                    XE=Tn;
-                    if Tn~=Tn then
-                        yE=Ri(27041)
-                    else
-                        yE=Ri(1780)
-                    end
-                end
-            end
-        until yE==4473
-    end)('\151\178\4\r\147\173\23\5\133','\224\221vf')][(function(KV,oI)
-        local jJ,cd,vC,BQ,zo,Gr,OX,_a
-        jJ,Gr={[2596]=7989,[-10420]=14061,[24801]=14061,[-6447]=-17868,[17457]=-7771,[6764]=7989,[14470]=-30957,[-7330]=-13380},function(HB)
-            return jJ[HB- -13957]
-        end
-        OX=Gr(-20404)
-        repeat
-            while true do
-                if OX==7989 then
-                    if(zo>=0 and _a>cd)or((zo<0 or zo~=zo)and _a<cd)then
-                        OX=Gr(10844)
-                    else
-                        OX=Gr(513)
-                    end
-                elseif OX==-13380 then
-                    BQ=_a;
-                    if cd~=cd then
-                        OX=14061
-                    else
-                        OX=Gr(-11361)
-                    end
-                elseif OX==14061 then
-                    return vC
-                elseif OX==-7771 then
-                    _a=_a+zo;
-                    BQ=_a;
-                    if _a~=_a then
-                        OX=Gr(-24377)
-                    else
-                        OX=Gr(-7193)
-                    end
-                elseif OX==-30957 then
-                    vC=vC..Sr(Sz(nv(KV,(BQ-55)+1),nv(oI,(BQ-55)%#oI+1)))
-                    OX=Gr(3500)
-                elseif OX==-17868 then
-                    vC='';
-                    zo,_a,cd=1,55,(#KV-1)+55
-                    OX=Gr(-21287)
-                end
-            end
-        until OX==13955
-    end)('fh\201L\194YCJ\200Q\232R','1\t\160\56\132\54')](A[(function(MV,Nl)
-        local um,vc,vO,dt,uy,ys,Fo,Re
-        ys,um={[2832]=-26831,[-19489]=9496,[-14923]=21937,[-32201]=-32589,[13540]=23034},function(Oi)
-            return ys[Oi-13972]
-        end
-        Fo=um(-18229)
-        repeat
-            while true do
-                if Fo==-26831 then
-                    dt=dt+vO;
-                    Re=dt;
-                    if dt~=dt then
-                        Fo=9496
-                    else
-                        Fo=21937
-                    end
-                elseif Fo==8252 then
-                    uy=uy..Sr(Sz(nv(MV,(Re-123)+1),nv(Nl,(Re-123)%#Nl+1)))
-                    Fo=um(16804)
-                elseif Fo==21937 then
-                    if(vO>=0 and dt>vc)or((vO<0 or vO~=vO)and dt<vc)then
-                        Fo=um(-5517)
-                    else
-                        Fo=8252
-                    end
-                elseif Fo==9496 then
-                    return uy
-                elseif Fo==-32589 then
-                    uy='';
-                    vO,dt,vc=1,123,(#MV-1)+123
-                    Fo=um(27512)
-                elseif Fo==23034 then
-                    Re=dt;
-                    if vc~=vc then
-                        Fo=9496
-                    else
-                        Fo=um(-951)
-                    end
-                end
-            end
-        until Fo==6319
-    end)('\151\178\4\r\147\173\23\5\133','\224\221vf')],(function(rB,qw)
-        local Jf,rJ,kI,FX,gO,Qw,Ro,Dl
-        Ro,FX={[30115]=1196,[10246]=25493,[-12095]=-32489},function(Dh)
-            return Ro[Dh- -20795]
-        end
-        gO=FX(-32890)
-        repeat
-            while true do
-                if gO==-8885 then
-                    return Jf
-                elseif gO==1196 then
-                    Dl=rJ;
-                    if kI~=kI then
-                        gO=-8885
-                    else
-                        gO=15288
-                    end
-                elseif gO==25493 then
-                    rJ=rJ+Qw;
-                    Dl=rJ;
-                    if rJ~=rJ then
-                        gO=-8885
-                    else
-                        gO=15288
-                    end
-                elseif gO==-1928 then
-                    Jf=Jf..Sr(Sz(nv(rB,(Dl-172)+1),nv(qw,(Dl-172)%#qw+1)))
-                    gO=FX(-10549)
-                elseif gO==-32489 then
-                    Jf='';
-                    rJ,Qw,kI=172,1,(#rB-1)+172
-                    gO=FX(9320)
-                elseif gO==15288 then
-                    if(Qw>=0 and rJ>kI)or((Qw<0 or Qw~=Qw)and rJ<kI)then
-                        gO=-8885
-                    else
-                        gO=-1928
-                    end
-                end
-            end
-        until gO==7610
-    end)('d{$h\25ae,\127\rF','#\23E\27j')),(function(zV,jf)
-        local hu,UL,EZ,iD,lk,bd,_J,XX
-        hu,UL={[13813]=29695,[-19542]=29695,[20535]=794,[-2581]=32384,[-22775]=-3655},function(By)
-            return hu[By-5281]
-        end
-        bd=UL(-17494)
-        repeat
-            while true do
-                if bd==-3655 then
-                    EZ='';
-                    _J,XX,iD=1,(#zV-1)+228,228
-                    bd=21813
-                elseif bd==32384 then
-                    if(_J>=0 and iD>XX)or((_J<0 or _J~=_J)and iD<XX)then
-                        bd=UL(19094)
-                    else
-                        bd=-27250
-                    end
-                elseif bd==794 then
-                    iD=iD+_J;
-                    lk=iD;
-                    if iD~=iD then
-                        bd=29695
-                    else
-                        bd=32384
-                    end
-                elseif bd==-27250 then
-                    EZ=EZ..Sr(Sz(nv(zV,(lk-228)+1),nv(jf,(lk-228)%#jf+1)))
-                    bd=UL(25816)
-                elseif bd==21813 then
-                    lk=iD;
-                    if XX~=XX then
-                        bd=UL(-14261)
-                    else
-                        bd=UL(2700)
-                    end
-                elseif bd==29695 then
-                    return EZ
-                end
-            end
-        until bd==-14650
-    end)('\223\162\t\135 \208\161\4\144\54\234','\152\206h\244S'))
-    local function WT(jg)
-        local ft,fL,bQ,cV,gk,Gf,Gq,ou,pY,vN,Fm
-        Gf,Fm={[-16244]=10893,[18327]=28734,[-8458]=-18573,[19216]=5351,[-10137]=21565,[675]=-6292,[-1523]=-12969,[-3571]=5413,[7482]=-11591,[292]=4466,[1083]=-9021,[-1567]=31759,[-13178]=4144,[12179]=20350,[26421]=24830,[-29914]=-28514,[8532]=31632,[6629]=-5674,[8091]=2607,[24187]=15605,[-28896]=-2712,[-9973]=-3079,[-3059]=-10126,[28794]=32663,[19786]=-18102,[29847]=-18102,[12662]=-16820,[-9304]=-3079,[-9528]=-27898,[-27723]=69,[-8860]=-11161,[7145]=10709,[-28229]=22461,[-3483]=29781,[545]=9960,[6186]=-12247,[-23390]=-15068,[4477]=-12809,[25907]=151,[7814]=-3879,[-214]=4819,[7556]=28759,[13100]=-4642,[-757]=5351,[-3186]=8865,[-11152]=12982,[-5905]=17839,[-13200]=101,[-30409]=27136,[-19590]=-15068,[12755]=-7206,[-11717]=15605,[10677]=-27109,[2812]=28088,[-26769]=31759,[23394]=-22062,[-4597]=21712,[-21303]=10144,[12384]=562,[17661]=-8661,[-2525]=5273,[-3732]=24110,[-6020]=-2132,[-13963]=28113,[16287]=-12809,[-15836]=-7206,[15266]=5351,[7557]=-15621,[-15661]=-12923,[-12073]=-32482,[-627]=28299,[-5825]=20052,[-10466]=-17897,[-29488]=5792,[-27775]=27479,[7130]=32663,[4917]=27479,[-31210]=28113,[3167]=32160,[-3394]=-21716,[31241]=-22062,[-6474]=18639,[-16963]=7443},function(js)
-            return Gf[js-20045]
-        end
-        cV=Fm(11185)
-        repeat
-            while true do
-                if cV==-278888619+278861635 then
-                    fL=Gq
-                    cV=Fm(10072)
-                elseif cV==3.0776124267250936e-06*-1843636954 then
-                    pY=1395315904
-                    cV=Fm(16986)
-                elseif cV==-1.2153109195360572e-05*-1474437505 then
-                    fL='\224\251\141\145u\164\227q\235\228\148\142\127\187\254t'
-                    cV=Fm(27190)
-                elseif cV==-1938530999- -1938520873 then
-                    Gq=Gq/pY
-                    cV=-829746539+829765158
-                elseif cV==-9443211867690/771063270 then
-                    vN=A[zt(vN[1],1,vN[2])]
-                    cV=-688350306- -688335774
-                elseif cV==775459798-775459647 then
-                    fL=':\160s'
-                    cV=74855677-74834668
-                elseif cV==974399455-974369674 then
-                    bQ=bQ-fL
-                    cV=Fm(48839)
-                elseif cV==10969837350752/1893963631 then
-                    bQ=jg[zt(bQ[1],1,bQ[2])]
-                    cV=-1387787000+1387804919
-                elseif cV==44117107495938/-1627397082 then
-                    bQ=1741068179
-                    cV=Fm(19418)
-                elseif cV==-36338121786858/1956502546 then
-                    Gq=Af((function(IU,Zr)
-                        local BE,Mq,wO,Bs,qT,W,LL,hX
-                        qT,Mq={[-8401]=-3779,[14602]=26770,[-21716]=-4810,[-24160]=-22887},function(lp)
-                            return qT[lp+20215]
-                        end
-                        hX=Mq(-44375)
-                        repeat
-                            while true do
-                                if hX==-22887 then
-                                    BE='';
-                                    LL,Bs,wO=(#IU-1)+115,1,115
-                                    hX=13697
-                                elseif hX==-3779 then
-                                    wO=wO+Bs;
-                                    W=wO;
-                                    if wO~=wO then
-                                        hX=26770
-                                    else
-                                        hX=-4810
-                                    end
-                                elseif hX==-4810 then
-                                    if(Bs>=0 and wO>LL)or((Bs<0 or Bs~=Bs)and wO<LL)then
-                                        hX=Mq(-5613)
-                                    else
-                                        hX=-25355
-                                    end
-                                elseif hX==26770 then
-                                    return BE
-                                elseif hX==13697 then
-                                    W=wO;
-                                    if LL~=LL then
-                                        hX=26770
-                                    else
-                                        hX=Mq(-41931)
-                                    end
-                                elseif hX==-25355 then
-                                    BE=BE..Sr(Sz(nv(IU,(W-115)+1),nv(Zr,(W-115)%#Zr+1)))
-                                    hX=Mq(-28616)
-                                end
-                            end
-                        until hX==18106
-                    end)(Gq,pY))
-                    cV=Fm(27601)
-                elseif cV==91045200-91012537 then
-                    jg[(function(Vc,nP)
-                        local bA,XV,jm,dc,Xf,Pn,hr,Es
-                        dc,bA={[-29121]=23114,[350]=-15209,[7281]=-15209,[-14220]=-23391,[19100]=-15209,[-2443]=-32622,[5610]=-20277},function(Zt)
-                            return dc[Zt-14678]
-                        end
-                        Pn=bA(12235)
-                        repeat
-                            while true do
-                                if Pn==-32622 then
-                                    hr='';
-                                    XV,Es,Xf=248,1,(#Vc-1)+248
-                                    Pn=bA(20288)
-                                elseif Pn==1506 then
-                                    hr=hr..Sr(Sz(nv(Vc,(jm-248)+1),nv(nP,(jm-248)%#nP+1)))
-                                    Pn=bA(-14443)
-                                elseif Pn==23114 then
-                                    XV=XV+Es;
-                                    jm=XV;
-                                    if XV~=XV then
-                                        Pn=bA(33778)
-                                    else
-                                        Pn=-23391
-                                    end
-                                elseif Pn==-23391 then
-                                    if(Es>=0 and XV>Xf)or((Es<0 or Es~=Es)and XV<Xf)then
-                                        Pn=bA(21959)
-                                    else
-                                        Pn=1506
-                                    end
-                                elseif Pn==-20277 then
-                                    jm=XV;
-                                    if Xf~=Xf then
-                                        Pn=bA(15028)
-                                    else
-                                        Pn=bA(458)
-                                    end
-                                elseif Pn==-15209 then
-                                    return hr
-                                end
-                            end
-                        until Pn==25576
-                    end)(']\189\215\22l\197h\189\211\22|\204','\t\207\182x\31\181')]=bQ;
-                    cV=-12637723823168/474246616;
-                elseif cV==-5.3674884863467737e-05*240764373 then
-                    ft=ft+gk
-                    cV=Fm(10517)
-                elseif cV==-26740566743772/1840116071 then
-                    Gq='\164\5\19\175%;\128'
-                    cV=Fm(13571)
-                elseif cV==-728545833+728513351 then
-                    bQ=bQ[zt(fL[1],1,fL[2])]
-                    cV=Fm(24522)
-                elseif cV==1625289619+-1625313702 then
-                    Gq=zt(vN[1],1,vN[2])
-                    cV=-741830035610/-283682614
-                elseif cV==-7281906756696/1157327838 then
-                    fL=555162613
-                    cV=Fm(-1258)
-                elseif cV==-1.0719654664292034e-05*-2090552420 then
-                    bQ=A[zt(bQ[1],1,bQ[2])]
-                    cV=Fm(14025)
-                elseif cV==-265703930- -265693161 then
-                    vN=39099692332
-                    cV=Fm(9908)
-                elseif cV==-2127796680- -2127829153 then
-                    vN='\127\145\2S\140]'
-                    cV=-996134559+996123036
-                elseif cV==1483904915-1483891064 then
-                    Gq='\235\162F'
-                    cV=2.8828021452675749e-05*-1097716680
-                elseif cV==0.00015137155999255536*-138037819 then
-                    vN='\180\177o\245'
-                    cV=Fm(19831)
-                elseif cV==-1505949867- -1505973977 then
-                    fL='\t\142'
-                    cV=Fm(-10364)
-                elseif cV==770903862-770875749 then
-                    ou=bQ;
-                    cV=Fm(44232);
-                elseif cV==47430243116126/-1700130587 then
-                    vN=Af(vN(Gq,pY,ft))
-                    cV=Fm(6867)
-                elseif cV==-19835878715764/-721855916 then
-                    bQ=fL
-                    cV=10869900788385/-1205757159
-                elseif cV==-662316250- -662331855 then
-                    jg[(function(uJ,PY)
-                        local nf,Qh,sy,nt,BY,Nr,yY,BM
-                        nt,nf={[-19036]=616,[-19903]=27481,[-27730]=2668,[2655]=-15549},function(GD)
-                            return nt[GD-27326]
-                        end
-                        BY=nf(8290)
-                        repeat
-                            while true do
-                                if BY==2668 then
-                                    Nr=yY;
-                                    if BM~=BM then
-                                        BY=-15549
-                                    else
-                                        BY=-24583
-                                    end
-                                elseif BY==-24583 then
-                                    if(Qh>=0 and yY>BM)or((Qh<0 or Qh~=Qh)and yY<BM)then
-                                        BY=nf(29981)
-                                    else
-                                        BY=-21979
-                                    end
-                                elseif BY==27481 then
-                                    yY=yY+Qh;
-                                    Nr=yY;
-                                    if yY~=yY then
-                                        BY=-15549
-                                    else
-                                        BY=-24583
-                                    end
-                                elseif BY==-15549 then
-                                    return sy
-                                elseif BY==616 then
-                                    sy='';
-                                    yY,BM,Qh=40,(#uJ-1)+40,1
-                                    BY=nf(-404)
-                                elseif BY==-21979 then
-                                    sy=sy..Sr(Sz(nv(uJ,(Nr-40)+1),nv(PY,(Nr-40)%#PY+1)))
-                                    BY=nf(7423)
-                                end
-                            end
-                        until BY==4633
-                    end)('\234h\197h\219','\169\a')]=ou;
-                    cV=Fm(30722);
-                elseif cV==-4505414530078/970576159 then
-                    gk=556448782
-                    cV=-25259198702328/-797549768
-                elseif cV==0.001005279420136253*27301862 then
-                    vN=A[zt(vN[1],1,vN[2])]
-                    cV=-32022782307000/-2043703000
-                elseif cV==4020323076990/762435630 then
-                    Gq=Gq*pY
-                    cV=47042493335000/-1517499785
-                elseif cV==11732878065714/757644199 then
-                    fL='M9'
-                    cV=Fm(9579)
-                elseif cV==-50172510548358/-2133366381 then
-                    vN='\168\205*\132\208u'
-                    cV=-931859161+931873012
-                elseif cV==1.683986703303085e-05*-927620151 then
-                    Gq=-2145355751
-                    cV=Fm(6845)
-                elseif cV==119752181-119774243 then
-                    jg[(function(UM,sd)
-                        local IH,Yf,LD,WE,sg,OI,fo,bp
-                        fo,WE={[-1290]=-17229,[-31268]=2607,[-13223]=-25763,[4243]=13544,[-29357]=19518,[-30130]=13544},function(DY)
-                            return fo[DY- -27538]
-                        end
-                        sg=WE(-56895)
-                        repeat
-                            while true do
-                                if sg==-17229 then
-                                    bp=bp+Yf;
-                                    OI=bp;
-                                    if bp~=bp then
-                                        sg=WE(-57668)
-                                    else
-                                        sg=-10721
-                                    end
-                                elseif sg==13544 then
-                                    return IH
-                                elseif sg==2607 then
-                                    OI=bp;
-                                    if LD~=LD then
-                                        sg=13544
-                                    else
-                                        sg=-10721
-                                    end
-                                elseif sg==-25763 then
-                                    IH=IH..Sr(Sz(nv(UM,(OI-96)+1),nv(sd,(OI-96)%#sd+1)))
-                                    sg=WE(-28828)
-                                elseif sg==19518 then
-                                    IH='';
-                                    LD,Yf,bp=(#UM-1)+96,1,96
-                                    sg=WE(-58806)
-                                elseif sg==-10721 then
-                                    if(Yf>=0 and bp>LD)or((Yf<0 or Yf~=Yf)and bp<LD)then
-                                        sg=WE(-23295)
-                                    else
-                                        sg=WE(-40761)
-                                    end
-                                end
-                            end
-                        until sg==-59
-                    end)('@\\o\\q','\3\51')]=zt(bQ[1],1,bQ[2]);
-                    cV=-1610755441- -1610754347;
-                elseif cV==-1.2469008387849306e-06*1709839254 then
-                    fL='\249\208\27\144\198\216\14\153'
-                    cV=-2418580557855/115749249
-                elseif cV==-1.3796482216993903e-05*-1349546914 then
-                    bQ=Af(bQ(fL,vN,Gq))
-                    cV=Fm(51286)
-                elseif cV==-1.9368175418170466e-05*-1461108204 then
-                    fL=1741068179
-                    cV=Fm(16562)
-                elseif cV==-1159420064+1159391550 then
-                    ft=-661112945
-                    cV=-84485163+84501776
-                elseif cV==134150309-134172025 then
-                    bQ=Af((function(NX,vr)
-                        local EO,sI,Ky,tJ,LM,QW,oR,UW
-                        UW,Ky={[17229]=11165,[-1556]=-12066,[-29359]=13377,[25718]=22594,[-6232]=-12066},function(vL)
-                            return UW[vL+-28930]
-                        end
-                        tJ=Ky(-429)
-                        repeat
-                            while true do
-                                if tJ==-12868 then
-                                    if(sI>=0 and LM>QW)or((sI<0 or sI~=sI)and LM<QW)then
-                                        tJ=Ky(22698)
-                                    else
-                                        tJ=11913
-                                    end
-                                elseif tJ==-12066 then
-                                    return EO
-                                elseif tJ==11165 then
-                                    oR=LM;
-                                    if QW~=QW then
-                                        tJ=-12066
-                                    else
-                                        tJ=-12868
-                                    end
-                                elseif tJ==22594 then
-                                    LM=LM+sI;
-                                    oR=LM;
-                                    if LM~=LM then
-                                        tJ=Ky(27374)
-                                    else
-                                        tJ=-12868
-                                    end
-                                elseif tJ==11913 then
-                                    EO=EO..Sr(Sz(nv(NX,(oR-231)+1),nv(vr,(oR-231)%#vr+1)))
-                                    tJ=Ky(54648)
-                                elseif tJ==13377 then
-                                    EO='';
-                                    QW,LM,sI=(#NX-1)+231,231,1
-                                    tJ=Ky(46159)
-                                end
-                            end
-                        until tJ==22161
-                    end)(bQ,fL))
-                    cV=Fm(-9443)
-                elseif cV==1825794149-1825789609 then
-                    fL='\209!\r<\253\239\210 \3 \253\238\225'
-                    cV=Fm(-7678)
-                elseif cV==-2.3030227576798353e-05*-1069203503 then
-                    vN='\192,\187'
-                    cV=Fm(22857)
-                elseif cV==-2020636452+2020625396 then
-                    fL='\166^\212\173~\252\130'
-                    cV=1704366659-1704342035
-                elseif cV==-1.3196636645804406e-05*829908430 then
-                    ft=241328916
-                    cV=-252671120+252651418
-                elseif cV==1594762633-1594773540 then
-                    bQ=Af(bQ(jg,zt(fL[1],1,fL[2])))
-                    cV=Fm(27527)
-                elseif cV==-739281090- -739283705 then
-                    fL=Gq
-                    cV=Fm(24962)
-                elseif cV==-1.1854750442104844e-05*-1894683495 then
-                    ft=1783406793
-                    cV=54426412671195/2143194041
-                elseif cV==-1937612084+1937580439 then
-                    vN=Af((function(Pf,nI)
-                        local Ko,wj,aO,gA,VU,Ww,eJ,QM
-                        Ww,VU={[24641]=39,[-2437]=-9968,[6022]=-9968,[-5208]=-6134,[-10290]=-24442},function(Zv)
-                            return Ww[Zv+-5622]
-                        end
-                        eJ=VU(414)
-                        repeat
-                            while true do
-                                if eJ==11769 then
-                                    aO=Ko;
-                                    if gA~=gA then
-                                        eJ=-9968
-                                    else
-                                        eJ=-26409
-                                    end
-                                elseif eJ==-26409 then
-                                    if(wj>=0 and Ko>gA)or((wj<0 or wj~=wj)and Ko<gA)then
-                                        eJ=VU(11644)
-                                    else
-                                        eJ=VU(-4668)
-                                    end
-                                elseif eJ==-6134 then
-                                    QM='';
-                                    wj,gA,Ko=1,(#Pf-1)+8,8
-                                    eJ=11769
-                                elseif eJ==-24442 then
-                                    QM=QM..Sr(Sz(nv(Pf,(aO-8)+1),nv(nI,(aO-8)%#nI+1)))
-                                    eJ=VU(30263)
-                                elseif eJ==39 then
-                                    Ko=Ko+wj;
-                                    aO=Ko;
-                                    if Ko~=Ko then
-                                        eJ=VU(3185)
-                                    else
-                                        eJ=-26409
-                                    end
-                                elseif eJ==-9968 then
-                                    return QM
-                                end
-                            end
-                        until eJ==-20581
-                    end)(vN,Gq))
-                    cV=Fm(26231)
-                elseif cV==-2117905130+2117888310 then
-                    bQ=bQ/fL
-                    cV=Fm(4209)
-                elseif cV==5.0712600088086876e-06*2111703991 then
-                    vN='\133\131\253\253\26\205\151\24'
-                    cV=Fm(18522)
-                elseif cV==967893455+-967904616 then
-                    if not A[(function(TN,pI)
-                        local Fu,SE,wb,Yl,yC,OT,ox,Bn
-                        Bn,yC={[2053]=22322,[-505]=27017,[14190]=-20355,[32469]=22768,[-25579]=-18435},function(xP)
-                            return Bn[xP- -10182]
-                        end
-                        wb=yC(22287)
-                        repeat
-                            while true do
-                                if wb==22768 then
-                                    SE='';
-                                    Fu,Yl,OT=52,(#TN-1)+52,1
-                                    wb=yC(-10687)
-                                elseif wb==-18435 then
-                                    SE=SE..Sr(Sz(nv(TN,(ox-52)+1),nv(pI,(ox-52)%#pI+1)))
-                                    wb=yC(4008)
-                                elseif wb==27017 then
-                                    ox=Fu;
-                                    if Yl~=Yl then
-                                        wb=2352
-                                    else
-                                        wb=22322
-                                    end
-                                elseif wb==-20355 then
-                                    Fu=Fu+OT;
-                                    ox=Fu;
-                                    if Fu~=Fu then
-                                        wb=2352
-                                    else
-                                        wb=yC(-8129)
-                                    end
-                                elseif wb==22322 then
-                                    if(OT>=0 and Fu>Yl)or((OT<0 or OT~=OT)and Fu<Yl)then
-                                        wb=2352
-                                    else
-                                        wb=yC(-35761)
-                                    end
-                                elseif wb==2352 then
-                                    return SE
-                                end
-                            end
-                        until wb==22170
-                    end)('\170\237 \170\237:\187','\205\136T')]()[(function(dN,Nt)
-                        local Qx,BJ,jr,al,lF,DU,Ct,Rs
-                        al,DU={[5001]=-20693,[26862]=-9360,[-10766]=3624},function(Ny)
-                            return al[Ny+24351]
-                        end
-                        BJ=DU(2511)
-                        repeat
-                            while true do
-                                if BJ==14981 then
-                                    Qx=Qx..Sr(Sz(nv(dN,(Rs-198)+1),nv(Nt,(Rs-198)%#Nt+1)))
-                                    BJ=DU(-19350)
-                                elseif BJ==-9360 then
-                                    Qx='';
-                                    Ct,jr,lF=1,(#dN-1)+198,198
-                                    BJ=-23919
-                                elseif BJ==-20693 then
-                                    lF=lF+Ct;
-                                    Rs=lF;
-                                    if lF~=lF then
-                                        BJ=3624
-                                    else
-                                        BJ=14847
-                                    end
-                                elseif BJ==3624 then
-                                    return Qx
-                                elseif BJ==-23919 then
-                                    Rs=lF;
-                                    if jr~=jr then
-                                        BJ=DU(-35117)
-                                    else
-                                        BJ=14847
-                                    end
-                                elseif BJ==14847 then
-                                    if(Ct>=0 and lF>jr)or((Ct<0 or Ct~=Ct)and lF<jr)then
-                                        BJ=3624
-                                    else
-                                        BJ=14981
-                                    end
-                                end
-                            end
-                        until BJ==-18538
-                    end)('x\225\148K\226\150_',',\142\243')][(function(ho,Kl)
-                        local Ji,ae,Bq,Gx,PP,qp,Gl,zF
-                        Ji,Gx={[3663]=-28129,[-10093]=7314,[-9411]=7314,[-13604]=22502,[22589]=-9275,[-15046]=-26216,[-16994]=7314,[17888]=-25702},function(jC)
-                            return Ji[jC+15483]
-                        end
-                        Bq=Gx(7106)
-                        repeat
-                            while true do
-                                if Bq==-25702 then
-                                    PP=Gl;
-                                    if qp~=qp then
-                                        Bq=Gx(-32477)
-                                    else
-                                        Bq=22502
-                                    end
-                                elseif Bq==7314 then
-                                    return ae
-                                elseif Bq==22502 then
-                                    if(zF>=0 and Gl>qp)or((zF<0 or zF~=zF)and Gl<qp)then
-                                        Bq=Gx(-25576)
-                                    else
-                                        Bq=Gx(-11820)
-                                    end
-                                elseif Bq==-26216 then
-                                    Gl=Gl+zF;
-                                    PP=Gl;
-                                    if Gl~=Gl then
-                                        Bq=Gx(-24894)
-                                    else
-                                        Bq=Gx(-29087)
-                                    end
-                                elseif Bq==-9275 then
-                                    ae='';
-                                    Gl,zF,qp=147,1,(#ho-1)+147
-                                    Bq=Gx(2405)
-                                elseif Bq==-28129 then
-                                    ae=ae..Sr(Sz(nv(ho,(PP-147)+1),nv(Kl,(PP-147)%#Kl+1)))
-                                    Bq=Gx(-30529)
-                                end
-                            end
-                        until Bq==-6179
-                    end)('9\233)^\222\4\204\23\225/H\232\21\238','~\133H-\173F\190')]then
-                        cV=Fm(18478)
-                        break
-                    else
-                        cV=Fm(-3345)
-                        break
-                    end
-                    cV=Fm(39261)
-                elseif cV==-214653311411/-2125280311 then
-                    pY=-2145355999
-                    cV=571040160+-571038654
-                elseif cV==-3527729784502/-789908147 then
-                    pY='\185\29\213'
-                    cV=Fm(16859)
-                elseif cV==1755923854+-1755931060 then
-                    jg[(function(ws,wd)
-                        local XI,OK,Pm,Vq,Co,CA,Yc,Ua
-                        XI,Pm={[-31400]=14533,[2301]=-32645,[-15432]=-32645,[-17940]=-14379,[29617]=23626,[19435]=-32645,[21080]=-30601},function(rQ)
-                            return XI[rQ+-2072]
-                        end
-                        Co=Pm(-15868)
-                        repeat
-                            while true do
-                                if Co==14533 then
-                                    Yc=CA;
-                                    if Vq~=Vq then
-                                        Co=Pm(-13360)
-                                    else
-                                        Co=-30601
-                                    end
-                                elseif Co==23626 then
-                                    CA=CA+OK;
-                                    Yc=CA;
-                                    if CA~=CA then
-                                        Co=Pm(21507)
-                                    else
-                                        Co=Pm(23152)
-                                    end
-                                elseif Co==-32023 then
-                                    Ua=Ua..Sr(Sz(nv(ws,(Yc-154)+1),nv(wd,(Yc-154)%#wd+1)))
-                                    Co=Pm(31689)
-                                elseif Co==-30601 then
-                                    if(OK>=0 and CA>Vq)or((OK<0 or OK~=OK)and CA<Vq)then
-                                        Co=Pm(4373)
-                                    else
-                                        Co=-32023
-                                    end
-                                elseif Co==-32645 then
-                                    return Ua
-                                elseif Co==-14379 then
-                                    Ua='';
-                                    Vq,OK,CA=(#ws-1)+154,1,154
-                                    Co=Pm(-29328)
-                                end
-                            end
-                        until Co==16353
-                    end)('\a\v\23pxI2\v\19ph@','Syv\30\v9')]=bQ;
-                    cV=2067202766+-2067226640;
-                elseif cV==1.2047579883483181e-05*841994832 then
-                    vN=-555162507
-                    cV=Fm(16474)
-                elseif cV==-2.439082434782612e-05*-219385779 then
-                    cV=Fm(21128);
-                    break;
-                elseif cV==-680205855- -680179207 then
-                    bQ='L\224|\227'
-                    cV=Fm(16313)
-                elseif cV==1728605454-1728605385 then
-                    vN='\130LbS\137\135'
-                    cV=-608189243+608219921
-                elseif cV==-1.6928114443731711e-05*1057235291 then
-                    bQ=Af((function(yQ,sB)
-                        local bk,EC,gJ,mS,zj,Ki,JM,ZN
-                        bk,zj={[-19528]=-1292,[-21820]=21087,[-21985]=-698,[-27867]=-1728,[-21249]=18044,[-29612]=-1292},function(Jv)
-                            return bk[Jv+-19381]
-                        end
-                        ZN=zj(-2604)
-                        repeat
-                            while true do
-                                if ZN==-1292 then
-                                    return gJ
-                                elseif ZN==-17868 then
-                                    gJ=gJ..Sr(Sz(nv(yQ,(JM-43)+1),nv(sB,(JM-43)%#sB+1)))
-                                    ZN=zj(-2439)
-                                elseif ZN==21087 then
-                                    Ki=Ki+EC;
-                                    JM=Ki;
-                                    if Ki~=Ki then
-                                        ZN=zj(-10231)
-                                    else
-                                        ZN=18044
-                                    end
-                                elseif ZN==18044 then
-                                    if(EC>=0 and Ki>mS)or((EC<0 or EC~=EC)and Ki<mS)then
-                                        ZN=-1292
-                                    else
-                                        ZN=-17868
-                                    end
-                                elseif ZN==-1728 then
-                                    JM=Ki;
-                                    if mS~=mS then
-                                        ZN=zj(-147)
-                                    else
-                                        ZN=zj(-1868)
-                                    end
-                                elseif ZN==-698 then
-                                    gJ='';
-                                    Ki,mS,EC=43,(#yQ-1)+43,1
-                                    ZN=zj(-8486)
-                                end
-                            end
-                        until ZN==30507
-                    end)(bQ,fL))
-                    cV=-432642671+432631136
-                elseif cV==-63478997879000/2047709609 then
-                    pY=-155361542075
-                    cV=Fm(-9869)
-                elseif cV==9.1417669952034176e-06*-1648259030 then
-                    bQ='\200\183\182l\184+\253\187\160X\184:'
-                    cV=-629855263+629875679
-                elseif cV==-24491061238518/1352947809 then
-                    jg[(function(Kw,oA)
-                        local yf,EY,Jp,Wq,OZ,tO,el,vp
-                        tO,Jp={[6585]=-18259,[4486]=-31593,[15069]=-8775,[-1155]=-31593,[-20531]=-24436},function(wq)
-                            return tO[wq+-6744]
-                        end
-                        Wq=Jp(-13787)
-                        repeat
-                            while true do
-                                if Wq==-24436 then
-                                    yf='';
-                                    EY,el,OZ=37,1,(#Kw-1)+37
-                                    Wq=Jp(21813)
-                                elseif Wq==2655 then
-                                    yf=yf..Sr(Sz(nv(Kw,(vp-37)+1),nv(oA,(vp-37)%#oA+1)))
-                                    Wq=Jp(13329)
-                                elseif Wq==-31593 then
-                                    if(el>=0 and EY>OZ)or((el<0 or el~=el)and EY<OZ)then
-                                        Wq=15115
-                                    else
-                                        Wq=2655
-                                    end
-                                elseif Wq==-18259 then
-                                    EY=EY+el;
-                                    vp=EY;
-                                    if EY~=EY then
-                                        Wq=15115
-                                    else
-                                        Wq=Jp(5589)
-                                    end
-                                elseif Wq==-8775 then
-                                    vp=EY;
-                                    if OZ~=OZ then
-                                        Wq=15115
-                                    else
-                                        Wq=Jp(11230)
-                                    end
-                                elseif Wq==15115 then
-                                    return yf
-                                end
-                            end
-                        until Wq==-11854
-                    end)('\226\202\200\17\221\194\221\24','\175\171\188t')]=bQ;
-                    cV=Fm(35311)
-                elseif cV==-2.3183758703009093e-06*1673154060 then
-                    if fL then
-                        cV=Fm(10741)
-                        break
-                    end
-                    cV=-29901701814050/-1271438975
-                elseif cV==-42924806164223/-1492569497 then
-                    vN=vN[zt(Gq[1],1,Gq[2])]
-                    cV=1098051121-1098056750
-                elseif cV==-3.4185168528586877e-05*-618309077 then
-                    bQ=A[zt(bQ[1],1,bQ[2])]
-                    cV=880911369-880922425
-                elseif cV==-103390321+103406934 then
-                    pY=pY/ft
-                    cV=7.108855345126622e-06*-1540613709
-                elseif cV==13059287406843/621604427 then
-                    bQ=Af((function(_z,Dc)
-                        local GK,lo,He,yh,DX,QR,dJ,uv
-                        yh,uv={[2923]=-11031,[-16602]=-22130,[-21569]=3649,[-5166]=-31362,[-14293]=-3495,[19507]=-3495},function(xt)
-                            return yh[xt-7193]
-                        end
-                        QR=uv(-14376)
-                        repeat
-                            while true do
-                                if QR==3649 then
-                                    lo='';
-                                    He,dJ,DX=(#_z-1)+67,67,1
-                                    QR=uv(2027)
-                                elseif QR==8281 then
-                                    lo=lo..Sr(Sz(nv(_z,(GK-67)+1),nv(Dc,(GK-67)%#Dc+1)))
-                                    QR=uv(10116)
-                                elseif QR==-31362 then
-                                    GK=dJ;
-                                    if He~=He then
-                                        QR=uv(-9409)
-                                    else
-                                        QR=uv(-7100)
-                                    end
-                                elseif QR==-11031 then
-                                    dJ=dJ+DX;
-                                    GK=dJ;
-                                    if dJ~=dJ then
-                                        QR=-22130
-                                    else
-                                        QR=uv(26700)
-                                    end
-                                elseif QR==-22130 then
-                                    return lo
-                                elseif QR==-3495 then
-                                    if(DX>=0 and dJ>He)or((DX<0 or DX~=DX)and dJ<He)then
-                                        QR=-22130
-                                    else
-                                        QR=8281
-                                    end
-                                end
-                            end
-                        until QR==723
-                    end)(bQ,fL))
-                    cV=444352674-444331537
-                elseif cV==-1917884218+1917878589 then
-                    Gq=3.8265463702529098e-08
-                    cV=-4.1227940986844781e-06*-900845376
-                elseif cV==158456977-158447017 then
-                    ft=1.5634862149810582e-07
-                    cV=Fm(33145)
-                elseif cV==-4688792787504/-1131465441 then
-                    Gq=zt(vN[1],1,vN[2])
-                    cV=-1.8695033922521489e-05*1443377964
-                elseif cV==12590115606610/-731558141 then
-                    bQ=bQ[zt(fL[1],1,fL[2])]
-                    cV=Fm(20720)
-                elseif cV==-6331404827766/2056318554 then
-                    bQ=fL
-                    cV=Fm(-11165)
-                elseif cV==1.5727342802562453e-05*-1252722742 then
-                    gk=-241328829
-                    cV=Fm(4384)
-                elseif cV==-461777804+461799746 then
-                    vN='\a\240'
-                    cV=9484513034446/1460504009
-                elseif cV==4827540816996/1299822514 then
-                    pY=731730320
-                    cV=Fm(17520)
-                elseif cV==57577418033152/2121809332 then
-                    bQ=Af((function(_R,B)
-                        local yN,nZ,uO,WN,MD,Kf,pf,Ka
-                        MD,nZ={[3033]=-3732,[25657]=17279,[-1810]=-5237,[-28481]=-23263,[3050]=-2862},function(yH)
-                            return MD[yH+-17859]
-                        end
-                        pf=nZ(43516)
-                        repeat
-                            while true do
-                                if pf==17279 then
-                                    uO='';
-                                    yN,WN,Kf=1,11,(#_R-1)+11
-                                    pf=nZ(20892)
-                                elseif pf==-5237 then
-                                    WN=WN+yN;
-                                    Ka=WN;
-                                    if WN~=WN then
-                                        pf=-3530
-                                    else
-                                        pf=nZ(20909)
-                                    end
-                                elseif pf==-2862 then
-                                    if(yN>=0 and WN>Kf)or((yN<0 or yN~=yN)and WN<Kf)then
-                                        pf=-3530
-                                    else
-                                        pf=nZ(-10622)
-                                    end
-                                elseif pf==-23263 then
-                                    uO=uO..Sr(Sz(nv(_R,(Ka-11)+1),nv(B,(Ka-11)%#B+1)))
-                                    pf=nZ(16049)
-                                elseif pf==-3530 then
-                                    return uO
-                                elseif pf==-3732 then
-                                    Ka=WN;
-                                    if Kf~=Kf then
-                                        pf=-3530
-                                    else
-                                        pf=-2862
-                                    end
-                                end
-                            end
-                        until pf==-29033
-                    end)(bQ,fL))
-                    cV=43092795593880/1922927068
-                elseif cV==6627632526270/-362760401 then
-                    fL=Af((function(tY,AO)
-                        local ob,Ks,ew,xo,db,iX,xq,ra
-                        Ks,ew={[-11119]=8438,[-27209]=-10770,[-18726]=20466,[-3701]=15440,[14618]=5876,[-27880]=-8232},function(ig)
-                            return Ks[ig-16894]
-                        end
-                        db=ew(-10315)
-                        repeat
-                            while true do
-                                if db==5876 then
-                                    xq=ob;
-                                    if ra~=ra then
-                                        db=ew(5775)
-                                    else
-                                        db=-8232
-                                    end
-                                elseif db==8438 then
-                                    return xo
-                                elseif db==20466 then
-                                    xo=xo..Sr(Sz(nv(tY,(xq-104)+1),nv(AO,(xq-104)%#AO+1)))
-                                    db=ew(13193)
-                                elseif db==15440 then
-                                    ob=ob+iX;
-                                    xq=ob;
-                                    if ob~=ob then
-                                        db=8438
-                                    else
-                                        db=ew(-10986)
-                                    end
-                                elseif db==-8232 then
-                                    if(iX>=0 and ob>ra)or((iX<0 or iX~=iX)and ob<ra)then
-                                        db=8438
-                                    else
-                                        db=ew(-1832)
-                                    end
-                                elseif db==-10770 then
-                                    xo='';
-                                    iX,ra,ob=1,(#tY-1)+104,104
-                                    db=ew(31512)
-                                end
-                            end
-                        until db==-9100
-                    end)(fL,vN))
-                    cV=Fm(28577)
-                elseif cV==-21517124080689/-679395159 then
-                    ft=ft*gk
-                    cV=Fm(28136)
-                elseif cV==1.1345410297498988e-05*-2104287053 then
-                    bQ='\bW8T'
-                    cV=-9.6711643859470164e-06*-1601254966
-                elseif cV==-555150140- -555174970 then
-                    bQ=bQ[zt(fL[1],1,fL[2])]
-                    cV=Fm(49892)
-                elseif cV==-1653856563284/1511751886 then
-                    bQ=-439066644.30000001
-                    cV=Fm(23212)
-                elseif cV==-806302952+806279473 then
-                    pY=155156390991
-                    cV=Fm(-8184)
-                elseif cV==7492125987037/1384098649 then
-                    fL=fL+vN
-                    cV=-1565985359+1565974590
-                elseif cV==1460523516-1460509457 then
-                    vN='\217q\148L'
-                    cV=1041748747+-1041767017
-                elseif cV==664682618+-664666949 then
-                    Gq='\223o\186\212O\146\251'
-                    cV=Fm(20337)
-                elseif cV==933714452+-933711845 then
-                    vN=Af(vN(Gq,pY,ft))
-                    cV=1.2259361249751998e-05*-1964457977
-                elseif cV==9.2048986379802678e-07*-1641517261 then
-                    fL='I\149h\158'
-                    cV=44352271265382/2021341321
-                elseif cV==125171741-125183264 then
-                    Gq='<\254n'
-                    cV=2.3022991334515352e-05*-1213135148
-                elseif cV==5.6530969355840713e-06*1568166989 then
-                    Gq=Af((function(yc,iR)
-                        local ko,cv,au,MR,Dq,Lp,dP,sY
-                        ko,au={[-18700]=-19326,[22981]=-18873,[12287]=-24739,[9753]=-8616,[-18191]=-11577},function(XB)
-                            return ko[XB+6340]
-                        end
-                        cv=au(-25040)
-                        repeat
-                            while true do
-                                if cv==14708 then
-                                    Lp=MR;
-                                    if Dq~=Dq then
-                                        cv=-24739
-                                    else
-                                        cv=-18873
-                                    end
-                                elseif cv==-24739 then
-                                    return dP
-                                elseif cv==-18873 then
-                                    if(sY>=0 and MR>Dq)or((sY<0 or sY~=sY)and MR<Dq)then
-                                        cv=-24739
-                                    else
-                                        cv=au(-24531)
-                                    end
-                                elseif cv==-11577 then
-                                    dP=dP..Sr(Sz(nv(yc,(Lp-123)+1),nv(iR,(Lp-123)%#iR+1)))
-                                    cv=au(3413)
-                                elseif cv==-8616 then
-                                    MR=MR+sY;
-                                    Lp=MR;
-                                    if MR~=MR then
-                                        cv=au(5947)
-                                    else
-                                        cv=au(16641)
-                                    end
-                                elseif cv==-19326 then
-                                    dP='';
-                                    sY,Dq,MR=1,(#yc-1)+123,123
-                                    cv=14708
-                                end
-                            end
-                        until cv==7602
-                    end)(Gq,pY))
-                    cV=Fm(32224)
-                elseif cV==-2107482110- -2107470575 then
-                    bQ=A[zt(bQ[1],1,bQ[2])]
-                    cV=1801734163-1801701606
-                elseif cV==-700523121- -700529615 then
-                    fL=Af((function(Cn,rv)
-                        local vb,fI,ak,yZ,ED,XT,Yv,wg
-                        XT,Yv={[16478]=-20080,[-30269]=-16120,[-6077]=-20119,[-1748]=-19979},function(Fd)
-                            return XT[Fd- -7641]
-                        end
-                        yZ=Yv(8837)
-                        repeat
-                            while true do
-                                if yZ==-16120 then
-                                    return ak
-                                elseif yZ==-20119 then
-                                    ED=ED+wg;
-                                    fI=ED;
-                                    if ED~=ED then
-                                        yZ=-16120
-                                    else
-                                        yZ=10276
-                                    end
-                                elseif yZ==-671 then
-                                    ak=ak..Sr(Sz(nv(Cn,(fI-199)+1),nv(rv,(fI-199)%#rv+1)))
-                                    yZ=Yv(-13718)
-                                elseif yZ==-20080 then
-                                    ak='';
-                                    vb,wg,ED=(#Cn-1)+199,1,199
-                                    yZ=Yv(-9389)
-                                elseif yZ==10276 then
-                                    if(wg>=0 and ED>vb)or((wg<0 or wg~=wg)and ED<vb)then
-                                        yZ=Yv(-37910)
-                                    else
-                                        yZ=-671
-                                    end
-                                elseif yZ==-19979 then
-                                    fI=ED;
-                                    if vb~=vb then
-                                        yZ=-16120
-                                    else
-                                        yZ=10276
-                                    end
-                                end
-                            end
-                        until yZ==20371
-                    end)(fL,vN))
-                    cV=Fm(7972)
-                elseif cV==-8.770595549186771e-06*-1241990916 then
-                    bQ=bQ[zt(fL[1],1,fL[2])]
-                    cV=1653762373-1653763884
-                elseif cV==15733372561872/512855224 then
-                    fL=Af((function(_l,aH)
-                        local Qb,Zi,ad,qU,YP,GL,Ow,to
-                        Qb,to={[-1175]=12347,[-27568]=20937,[862]=15987,[-19823]=-19731,[2812]=-29213,[-21783]=-13208,[-7345]=-29213,[-8612]=15987},function(OE)
-                            return Qb[OE-30567]
-                        end
-                        Ow=to(29392)
-                        repeat
-                            while true do
-                                if Ow==-13208 then
-                                    YP=GL;
-                                    if Zi~=Zi then
-                                        Ow=to(21955)
-                                    else
-                                        Ow=to(33379)
-                                    end
-                                elseif Ow==20937 then
-                                    GL=GL+qU;
-                                    YP=GL;
-                                    if GL~=GL then
-                                        Ow=15987
-                                    else
-                                        Ow=to(23222)
-                                    end
-                                elseif Ow==-29213 then
-                                    if(qU>=0 and GL>Zi)or((qU<0 or qU~=qU)and GL<Zi)then
-                                        Ow=to(31429)
-                                    else
-                                        Ow=to(10744)
-                                    end
-                                elseif Ow==15987 then
-                                    return ad
-                                elseif Ow==12347 then
-                                    ad='';
-                                    Zi,qU,GL=(#_l-1)+255,1,255
-                                    Ow=to(8784)
-                                elseif Ow==-19731 then
-                                    ad=ad..Sr(Sz(nv(_l,(YP-255)+1),nv(aH,(YP-255)%#aH+1)))
-                                    Ow=to(2999)
-                                end
-                            end
-                        until Ow==-26895
-                    end)(fL,vN))
-                    cV=Fm(46466)
-                elseif cV==582860961-582893665 then
-                    vN=vN/Gq
-                    cV=Fm(14140)
-                elseif cV==236348669+-236317037 then
-                    bQ=bQ[zt(fL[1],1,fL[2])]
-                    cV=432373979+-432369439
-                elseif cV==39685588-39653031 then
-                    fL='\148\16\224)\171\24\245 '
-                    cV=-820332835- -820346894
-                elseif cV==-702944392875/-27680425 then
-                    pY=pY/ft
-                    cV=Fm(20590)
-                elseif cV==1910616021-1910628830 then
-                    jg[(function(Gw,va)
-                        local PG,tu,S,DV,gi,EH,qJ,ip
-                        DV,PG={[569]=-13938,[-21144]=23580,[-31056]=16922,[10810]=6421,[2893]=13809,[-24000]=23584},function(WG)
-                            return DV[WG-16480]
-                        end
-                        qJ=PG(-14576)
-                        repeat
-                            while true do
-                                if qJ==6421 then
-                                    ip=ip+gi;
-                                    EH=ip;
-                                    if ip~=ip then
-                                        qJ=13809
-                                    else
-                                        qJ=PG(-7520)
-                                    end
-                                elseif qJ==13809 then
-                                    return S
-                                elseif qJ==23584 then
-                                    if(gi>=0 and ip>tu)or((gi<0 or gi~=gi)and ip<tu)then
-                                        qJ=13809
-                                    else
-                                        qJ=PG(17049)
-                                    end
-                                elseif qJ==16922 then
-                                    S='';
-                                    ip,gi,tu=84,1,(#Gw-1)+84
-                                    qJ=PG(-4664)
-                                elseif qJ==-13938 then
-                                    S=S..Sr(Sz(nv(Gw,(EH-84)+1),nv(va,(EH-84)%#va+1)))
-                                    qJ=PG(27290)
-                                elseif qJ==23580 then
-                                    EH=ip;
-                                    if tu~=tu then
-                                        qJ=PG(19373)
-                                    else
-                                        qJ=23584
-                                    end
-                                end
-                            end
-                        until qJ==6300
-                    end)('\211Zla\236Ryh','\158;\24\4')]=bQ;
-                    cV=Fm(19288)
-                elseif cV==-7.4058953713464224e-07*-2033515091 then
-                    Gq=Gq-pY
-                    cV=-1.2455491313181001e-05*1885032024
-                elseif cV==-12360743890350/-692905650 then
-                    Gq=147903485824
-                    cV=Fm(26674)
-                elseif cV==-1168766566- -1168754975 then
-                    fL=zt(bQ[1],1,bQ[2])
-                    cV=Fm(38372)
-                elseif cV==-510877904- -510905992 then
-                    fL=Af((function(Zk,MI)
-                        local jI,Uh,pp,Xe,rR,tr,cj,gX
-                        rR,Uh={[-4228]=-15249,[-6186]=-15249,[-31531]=-5827,[-9064]=-15249,[-27740]=32528,[27243]=21218},function(LC)
-                            return rR[LC+-15692]
-                        end
-                        pp=Uh(42935)
-                        repeat
-                            while true do
-                                if pp==-15249 then
-                                    return cj
-                                elseif pp==-5827 then
-                                    if(tr>=0 and gX>jI)or((tr<0 or tr~=tr)and gX<jI)then
-                                        pp=Uh(11464)
-                                    else
-                                        pp=-17999
-                                    end
-                                elseif pp==32528 then
-                                    gX=gX+tr;
-                                    Xe=gX;
-                                    if gX~=gX then
-                                        pp=Uh(9506)
-                                    else
-                                        pp=-5827
-                                    end
-                                elseif pp==-17023 then
-                                    Xe=gX;
-                                    if jI~=jI then
-                                        pp=Uh(6628)
-                                    else
-                                        pp=Uh(-15839)
-                                    end
-                                elseif pp==-17999 then
-                                    cj=cj..Sr(Sz(nv(Zk,(Xe-31)+1),nv(MI,(Xe-31)%#MI+1)))
-                                    pp=Uh(-12048)
-                                elseif pp==21218 then
-                                    cj='';
-                                    tr,gX,jI=1,31,(#Zk-1)+31
-                                    pp=-17023
-                                end
-                            end
-                        until pp==-10921
-                    end)(fL,vN))
-                    cV=21346216584170/-1240337977
-                elseif cV==8.8122915853325898e-06*2115113852 then
-                    pY='\194w|'
-                    cV=Fm(11587)
-                elseif cV==-2140579432+2140611592 then
-                    fL=-975703654
-                    cV=Fm(32707)
-                elseif cV==18797080129650/-2085089310 then
-                    fL=bQ
-                    cV=Fm(27859)
-                elseif cV==17750979115100/872283986 then
-                    vN=vN[zt(Gq[1],1,Gq[2])]
-                    cV=Fm(27602)
-                elseif cV==0.00023705455385601191*121212605 then
-                    if not fL then
-                        cV=Fm(-7730)
-                        break
-                    end
-                    cV=1915333798-1915301325
-                elseif cV==-1751414738- -1751435154 then
-                    fL='\143\210\194-\204_'
-                    cV=Fm(16651)
-                elseif cV==1114862759283/35103837 then
-                    bQ='y\207\31U\210@'
-                    cV=Fm(45952)
-                elseif cV==-1.3746065284168661e-05*2031854165 then
-                    vN=Af((function(dy,EG)
-                        local Dv,Tb,KO,Nx,zO,Rb,Iz,lb
-                        lb,Rb={[20370]=19738,[-4913]=-6514,[13049]=17546,[-24209]=4509,[-24399]=9700},function(Bi)
-                            return lb[Bi- -31055]
-                        end
-                        Nx=Rb(-35968)
-                        repeat
-                            while true do
-                                if Nx==8927 then
-                                    Dv=Iz;
-                                    if KO~=KO then
-                                        Nx=19738
-                                    else
-                                        Nx=4509
-                                    end
-                                elseif Nx==17546 then
-                                    Iz=Iz+zO;
-                                    Dv=Iz;
-                                    if Iz~=Iz then
-                                        Nx=Rb(-10685)
-                                    else
-                                        Nx=Rb(-55264)
-                                    end
-                                elseif Nx==-6514 then
-                                    Tb='';
-                                    Iz,zO,KO=163,1,(#dy-1)+163
-                                    Nx=8927
-                                elseif Nx==9700 then
-                                    Tb=Tb..Sr(Sz(nv(dy,(Dv-163)+1),nv(EG,(Dv-163)%#EG+1)))
-                                    Nx=Rb(-18006)
-                                elseif Nx==19738 then
-                                    return Tb
-                                elseif Nx==4509 then
-                                    if(zO>=0 and Iz>KO)or((zO<0 or zO~=zO)and Iz<KO)then
-                                        Nx=19738
-                                    else
-                                        Nx=Rb(-55454)
-                                    end
-                                end
-                            end
-                        until Nx==-22237
-                    end)(vN,Gq))
-                    cV=-41827963721498/-1524009463
-                elseif cV==-1.5134493007222075e-05*-1424890810 then
-                    Gq=368865022
-                    cV=-1660000148- -1659967444
-                elseif cV==831957447-831952628 then
-                    fL=Af((function(Pc,Zz)
-                        local CM,nm,Jr,GJ,As,qF,PT,xp
-                        qF,xp={[-14099]=-18202,[-16660]=-32562,[8460]=-16838,[-27118]=-8068,[-10664]=26303,[-1545]=-32562,[2429]=-32562,[16075]=8386,[2910]=-16838},function(TG)
-                            return qF[TG-22194]
-                        end
-                        GJ=xp(8095)
-                        repeat
-                            while true do
-                                if GJ==-16838 then
-                                    if(PT>=0 and Jr>As)or((PT<0 or PT~=PT)and Jr<As)then
-                                        GJ=xp(5534)
-                                    else
-                                        GJ=xp(38269)
-                                    end
-                                elseif GJ==-32562 then
-                                    return nm
-                                elseif GJ==-18202 then
-                                    nm='';
-                                    As,Jr,PT=(#Pc-1)+7,7,1
-                                    GJ=xp(11530)
-                                elseif GJ==26303 then
-                                    CM=Jr;
-                                    if As~=As then
-                                        GJ=xp(24623)
-                                    else
-                                        GJ=xp(30654)
-                                    end
-                                elseif GJ==8386 then
-                                    nm=nm..Sr(Sz(nv(Pc,(CM-7)+1),nv(Zz,(CM-7)%#Zz+1)))
-                                    GJ=xp(-4924)
-                                elseif GJ==-8068 then
-                                    Jr=Jr+PT;
-                                    CM=Jr;
-                                    if Jr~=Jr then
-                                        GJ=xp(20649)
-                                    else
-                                        GJ=xp(25104)
-                                    end
-                                end
-                            end
-                        until GJ==14456
-                    end)(fL,vN))
-                    cV=Fm(3801)
-                elseif cV==-316210467- -316197498 then
-                    fL=Af((function(FF,KN)
-                        local LE,ab,AN,PD,cW,yk,iT,hC
-                        AN,iT={[6199]=-11586,[5219]=-22364,[13998]=21095,[2719]=-22364,[-5862]=-15550,[11343]=-22364,[31344]=17371},function(Zj)
-                            return AN[Zj-24756]
-                        end
-                        ab=iT(38754)
-                        repeat
-                            while true do
-                                if ab==31311 then
-                                    hC=yk;
-                                    if LE~=LE then
-                                        ab=iT(29975)
-                                    else
-                                        ab=iT(30955)
-                                    end
-                                elseif ab==-15550 then
-                                    PD=PD..Sr(Sz(nv(FF,(hC-167)+1),nv(KN,(hC-167)%#KN+1)))
-                                    ab=iT(56100)
-                                elseif ab==21095 then
-                                    PD='';
-                                    yk,LE,cW=167,(#FF-1)+167,1
-                                    ab=31311
-                                elseif ab==-11586 then
-                                    if(cW>=0 and yk>LE)or((cW<0 or cW~=cW)and yk<LE)then
-                                        ab=iT(36099)
-                                    else
-                                        ab=iT(18894)
-                                    end
-                                elseif ab==-22364 then
-                                    return PD
-                                elseif ab==17371 then
-                                    yk=yk+cW;
-                                    hC=yk;
-                                    if yk~=yk then
-                                        ab=iT(27475)
-                                    else
-                                        ab=-11586
-                                    end
-                                end
-                            end
-                        until ab==-28665
-                    end)(fL,vN))
-                    cV=368654537-368665444
-                end
-            end
-        until cV==-1132772969+1132763948
+    until fi==-16697
+end)('\174\56p\22F7g\149%a\18C7@\142','\253L\2y-R3')]=9.5760257683192613e-09*208854910,[(function(mv,xb)
+    local Tm,Eh,Bd,hb,m,yt,qa,_B
+    hb,m={[29236]=9148,[-22764]=-29169,[-28687]=-20136,[619]=-31392,[-396]=25987,[24570]=9148},function(ZA)
+        return hb[ZA- -5731]
     end
-    local function od()
-        local pr,lg,MX,mt,fi,fJ,WC,NE,aK,sr,wY,Vm,OO,sr,MF,Tj,pr,mt,CI,fi,qP,fn,aY
-        aK,NE={[1650]=-22682,[-31174]=19122,[-28536]=-629,[25325]=-5722,[-28192]=4996,[-20293]=-22682,[-3851]=8055,[-4480]=-8601,[-14843]=19122,[-32200]=19122,[4182]=-32287,[13776]=-22682,[514]=-2936,[-24203]=-23753,[-3487]=-21926,[10723]=4475,[16751]=-29914,[-8108]=-27764,[-10230]=-31445,[22163]=-26820,[7744]=-22851,[26611]=-18980,[-28549]=19122,[19622]=-27764,[28209]=-18370,[31327]=4996,[-12850]=26460,[25671]=-22682,[-30601]=15455,[-15141]=3804,[-12497]=-2470,[15414]=-9541,[-12697]=-18024,[3928]=18116,[18419]=-7786,[3820]=1218,[14835]=10590,[-31259]=19748,[-1766]=-30577,[13204]=-22682,[19378]=-22682,[28927]=5842,[23384]=-629,[14598]=-29364,[22939]=32143,[-13179]=-2936,[-11268]=11131,[-5915]=-13567,[-15058]=11499,[30708]=-28112,[-21598]=-14740,[11708]=-2083,[-11214]=19122,[-27014]=7867,[-665]=-22851,[18643]=-9398,[-8762]=19122,[23041]=27271,[8478]=5371,[-10955]=-25658,[-14130]=27271,[12360]=-18370,[29058]=21983,[-18195]=17091,[28568]=19122,[14150]=17834,[-16538]=1218,[19719]=-22682,[-19613]=-22682,[-17667]=32462,[-28117]=-14740,[18863]=-18980,[32044]=19122,[-30688]=18116,[23967]=19122,[-7714]=-18024,[29584]=-17650,[26304]=-16947,[2556]=-32287,[17312]=-8485,[-31936]=-21537,[576]=7867,[8008]=19122,[-17622]=19122,[-23601]=-25576,[-2565]=27191,[16999]=-8485,[-24045]=-16947,[-7968]=27191,[29814]=-17899,[-6122]=17091,[26205]=17834},function(Ie)
-            return aK[Ie+-31181]
-        end
-        OO=NE(31695)
-        repeat
-            while true do
-                if OO==1165145641-1165137124 then
-                    fn=mt[zt(fn[1],1,fn[2])]
-                    OO=-10449118024086/668358579
-                elseif OO==-331248430+331255334 then
-                    CI=pk[zt(CI[1],1,CI[2])]
-                    OO=NE(49600)
-                elseif OO==-21839772097110/-2009733330 then
-                    CI=Af((function(SS,si)
-                        local Rg,td,i,cY,Yx,oV,Fv,dg
-                        i,Fv={[-12919]=2447,[3056]=32686,[-26479]=1773,[-15319]=-31925,[8752]=-27021,[24407]=32686,[-4383]=-2259},function(Ex)
-                            return i[Ex+3002]
-                        end
-                        Rg=Fv(-7385)
-                        repeat
-                            while true do
-                                if Rg==1773 then
-                                    Yx=Yx..Sr(Sz(nv(SS,(td-178)+1),nv(si,(td-178)%#si+1)))
-                                    Rg=Fv(5750)
-                                elseif Rg==-27021 then
-                                    oV=oV+cY;
-                                    td=oV;
-                                    if oV~=oV then
-                                        Rg=Fv(54)
-                                    else
-                                        Rg=Fv(-18321)
-                                    end
-                                elseif Rg==2447 then
-                                    td=oV;
-                                    if dg~=dg then
-                                        Rg=Fv(21405)
-                                    else
-                                        Rg=-31925
-                                    end
-                                elseif Rg==-31925 then
-                                    if(cY>=0 and oV>dg)or((cY<0 or cY~=cY)and oV<dg)then
-                                        Rg=32686
-                                    else
-                                        Rg=Fv(-29481)
-                                    end
-                                elseif Rg==32686 then
-                                    return Yx
-                                elseif Rg==-2259 then
-                                    Yx='';
-                                    cY,oV,dg=1,178,(#SS-1)+178
-                                    Rg=Fv(-15921)
-                                end
-                            end
-                        until Rg==2810
-                    end)(CI,lg))
-                    OO=-152119743- -152091351
-                elseif OO==-2.9408750922601805e-06*-1521655922 then
-                    fn=A[zt(fn[1],1,fn[2])]
-                    OO=NE(25266)
-                elseif OO==8259037878024/-383481352 then
-                    CI='\167\179z'
-                    OO=NE(46016)
-                elseif OO==-30193298- -30204797 then
-                    fn=Af(jv(MX))
-                    OO=NE(35001)
-                elseif OO==-2402770308885/-298295507 then
-                    OO=NE(53344);
-                    break;
-                elseif OO==3684217505868/-1768707396 then
-                    lg='\184;5\185\209'
-                    OO=NE(49824)
-                elseif OO==14655775844844/766435302 then
-                    sr,mt=MF(qP,fJ);
-                    fJ=sr;
-                    if fJ==nil then
-                        OO=NE(10888)
-                    else
-                        OO=NE(23073)
-                    end
-                elseif OO==-1227273760+1227277564 then
-                    fn=Af(jv(MF))
-                    OO=NE(28616)
-                elseif OO==-707645523- -707626543 then
-                    wY=zt(fn[1],1,fn[2]);
-                    if wY~=nil and wY.__iter~=nil then
-                        OO=NE(38925)
-                        break
-                    elseif qZ(MF)==(function(qi,Or)
-                        local ND,TJ,bz,tP,lX,hK,Em,ng
-                        Em,lX={[30992]=-6674,[19266]=-6674,[15928]=-3220,[30528]=-29669,[-13285]=-6674,[5433]=16502,[30112]=-26271,[-1216]=-15186},function(Od)
-                            return Em[Od- -18852]
-                        end
-                        ng=lX(-13419)
-                        repeat
-                            while true do
-                                if ng==-6674 then
-                                    return ND
-                                elseif ng==-29669 then
-                                    TJ=TJ+hK;
-                                    tP=TJ;
-                                    if TJ~=TJ then
-                                        ng=lX(414)
-                                    else
-                                        ng=-26271
-                                    end
-                                elseif ng==-15186 then
-                                    ND=ND..Sr(Sz(nv(qi,(tP-51)+1),nv(Or,(tP-51)%#Or+1)))
-                                    ng=lX(11676)
-                                elseif ng==-26271 then
-                                    if(hK>=0 and TJ>bz)or((hK<0 or hK~=hK)and TJ<bz)then
-                                        ng=lX(-32137)
-                                    else
-                                        ng=lX(-20068)
-                                    end
-                                elseif ng==16502 then
-                                    ND='';
-                                    TJ,bz,hK=51,(#qi-1)+51,1
-                                    ng=lX(-2924)
-                                elseif ng==-3220 then
-                                    tP=TJ;
-                                    if bz~=bz then
-                                        ng=lX(12140)
-                                    else
-                                        ng=lX(11260)
-                                    end
-                                end
-                            end
-                        until ng==-8151
-                    end)('J\190\\\179[','>\223')then
-                        OO=NE(16040)
-                        break
-                    end
-                    OO=NE(55148)
-                elseif OO==1352452153-1352470523 then
-                    MF,qP,fJ=zt(fn[1],1,fn[2]);
-                    OO=NE(39189)
-                elseif OO==4.2044190778818295e-06*1277465424 then
-                    fn=Af(fn(zt(CI[1],1,CI[2])))
-                    OO=NE(7136)
-                elseif OO==1135664649-1135679389 then
-                    fn=Vm.__iter
-                    OO=NE(29415)
-                elseif OO==7.5731363136326797e-06*-2063477977 then
-                    fn=Af(fn(MF))
-                    OO=NE(43541)
-                elseif OO==1863432157-1863459921 then
-                    fn='&\27Q&\134\219\238\19\6|*\169\222\248'
-                    OO=-1833437104- -1833437323
-                elseif OO==-1435520478- -1435528345 then
-                    MX,Tj,WC=zt(fn[1],1,fn[2]);
-                    if qZ(MX)~='function'then
-                        OO=NE(18331)
-                        break
-                    end;
-                    OO=NE(50559);
-                elseif OO==-1805728930- -1805698353 then
-                    fn=Af(fn(MX))
-                    OO=NE(54565)
-                elseif OO==1876168156+-1876188556 then
-                    CI=Af((function(TQ,bU)
-                        local Qk,rk,GA,I,YR,nn,nY,oD
-                        I,Qk={[-26588]=-11365,[1605]=-14586,[15874]=26112,[6969]=-9754,[22417]=9499,[-22183]=-9754,[11167]=-9754},function(cw)
-                            return I[cw+-21084]
-                        end
-                        nn=Qk(43501)
-                        repeat
-                            while true do
-                                if nn==4819 then
-                                    GA=GA..Sr(Sz(nv(TQ,(YR-101)+1),nv(bU,(YR-101)%#bU+1)))
-                                    nn=Qk(22689)
-                                elseif nn==-9754 then
-                                    return GA
-                                elseif nn==26112 then
-                                    YR=rk;
-                                    if oD~=oD then
-                                        nn=Qk(28053)
-                                    else
-                                        nn=Qk(-5504)
-                                    end
-                                elseif nn==9499 then
-                                    GA='';
-                                    nY,oD,rk=1,(#TQ-1)+101,101
-                                    nn=Qk(36958)
-                                elseif nn==-11365 then
-                                    if(nY>=0 and rk>oD)or((nY<0 or nY~=nY)and rk<oD)then
-                                        nn=Qk(-1099)
-                                    else
-                                        nn=4819
-                                    end
-                                elseif nn==-14586 then
-                                    rk=rk+nY;
-                                    YR=rk;
-                                    if rk~=rk then
-                                        nn=Qk(32251)
-                                    else
-                                        nn=-11365
-                                    end
-                                end
-                            end
-                        until nn==-30641
-                    end)(CI,lg))
-                    OO=-6024281508336/-872578434
-                elseif OO==-1019195698- -1019178048 then
-                    lg='\186\163\225\214'
-                    OO=327360596-327349729
-                elseif OO==55357621921056/-1949761268 then
-                    fn=Af(fn(mt,zt(CI[1],1,CI[2])))
-                    OO=NE(12986)
-                elseif OO==804298504+-804272044 then
-                    fn=Af(cH(MX))
-                    OO=NE(23467)
-                elseif OO==-8.4889602334037057e-07*740962359 then
-                    MX,Tj,WC=zt(fn[1],1,fn[2]);
-                    OO=NE(50900)
-                elseif OO==-86949521+86931497 then
-                    Vm=zt(fn[1],1,fn[2]);
-                    if Vm~=nil and Vm.__iter~=nil then
-                        OO=NE(9583)
-                        break
-                    elseif qZ(MX)==(function(WV,jO)
-                        local sp,en,Yy,xS,GP,KD,Un,kl
-                        Un,GP={[-4793]=8058,[-26722]=-24469,[26870]=24846,[27217]=25352,[8493]=20807,[-17638]=9874},function(bT)
-                            return Un[bT+12009]
-                        end
-                        kl=GP(15208)
-                        repeat
-                            while true do
-                                if kl==8058 then
-                                    return sp
-                                elseif kl==9874 then
-                                    sp=sp..Sr(Sz(nv(WV,(Yy-79)+1),nv(jO,(Yy-79)%#jO+1)))
-                                    kl=GP(-3516)
-                                elseif kl==25352 then
-                                    sp='';
-                                    en,KD,xS=1,79,(#WV-1)+79
-                                    kl=GP(-38731)
-                                elseif kl==24846 then
-                                    if(en>=0 and KD>xS)or((en<0 or en~=en)and KD<xS)then
-                                        kl=8058
-                                    else
-                                        kl=GP(-29647)
-                                    end
-                                elseif kl==-24469 then
-                                    Yy=KD;
-                                    if xS~=xS then
-                                        kl=8058
-                                    else
-                                        kl=GP(14861)
-                                    end
-                                elseif kl==20807 then
-                                    KD=KD+en;
-                                    Yy=KD;
-                                    if KD~=KD then
-                                        kl=GP(-16802)
-                                    else
-                                        kl=24846
-                                    end
-                                end
-                            end
-                        until kl==-27423
-                    end)('\245\238\227\227\228','\129\143')then
-                        OO=NE(16123)
-                        break
-                    end
-                    OO=NE(56852)
-                elseif OO==2120169458+-2120193211 then
-                    fn=Af((function(og,MH)
-                        local tA,ek,sc,Rw,uw,iK,uj,ID
-                        uj,uw={[29444]=30018,[-585]=-22889,[13639]=-5669,[-4724]=-13125,[-1852]=-26827,[9753]=-26827,[17096]=30018},function(MP)
-                            return uj[MP- -27279]
-                        end
-                        tA=uw(-13640)
-                        repeat
-                            while true do
-                                if tA==30018 then
-                                    if(sc>=0 and iK>Rw)or((sc<0 or sc~=sc)and iK<Rw)then
-                                        tA=-26827
-                                    else
-                                        tA=-19225
-                                    end
-                                elseif tA==-26827 then
-                                    return ek
-                                elseif tA==-22889 then
-                                    iK=iK+sc;
-                                    ID=iK;
-                                    if iK~=iK then
-                                        tA=uw(-17526)
-                                    else
-                                        tA=uw(-10183)
-                                    end
-                                elseif tA==-13125 then
-                                    ID=iK;
-                                    if Rw~=Rw then
-                                        tA=uw(-29131)
-                                    else
-                                        tA=uw(2165)
-                                    end
-                                elseif tA==-19225 then
-                                    ek=ek..Sr(Sz(nv(og,(ID-156)+1),nv(MH,(ID-156)%#MH+1)))
-                                    tA=uw(-27864)
-                                elseif tA==-5669 then
-                                    ek='';
-                                    iK,sc,Rw=156,1,(#og-1)+156
-                                    tA=uw(-32003)
-                                end
-                            end
-                        until tA==-30632
-                    end)(fn,CI))
-                    OO=416892981+-416884464
-                elseif OO==0.0071649580217679771*-3189272 then
-                    fn=wY.__iter
-                    OO=-10381501130826/664331038
-                elseif OO==-2534424370548/-2080808186 then
-                    MX,Tj,WC=zt(fn[1],1,fn[2]);
-                    OO=NE(44957)
-                elseif OO==-7512897900518/675073942 then
-                    fn=Af(fn(zt(CI[1],1,CI[2])))
-                    OO=NE(31757)
-                elseif OO==51462344995782/-2005703679 then
-                    CI=Af(CI(fi))
-                    OO=NE(39659)
-                elseif OO==-1918843796- -1918853642 then
-                    lg='\168\255\171\139a'
-                    OO=1.784263233327411e-05*-1143329057
-                elseif OO==-1184429648+1184420250 then
-                    CI=Af((function(pH,EV)
-                        local aG,Jz,zq,tE,Wh,pF,Td,ne
-                        Jz,Wh={[20473]=24519,[-30338]=25601,[28767]=7947,[3074]=17381},function(DT)
-                            return Jz[DT-31272]
-                        end
-                        ne=Wh(60039)
-                        repeat
-                            while true do
-                                if ne==25601 then
-                                    Td=Td+pF;
-                                    tE=Td;
-                                    if Td~=Td then
-                                        ne=17381
-                                    else
-                                        ne=Wh(51745)
-                                    end
-                                elseif ne==24519 then
-                                    if(pF>=0 and Td>zq)or((pF<0 or pF~=pF)and Td<zq)then
-                                        ne=Wh(34346)
-                                    else
-                                        ne=-18677
-                                    end
-                                elseif ne==17381 then
-                                    return aG
-                                elseif ne==14075 then
-                                    tE=Td;
-                                    if zq~=zq then
-                                        ne=17381
-                                    else
-                                        ne=24519
-                                    end
-                                elseif ne==7947 then
-                                    aG='';
-                                    Td,zq,pF=60,(#pH-1)+60,1
-                                    ne=14075
-                                elseif ne==-18677 then
-                                    aG=aG..Sr(Sz(nv(pH,(tE-60)+1),nv(EV,(tE-60)%#EV+1)))
-                                    ne=Wh(934)
-                                end
-                            end
-                        until ne==-23962
-                    end)(CI,lg))
-                    OO=2.4526657754745708e-05*1242729454
-                elseif OO==-399509193- -399486511 then
-                    pr,fi=MX(Tj,WC);
-                    WC=pr;
-                    if WC==nil then
-                        OO=NE(27330)
-                    else
-                        OO=NE(493)
-                    end
-                elseif OO==79843139-79825023 then
-                    fn='4\16J4\18X'
-                    OO=NE(45779)
-                elseif OO==2.3726366788531828e-05*-1237610472 then
-                    CI=']\96+'
-                    OO=16030907815425/-1023488975
-                elseif OO==-1868936993+1868934057 then
-                    fn='\206\195\27\206\193\t'
-                    OO=NE(-755)
-                elseif OO==-15294590- -15325070 then
-                    CI=fi[zt(CI[1],1,CI[2])]
-                    OO=NE(20226)
-                elseif OO==-190716925+190732380 then
-                    fn=WT(aY)
-                    OO=NE(19967)
-                elseif OO==-11523188755413/-674225543 then
-                    aY=zt(fn[1],1,fn[2]);
-                    if aY then
-                        OO=NE(580)
-                        break
-                    end
-                    OO=NE(59749)
-                elseif OO==-6699239908257/-1786940493 then
-                    CI='\239\154\223\200\t\193\147\207\249\4\198'
-                    OO=-1799116854+1799126700
-                elseif OO==-5.1933112004441616e-05*261239881 then
-                    CI='\255^A\250\185\209WQ\203\180\214'
-                    OO=NE(42889)
-                elseif OO==22154313241514/-1417059821 then
-                    CI='\221\207\128\165\201\211\128\164\206'
-                    OO=NE(60765)
-                elseif OO==-1.6375063093013912e-05*-1660512686 then
-                    MF,qP,fJ=zt(fn[1],1,fn[2]);
-                    OO=NE(-1019)
-                elseif OO==-19746617904903/1260717481 then
-                    fn=Af((function(VA,po)
-                        local hn,eW,Sf,Fq,rr,fp,_L,dL
-                        _L,Sf={[31614]=-31057,[-29439]=30485,[2545]=7359,[-12459]=-15587,[24403]=-30351,[12865]=-30351},function(Vj)
-                            return _L[Vj+19681]
-                        end
-                        rr=Sf(-32140)
-                        repeat
-                            while true do
-                                if rr==-15587 then
-                                    fp='';
-                                    dL,Fq,eW=(#VA-1)+89,89,1
-                                    rr=Sf(-17136)
-                                elseif rr==6239 then
-                                    fp=fp..Sr(Sz(nv(VA,(hn-89)+1),nv(po,(hn-89)%#po+1)))
-                                    rr=Sf(-49120)
-                                elseif rr==30485 then
-                                    Fq=Fq+eW;
-                                    hn=Fq;
-                                    if Fq~=Fq then
-                                        rr=Sf(11933)
-                                    else
-                                        rr=Sf(4722)
-                                    end
-                                elseif rr==-30351 then
-                                    if(eW>=0 and Fq>dL)or((eW<0 or eW~=eW)and Fq<dL)then
-                                        rr=-31057
-                                    else
-                                        rr=6239
-                                    end
-                                elseif rr==-31057 then
-                                    return fp
-                                elseif rr==7359 then
-                                    hn=Fq;
-                                    if dL~=dL then
-                                        rr=-31057
-                                    else
-                                        rr=Sf(-6816)
-                                    end
-                                end
-                            end
-                        until rr==17473
-                    end)(fn,CI))
-                    OO=NE(41904)
-                elseif OO==-530053707- -530053926 then
-                    CI='\96r?B\192\178\156'
-                    OO=NE(6978)
-                elseif OO==1465371422+-1465379208 then
-                    CI=Af(CI(pk))
-                    OO=-650083596+650072467
-                elseif OO==-21465480549810/-2026957559 then
-                    fn=Af((function(AJ,oZ)
-                        local ON,P,FO,BL,JI,KY,Pz,qf
-                        qf,JI={[-13950]=18364,[2042]=-21874,[-29633]=18364,[31934]=18364,[12082]=12611,[-14607]=15003,[-25843]=12611},function(bF)
-                            return qf[bF- -27333]
-                        end
-                        P=JI(-41940)
-                        repeat
-                            while true do
-                                if P==15003 then
-                                    BL='';
-                                    Pz,KY,FO=106,1,(#AJ-1)+106
-                                    P=-5715
-                                elseif P==-5715 then
-                                    ON=Pz;
-                                    if FO~=FO then
-                                        P=JI(4601)
-                                    else
-                                        P=JI(-15251)
-                                    end
-                                elseif P==12611 then
-                                    if(KY>=0 and Pz>FO)or((KY<0 or KY~=KY)and Pz<FO)then
-                                        P=JI(-56966)
-                                    else
-                                        P=30486
-                                    end
-                                elseif P==30486 then
-                                    BL=BL..Sr(Sz(nv(AJ,(ON-106)+1),nv(oZ,(ON-106)%#oZ+1)))
-                                    P=JI(-25291)
-                                elseif P==18364 then
-                                    return BL
-                                elseif P==-21874 then
-                                    Pz=Pz+KY;
-                                    ON=Pz;
-                                    if Pz~=Pz then
-                                        P=JI(-41283)
-                                    else
-                                        P=JI(-53176)
-                                    end
-                                end
-                            end
-                        until P==-22914
-                    end)(fn,CI))
-                    OO=-1013702705+1013719586
-                elseif OO==973311132-973294251 then
-                    fn=A[zt(fn[1],1,fn[2])]
-                    OO=-5.2711990281556854e-06*-711223382
-                elseif OO==-8.4702242612812205e-06*1001744433 then
-                    fn=Af(cH(MF))
-                    OO=NE(57792)
-                elseif OO==8.7072906270814215e-06*-1946300029 then
-                    MF,qP,fJ=zt(fn[1],1,fn[2]);
-                    if qZ(MF)~='function'then
-                        OO=NE(48180)
-                        break
-                    end;
-                    OO=NE(13559);
-                end
-            end
-        until OO==-3.8850435994672266e-05*690339743
-    end;
-    local Ls,FY,hg,Zu,pV,aa,Ra
-    pV,FY={[1682]=9521,[-31905]=29467,[7259]=-9306,[32072]=-12471,[-16265]=19240,[19043]=1782,[-1447]=-7314,[14623]=13594,[1304]=-2726,[4249]=24725,[22344]=3930,[28511]=23790,[-6442]=4882,[-6543]=-23013,[7194]=-1371,[21534]=-463,[32232]=17698,[-17145]=-7314,[9097]=-188,[5487]=24731,[-26297]=-27974,[-22636]=-15392,[-28705]=-4899,[-2178]=6703,[5582]=23531,[-24491]=1285,[18557]=-20488,[-1532]=-3485,[9489]=19240,[8074]=30985,[21781]=-15392,[2039]=-1371,[-10455]=-1371},function(Wt)
-        return pV[Wt+2103]
-    end
-    hg=FY(-18368)
+    yt=m(-28495)
     repeat
         while true do
-            if hg==48006955776268/-1716127682 then
-                aa='<K\145'
-                hg=FY(16454)
-            elseif hg==-8140995155788/-459995206 then
-                Zu=Zu(aa,od)
-                hg=FY(5091)
-            elseif hg==-1679341814+1679347631 then
-                aa='\145kVi\191krd\186'
-                hg=1.3924490587225404e-05*1433373801
-            elseif hg==-4137149479935/844488565 then
-                Zu=(function(vk,Uj)
-                    local Ry,dp,Vx,qy,YF,So,Hb,lm
-                    Hb,qy={[-14603]=-18228,[32678]=-8601,[-24453]=17675,[5182]=7810},function(ax)
-                        return Hb[ax-29910]
+            if yt==25987 then
+                qa=qa..iT(TK(ho(mv,(_B-226)+1),ho(xb,(_B-226)%#xb+1)))
+                yt=m(-5112)
+            elseif yt==-31392 then
+                Eh=Eh+Tm;
+                _B=Eh;
+                if Eh~=Eh then
+                    yt=17514
+                else
+                    yt=m(18839)
+                end
+            elseif yt==17514 then
+                return qa
+            elseif yt==-20136 then
+                _B=Eh;
+                if Bd~=Bd then
+                    yt=17514
+                else
+                    yt=m(23505)
+                end
+            elseif yt==-29169 then
+                qa='';
+                Eh,Bd,Tm=226,(#mv-1)+226,1
+                yt=m(-34418)
+            elseif yt==9148 then
+                if(Tm>=0 and Eh>Bd)or((Tm<0 or Tm~=Tm)and Eh<Bd)then
+                    yt=17514
+                else
+                    yt=m(-6127)
+                end
+            end
+        end
+    until yt==1418
+end)('\128q\175q\177','\195\30')]=on[(function(yL,kL)
+    local oS,aL,OB,Of,CB,zN,AB,QJ
+    zN,oS={[27964]=29495,[23803]=29495,[-31821]=-6867,[24045]=1596,[7674]=-6867,[-32353]=-16254},function(wV)
+        return zN[wV+32302]
+    end
+    Of=oS(-8257)
+    repeat
+        while true do
+            if Of==31218 then
+                CB=OB;
+                if AB~=AB then
+                    Of=-6867
+                else
+                    Of=oS(-8499)
+                end
+            elseif Of==25101 then
+                aL=aL..iT(TK(ho(yL,(CB-68)+1),ho(kL,(CB-68)%#kL+1)))
+                Of=oS(-64655)
+            elseif Of==-6867 then
+                return aL
+            elseif Of==-16254 then
+                OB=OB+QJ;
+                CB=OB;
+                if OB~=OB then
+                    Of=oS(-64123)
+                else
+                    Of=oS(-4338)
+                end
+            elseif Of==1596 then
+                aL='';
+                AB,QJ,OB=(#yL-1)+68,1,68
+                Of=31218
+            elseif Of==29495 then
+                if(QJ>=0 and OB>AB)or((QJ<0 or QJ~=QJ)and OB<AB)then
+                    Of=oS(-24628)
+                else
+                    Of=25101
+                end
+            end
+        end
+    until Of==22321
+end)('ir\157\136\133\216Ol\132\130\153\232O','*\29\241\231\247\139')][(function(hc,Ow)
+    local Mx,GV,ww,tN,Kf,uq,tf,ju
+    ju,uq={[-27300]=14501,[-8186]=-21286,[-2482]=-14397,[1280]=11232,[-11248]=30075},function(P)
+        return ju[P- -18989]
+    end
+    GV=uq(-27175)
+    repeat
+        while true do
+            if GV==-21286 then
+                Kf='';
+                Mx,tf,ww=92,1,(#hc-1)+92
+                GV=5448
+            elseif GV==30075 then
+                Kf=Kf..iT(TK(ho(hc,(tN-92)+1),ho(Ow,(tN-92)%#Ow+1)))
+                GV=uq(-17709)
+            elseif GV==11232 then
+                Mx=Mx+tf;
+                tN=Mx;
+                if Mx~=Mx then
+                    GV=-14397
+                else
+                    GV=14501
+                end
+            elseif GV==5448 then
+                tN=Mx;
+                if ww~=ww then
+                    GV=uq(-21471)
+                else
+                    GV=uq(-46289)
+                end
+            elseif GV==14501 then
+                if(tf>=0 and Mx>ww)or((tf<0 or tf~=tf)and Mx<ww)then
+                    GV=-14397
+                else
+                    GV=uq(-30237)
+                end
+            elseif GV==-14397 then
+                return Kf
+            end
+        end
+    until GV==-6577
+end)('.%7','@')](on[(function(LX,zd)
+    local qh,ma,vf,Mq,LO,gC,wt,lA
+    Mq,qh={[18059]=-18381,[7949]=10106,[-4289]=10106,[-26291]=3277,[-8661]=10106},function(EB)
+        return Mq[EB+11531]
+    end
+    vf=qh(6528)
+    repeat
+        while true do
+            if vf==3277 then
+                wt=wt+ma;
+                lA=wt;
+                if wt~=wt then
+                    vf=qh(-3582)
+                else
+                    vf=-3212
+                end
+            elseif vf==-18381 then
+                gC='';
+                wt,ma,LO=90,1,(#LX-1)+90
+                vf=-20058
+            elseif vf==10106 then
+                return gC
+            elseif vf==-20058 then
+                lA=wt;
+                if LO~=LO then
+                    vf=qh(-15820)
+                else
+                    vf=-3212
+                end
+            elseif vf==-3212 then
+                if(ma>=0 and wt>LO)or((ma<0 or ma~=ma)and wt<LO)then
+                    vf=qh(-20192)
+                else
+                    vf=-14477
+                end
+            elseif vf==-14477 then
+                gC=gC..iT(TK(ho(LX,(lA-90)+1),ho(zd,(lA-90)%#zd+1)))
+                vf=qh(-37822)
+            end
+        end
+    until vf==2309
+end)('\237\53_\193(\0','\174Z3')][(function(mH,KN)
+    local Zg,dJ,_W,Yy,sT,GS,ez,la
+    ez,sT={[-15796]=-5139,[16534]=-25739,[4747]=4036,[-27062]=-9692,[-16835]=-11060,[-27589]=4036,[17797]=220,[-20962]=4036},function(Kb)
+        return ez[Kb-994]
+    end
+    la=sT(-15841)
+    repeat
+        while true do
+            if la==-25739 then
+                if(dJ>=0 and Zg>GS)or((dJ<0 or dJ~=dJ)and Zg<GS)then
+                    la=sT(-26595)
+                else
+                    la=sT(18791)
+                end
+            elseif la==220 then
+                Yy=Yy..iT(TK(ho(mH,(_W-164)+1),ho(KN,(_W-164)%#KN+1)))
+                la=sT(-14802)
+            elseif la==-5139 then
+                Zg=Zg+dJ;
+                _W=Zg;
+                if Zg~=Zg then
+                    la=sT(-19968)
+                else
+                    la=-25739
+                end
+            elseif la==-11060 then
+                Yy='';
+                dJ,GS,Zg=1,(#mH-1)+164,164
+                la=sT(-26068)
+            elseif la==-9692 then
+                _W=Zg;
+                if GS~=GS then
+                    la=sT(5741)
+                else
+                    la=sT(17528)
+                end
+            elseif la==4036 then
+                return Yy
+            end
+        end
+    until la==-19919
+end)('\182\57\138\189\25\162\146','\208K\229')](-2.2940831192861064e-07*-871807993,1605754209-1605754209,-1.2204722147137655e-07*-2089355226),on[(function(Ja,QW)
+    local ZC,kx,aH,wl,ns,yG,ws,Wo
+    kx,yG={[-18059]=-13977,[-29370]=-2808,[-32458]=-22130,[-15845]=26891,[-29435]=-13977},function(Pc)
+        return kx[Pc- -1182]
+    end
+    wl=yG(-30552)
+    repeat
+        while true do
+            if wl==26891 then
+                return aH
+            elseif wl==29873 then
+                aH=aH..iT(TK(ho(Ja,(Wo-165)+1),ho(QW,(Wo-165)%#QW+1)))
+                wl=yG(-33640)
+            elseif wl==-13977 then
+                if(ZC>=0 and ws>ns)or((ZC<0 or ZC~=ZC)and ws<ns)then
+                    wl=yG(-17027)
+                else
+                    wl=29873
+                end
+            elseif wl==-2808 then
+                aH='';
+                ZC,ns,ws=1,(#Ja-1)+165,165
+                wl=-25338
+            elseif wl==-22130 then
+                ws=ws+ZC;
+                Wo=ws;
+                if ws~=ws then
+                    wl=26891
+                else
+                    wl=yG(-30617)
+                end
+            elseif wl==-25338 then
+                Wo=ws;
+                if ns~=ns then
+                    wl=26891
+                else
+                    wl=yG(-19241)
+                end
+            end
+        end
+    until wl==-5697
+end)('\138G\240\166Z\175','\201(\156')][(function(VE,YF)
+    local zi,PB,ye,VN,yT,yj,tQ,UF
+    tQ,ye={[10759]=29421,[-28830]=7989,[-2653]=-6885,[6809]=19030,[-25386]=7989},function(iZ)
+        return tQ[iZ- -11829]
+    end
+    VN=ye(-14482)
+    repeat
+        while true do
+            if VN==19030 then
+                if(zi>=0 and PB>yj)or((zi<0 or zi~=zi)and PB<yj)then
+                    VN=ye(-40659)
+                else
+                    VN=13258
+                end
+            elseif VN==13258 then
+                yT=yT..iT(TK(ho(VE,(UF-232)+1),ho(YF,(UF-232)%#YF+1)))
+                VN=ye(-1070)
+            elseif VN==-6885 then
+                yT='';
+                yj,zi,PB=(#VE-1)+232,1,232
+                VN=22696
+            elseif VN==7989 then
+                return yT
+            elseif VN==22696 then
+                UF=PB;
+                if yj~=yj then
+                    VN=7989
+                else
+                    VN=19030
+                end
+            elseif VN==29421 then
+                PB=PB+zi;
+                UF=PB;
+                if PB~=PB then
+                    VN=ye(-37215)
+                else
+                    VN=ye(-5020)
+                end
+            end
+        end
+    until VN==29111
+end)('1\248f:\216N\21','W\138\t')](0*61458144,-1.0498006131279646e-07*-1905123673,-1469780771+1469781026)),[(function(nw,PL)
+    local Zx,mm,rc,fw,OP,FT,mO,GI
+    mO,GI={[15970]=-11276,[10829]=30395,[-25635]=21416,[-28074]=23485,[-2434]=23485},function(ux)
+        return mO[ux- -4381]
+    end
+    OP=GI(-30016)
+    repeat
+        while true do
+            if OP==-27038 then
+                Zx=Zx..iT(TK(ho(nw,(mm-164)+1),ho(PL,(mm-164)%#PL+1)))
+                OP=GI(11589)
+            elseif OP==30395 then
+                mm=FT;
+                if fw~=fw then
+                    OP=8815
+                else
+                    OP=GI(-32455)
+                end
+            elseif OP==8815 then
+                return Zx
+            elseif OP==21416 then
+                Zx='';
+                rc,fw,FT=1,(#nw-1)+164,164
+                OP=GI(6448)
+            elseif OP==23485 then
+                if(rc>=0 and FT>fw)or((rc<0 or rc~=rc)and FT<fw)then
+                    OP=8815
+                else
+                    OP=-27038
+                end
+            elseif OP==-11276 then
+                FT=FT+rc;
+                mm=FT;
+                if FT~=FT then
+                    OP=8815
+                else
+                    OP=GI(-6815)
+                end
+            end
+        end
+    until OP==-5913
+end)('\194\t\182\180\225\26\181\191\227','\134{\215\211')]=true})
+local hJ={[(function(TI,jd)
+    local pH,Su,AJ,OA,oh,Zi,oc,BQ
+    AJ,oc={[30379]=17883,[25333]=11645,[23115]=27783,[31209]=17883,[-18480]=3470},function(_Q)
+        return AJ[_Q+-1463]
+    end
+    OA=oc(26796)
+    repeat
+        while true do
+            if OA==17883 then
+                return Su
+            elseif OA==11645 then
+                Su='';
+                pH,oh,Zi=(#TI-1)+42,42,1
+                OA=25701
+            elseif OA==25701 then
+                BQ=oh;
+                if pH~=pH then
+                    OA=oc(31842)
+                else
+                    OA=oc(24578)
+                end
+            elseif OA==3470 then
+                oh=oh+Zi;
+                BQ=oh;
+                if oh~=oh then
+                    OA=17883
+                else
+                    OA=27783
+                end
+            elseif OA==27783 then
+                if(Zi>=0 and oh>pH)or((Zi<0 or Zi~=Zi)and oh<pH)then
+                    OA=oc(32672)
+                else
+                    OA=3830
+                end
+            elseif OA==3830 then
+                Su=Su..iT(TK(ho(TI,(BQ-42)+1),ho(jd,(BQ-42)%#jd+1)))
+                OA=oc(-17017)
+            end
+        end
+    until OA==-6608
+end)('N.j!','\3O')]=dw[(function(N,Tp)
+    local Wr,dF,AF,eZ,iW,yQ,ET,zb
+    ET,iW={[-32339]=21830,[-12024]=21830,[-18663]=-8012,[10110]=-25043},function(vR)
+        return ET[vR+16785]
+    end
+    AF=iW(-35448)
+    repeat
+        while true do
+            if AF==9836 then
+                eZ=dF;
+                if yQ~=yQ then
+                    AF=iW(-28809)
+                else
+                    AF=10753
+                end
+            elseif AF==10753 then
+                if(Wr>=0 and dF>yQ)or((Wr<0 or Wr~=Wr)and dF<yQ)then
+                    AF=iW(-49124)
+                else
+                    AF=-25872
+                end
+            elseif AF==-25043 then
+                dF=dF+Wr;
+                eZ=dF;
+                if dF~=dF then
+                    AF=21830
+                else
+                    AF=10753
+                end
+            elseif AF==-8012 then
+                zb='';
+                yQ,dF,Wr=(#N-1)+144,144,1
+                AF=9836
+            elseif AF==21830 then
+                return zb
+            elseif AF==-25872 then
+                zb=zb..iT(TK(ho(N,(eZ-144)+1),ho(Tp,(eZ-144)%#Tp+1)))
+                AF=iW(-6675)
+            end
+        end
+    until AF==-2924
+end)('\153\172\175','\205')](dw,{[(function(Uv,AO)
+    local Qu,w,pm,RG,SD,Sy,EW,AG
+    RG,EW={[10604]=11122,[-18078]=-3078,[21244]=-24316,[-32282]=-31221,[31082]=-3078,[15770]=3321,[24602]=21938},function(Tu)
+        return RG[Tu+-21757]
+    end
+    pm=EW(-10525)
+    repeat
+        while true do
+            if pm==-24316 then
+                Sy=Sy..iT(TK(ho(Uv,(SD-115)+1),ho(AO,(SD-115)%#AO+1)))
+                pm=EW(46359)
+            elseif pm==-31221 then
+                Sy='';
+                Qu,w,AG=115,1,(#Uv-1)+115
+                pm=EW(37527)
+            elseif pm==-3078 then
+                return Sy
+            elseif pm==3321 then
+                SD=Qu;
+                if AG~=AG then
+                    pm=EW(52839)
+                else
+                    pm=EW(32361)
+                end
+            elseif pm==21938 then
+                Qu=Qu+w;
+                SD=Qu;
+                if Qu~=Qu then
+                    pm=EW(3679)
+                else
+                    pm=11122
+                end
+            elseif pm==11122 then
+                if(w>=0 and Qu>AG)or((w<0 or w~=w)and Qu<AG)then
+                    pm=-3078
+                else
+                    pm=EW(43001)
+                end
+            end
+        end
+    until pm==-6804
+end)('\n\208*\213;','^\185')]=(function(te,Uq)
+    local ap,IH,dt,La,Ed,WP,zR,Fz
+    dt,Fz={[18726]=1053,[11963]=8361,[14121]=16379,[-11027]=15622},function(Yu)
+        return dt[Yu-1502]
+    end
+    WP=Fz(15623)
+    repeat
+        while true do
+            if WP==15622 then
+                zR=zR+IH;
+                Ed=zR;
+                if zR~=zR then
+                    WP=1053
+                else
+                    WP=8361
+                end
+            elseif WP==16379 then
+                ap='';
+                zR,IH,La=49,1,(#te-1)+49
+                WP=729
+            elseif WP==1053 then
+                return ap
+            elseif WP==729 then
+                Ed=zR;
+                if La~=La then
+                    WP=1053
+                else
+                    WP=Fz(13465)
+                end
+            elseif WP==10119 then
+                ap=ap..iT(TK(ho(te,(Ed-49)+1),ho(Uq,(Ed-49)%#Uq+1)))
+                WP=Fz(-9525)
+            elseif WP==8361 then
+                if(IH>=0 and zR>La)or((IH<0 or IH~=IH)and zR<La)then
+                    WP=Fz(20228)
+                else
+                    WP=10119
+                end
+            end
+        end
+    until WP==32409
+end)('[\15\127\0','\22n'),[(function(Eu,bd)
+    local Wi,Gi,tn,Lz,Ia,Os,aC,He
+    Os,Gi={[-15812]=-6052,[6627]=17228,[-9813]=-28924,[-25163]=-29900,[1926]=-6052,[-22082]=5623,[-11983]=17228},function(Jd)
+        return Os[Jd-9076]
+    end
+    He=Gi(-13006)
+    repeat
+        while true do
+            if He==21625 then
+                tn=tn..iT(TK(ho(Eu,(aC-99)+1),ho(bd,(aC-99)%#bd+1)))
+                He=Gi(-16087)
+            elseif He==17228 then
+                return tn
+            elseif He==-29900 then
+                Lz=Lz+Wi;
+                aC=Lz;
+                if Lz~=Lz then
+                    He=Gi(-2907)
+                else
+                    He=Gi(11002)
+                end
+            elseif He==-6052 then
+                if(Wi>=0 and Lz>Ia)or((Wi<0 or Wi~=Wi)and Lz<Ia)then
+                    He=Gi(15703)
+                else
+                    He=21625
+                end
+            elseif He==5623 then
+                tn='';
+                Ia,Lz,Wi=(#Eu-1)+99,99,1
+                He=Gi(-737)
+            elseif He==-28924 then
+                aC=Lz;
+                if Ia~=Ia then
+                    He=17228
+                else
+                    He=Gi(-6736)
+                end
+            end
+        end
+    until He==31821
+end)('a\251G\246','(\152')]=(function(oj,wr)
+    local Ep,cL,mf,Fl,Ey,rm,pa,oP
+    Ey,mf={[-4821]=13807,[-16123]=13423,[-13344]=-26238,[-11449]=5085},function(NF)
+        return Ey[NF- -18870]
+    end
+    pa=mf(-34993)
+    repeat
+        while true do
+            if pa==5085 then
+                return rm
+            elseif pa==13423 then
+                rm='';
+                cL,Ep,oP=1,207,(#oj-1)+207
+                pa=mf(-23691)
+            elseif pa==3988 then
+                if(cL>=0 and Ep>oP)or((cL<0 or cL~=cL)and Ep<oP)then
+                    pa=5085
+                else
+                    pa=28543
+                end
+            elseif pa==28543 then
+                rm=rm..iT(TK(ho(oj,(Fl-207)+1),ho(wr,(Fl-207)%#wr+1)))
+                pa=mf(-32214)
+            elseif pa==-26238 then
+                Ep=Ep+cL;
+                Fl=Ep;
+                if Ep~=Ep then
+                    pa=mf(-30319)
+                else
+                    pa=3988
+                end
+            elseif pa==13807 then
+                Fl=Ep;
+                if oP~=oP then
+                    pa=5085
+                else
+                    pa=3988
+                end
+            end
+        end
+    until pa==-11958
+end)('\133\189\152\161\136','\237\210')}),[(function(RV,wv)
+    local CU,za,XR,Ft,ha,kv,FX,bV
+    bV,XR={[-20093]=-10625,[-4582]=9251,[16541]=31103,[4952]=-29692,[-193]=-7756},function(iU)
+        return bV[iU-5080]
+    end
+    ha=XR(4887)
+    repeat
+        while true do
+            if ha==-29692 then
+                CU=Ft;
+                if za~=za then
+                    ha=31103
+                else
+                    ha=9251
+                end
+            elseif ha==-7756 then
+                kv='';
+                Ft,za,FX=237,(#RV-1)+237,1
+                ha=XR(10032)
+            elseif ha==-10625 then
+                Ft=Ft+FX;
+                CU=Ft;
+                if Ft~=Ft then
+                    ha=31103
+                else
+                    ha=XR(498)
+                end
+            elseif ha==17642 then
+                kv=kv..iT(TK(ho(RV,(CU-237)+1),ho(wv,(CU-237)%#wv+1)))
+                ha=XR(-15013)
+            elseif ha==9251 then
+                if(FX>=0 and Ft>za)or((FX<0 or FX~=FX)and Ft<za)then
+                    ha=XR(21621)
+                else
+                    ha=17642
+                end
+            elseif ha==31103 then
+                return kv
+            end
+        end
+    until ha==30249
+end)('\206%\191\231,\172','\158I\222')]=dw[(function(JM,hB)
+    local TW,wz,mR,QO,cV,xR,ZD,SM
+    wz,ZD={[11110]=14725,[-5693]=-31660,[6449]=16023,[-9381]=-16257},function(Ta)
+        return wz[Ta-27156]
+    end
+    TW=ZD(33605)
+    repeat
+        while true do
+            if TW==-31660 then
+                mR=mR+xR;
+                cV=mR;
+                if mR~=mR then
+                    TW=-16257
+                else
+                    TW=7382
+                end
+            elseif TW==14725 then
+                QO=QO..iT(TK(ho(JM,(cV-86)+1),ho(hB,(cV-86)%#hB+1)))
+                TW=ZD(21463)
+            elseif TW==7382 then
+                if(xR>=0 and mR>SM)or((xR<0 or xR~=xR)and mR<SM)then
+                    TW=ZD(17775)
+                else
+                    TW=ZD(38266)
+                end
+            elseif TW==-16257 then
+                return QO
+            elseif TW==-8029 then
+                cV=mR;
+                if SM~=SM then
+                    TW=-16257
+                else
+                    TW=7382
+                end
+            elseif TW==16023 then
+                QO='';
+                xR,mR,SM=1,86,(#JM-1)+86
+                TW=-8029
+            end
+        end
+    until TW==14743
+end)('Pef','\4')](dw,{[(function(IC,QS)
+    local MG,cT,CN,lP,sA,Yd,fE,tR
+    lP,Yd={[-7166]=-27729,[30591]=2734,[-5274]=-7962,[16132]=-15783,[11315]=-15783,[14277]=-28263},function(Wc)
+        return lP[Wc-28065]
+    end
+    CN=Yd(58656)
+    repeat
+        while true do
+            if CN==-28263 then
+                sA=sA..iT(TK(ho(IC,(MG-173)+1),ho(QS,(MG-173)%#QS+1)))
+                CN=Yd(22791)
+            elseif CN==-7962 then
+                fE=fE+cT;
+                MG=fE;
+                if fE~=fE then
+                    CN=Yd(39380)
+                else
+                    CN=Yd(20899)
+                end
+            elseif CN==18704 then
+                MG=fE;
+                if tR~=tR then
+                    CN=Yd(44197)
+                else
+                    CN=-27729
+                end
+            elseif CN==-27729 then
+                if(cT>=0 and fE>tR)or((cT<0 or cT~=cT)and fE<tR)then
+                    CN=-15783
+                else
+                    CN=Yd(42342)
+                end
+            elseif CN==2734 then
+                sA='';
+                cT,fE,tR=1,173,(#IC-1)+173
+                CN=18704
+            elseif CN==-15783 then
+                return sA
+            end
+        end
+    until CN==28553
+end)('~\181^\176O','*\220')]=(function(qj,kP)
+    local Ql,ec,Zs,Ts,Cl,or_,RB,PA
+    Ql,ec={[-12403]=-29427,[-26570]=7619,[14549]=-32402,[3361]=-32402,[18264]=-2443},function(mq)
+        return Ql[mq-20496]
+    end
+    Cl=ec(38760)
+    repeat
+        while true do
+            if Cl==-29427 then
+                RB=or_;
+                if Zs~=Zs then
+                    Cl=ec(35045)
+                else
+                    Cl=4482
+                end
+            elseif Cl==4482 then
+                if(Ts>=0 and or_>Zs)or((Ts<0 or Ts~=Ts)and or_<Zs)then
+                    Cl=-32402
+                else
+                    Cl=23094
+                end
+            elseif Cl==-32402 then
+                return PA
+            elseif Cl==23094 then
+                PA=PA..iT(TK(ho(qj,(RB-159)+1),ho(kP,(RB-159)%#kP+1)))
+                Cl=ec(-6074)
+            elseif Cl==7619 then
+                or_=or_+Ts;
+                RB=or_;
+                if or_~=or_ then
+                    Cl=ec(23857)
+                else
+                    Cl=4482
+                end
+            elseif Cl==-2443 then
+                PA='';
+                Zs,or_,Ts=(#qj-1)+159,159,1
+                Cl=ec(8093)
+            end
+        end
+    until Cl==15640
+end)('\149b\18\188k\1','\197\14s'),[(function(VC,Dh)
+    local SX,Bf,Yp,WY,_p,qm,Us,DQ
+    Yp,Bf={[-20237]=-5040,[6108]=25219,[-1605]=-18618},function(EF)
+        return Yp[EF+3392]
+    end
+    WY=Bf(2716)
+    repeat
+        while true do
+            if WY==11849 then
+                SX=DQ;
+                if Us~=Us then
+                    WY=-5040
+                else
+                    WY=-16083
+                end
+            elseif WY==-5040 then
+                return _p
+            elseif WY==-16083 then
+                if(qm>=0 and DQ>Us)or((qm<0 or qm~=qm)and DQ<Us)then
+                    WY=-5040
+                else
+                    WY=29179
+                end
+            elseif WY==-18618 then
+                DQ=DQ+qm;
+                SX=DQ;
+                if DQ~=DQ then
+                    WY=Bf(-23629)
+                else
+                    WY=-16083
+                end
+            elseif WY==29179 then
+                _p=_p..iT(TK(ho(VC,(SX-162)+1),ho(Dh,(SX-162)%#Dh+1)))
+                WY=Bf(-4997)
+            elseif WY==25219 then
+                _p='';
+                DQ,Us,qm=162,(#VC-1)+162,1
+                WY=11849
+            end
+        end
+    until WY==-24896
+end)('\234y\204t','\163\26')]=(function(Sa,lC)
+    local UL,bi,xW,CK,KI,TS,Az,WC
+    bi,TS={[-3801]=-17493,[-13723]=-18231,[13603]=-24781},function(k)
+        return bi[k-20425]
+    end
+    KI=TS(16624)
+    repeat
+        while true do
+            if KI==-24781 then
+                UL=xW;
+                if WC~=WC then
+                    KI=-22375
+                else
+                    KI=10160
+                end
+            elseif KI==-5341 then
+                CK=CK..iT(TK(ho(Sa,(UL-188)+1),ho(lC,(UL-188)%#lC+1)))
+                KI=TS(6702)
+            elseif KI==10160 then
+                if(Az>=0 and xW>WC)or((Az<0 or Az~=Az)and xW<WC)then
+                    KI=-22375
+                else
+                    KI=-5341
+                end
+            elseif KI==-22375 then
+                return CK
+            elseif KI==-18231 then
+                xW=xW+Az;
+                UL=xW;
+                if xW~=xW then
+                    KI=-22375
+                else
+                    KI=10160
+                end
+            elseif KI==-17493 then
+                CK='';
+                Az,xW,WC=1,188,(#Sa-1)+188
+                KI=TS(34028)
+            end
+        end
+    until KI==25
+end)('\159=\143<','\234N')})};
+hJ[(function(HE,rb)
+    local oZ,zV,bt,BK,VQ,WV,Jg,OM
+    BK,VQ={[30815]=-3449,[26638]=30933,[4189]=243,[-20071]=-3449,[-19979]=-3449,[19296]=-15904,[28867]=19030},function(SC)
+        return BK[SC+12513]
+    end
+    zV=VQ(16354)
+    repeat
+        while true do
+            if zV==19030 then
+                Jg='';
+                oZ,WV,bt=(#HE-1)+211,1,211
+                zV=VQ(14125)
+            elseif zV==243 then
+                if(WV>=0 and bt>oZ)or((WV<0 or WV~=WV)and bt<oZ)then
+                    zV=VQ(18302)
+                else
+                    zV=-660
+                end
+            elseif zV==30933 then
+                OM=bt;
+                if oZ~=oZ then
+                    zV=VQ(-32492)
+                else
+                    zV=243
+                end
+            elseif zV==-15904 then
+                bt=bt+WV;
+                OM=bt;
+                if bt~=bt then
+                    zV=VQ(-32584)
+                else
+                    zV=VQ(-8324)
+                end
+            elseif zV==-660 then
+                Jg=Jg..iT(TK(ho(HE,(OM-211)+1),ho(rb,(OM-211)%#rb+1)))
+                zV=VQ(6783)
+            elseif zV==-3449 then
+                return Jg
+            end
+        end
+    until zV==30928
+end)('\0\f$\3','Mm')][(function(mj,Bt)
+    local DF,Ez,fV,Ns,Lb,PC,Hh,DR
+    Ez,Ns={[-27504]=19092,[14439]=1303,[11028]=10117,[-32695]=26965,[-18547]=-4730},function(xO)
+        return Ez[xO+-15289]
+    end
+    DR=Ns(26317)
+    repeat
+        while true do
+            if DR==-4730 then
+                DF=DF+Lb;
+                fV=DF;
+                if DF~=DF then
+                    DR=26965
+                else
+                    DR=23
+                end
+            elseif DR==10117 then
+                Hh='';
+                Lb,PC,DF=1,(#mj-1)+247,247
+                DR=Ns(-12215)
+            elseif DR==26965 then
+                return Hh
+            elseif DR==23 then
+                if(Lb>=0 and DF>PC)or((Lb<0 or Lb~=Lb)and DF<PC)then
+                    DR=26965
+                else
+                    DR=Ns(29728)
+                end
+            elseif DR==19092 then
+                fV=DF;
+                if PC~=PC then
+                    DR=Ns(-17406)
+                else
+                    DR=23
+                end
+            elseif DR==1303 then
+                Hh=Hh..iT(TK(ho(mj,(fV-247)+1),ho(Bt,(fV-247)%#Bt+1)))
+                DR=Ns(-3258)
+            end
+        end
+    until DR==15430
+end)('\221\238\192\250\226\204\224','\142\139\163')](hJ[(function(Mp,bO)
+    local Ei,JL,Vr,Ld,NX,kM,tH,Py
+    JL,Ld={[24751]=26370,[-26546]=26370,[-5789]=21333,[-20755]=-24253,[5159]=-6202},function(QK)
+        return JL[QK- -4377]
+    end
+    Py=Ld(782)
+    repeat
+        while true do
+            if Py==26370 then
+                if(Vr>=0 and kM>Ei)or((Vr<0 or Vr~=Vr)and kM<Ei)then
+                    Py=722
+                else
+                    Py=-27051
+                end
+            elseif Py==-24253 then
+                kM=kM+Vr;
+                tH=kM;
+                if kM~=kM then
+                    Py=722
+                else
+                    Py=Ld(20374)
+                end
+            elseif Py==722 then
+                return NX
+            elseif Py==-6202 then
+                NX='';
+                Vr,Ei,kM=1,(#Mp-1)+120,120
+                Py=Ld(-10166)
+            elseif Py==21333 then
+                tH=kM;
+                if Ei~=Ei then
+                    Py=722
+                else
+                    Py=Ld(-30923)
+                end
+            elseif Py==-27051 then
+                NX=NX..iT(TK(ho(Mp,(tH-120)+1),ho(bO,(tH-120)%#bO+1)))
+                Py=Ld(-25132)
+            end
+        end
+    until Py==13
+end)('\0\f$\3','Mm')],{[(function(sa,bR)
+    local gm,Ww,kY,Ls,xd,sH,KJ,VX
+    KJ,gm={[10305]=-5600,[20052]=14520,[-6978]=-32631,[-4684]=10121},function(gH)
+        return KJ[gH-9969]
+    end
+    Ls=gm(20274)
+    repeat
+        while true do
+            if Ls==26530 then
+                Ww=Ww..iT(TK(ho(sa,(VX-163)+1),ho(bR,(VX-163)%#bR+1)))
+                Ls=gm(5285)
+            elseif Ls==14520 then
+                return Ww
+            elseif Ls==-5600 then
+                Ww='';
+                sH,kY,xd=1,163,(#sa-1)+163
+                Ls=gm(2991)
+            elseif Ls==-32631 then
+                VX=kY;
+                if xd~=xd then
+                    Ls=14520
+                else
+                    Ls=9881
+                end
+            elseif Ls==10121 then
+                kY=kY+sH;
+                VX=kY;
+                if kY~=kY then
+                    Ls=gm(30021)
+                else
+                    Ls=9881
+                end
+            elseif Ls==9881 then
+                if(sH>=0 and kY>xd)or((sH<0 or sH~=sH)and kY<xd)then
+                    Ls=14520
+                else
+                    Ls=26530
+                end
+            end
+        end
+    until Ls==19578
+end)('?\4\31\1\14','km')]=(function(mk,oi)
+    local dy,tt,Jq,mZ,SH,ZX,Sm,YO
+    Jq,YO={[-29870]=-22123,[21905]=-17325,[21678]=-14684,[7553]=17257,[7585]=27237,[-21452]=27237,[-25417]=-20617},function(WF)
+        return Jq[WF- -8971]
+    end
+    Sm=YO(-34388)
+    repeat
+        while true do
+            if Sm==-17325 then
+                mZ=mZ..iT(TK(ho(mk,(SH-149)+1),ho(oi,(SH-149)%#oi+1)))
+                Sm=YO(12707)
+            elseif Sm==17257 then
+                SH=dy;
+                if ZX~=ZX then
+                    Sm=27237
+                else
+                    Sm=YO(-38841)
+                end
+            elseif Sm==27237 then
+                return mZ
+            elseif Sm==-20617 then
+                mZ='';
+                ZX,tt,dy=(#mk-1)+149,1,149
+                Sm=YO(-1418)
+            elseif Sm==-22123 then
+                if(tt>=0 and dy>ZX)or((tt<0 or tt~=tt)and dy<ZX)then
+                    Sm=YO(-1386)
+                else
+                    Sm=YO(12934)
+                end
+            elseif Sm==-14684 then
+                dy=dy+tt;
+                SH=dy;
+                if dy~=dy then
+                    Sm=YO(-30423)
+                else
+                    Sm=-22123
+                end
+            end
+        end
+    until Sm==-4879
+end)('T\31\159\57\148\176v\31\134)\198\147\96','\19~\242\\\180\246')});
+hJ[(function(UR,bm)
+    local Jc,MT,GG,Gb,gn,bW,qo,Dt
+    Dt,Gb={[-9070]=11387,[-11941]=11387,[-12756]=-19646,[29097]=-22091,[-15238]=-29781,[11056]=-2725},function(Fy)
+        return Dt[Fy+-2401]
+    end
+    bW=Gb(13457)
+    repeat
+        while true do
+            if bW==11387 then
+                if(MT>=0 and GG>gn)or((MT<0 or MT~=MT)and GG<gn)then
+                    bW=Gb(-12837)
+                else
+                    bW=26258
+                end
+            elseif bW==-19646 then
+                qo=GG;
+                if gn~=gn then
+                    bW=-29781
+                else
+                    bW=Gb(-6669)
+                end
+            elseif bW==-2725 then
+                Jc='';
+                MT,gn,GG=1,(#UR-1)+78,78
+                bW=Gb(-10355)
+            elseif bW==-22091 then
+                GG=GG+MT;
+                qo=GG;
+                if GG~=GG then
+                    bW=-29781
+                else
+                    bW=Gb(-9540)
+                end
+            elseif bW==26258 then
+                Jc=Jc..iT(TK(ho(UR,(qo-78)+1),ho(bm,(qo-78)%#bm+1)))
+                bW=Gb(31498)
+            elseif bW==-29781 then
+                return Jc
+            end
+        end
+    until bW==15240
+end)('\171\153\143\150','\230\248')][(function(li,NJ)
+    local aq,sB,MD,kD,jJ,zD,dG,US
+    aq,dG={[-13572]=546,[-28977]=-1088,[-29239]=-15230,[-10604]=-22221,[-14717]=7989,[-8174]=7989},function(lq)
+        return aq[lq- -4297]
+    end
+    kD=dG(-14901)
+    repeat
+        while true do
+            if kD==-15230 then
+                return MD
+            elseif kD==-1088 then
+                MD=MD..iT(TK(ho(li,(jJ-190)+1),ho(NJ,(jJ-190)%#NJ+1)))
+                kD=dG(-17869)
+            elseif kD==546 then
+                zD=zD+sB;
+                jJ=zD;
+                if zD~=zD then
+                    kD=-15230
+                else
+                    kD=dG(-12471)
+                end
+            elseif kD==-22221 then
+                MD='';
+                sB,zD,US=1,190,(#li-1)+190
+                kD=11881
+            elseif kD==7989 then
+                if(sB>=0 and zD>US)or((sB<0 or sB~=sB)and zD<US)then
+                    kD=dG(-33536)
+                else
+                    kD=dG(-33274)
+                end
+            elseif kD==11881 then
+                jJ=zD;
+                if US~=US then
+                    kD=-15230
+                else
+                    kD=dG(-19014)
+                end
+            end
+        end
+    until kD==30304
+end)('\143\187q\188\184s','\219\212\22')](hJ[(function(EC,Im)
+    local wK,zz,dp,nD,Ul,UM,GN,KM
+    zz,dp={[-18934]=30240,[16608]=30240,[-21921]=-7627,[-12739]=24014,[-10938]=-13002,[-14906]=-28042},function(iB)
+        return zz[iB+21150]
+    end
+    UM=dp(-36056)
+    repeat
+        while true do
+            if UM==-13002 then
+                wK=wK+nD;
+                GN=wK;
+                if wK~=wK then
+                    UM=24014
+                else
+                    UM=dp(-40084)
+                end
+            elseif UM==-7627 then
+                GN=wK;
+                if Ul~=Ul then
+                    UM=24014
+                else
+                    UM=dp(-4542)
+                end
+            elseif UM==24014 then
+                return KM
+            elseif UM==-28042 then
+                KM='';
+                Ul,nD,wK=(#EC-1)+45,1,45
+                UM=dp(-43071)
+            elseif UM==-17229 then
+                KM=KM..iT(TK(ho(EC,(GN-45)+1),ho(Im,(GN-45)%#Im+1)))
+                UM=dp(-32088)
+            elseif UM==30240 then
+                if(nD>=0 and wK>Ul)or((nD<0 or nD~=nD)and wK<Ul)then
+                    UM=dp(-33889)
+                else
+                    UM=-17229
+                end
+            end
+        end
+    until UM==264
+end)('\171\153\143\150','\230\248')],{[(function(fT,vH)
+    local Mz,Zl,X,Zh,tg,SL,sy,Tx
+    Tx,Zh={[-16292]=3145,[-24542]=11003,[-9905]=-17656,[20868]=-18147,[7825]=11003},function(Zu)
+        return Tx[Zu- -24317]
+    end
+    sy=Zh(-34222)
+    repeat
+        while true do
+            if sy==-29402 then
+                X=tg;
+                if Zl~=Zl then
+                    sy=Zh(-16492)
+                else
+                    sy=-14186
+                end
+            elseif sy==-18147 then
+                Mz=Mz..iT(TK(ho(fT,(X-13)+1),ho(vH,(X-13)%#vH+1)))
+                sy=Zh(-40609)
+            elseif sy==-17656 then
+                Mz='';
+                tg,SL,Zl=13,1,(#fT-1)+13
+                sy=-29402
+            elseif sy==11003 then
+                return Mz
+            elseif sy==-14186 then
+                if(SL>=0 and tg>Zl)or((SL<0 or SL~=SL)and tg<Zl)then
+                    sy=Zh(-48859)
+                else
+                    sy=Zh(-3449)
+                end
+            elseif sy==3145 then
+                tg=tg+SL;
+                X=tg;
+                if tg~=tg then
+                    sy=11003
+                else
+                    sy=-14186
+                end
+            end
+        end
+    until sy==18980
+end)('o\127Oz^',';\22')]=(function(TQ,kn)
+    local wp,pe,jQ,Kd,S,zA,Gn,jf
+    S,Kd={[-11363]=13324,[30633]=-32568,[5919]=-18280,[-4067]=-18977,[-17037]=-13615,[-13705]=-16209},function(eQ)
+        return S[eQ-1477]
+    end
+    Gn=Kd(-15560)
+    repeat
+        while true do
+            if Gn==-32568 then
+                if(wp>=0 and jQ>jf)or((wp<0 or wp~=wp)and jQ<jf)then
+                    Gn=-16209
+                else
+                    Gn=Kd(7396)
+                end
+            elseif Gn==-18977 then
+                jQ=jQ+wp;
+                pe=jQ;
+                if jQ~=jQ then
+                    Gn=-16209
+                else
+                    Gn=-32568
+                end
+            elseif Gn==-13615 then
+                zA='';
+                wp,jQ,jf=1,133,(#TQ-1)+133
+                Gn=Kd(-9886)
+            elseif Gn==13324 then
+                pe=jQ;
+                if jf~=jf then
+                    Gn=Kd(-12228)
+                else
+                    Gn=Kd(32110)
+                end
+            elseif Gn==-18280 then
+                zA=zA..iT(TK(ho(TQ,(pe-133)+1),ho(kn,(pe-133)%#kn+1)))
+                Gn=Kd(-2590)
+            elseif Gn==-16209 then
+                return zA
+            end
+        end
+    until Gn==-10086
+end)('\172\241\197/\226\2\222\185\15\222\211\206k\142&\214\181\30','\254\148\161\15\174k\185\209{'),[(function(sD,On)
+    local jm,Qw,Rg,rd,yu,mK,wL,np
+    mK,Qw={[21112]=-24543,[-29818]=-1314,[-3108]=23721,[20771]=7004,[-22257]=7004},function(kA)
+        return mK[kA- -27415]
+    end
+    jm=Qw(-57233)
+    repeat
+        while true do
+            if jm==7004 then
+                if(rd>=0 and yu>wL)or((rd<0 or rd~=rd)and yu<wL)then
+                    jm=Qw(-30523)
+                else
+                    jm=-27396
+                end
+            elseif jm==-8594 then
+                Rg=yu;
+                if wL~=wL then
+                    jm=23721
+                else
+                    jm=Qw(-6644)
+                end
+            elseif jm==23721 then
+                return np
+            elseif jm==-24543 then
+                yu=yu+rd;
+                Rg=yu;
+                if yu~=yu then
+                    jm=23721
+                else
+                    jm=Qw(-49672)
+                end
+            elseif jm==-27396 then
+                np=np..iT(TK(ho(sD,(Rg-42)+1),ho(On,(Rg-42)%#On+1)))
+                jm=Qw(-6303)
+            elseif jm==-1314 then
+                np='';
+                yu,rd,wL=42,1,(#sD-1)+42
+                jm=-8594
+            end
+        end
+    until jm==618
+end)('NBtV}','\24#')]=on[(function(eT,sf)
+    local YX,PW,Gm,_A,uO,wm,MF,VU
+    VU,Gm={[-21320]=-22180,[17165]=2000,[7255]=17782,[-17560]=-22180,[30484]=-21213},function(ME)
+        return VU[ME- -14836]
+    end
+    _A=Gm(15648)
+    repeat
+        while true do
+            if _A==4101 then
+                PW=YX;
+                if uO~=uO then
+                    _A=-22180
+                else
+                    _A=4380
+                end
+            elseif _A==17782 then
+                wm=wm..iT(TK(ho(eT,(PW-81)+1),ho(sf,(PW-81)%#sf+1)))
+                _A=Gm(2329)
+            elseif _A==-22180 then
+                return wm
+            elseif _A==2000 then
+                YX=YX+MF;
+                PW=YX;
+                if YX~=YX then
+                    _A=Gm(-32396)
+                else
+                    _A=4380
+                end
+            elseif _A==-21213 then
+                wm='';
+                MF,YX,uO=1,81,(#eT-1)+81
+                _A=4101
+            elseif _A==4380 then
+                if(MF>=0 and YX>uO)or((MF<0 or MF~=MF)and YX<uO)then
+                    _A=Gm(-36156)
+                else
+                    _A=Gm(-7581)
+                end
+            end
+        end
+    until _A==27713
+end)('\172\224\255\172\224\229\189','\203\133\139')]()[(function(qd,tp)
+    local Lk,AI,xh,ZP,rJ,EP,ej,ml
+    rJ,ej={[7911]=-10291,[6177]=-15870,[-193]=-19731,[17219]=22355,[-15326]=-20605,[-9630]=6141,[5965]=-20605},function(nS)
+        return rJ[nS-24172]
+    end
+    ZP=ej(41391)
+    repeat
+        while true do
+            if ZP==-10291 then
+                EP=EP..iT(TK(ho(qd,(xh-192)+1),ho(tp,(xh-192)%#tp+1)))
+                ZP=ej(14542)
+            elseif ZP==-20605 then
+                if(ml>=0 and Lk>AI)or((ml<0 or ml~=ml)and Lk<AI)then
+                    ZP=-19731
+                else
+                    ZP=ej(32083)
+                end
+            elseif ZP==-15870 then
+                xh=Lk;
+                if AI~=AI then
+                    ZP=ej(23979)
+                else
+                    ZP=ej(8846)
+                end
+            elseif ZP==22355 then
+                EP='';
+                AI,Lk,ml=(#qd-1)+192,192,1
+                ZP=ej(30349)
+            elseif ZP==6141 then
+                Lk=Lk+ml;
+                xh=Lk;
+                if Lk~=Lk then
+                    ZP=-19731
+                else
+                    ZP=ej(30137)
+                end
+            elseif ZP==-19731 then
+                return EP
+            end
+        end
+    until ZP==-11061
+end)('$:\233\23\57\235\3','pU\142')][(function(bK,Ac)
+    local Ti,zZ,uY,rT,_J,pM,Tr,PE
+    pM,zZ={[-7382]=25435,[12516]=-10004,[820]=16778,[26677]=-5567,[-28016]=-30852,[-5561]=-25378},function(XF)
+        return pM[XF+9308]
+    end
+    Tr=zZ(-8488)
+    repeat
+        while true do
+            if Tr==-5567 then
+                uY=uY..iT(TK(ho(bK,(rT-114)+1),ho(Ac,(rT-114)%#Ac+1)))
+                Tr=zZ(-37324)
+            elseif Tr==16778 then
+                uY='';
+                PE,Ti,_J=(#bK-1)+114,114,1
+                Tr=zZ(-16690)
+            elseif Tr==-10004 then
+                if(_J>=0 and Ti>PE)or((_J<0 or _J~=_J)and Ti<PE)then
+                    Tr=-25378
+                else
+                    Tr=zZ(17369)
+                end
+            elseif Tr==-25378 then
+                return uY
+            elseif Tr==25435 then
+                rT=Ti;
+                if PE~=PE then
+                    Tr=zZ(-14869)
+                else
+                    Tr=-10004
+                end
+            elseif Tr==-30852 then
+                Ti=Ti+_J;
+                rT=Ti;
+                if Ti~=Ti then
+                    Tr=-25378
+                else
+                    Tr=zZ(3208)
+                end
+            end
+        end
+    until Tr==-17291
+end)('\145<\136\254\53\229\253\183\30\131\214\17\237\241\166','\195Y\236\178\\\130\149')]or false,[(function(jD,Mj)
+    local Qj,Wl,BV,FH,eu,io,PO,ym
+    BV,eu={[-30874]=-27396,[29793]=-241,[20016]=-23375,[14119]=15129,[9217]=-29272,[4321]=15129},function(uL)
+        return BV[uL- -3328]
+    end
+    ym=eu(-34202)
+    repeat
+        while true do
+            if ym==15129 then
+                return io
+            elseif ym==-29272 then
+                Qj=Qj+FH;
+                PO=Qj;
+                if Qj~=Qj then
+                    ym=eu(993)
+                else
+                    ym=-241
+                end
+            elseif ym==-23375 then
+                PO=Qj;
+                if Wl~=Wl then
+                    ym=15129
+                else
+                    ym=eu(26465)
+                end
+            elseif ym==-241 then
+                if(FH>=0 and Qj>Wl)or((FH<0 or FH~=FH)and Qj<Wl)then
+                    ym=eu(10791)
+                else
+                    ym=27890
+                end
+            elseif ym==27890 then
+                io=io..iT(TK(ho(jD,(PO-58)+1),ho(Mj,(PO-58)%#Mj+1)))
+                ym=eu(5889)
+            elseif ym==-27396 then
+                io='';
+                Qj,FH,Wl=58,1,(#jD-1)+58
+                ym=eu(16688)
+            end
+        end
+    until ym==18067
+end)('\230\24\217H\199\24\214O','\165y\181$')]=function(Ov)
+    local kI,Oi,vU,BI,hj,vS,jj,LW
+    Oi,vU={[17855]=6372,[12260]=-16892,[-598]=-16686,[10345]=25193,[-24304]=-24570,[20478]=-31449,[-28645]=32123,[-29183]=-16686,[26817]=10883,[12806]=-15763,[10328]=10883,[-25204]=-23891,[-7255]=-13672,[31447]=-31958,[-29401]=-23578,[26158]=15852,[2741]=-5029,[-363]=-13495,[8320]=3556},function(BB)
+        return Oi[BB- -12205]
+    end
+    jj=vU(14612)
+    repeat
+        while true do
+            if jj==-1.9639754710169149e-05*-1635611059 then
+                hj='!\29+\25'
+                jj=-2.2101357097714778e-05*766242540
+            elseif jj==1736455866+-1736480436 then
+                kI=(function(RE,xA)
+                    local Il,uf,UV,qs,eg,Ha,My,BT
+                    UV,uf={[11090]=-22048,[31747]=-6668,[23734]=-18541,[-21962]=29700,[3195]=-1146,[10957]=29700},function(SN)
+                        return UV[SN-10760]
                     end
-                    dp=qy(35092)
+                    BT=uf(42507)
                     repeat
                         while true do
-                            if dp==17675 then
-                                So=lm;
-                                if Vx~=Vx then
-                                    dp=qy(15307)
+                            if BT==-18541 then
+                                My=My+Il;
+                                Ha=My;
+                                if My~=My then
+                                    BT=uf(21717)
                                 else
-                                    dp=-21587
+                                    BT=-22048
                                 end
-                            elseif dp==-8601 then
-                                lm=lm+YF;
-                                So=lm;
-                                if lm~=lm then
-                                    dp=-18228
+                            elseif BT==-1146 then
+                                Ha=My;
+                                if eg~=eg then
+                                    BT=uf(-11202)
                                 else
-                                    dp=-21587
+                                    BT=uf(21850)
                                 end
-                            elseif dp==-21587 then
-                                if(YF>=0 and lm>Vx)or((YF<0 or YF~=YF)and lm<Vx)then
-                                    dp=-18228
+                            elseif BT==-6668 then
+                                qs='';
+                                Il,eg,My=1,(#RE-1)+199,199
+                                BT=uf(13955)
+                            elseif BT==29174 then
+                                qs=qs..iT(TK(ho(RE,(Ha-199)+1),ho(xA,(Ha-199)%#xA+1)))
+                                BT=uf(34494)
+                            elseif BT==-22048 then
+                                if(Il>=0 and My>eg)or((Il<0 or Il~=Il)and My<eg)then
+                                    BT=29700
                                 else
-                                    dp=18723
+                                    BT=29174
                                 end
-                            elseif dp==7810 then
-                                Ry='';
-                                lm,Vx,YF=109,(#vk-1)+109,1
-                                dp=qy(5457)
-                            elseif dp==-18228 then
-                                return Ry
-                            elseif dp==18723 then
-                                Ry=Ry..Sr(Sz(nv(vk,(So-109)+1),nv(Uj,(So-109)%#Uj+1)))
-                                dp=qy(62588)
+                            elseif BT==29700 then
+                                return qs
                             end
                         end
-                    until dp==-31961
-                end)(Zu,aa)
-                hg=FY(-26594)
-            elseif hg==-1193096232+1193104274 then
-                aa=(function(LR,ej)
-                    local DR,Ft,ym,Ej,Vg,Ux,Yn,lN
-                    lN,Vg={[18956]=-13997,[22114]=-13997,[-30570]=16761,[28312]=-6184,[-7850]=-23472},function(tF)
-                        return lN[tF- -16398]
+                    until BT==29903
+                end)(kI,LW)
+                jj=3.7162282760824792e-05*-780845466
+            elseif jj==1913379434+-1913396326 then
+                LW=Jx((function(gj,Ya)
+                    local sn,rW,sC,jU,UC,mT,CL,LM
+                    mT,jU={[-15969]=-13069,[8711]=-25305,[-10469]=-29710,[19117]=14823,[31017]=-25305,[-17256]=-29710,[-9902]=-20396,[-6538]=-29710},function(of)
+                        return mT[of+25692]
                     end
-                    Ej=Vg(-24248)
+                    sn=jU(-41661)
                     repeat
                         while true do
-                            if Ej==-6184 then
-                                ym=Yn;
-                                if DR~=DR then
-                                    Ej=Vg(5716)
+                            if sn==-25305 then
+                                if(LM>=0 and sC>UC)or((LM<0 or LM~=LM)and sC<UC)then
+                                    sn=jU(-42948)
                                 else
-                                    Ej=-5366
+                                    sn=26162
                                 end
-                            elseif Ej==-13997 then
-                                return Ux
-                            elseif Ej==-22207 then
-                                Ux=Ux..Sr(Sz(nv(LR,(ym-206)+1),nv(ej,(ym-206)%#ej+1)))
-                                Ej=Vg(-46968)
-                            elseif Ej==16761 then
-                                Yn=Yn+Ft;
-                                ym=Yn;
-                                if Yn~=Yn then
-                                    Ej=Vg(2558)
+                            elseif sn==-20396 then
+                                rW=sC;
+                                if UC~=UC then
+                                    sn=jU(-32230)
                                 else
-                                    Ej=-5366
+                                    sn=jU(5325)
                                 end
-                            elseif Ej==-23472 then
-                                Ux='';
-                                DR,Ft,Yn=(#LR-1)+206,1,206
-                                Ej=Vg(11914)
-                            elseif Ej==-5366 then
-                                if(Ft>=0 and Yn>DR)or((Ft<0 or Ft~=Ft)and Yn<DR)then
-                                    Ej=-13997
+                            elseif sn==14823 then
+                                sC=sC+LM;
+                                rW=sC;
+                                if sC~=sC then
+                                    sn=jU(-36161)
                                 else
-                                    Ej=-22207
+                                    sn=jU(-16981)
                                 end
+                            elseif sn==26162 then
+                                CL=CL..iT(TK(ho(gj,(rW-34)+1),ho(Ya,(rW-34)%#Ya+1)))
+                                sn=jU(-6575)
+                            elseif sn==-13069 then
+                                CL='';
+                                UC,LM,sC=(#gj-1)+34,1,34
+                                sn=jU(-35594)
+                            elseif sn==-29710 then
+                                return CL
                             end
                         end
-                    until Ej==2965
-                end)(aa,Ra)
-                hg=-1479721670- -1479694107
-            elseif hg==-915517326- -915536566 then
-                Zu="h$\246[\'\244O"
-                hg=FY(-28400)
-            elseif hg==6374518188696/1308398643 then
-                Zu=Zu[aa]
-                hg=FY(16940)
-            elseif hg==2041174691-2041174938 then
-                aa=(function(RP,cJ)
-                    local rY,rc,dk,sJ,vg,T,py,Qn
-                    T,rY={[25755]=-24296,[4727]=-3927,[-15673]=-3927,[32521]=-24296,[-20646]=-32430,[26744]=7115,[17463]=-3927},function(Il)
-                        return T[Il+28410]
-                    end
-                    dk=rY(-1666)
-                    repeat
-                        while true do
-                            if dk==-32430 then
-                                py=py+vg;
-                                Qn=py;
-                                if py~=py then
-                                    dk=rY(-44083)
-                                else
-                                    dk=rY(4111)
-                                end
-                            elseif dk==-4212 then
-                                Qn=py;
-                                if rc~=rc then
-                                    dk=rY(-23683)
-                                else
-                                    dk=rY(-2655)
-                                end
-                            elseif dk==7115 then
-                                sJ='';
-                                vg,py,rc=1,176,(#RP-1)+176
-                                dk=-4212
-                            elseif dk==-3927 then
-                                return sJ
-                            elseif dk==-30035 then
-                                sJ=sJ..Sr(Sz(nv(RP,(Qn-176)+1),nv(cJ,(Qn-176)%#cJ+1)))
-                                dk=rY(-49056)
-                            elseif dk==-24296 then
-                                if(vg>=0 and py>rc)or((vg<0 or vg~=vg)and py<rc)then
-                                    dk=rY(-10947)
-                                else
-                                    dk=-30035
-                                end
-                            end
-                        end
-                    until dk==-29272
-                end)(aa,Ra)
-                hg=FY(-799)
-            elseif hg==1097065226-1097065414 then
-                Ls='\27\224\16\23\241O\205'
-                hg=FY(-4281)
-            elseif hg==-779074063+779077993 then
-                aa=(function(eh,xK)
-                    local oU,nB,Xp,eY,mR,mU,_p,_k
-                    Xp,mR={[-17126]=-29911,[256]=14815,[22669]=1948,[-783]=14815,[-27135]=-29627,[14001]=12642},function(gW)
-                        return Xp[gW-12650]
-                    end
-                    mU=mR(35319)
-                    repeat
-                        while true do
-                            if mU==-29627 then
-                                eY=_p;
-                                if nB~=nB then
-                                    mU=14815
-                                else
-                                    mU=12642
-                                end
-                            elseif mU==-29911 then
-                                _p=_p+oU;
-                                eY=_p;
-                                if _p~=_p then
-                                    mU=mR(12906)
-                                else
-                                    mU=mR(26651)
-                                end
-                            elseif mU==20706 then
-                                _k=_k..Sr(Sz(nv(eh,(eY-38)+1),nv(xK,(eY-38)%#xK+1)))
-                                mU=mR(-4476)
-                            elseif mU==14815 then
-                                return _k
-                            elseif mU==1948 then
-                                _k='';
-                                oU,_p,nB=1,38,(#eh-1)+38
-                                mU=mR(-14485)
-                            elseif mU==12642 then
-                                if(oU>=0 and _p>nB)or((oU<0 or oU~=oU)and _p<nB)then
-                                    mU=mR(11867)
-                                else
-                                    mU=20706
-                                end
-                            end
-                        end
-                    until mU==-31486
-                end)(aa,Ra)
-                hg=-1989851267+1989877229
-            elseif hg==1721920010+-1721936482 then
-                Ra='<K\145'
-                hg=1092877167-1092855700
-            elseif hg==-284059008- -284049702 then
-                aa='\\\140qd\130\r\191r\132wr\180\28\157'
-                hg=FY(3479)
-            elseif hg==1.7533490699249107e-05*-417144545 then
-                hg=FY(12520);
+                    until sn==29221
+                end)(LW,BI))
+                jj=vU(5650)
+            elseif jj==686731233+-686710252 then
+                kI='!\29+\25'
+                jj=vU(8273)
+            elseif jj==8889853981780/-385509713 then
+                hj=hj[BD(kI[1],1,kI[2])]
+                jj=-1877445866- -1877466847
+            elseif jj==2613584478564/-156633374 then
+                jj=vU(19242);
                 break;
-            elseif hg==-1709197007+1709206528 then
-                Zu=Zu(aa,function(Zf)
-                    local WS,gw,QQ,Hp
-                    QQ,gw={[-31123]=-14557,[256]=3786,[18486]=3786,[32691]=3786,[-25729]=-25577,[15864]=6129,[15394]=-23485,[-25185]=28347,[-9127]=3786,[8876]=-31866,[10419]=10572,[1056]=3786},function(Bk)
-                        return QQ[Bk- -22030]
+            elseif jj==50356923981330/1563636826 then
+                kI=Jx((function(Uo,kU)
+                    local Fs,eY,at,Ge,gV,gI,Rn,vt
+                    at,gI={[-9137]=-19963,[14715]=-982,[23659]=14457,[15554]=2028,[-26432]=29228},function(Vf)
+                        return at[Vf- -22439]
                     end
-                    Hp=gw(-11611)
+                    Fs=gI(-7724)
                     repeat
                         while true do
-                            if Hp==1.3817365148065752e-05*-1699672821 then
-                                WS=WT(Zf)
-                                Hp=gw(10661)
-                            elseif Hp==-2054151330- -2054161902 then
-                                if not(Zf[(function(un,Fx)
-                                    local bs,Wg,g,uC,PH,iv,NH,XC
-                                    iv,NH={[-13861]=-29051,[-26666]=-21683,[30718]=-1561,[24097]=-13223},function(wI)
-                                        return iv[wI+5405]
+                            if Fs==14457 then
+                                if(gV>=0 and Rn>Ge)or((gV<0 or gV~=gV)and Rn<Ge)then
+                                    Fs=gI(-31576)
+                                else
+                                    Fs=908
+                                end
+                            elseif Fs==908 then
+                                vt=vt..iT(TK(ho(Uo,(eY-91)+1),ho(kU,(eY-91)%#kU+1)))
+                                Fs=gI(-6885)
+                            elseif Fs==-19963 then
+                                return vt
+                            elseif Fs==29228 then
+                                eY=Rn;
+                                if Ge~=Ge then
+                                    Fs=-19963
+                                else
+                                    Fs=gI(1220)
+                                end
+                            elseif Fs==-982 then
+                                vt='';
+                                Ge,Rn,gV=(#Uo-1)+91,91,1
+                                Fs=gI(-48871)
+                            elseif Fs==2028 then
+                                Rn=Rn+gV;
+                                eY=Rn;
+                                if Rn~=Rn then
+                                    Fs=-19963
+                                else
+                                    Fs=14457
+                                end
+                            end
+                        end
+                    until Fs==-11273
+                end)(kI,LW))
+                jj=-297341660+297318600
+            elseif jj==-0.00062099579108321689*46728175 then
+                kI=on[kI]
+                jj=656207882+-656215728
+            elseif jj==58191010527111/-1850329439 then
+                LW='F|'
+                jj=vU(-36509)
+            elseif jj==2.2095808623626054e-05*952035762 then
+                hj=')\239\182\143@'
+                jj=vU(13953)
+            elseif jj==1745105409+-1745101853 then
+                kI='p\235\135H\216\150L'
+                jj=vU(-9464)
+            elseif jj==5.4291135509214665e-06*-926302232 then
+                LW='8\159\243'
+                jj=-29682942266130/-921687386
+            elseif jj==-1167228532- -1167214860 then
+                vS=on[vS]
+                jj=vU(-40850)
+            elseif jj==-1.1329419357138244e-05*2108757673 then
+                BI="\164\157M\233\26\129iW\\4\246S\213\27\167\247N\249\222\222\188\178\'&\200f0\171\131\136\216\127^\244D\96\96N\173\202m\219\251\201\217"
+                jj=vU(55)
+            elseif jj==26979087720285/-1593096411 then
+                kI='F|'
+                jj=10334200534472/-1320158474
+            elseif jj==1.7041170969555552e-05*638629823 then
+                vS="E\128\215\235\51]\157\223\225\'"
+                jj=9.9530783752190034e-06*2113516965
+            elseif jj==-3.1214291596847244e-06*-2041372613 then
+                hj=Jx(hj(kI,BD(LW[1],1,LW[2])))
+                jj=vU(-12568)
+            elseif jj==10077028122262/-1284352297 then
+                LW='\204\233\57\153i\187Fx.U\129}\178r\211\159;\155\171\173\217\192DI\166\18U\197\247\166\187\16\51\219/\26\v<\199\172\5\169\153\173\187\192\178\30\130s\229\rx.Q\144 \250s\194\150*\138\241\179\221\219I\t\154\3T\134\239\225\191\23*\217\3\15\4c\224\165\t\190\213\165\172\197'
+                jj=vU(-37409)
+            elseif jj==941952078+-941926885 then
+                vS=vS()
+                jj=vU(-12803)
+            elseif jj==-1.801145200432698e-05*-880106723 then
+                vS=(function(OR,Rt)
+                    local zY,_D,uF,EY,mV,vV,gr,ZW
+                    uF,ZW={[-12525]=17771,[8888]=12091,[7269]=3323,[-14629]=16974,[18620]=17513,[-4209]=24904},function(iV)
+                        return uF[iV- -30277]
+                    end
+                    gr=ZW(-23008)
+                    repeat
+                        while true do
+                            if gr==17513 then
+                                mV=mV+vV;
+                                zY=mV;
+                                if mV~=mV then
+                                    gr=ZW(-21389)
+                                else
+                                    gr=17771
+                                end
+                            elseif gr==3323 then
+                                EY='';
+                                vV,_D,mV=1,(#OR-1)+52,52
+                                gr=ZW(-44906)
+                            elseif gr==24904 then
+                                EY=EY..iT(TK(ho(OR,(zY-52)+1),ho(Rt,(zY-52)%#Rt+1)))
+                                gr=ZW(-11657)
+                            elseif gr==12091 then
+                                return EY
+                            elseif gr==17771 then
+                                if(vV>=0 and mV>_D)or((vV<0 or vV~=vV)and mV<_D)then
+                                    gr=12091
+                                else
+                                    gr=ZW(-34486)
+                                end
+                            elseif gr==16974 then
+                                zY=mV;
+                                if _D~=_D then
+                                    gr=12091
+                                else
+                                    gr=ZW(-42802)
+                                end
+                            end
+                        end
+                    until gr==-22755
+                end)(vS,hj)
+                jj=vU(-19460)
+            elseif jj==-3.0485128804673464e-05*256780939 then
+                hj=Jx((function(KA,Pv)
+                    local gb,nj,eL,yx,tL,NS,ua,Tz
+                    NS,eL={[-16889]=12648,[2857]=-27697,[16543]=25711,[-7825]=-27697,[-8301]=-8425},function(pC)
+                        return NS[pC+-16848]
+                    end
+                    ua=eL(8547)
+                    repeat
+                        while true do
+                            if ua==-3972 then
+                                yx=yx..iT(TK(ho(KA,(gb-96)+1),ho(Pv,(gb-96)%#Pv+1)))
+                                ua=eL(33391)
+                            elseif ua==23875 then
+                                return yx
+                            elseif ua==-27697 then
+                                if(nj>=0 and tL>Tz)or((nj<0 or nj~=nj)and tL<Tz)then
+                                    ua=23875
+                                else
+                                    ua=-3972
+                                end
+                            elseif ua==12648 then
+                                gb=tL;
+                                if Tz~=Tz then
+                                    ua=23875
+                                else
+                                    ua=eL(19705)
+                                end
+                            elseif ua==25711 then
+                                tL=tL+nj;
+                                gb=tL;
+                                if tL~=tL then
+                                    ua=23875
+                                else
+                                    ua=eL(9023)
+                                end
+                            elseif ua==-8425 then
+                                yx='';
+                                Tz,tL,nj=(#KA-1)+96,96,1
+                                ua=eL(-41)
+                            end
+                        end
+                    until ua==-5889
+                end)(hj,kI))
+                jj=vU(-41606)
+            elseif jj==-336547491- -336533996 then
+                vS=vS(BD(hj[1],1,hj[2]))
+                jj=vU(-1860)
+            elseif jj==-1.7461833690173609e-05*1350259109 then
+                hj=on[BD(hj[1],1,hj[2])]
+                jj=vU(-3885)
+            end
+        end
+    until jj==-731931332+731899374
+end});
+hJ[(function(dE,tG)
+    local QL,ul,ek,Vz,Fm,VJ,rr,Xo
+    Fm,QL={[-32680]=-13485,[962]=29086,[10404]=-3430},function(fW)
+        return Fm[fW- -7472]
+    end
+    ul=QL(-6510)
+    repeat
+        while true do
+            if ul==29086 then
+                rr='';
+                Xo,Vz,ek=200,1,(#dE-1)+200
+                ul=QL(2932)
+            elseif ul==27823 then
+                rr=rr..iT(TK(ho(dE,(VJ-200)+1),ho(tG,(VJ-200)%#tG+1)))
+                ul=QL(-40152)
+            elseif ul==-3430 then
+                VJ=Xo;
+                if ek~=ek then
+                    ul=2720
+                else
+                    ul=-23915
+                end
+            elseif ul==2720 then
+                return rr
+            elseif ul==-13485 then
+                Xo=Xo+Vz;
+                VJ=Xo;
+                if Xo~=Xo then
+                    ul=2720
+                else
+                    ul=-23915
+                end
+            elseif ul==-23915 then
+                if(Vz>=0 and Xo>ek)or((Vz<0 or Vz~=Vz)and Xo<ek)then
+                    ul=2720
+                else
+                    ul=27823
+                end
+            end
+        end
+    until ul==-32028
+end)('\139\221\175\210','\198\188')][(function(LV,tu)
+    local Ut,Nm,sj,z,OU,AT,do_,XB
+    OU,XB={[-26316]=8979,[16430]=1511,[-26919]=-11054,[-26682]=29007,[-15827]=2298},function(Am)
+        return OU[Am+-763]
+    end
+    sj=XB(17193)
+    repeat
+        while true do
+            if sj==29007 then
+                z=AT;
+                if Ut~=Ut then
+                    sj=-11054
+                else
+                    sj=-17028
+                end
+            elseif sj==-11054 then
+                return do_
+            elseif sj==1511 then
+                do_='';
+                AT,Ut,Nm=200,(#LV-1)+200,1
+                sj=XB(-25919)
+            elseif sj==2298 then
+                AT=AT+Nm;
+                z=AT;
+                if AT~=AT then
+                    sj=-11054
+                else
+                    sj=-17028
+                end
+            elseif sj==8979 then
+                do_=do_..iT(TK(ho(LV,(z-200)+1),ho(tu,(z-200)%#tu+1)))
+                sj=XB(-15064)
+            elseif sj==-17028 then
+                if(Nm>=0 and AT>Ut)or((Nm<0 or Nm~=Nm)and AT<Ut)then
+                    sj=XB(-26156)
+                else
+                    sj=XB(-25553)
+                end
+            end
+        end
+    until sj==16345
+end)('} \20N#\22',')Os')](hJ[(function(lW,wd)
+    local zB,es,TL,TN,Tn,Fq,wE,Ke
+    Fq,Tn={[-349]=-6043,[8028]=15294,[21977]=-32056,[-24675]=6335},function(sG)
+        return Fq[sG- -30594]
+    end
+    zB=Tn(-55269)
+    repeat
+        while true do
+            if zB==-32056 then
+                if(TN>=0 and TL>es)or((TN<0 or TN~=TN)and TL<es)then
+                    zB=Tn(-30943)
+                else
+                    zB=27172
+                end
+            elseif zB==15294 then
+                TL=TL+TN;
+                Ke=TL;
+                if TL~=TL then
+                    zB=-6043
+                else
+                    zB=-32056
+                end
+            elseif zB==27172 then
+                wE=wE..iT(TK(ho(lW,(Ke-192)+1),ho(wd,(Ke-192)%#wd+1)))
+                zB=Tn(-22566)
+            elseif zB==-6043 then
+                return wE
+            elseif zB==-739 then
+                Ke=TL;
+                if es~=es then
+                    zB=-6043
+                else
+                    zB=Tn(-8617)
+                end
+            elseif zB==6335 then
+                wE='';
+                TN,es,TL=1,(#lW-1)+192,192
+                zB=-739
+            end
+        end
+    until zB==10339
+end)('\139\221\175\210','\198\188')],{[(function(Gc,Gh)
+    local uX,HR,vu,sJ,bk,Zp,Gk,Vl
+    sJ,Vl={[-30369]=24959,[2850]=20338,[-21985]=21775,[14733]=20338,[7259]=10552},function(gA)
+        return sJ[gA-14299]
+    end
+    bk=Vl(-16070)
+    repeat
+        while true do
+            if bk==20338 then
+                return Gk
+            elseif bk==21775 then
+                Zp=Zp+vu;
+                HR=Zp;
+                if Zp~=Zp then
+                    bk=Vl(29032)
+                else
+                    bk=-30569
+                end
+            elseif bk==6660 then
+                HR=Zp;
+                if uX~=uX then
+                    bk=20338
+                else
+                    bk=-30569
+                end
+            elseif bk==24959 then
+                Gk='';
+                Zp,vu,uX=148,1,(#Gc-1)+148
+                bk=6660
+            elseif bk==10552 then
+                Gk=Gk..iT(TK(ho(Gc,(HR-148)+1),ho(Gh,(HR-148)%#Gh+1)))
+                bk=Vl(-7686)
+            elseif bk==-30569 then
+                if(vu>=0 and Zp>uX)or((vu<0 or vu~=vu)and Zp<uX)then
+                    bk=Vl(17149)
+                else
+                    bk=Vl(21558)
+                end
+            end
+        end
+    until bk==29116
+end)('\243\25\211\28\194','\167p')]=(function(id,Nn)
+    local YT,PP,kK,KH,tF,RM,sd,qP
+    RM,PP={[19012]=1823,[5797]=8539,[21817]=-8005,[26602]=-11985},function(gG)
+        return RM[gG+-29146]
+    end
+    KH=PP(34943)
+    repeat
+        while true do
+            if KH==18624 then
+                YT=kK;
+                if tF~=tF then
+                    KH=-11985
+                else
+                    KH=-21046
+                end
+            elseif KH==-8005 then
+                kK=kK+qP;
+                YT=kK;
+                if kK~=kK then
+                    KH=PP(55748)
+                else
+                    KH=-21046
+                end
+            elseif KH==-21046 then
+                if(qP>=0 and kK>tF)or((qP<0 or qP~=qP)and kK<tF)then
+                    KH=-11985
+                else
+                    KH=PP(48158)
+                end
+            elseif KH==-11985 then
+                return sd
+            elseif KH==8539 then
+                sd='';
+                qP,kK,tF=1,180,(#id-1)+180
+                KH=18624
+            elseif KH==1823 then
+                sd=sd..iT(TK(ho(id,(YT-180)+1),ho(Nn,(YT-180)%#Nn+1)))
+                KH=PP(50963)
+            end
+        end
+    until KH==-20282
+end)('\207\248\161\146\21\53\217\181\30\235\255\246\237\182\21\54\200\249:\234\238','\139\153\205\245z[\184\149_\158'),[(function(hi,Ra)
+    local _a,ae,cQ,Nk,Sg,mi,YD,AP
+    AP,cQ={[26401]=-24674,[-16109]=-825,[3667]=-31582,[24373]=4538,[31089]=-24585,[-197]=4538,[2483]=-825},function(ri)
+        return AP[ri+-11006]
+    end
+    Nk=cQ(42095)
+    repeat
+        while true do
+            if Nk==-14527 then
+                ae=YD;
+                if _a~=_a then
+                    Nk=cQ(10809)
+                else
+                    Nk=cQ(-5103)
+                end
+            elseif Nk==-825 then
+                if(Sg>=0 and YD>_a)or((Sg<0 or Sg~=Sg)and YD<_a)then
+                    Nk=4538
+                else
+                    Nk=cQ(14673)
+                end
+            elseif Nk==-24585 then
+                mi='';
+                YD,Sg,_a=100,1,(#hi-1)+100
+                Nk=-14527
+            elseif Nk==4538 then
+                return mi
+            elseif Nk==-24674 then
+                YD=YD+Sg;
+                ae=YD;
+                if YD~=YD then
+                    Nk=cQ(35379)
+                else
+                    Nk=cQ(13489)
+                end
+            elseif Nk==-31582 then
+                mi=mi..iT(TK(ho(hi,(ae-100)+1),ho(Ra,(ae-100)%#Ra+1)))
+                Nk=cQ(37407)
+            end
+        end
+    until Nk==26542
+end)('\137W\179C\186','\223\54')]=on[(function(OL,eK)
+    local LU,ce,ki,EQ,uo,zX,MM,Du
+    ki,EQ={[8827]=16296,[-31518]=-30460,[19491]=-15984,[-2060]=-30460,[16770]=-15984,[25251]=1419,[-6505]=24470},function(EJ)
+        return ki[EJ+156]
+    end
+    LU=EQ(25095)
+    repeat
+        while true do
+            if LU==-30460 then
+                if(uo>=0 and zX>Du)or((uo<0 or uo~=uo)and zX<Du)then
+                    LU=-15984
+                else
+                    LU=-24769
+                end
+            elseif LU==24470 then
+                zX=zX+uo;
+                ce=zX;
+                if zX~=zX then
+                    LU=EQ(16614)
+                else
+                    LU=EQ(-2216)
+                end
+            elseif LU==-24769 then
+                MM=MM..iT(TK(ho(OL,(ce-58)+1),ho(eK,(ce-58)%#eK+1)))
+                LU=EQ(-6661)
+            elseif LU==1419 then
+                MM='';
+                Du,uo,zX=(#OL-1)+58,1,58
+                LU=EQ(8671)
+            elseif LU==16296 then
+                ce=zX;
+                if Du~=Du then
+                    LU=EQ(19335)
+                else
+                    LU=EQ(-31674)
+                end
+            elseif LU==-15984 then
+                return MM
+            end
+        end
+    until LU==31242
+end)('<\237r<\237h-','[\136\6')]()[(function(Dp,Od)
+    local ND,uD,yw,bD,Kr,cG,sv,fB
+    Kr,yw={[-24975]=8098,[-21243]=8098,[-8069]=3063,[-12689]=15513,[-25532]=-17131},function(BM)
+        return Kr[BM- -21142]
+    end
+    uD=yw(-33831)
+    repeat
+        while true do
+            if uD==8098 then
+                return fB
+            elseif uD==3063 then
+                ND=ND+bD;
+                cG=ND;
+                if ND~=ND then
+                    uD=yw(-46117)
+                else
+                    uD=yw(-46674)
+                end
+            elseif uD==9643 then
+                fB=fB..iT(TK(ho(Dp,(cG-160)+1),ho(Od,(cG-160)%#Od+1)))
+                uD=yw(-29211)
+            elseif uD==24447 then
+                cG=ND;
+                if sv~=sv then
+                    uD=8098
+                else
+                    uD=-17131
+                end
+            elseif uD==15513 then
+                fB='';
+                ND,sv,bD=160,(#Dp-1)+160,1
+                uD=24447
+            elseif uD==-17131 then
+                if(bD>=0 and ND>sv)or((bD<0 or bD~=bD)and ND<sv)then
+                    uD=yw(-42385)
+                else
+                    uD=9643
+                end
+            end
+        end
+    until uD==-9123
+end)('G\22\147t\21\145\96','\19y\244')][(function(vz,Xy)
+    local gU,iQ,wx,Uf,vk,rH,vG,OF
+    wx,vG={[-6090]=2084,[9005]=-23648,[3290]=-4821,[9376]=-23134},function(zF)
+        return wx[zF+-32345]
+    end
+    vk=vG(26255)
+    repeat
+        while true do
+            if vk==-6778 then
+                return rH
+            elseif vk==-4821 then
+                iQ=gU;
+                if Uf~=Uf then
+                    vk=-6778
+                else
+                    vk=-23134
+                end
+            elseif vk==-12933 then
+                rH=rH..iT(TK(ho(vz,(iQ-237)+1),ho(Xy,(iQ-237)%#Xy+1)))
+                vk=vG(41350)
+            elseif vk==2084 then
+                rH='';
+                OF,Uf,gU=1,(#vz-1)+237,237
+                vk=vG(35635)
+            elseif vk==-23134 then
+                if(OF>=0 and gU>Uf)or((OF<0 or OF~=OF)and gU<Uf)then
+                    vk=-6778
+                else
+                    vk=-12933
+                end
+            elseif vk==-23648 then
+                gU=gU+OF;
+                iQ=gU;
+                if gU~=gU then
+                    vk=-6778
+                else
+                    vk=vG(41721)
+                end
+            end
+        end
+    until vk==15739
+end)('\228p\166T\23\206p\139F\f\207','\160\17\202\51x')]or false,[(function(ac,IO)
+    local Og,St,pg,rf,Rz,ke,Bq,If
+    pg,St={[30147]=-15807,[16121]=20984,[-26588]=-15807,[-14137]=-2760,[-25327]=-25401},function(Tq)
+        return pg[Tq+29383]
+    end
+    Rz=St(-54710)
+    repeat
+        while true do
+            if Rz==-25401 then
+                If='';
+                rf,ke,Bq=(#ac-1)+136,1,136
+                Rz=-32163
+            elseif Rz==-2760 then
+                Bq=Bq+ke;
+                Og=Bq;
+                if Bq~=Bq then
+                    Rz=St(-13262)
+                else
+                    Rz=St(764)
+                end
+            elseif Rz==-15807 then
+                if(ke>=0 and Bq>rf)or((ke<0 or ke~=ke)and Bq<rf)then
+                    Rz=20984
+                else
+                    Rz=21902
+                end
+            elseif Rz==20984 then
+                return If
+            elseif Rz==-32163 then
+                Og=Bq;
+                if rf~=rf then
+                    Rz=20984
+                else
+                    Rz=St(-55971)
+                end
+            elseif Rz==21902 then
+                If=If..iT(TK(ho(ac,(Og-136)+1),ho(IO,(Og-136)%#IO+1)))
+                Rz=St(-43520)
+            end
+        end
+    until Rz==19727
+end)('N\237\199\213o\237\200\210','\r\140\171\185')]=function(Kk)
+    local yR,cn,ub,zw,mo
+    zw,ub={[-28218]=-11668,[-27368]=1932,[-32419]=-29264,[4419]=1932,[-18144]=-29264,[24114]=13133,[7596]=-25292,[-22446]=15052,[-15719]=-29264,[-10347]=16648,[-25722]=-29593,[11453]=-10698,[-27163]=1932,[-8976]=-3784,[3170]=-22417,[21834]=1932,[-30223]=1932},function(qQ)
+        return zw[qQ+19308]
+    end
+    cn=ub(-37452)
+    repeat
+        while true do
+            if cn==-802201607+802176315 then
+                mo=(function(nA,bv)
+                    local _t,Ub,O,Co,Pg,sV,Np,co
+                    co,_t={[14707]=-27199,[27240]=821,[9628]=-20658,[-8715]=-24094,[115]=-25166,[-13866]=821},function(PI)
+                        return co[PI- -4646]
+                    end
+                    sV=_t(-4531)
+                    repeat
+                        while true do
+                            if sV==-25166 then
+                                Pg='';
+                                Ub,Np,O=19,1,(#nA-1)+19
+                                sV=1026
+                            elseif sV==-24094 then
+                                Pg=Pg..iT(TK(ho(nA,(Co-19)+1),ho(bv,(Co-19)%#bv+1)))
+                                sV=_t(10061)
+                            elseif sV==-27199 then
+                                Ub=Ub+Np;
+                                Co=Ub;
+                                if Ub~=Ub then
+                                    sV=-20658
+                                else
+                                    sV=_t(22594)
+                                end
+                            elseif sV==-20658 then
+                                return Pg
+                            elseif sV==1026 then
+                                Co=Ub;
+                                if O~=O then
+                                    sV=_t(4982)
+                                else
+                                    sV=_t(-18512)
+                                end
+                            elseif sV==821 then
+                                if(Np>=0 and Ub>O)or((Np<0 or Np~=Np)and Ub<O)then
+                                    sV=-20658
+                                else
+                                    sV=_t(-13361)
+                                end
+                            end
+                        end
+                    until sV==26953
+                end)(mo,yR)
+                cn=231312838404/-1014529993
+            elseif cn==-1887640767- -1887655819 then
+                yR='\bg\173#:|{'
+                cn=ub(-11712)
+            elseif cn==-1923811325- -1923811097 then
+                mo=on[mo]
+                cn=ub(-47526)
+            elseif cn==-20110341746880/1879822560 then
+                mo='K\b\192SV\25\15m#\204O]\19\21i'
+                cn=ub(-41754)
+            elseif cn==1271022115+-1271020183 then
+                cn=ub(-45030);
+                break;
+            elseif cn==-2142638044- -2142608780 then
+                on[(function(hy,OQ)
+                    local Ll,tA,iC,Ud,xM,bl,uy,r
+                    Ud,uy={[25265]=7535,[27368]=3016,[-20328]=14960,[-27065]=-30938,[8165]=14960,[-13547]=7535},function(oK)
+                        return Ud[oK+13923]
+                    end
+                    tA=uy(13445)
+                    repeat
+                        while true do
+                            if tA==-16335 then
+                                r=r..iT(TK(ho(hy,(bl-223)+1),ho(OQ,(bl-223)%#OQ+1)))
+                                tA=uy(-40988)
+                            elseif tA==-26283 then
+                                bl=Ll;
+                                if iC~=iC then
+                                    tA=7535
+                                else
+                                    tA=uy(-34251)
+                                end
+                            elseif tA==-30938 then
+                                Ll=Ll+xM;
+                                bl=Ll;
+                                if Ll~=Ll then
+                                    tA=uy(-27470)
+                                else
+                                    tA=uy(-5758)
+                                end
+                            elseif tA==14960 then
+                                if(xM>=0 and Ll>iC)or((xM<0 or xM~=xM)and Ll<iC)then
+                                    tA=uy(11342)
+                                else
+                                    tA=-16335
+                                end
+                            elseif tA==3016 then
+                                r='';
+                                Ll,xM,iC=223,1,(#hy-1)+223
+                                tA=-26283
+                            elseif tA==7535 then
+                                return r
+                            end
+                        end
+                    until tA==-22892
+                end)('p8\50p8(a','\23]F')]()[(function(UH,Ew)
+                    local fm,QD,Gr,dc,KL,md,BH,Pb
+                    KL,fm={[8453]=22702,[2914]=-11785,[28048]=5727},function(KP)
+                        return KL[KP-12329]
+                    end
+                    dc=fm(40377)
+                    repeat
+                        while true do
+                            if dc==22702 then
+                                Pb=Pb+Gr;
+                                QD=Pb;
+                                if Pb~=Pb then
+                                    dc=18451
+                                else
+                                    dc=25469
+                                end
+                            elseif dc==25469 then
+                                if(Gr>=0 and Pb>md)or((Gr<0 or Gr~=Gr)and Pb<md)then
+                                    dc=18451
+                                else
+                                    dc=fm(15243)
+                                end
+                            elseif dc==18451 then
+                                return BH
+                            elseif dc==13061 then
+                                QD=Pb;
+                                if md~=md then
+                                    dc=18451
+                                else
+                                    dc=25469
+                                end
+                            elseif dc==5727 then
+                                BH='';
+                                Pb,Gr,md=255,1,(#UH-1)+255
+                                dc=13061
+                            elseif dc==-11785 then
+                                BH=BH..iT(TK(ho(UH,(QD-255)+1),ho(Ew,(QD-255)%#Ew+1)))
+                                dc=fm(20782)
+                            end
+                        end
+                    until dc==-19849
+                end)('n\253\55]\254\53I',':\146P')][(function(Li,QX)
+                    local DA,kO,Gd,cU,AD,sN,VB,zr
+                    Gd,sN={[12709]=-15116,[3881]=-9239,[19750]=6767,[18523]=8097},function(oU)
+                        return Gd[oU+27832]
+                    end
+                    zr=sN(-9309)
+                    repeat
+                        while true do
+                            if zr==-15116 then
+                                return VB
+                            elseif zr==22482 then
+                                if(DA>=0 and kO>AD)or((DA<0 or DA~=DA)and kO<AD)then
+                                    zr=-15116
+                                else
+                                    zr=sN(-8082)
+                                end
+                            elseif zr==6767 then
+                                VB=VB..iT(TK(ho(Li,(cU-112)+1),ho(QX,(cU-112)%#QX+1)))
+                                zr=sN(-23951)
+                            elseif zr==-9239 then
+                                kO=kO+DA;
+                                cU=kO;
+                                if kO~=kO then
+                                    zr=sN(-15123)
+                                else
+                                    zr=22482
+                                end
+                            elseif zr==8097 then
+                                VB='';
+                                DA,AD,kO=1,(#Li-1)+112,112
+                                zr=11044
+                            elseif zr==11044 then
+                                cU=kO;
+                                if AD~=AD then
+                                    zr=-15116
+                                else
+                                    zr=22482
+                                end
+                            end
+                        end
+                    until zr==-18748
+                end)('\212\5\178\131\147\254\5\159\145\136\255','\144d\222\228\252')]=Kk;
+                if not(Kk)then
+                    cn=ub(-46471)
+                    break
+                else
+                    cn=ub(-7855)
+                    break
+                end
+                cn=-3320777844384/-1718829112
+            elseif cn==-8.9119398370064711e-06*1309254799 then
+                mo=mo()
+                cn=ub(-14889)
+            end
+        end
+    until cn==9.7625871618036577e-05*-303126615
+end})
+do
+    local hF=Lx[(function(XC,hk)
+        local ih,Dv,Sl,wM,QU,iK,Ag,ao
+        ao,ih={[26566]=1123,[1939]=-24114,[-17663]=5794,[25789]=-9952,[-30140]=28870,[-11753]=28870},function(nJ)
+            return ao[nJ- -3545]
+        end
+        QU=ih(23021)
+        repeat
+            while true do
+                if QU==28870 then
+                    return Sl
+                elseif QU==-9952 then
+                    Ag=Ag+iK;
+                    wM=Ag;
+                    if Ag~=Ag then
+                        QU=28870
+                    else
+                        QU=5103
+                    end
+                elseif QU==1123 then
+                    Sl='';
+                    Ag,Dv,iK=240,(#XC-1)+240,1
+                    QU=ih(-21208)
+                elseif QU==5103 then
+                    if(iK>=0 and Ag>Dv)or((iK<0 or iK~=iK)and Ag<Dv)then
+                        QU=ih(-33685)
+                    else
+                        QU=ih(-1606)
+                    end
+                elseif QU==-24114 then
+                    Sl=Sl..iT(TK(ho(XC,(wM-240)+1),ho(hk,(wM-240)%#hk+1)))
+                    QU=ih(22244)
+                elseif QU==5794 then
+                    wM=Ag;
+                    if Dv~=Dv then
+                        QU=ih(-15298)
+                    else
+                        QU=5103
+                    end
+                end
+            end
+        until QU==-14410
+    end)('=h{\5kz\3','p\a\31')][(function(Wt,_u)
+        local uV,tY,lL,IY,tU,cH,Qy,vZ
+        vZ,cH={[28242]=3334,[-1034]=-24104,[20333]=10822,[26131]=20891},function(rO)
+            return vZ[rO+7654]
+        end
+        tY=cH(-8688)
+        repeat
+            while true do
+                if tY==10822 then
+                    if(lL>=0 and Qy>uV)or((lL<0 or lL~=lL)and Qy<uV)then
+                        tY=cH(18477)
+                    else
+                        tY=-15228
+                    end
+                elseif tY==-15228 then
+                    IY=IY..iT(TK(ho(Wt,(tU-75)+1),ho(_u,(tU-75)%#_u+1)))
+                    tY=cH(20588)
+                elseif tY==3334 then
+                    Qy=Qy+lL;
+                    tU=Qy;
+                    if Qy~=Qy then
+                        tY=20891
+                    else
+                        tY=10822
+                    end
+                elseif tY==-11776 then
+                    tU=Qy;
+                    if uV~=uV then
+                        tY=20891
+                    else
+                        tY=cH(12679)
+                    end
+                elseif tY==20891 then
+                    return IY
+                elseif tY==-24104 then
+                    IY='';
+                    Qy,lL,uV=75,1,(#Wt-1)+75
+                    tY=-11776
+                end
+            end
+        until tY==896
+    end)('\159P\181T\171','\216\49')][(function(Iu,WN)
+        local jt,qK,hG,GB,dZ,sP,Lt,iy
+        iy,hG={[-24002]=-8027,[-16529]=-8027,[-22266]=-2648,[-6431]=191,[9378]=10717,[26492]=8353,[-18745]=191},function(Vm)
+            return iy[Vm+9386]
+        end
+        jt=hG(17106)
+        repeat
+            while true do
+                if jt==-1908 then
+                    sP=GB;
+                    if Lt~=Lt then
+                        jt=hG(-25915)
+                    else
+                        jt=hG(-28131)
+                    end
+                elseif jt==191 then
+                    if(qK>=0 and GB>Lt)or((qK<0 or qK~=qK)and GB<Lt)then
+                        jt=-8027
+                    else
+                        jt=hG(-8)
+                    end
+                elseif jt==8353 then
+                    dZ='';
+                    GB,qK,Lt=194,1,(#Iu-1)+194
+                    jt=-1908
+                elseif jt==-8027 then
+                    return dZ
+                elseif jt==-2648 then
+                    GB=GB+qK;
+                    sP=GB;
+                    if GB~=GB then
+                        jt=hG(-33388)
+                    else
+                        jt=hG(-15817)
+                    end
+                elseif jt==10717 then
+                    dZ=dZ..iT(TK(ho(Iu,(sP-194)+1),ho(WN,(sP-194)%#WN+1)))
+                    jt=hG(-31652)
+                end
+            end
+        until jt==879
+    end)('\221 T1~\165\248\2T?t\165\237','\153A8V\17\203')]
+    on[(function(wb,_U)
+        local Ay,VL,XY,nX,Oh,oF,aw,SQ
+        aw,VL={[-21572]=8561,[19646]=6688,[27111]=8086,[13927]=6503,[2879]=-22750},function(Qo)
+            return aw[Qo-2857]
+        end
+        XY=VL(22503)
+        repeat
+            while true do
+                if XY==6688 then
+                    Oh='';
+                    SQ,Ay,nX=(#wb-1)+107,1,107
+                    XY=VL(29968)
+                elseif XY==9678 then
+                    Oh=Oh..iT(TK(ho(wb,(oF-107)+1),ho(_U,(oF-107)%#_U+1)))
+                    XY=VL(5736)
+                elseif XY==8561 then
+                    return Oh
+                elseif XY==8086 then
+                    oF=nX;
+                    if SQ~=SQ then
+                        XY=8561
+                    else
+                        XY=VL(16784)
+                    end
+                elseif XY==-22750 then
+                    nX=nX+Ay;
+                    oF=nX;
+                    if nX~=nX then
+                        XY=VL(-18715)
+                    else
+                        XY=6503
+                    end
+                elseif XY==6503 then
+                    if(Ay>=0 and nX>SQ)or((Ay<0 or Ay~=Ay)and nX<SQ)then
+                        XY=8561
+                    else
+                        XY=9678
+                    end
+                end
+            end
+        until XY==-25456
+    end)('\29\188G\159\244\187\222;\151K\131\255\177\196?','^\211*\239\152\222\170')]=function()
+        local pL,vo,hR,pL,Ht,Zo,gT,qi,hp,iF,_g,qU,_j,hR,pl
+        gT,Zo={[-18813]=20054,[-27577]=7145,[32519]=25760,[14610]=-11020,[-9004]=2533,[14913]=4795,[-21859]=-30023,[8339]=26936,[11737]=25760,[-10005]=-19752,[5965]=4795,[7560]=12237,[-30254]=29317,[3600]=28491,[-11028]=4795,[20836]=10213,[3180]=2701,[-8080]=21802,[-22311]=25355,[-14762]=4795,[-31548]=4795,[30671]=31770,[25562]=25044,[1628]=-15509,[9163]=28491,[4440]=2701,[7435]=21802,[11838]=4795,[11164]=17630,[-2518]=12914,[13648]=26173,[21332]=-1870,[-23683]=27496,[-32380]=-13972,[32722]=20054,[-26368]=22618,[-3363]=14519,[-1031]=4795,[-21892]=24976,[-26971]=31770,[-24637]=4795,[-27560]=2701,[27618]=18058,[31747]=-1870,[19004]=25760,[-1490]=-6762,[13141]=-3085,[-28464]=1655,[-14906]=-10847,[2026]=4795,[-23807]=-6047,[-18334]=24976,[-27029]=4795,[-12216]=-6295,[84]=4795,[23979]=-11883,[19901]=4795,[3274]=30875,[17984]=14519,[-31573]=30875,[-26013]=-10847,[21682]=-19752},function(Ka)
+            return gT[Ka-25489]
+        end
+        qU=Zo(23999)
+        repeat
+            while true do
+                if qU==0.0011030710838931784*22985826 then
+                    return
+                elseif qU==-6.780982337319747e-06*1119896738 then
+                    vo=Jx((function(tq,CW)
+                        local eV,FC,hw,_i,Yb,ge,nT,GJ
+                        GJ,hw={[22244]=31664,[6890]=4611,[-6619]=-22431,[10817]=31664,[11822]=26837,[-22718]=-30274},function(zG)
+                            return GJ[zG+6516]
+                        end
+                        eV=hw(5306)
+                        repeat
+                            while true do
+                                if eV==-30274 then
+                                    nT=nT+FC;
+                                    ge=nT;
+                                    if nT~=nT then
+                                        eV=-22431
+                                    else
+                                        eV=hw(4301)
                                     end
-                                    Wg=NH(18692)
+                                elseif eV==-22431 then
+                                    return Yb
+                                elseif eV==26837 then
+                                    Yb='';
+                                    FC,_i,nT=1,(#tq-1)+143,143
+                                    eV=hw(374)
+                                elseif eV==31664 then
+                                    if(FC>=0 and nT>_i)or((FC<0 or FC~=FC)and nT<_i)then
+                                        eV=-22431
+                                    else
+                                        eV=31491
+                                    end
+                                elseif eV==31491 then
+                                    Yb=Yb..iT(TK(ho(tq,(ge-143)+1),ho(CW,(ge-143)%#CW+1)))
+                                    eV=hw(-29234)
+                                elseif eV==4611 then
+                                    ge=nT;
+                                    if _i~=_i then
+                                        eV=hw(-13135)
+                                    else
+                                        eV=hw(15728)
+                                    end
+                                end
+                            end
+                        until eV==31784
+                    end)(vo,_g))
+                    qU=Zo(27117)
+                elseif qU==1043079096+-1043074301 then
+                    hR,pL=_j(pl,hp);
+                    hp=hR;
+                    if hp==nil then
+                        qU=1932167328-1932151770
+                    else
+                        qU=Zo(1682)
+                    end
+                elseif qU==-902279478- -902306414 then
+                    vo=Jx(vo(BD(_g[1],1,_g[2])))
+                    qU=Zo(29089)
+                elseif qU==25837828-25819770 then
+                    if on[(function(vl,EV)
+                        local Fr,Sz,Hf,f,vs,Qt,FJ,QE
+                        vs,Hf={[3160]=7512,[-11305]=16753,[25857]=-6131,[-12053]=-312,[-24101]=-9908,[11722]=-13849},function(iA)
+                            return vs[iA+-1825]
+                        end
+                        f=Hf(27682)
+                        repeat
+                            while true do
+                                if f==-13849 then
+                                    Sz=Sz+QE;
+                                    Fr=Sz;
+                                    if Sz~=Sz then
+                                        f=7512
+                                    else
+                                        f=Hf(-22276)
+                                    end
+                                elseif f==-312 then
+                                    Fr=Sz;
+                                    if Qt~=Qt then
+                                        f=7512
+                                    else
+                                        f=-9908
+                                    end
+                                elseif f==-6131 then
+                                    FJ='';
+                                    QE,Qt,Sz=1,(#vl-1)+230,230
+                                    f=Hf(-10228)
+                                elseif f==-9908 then
+                                    if(QE>=0 and Sz>Qt)or((QE<0 or QE~=QE)and Sz<Qt)then
+                                        f=Hf(4985)
+                                    else
+                                        f=Hf(-9480)
+                                    end
+                                elseif f==7512 then
+                                    return FJ
+                                elseif f==16753 then
+                                    FJ=FJ..iT(TK(ho(vl,(Fr-230)+1),ho(EV,(Fr-230)%#EV+1)))
+                                    f=Hf(13547)
+                                end
+                            end
+                        until f==13774
+                    end)('\223R\157\222R\135\206','\184\55\233')](pL)[(function(HV,zv)
+                        local nV,II,Ua,Pw,sW,Za,VH,go
+                        Za,Pw={[-660]=24665,[9754]=-8173,[-6799]=-15198,[3926]=-11585,[26793]=-260,[-30976]=-26207},function(dO)
+                            return Za[dO+26561]
+                        end
+                        II=Pw(-16807)
+                        repeat
+                            while true do
+                                if II==-15198 then
+                                    Ua=VH;
+                                    if go~=go then
+                                        II=Pw(-27221)
+                                    else
+                                        II=Pw(-22635)
+                                    end
+                                elseif II==-26207 then
+                                    sW=sW..iT(TK(ho(HV,(Ua-11)+1),ho(zv,(Ua-11)%#zv+1)))
+                                    II=Pw(232)
+                                elseif II==24665 then
+                                    return sW
+                                elseif II==-8173 then
+                                    sW='';
+                                    go,VH,nV=(#HV-1)+11,11,1
+                                    II=Pw(-33360)
+                                elseif II==-260 then
+                                    VH=VH+nV;
+                                    Ua=VH;
+                                    if VH~=VH then
+                                        II=24665
+                                    else
+                                        II=-11585
+                                    end
+                                elseif II==-11585 then
+                                    if(nV>=0 and VH>go)or((nV<0 or nV~=nV)and VH<go)then
+                                        II=24665
+                                    else
+                                        II=Pw(-57537)
+                                    end
+                                end
+                            end
+                        until II==-13885
+                    end)('\251~}\225m{','\136\29\15')]==hF and on[(function(up,FD)
+                        local ps,dk,Oc,um,xK,LT,Km,Sc
+                        dk,Oc={[-329]=-6574,[-30171]=10925,[21867]=9207,[23480]=-23117,[22865]=22761,[17905]=-23117,[24816]=22761},function(Wg)
+                            return dk[Wg+7700]
+                        end
+                        Km=Oc(-8029)
+                        repeat
+                            while true do
+                                if Km==-6574 then
+                                    Sc='';
+                                    xK,LT,ps=1,129,(#up-1)+129
+                                    Km=-12170
+                                elseif Km==-23117 then
+                                    if(xK>=0 and LT>ps)or((xK<0 or xK~=xK)and LT<ps)then
+                                        Km=Oc(17116)
+                                    else
+                                        Km=Oc(-37871)
+                                    end
+                                elseif Km==10925 then
+                                    Sc=Sc..iT(TK(ho(up,(um-129)+1),ho(FD,(um-129)%#FD+1)))
+                                    Km=Oc(14167)
+                                elseif Km==9207 then
+                                    LT=LT+xK;
+                                    um=LT;
+                                    if LT~=LT then
+                                        Km=Oc(15165)
+                                    else
+                                        Km=Oc(10205)
+                                    end
+                                elseif Km==22761 then
+                                    return Sc
+                                elseif Km==-12170 then
+                                    um=LT;
+                                    if ps~=ps then
+                                        Km=22761
+                                    else
+                                        Km=Oc(15780)
+                                    end
+                                end
+                            end
+                        until Km==-6502
+                    end)('\199\179\193\163\196','\163\214')][(function(ED,Pu)
+                        local tx,Bc,Or,mM,Cj,Ye,FU,OG
+                        Ye,OG={[5076]=16221,[-17444]=16221,[32409]=-448,[-25466]=-3860},function(kX)
+                            return Ye[kX-17106]
+                        end
+                        Or=OG(-8360)
+                        repeat
+                            while true do
+                                if Or==-32091 then
+                                    if(FU>=0 and mM>tx)or((FU<0 or FU~=FU)and mM<tx)then
+                                        Or=OG(22182)
+                                    else
+                                        Or=-11556
+                                    end
+                                elseif Or==-448 then
+                                    mM=mM+FU;
+                                    Cj=mM;
+                                    if mM~=mM then
+                                        Or=OG(-338)
+                                    else
+                                        Or=-32091
+                                    end
+                                elseif Or==16221 then
+                                    return Bc
+                                elseif Or==-11556 then
+                                    Bc=Bc..iT(TK(ho(ED,(Cj-28)+1),ho(Pu,(Cj-28)%#Pu+1)))
+                                    Or=OG(49515)
+                                elseif Or==617 then
+                                    Cj=mM;
+                                    if tx~=tx then
+                                        Or=16221
+                                    else
+                                        Or=-32091
+                                    end
+                                elseif Or==-3860 then
+                                    Bc='';
+                                    mM,FU,tx=28,1,(#ED-1)+28
+                                    Or=617
+                                end
+                            end
+                        until Or==16211
+                    end)('M6\167C=\181E','*S\211')](pL)[(function(Go,fq)
+                        local HY,wS,Bv,tD,ii,au,kC,Q
+                        au,wS={[-22895]=14596,[29446]=-29098,[24473]=21962,[-30838]=21962,[-27199]=15236,[-29720]=21962},function(hu)
+                            return au[hu+20776]
+                        end
+                        Bv=wS(-43671)
+                        repeat
+                            while true do
+                                if Bv==14596 then
+                                    ii='';
+                                    HY,kC,tD=1,71,(#Go-1)+71
+                                    Bv=13456
+                                elseif Bv==-10598 then
+                                    ii=ii..iT(TK(ho(Go,(Q-71)+1),ho(fq,(Q-71)%#fq+1)))
+                                    Bv=wS(-47975)
+                                elseif Bv==-29098 then
+                                    if(HY>=0 and kC>tD)or((HY<0 or HY~=HY)and kC<tD)then
+                                        Bv=wS(-51614)
+                                    else
+                                        Bv=-10598
+                                    end
+                                elseif Bv==15236 then
+                                    kC=kC+HY;
+                                    Q=kC;
+                                    if kC~=kC then
+                                        Bv=wS(3697)
+                                    else
+                                        Bv=-29098
+                                    end
+                                elseif Bv==13456 then
+                                    Q=kC;
+                                    if tD~=tD then
+                                        Bv=wS(-50496)
+                                    else
+                                        Bv=wS(8670)
+                                    end
+                                elseif Bv==21962 then
+                                    return ii
+                                end
+                            end
+                        until Bv==5520
+                    end)('\225\200\255\206','\143\189')]==40302907844/552094628 then
+                        qU=Zo(-524)
+                        break
+                    end
+                    qU=Zo(25573)
+                elseif qU==609508084-609495170 then
+                    _g=_g+qi
+                    qU=1030381603-1030355373
+                elseif qU==-0.00023662324816560215*-97767232 then
+                    _g=Jx(_g())
+                    qU=Zo(33828)
+                elseif qU==-7.2296804082039872e-06*2145184728 then
+                    vo=on[BD(vo[1],1,vo[2])]
+                    qU=Zo(13273)
+                elseif qU==-69664558+69636774 then
+                    qi=1660134361
+                    qU=Zo(22971)
+                elseif qU==-5.4333491678811941e-06*2028214948 then
+                    _g=Jx((function(du,PD)
+                        local Ig,jY,Xt,xV,xP,Ax,YV,mU
+                        xP,mU={[-12443]=-19993,[-25404]=14044,[-29150]=1851,[-7810]=8077},function(wO)
+                            return xP[wO- -8386]
+                        end
+                        jY=mU(-33790)
+                        repeat
+                            while true do
+                                if jY==14044 then
+                                    xV='';
+                                    Ax,YV,Ig=155,(#du-1)+155,1
+                                    jY=11105
+                                elseif jY==-19993 then
+                                    xV=xV..iT(TK(ho(du,(Xt-155)+1),ho(PD,(Xt-155)%#PD+1)))
+                                    jY=mU(-16196)
+                                elseif jY==11105 then
+                                    Xt=Ax;
+                                    if YV~=YV then
+                                        jY=31487
+                                    else
+                                        jY=mU(-37536)
+                                    end
+                                elseif jY==31487 then
+                                    return xV
+                                elseif jY==1851 then
+                                    if(Ig>=0 and Ax>YV)or((Ig<0 or Ig~=Ig)and Ax<YV)then
+                                        jY=31487
+                                    else
+                                        jY=mU(-20829)
+                                    end
+                                elseif jY==8077 then
+                                    Ax=Ax+Ig;
+                                    Xt=Ax;
+                                    if Ax~=Ax then
+                                        jY=31487
+                                    else
+                                        jY=1851
+                                    end
+                                end
+                            end
+                        until jY==-20168
+                    end)(_g,qi))
+                    qU=Zo(-4765)
+                elseif qU==-283320685- -283328710 then
+                    qi=qi*Ht
+                    qU=Zo(49468)
+                elseif qU==-1924473012+1924492619 then
+                    qi='\1#X'
+                    qU=Zo(40099)
+                elseif qU==-2.7877637380862835e-05*-96887694 then
+                    vo='\227\244\139\227\246\153'
+                    qU=688756400+-688735419
+                elseif qU==1563189137+-1563195899 then
+                    if not on[(function(rC,IM)
+                        local fS,vK,OD,Mi,EI,rB,bj,Si
+                        vK,EI={[-14661]=4024,[21374]=-28177,[-3819]=15129,[-6556]=32760,[-24424]=-3706,[-32735]=20321},function(Ab)
+                            return vK[Ab+-25774]
+                        end
+                        Si=EI(19218)
+                        repeat
+                            while true do
+                                if Si==32760 then
+                                    rB='';
+                                    Mi,OD,bj=103,(#rC-1)+103,1
+                                    Si=EI(11113)
+                                elseif Si==-3706 then
+                                    Mi=Mi+bj;
+                                    fS=Mi;
+                                    if Mi~=Mi then
+                                        Si=EI(47148)
+                                    else
+                                        Si=15129
+                                    end
+                                elseif Si==15129 then
+                                    if(bj>=0 and Mi>OD)or((bj<0 or bj~=bj)and Mi<OD)then
+                                        Si=-28177
+                                    else
+                                        Si=EI(-6961)
+                                    end
+                                elseif Si==20321 then
+                                    rB=rB..iT(TK(ho(rC,(fS-103)+1),ho(IM,(fS-103)%#IM+1)))
+                                    Si=EI(1350)
+                                elseif Si==4024 then
+                                    fS=Mi;
+                                    if OD~=OD then
+                                        Si=-28177
+                                    else
+                                        Si=EI(21955)
+                                    end
+                                elseif Si==-28177 then
+                                    return rB
+                                end
+                            end
+                        until Si==-23819
+                    end)('MJ\239MJ\245\\','*/\155')]()[(function(mE,Pk)
+                        local Ch,yh,yF,Jr,HH,JU,jN,vv
+                        Ch,Jr={[742]=-19922,[17574]=23522,[-14081]=29710,[379]=18242},function(Fv)
+                            return Ch[Fv- -998]
+                        end
+                        yh=Jr(-256)
+                        repeat
+                            while true do
+                                if yh==-19922 then
+                                    yF='';
+                                    JU,jN,HH=1,163,(#mE-1)+163
+                                    yh=-660
+                                elseif yh==7796 then
+                                    yF=yF..iT(TK(ho(mE,(vv-163)+1),ho(Pk,(vv-163)%#Pk+1)))
+                                    yh=Jr(-619)
+                                elseif yh==29710 then
+                                    if(JU>=0 and jN>HH)or((JU<0 or JU~=JU)and jN<HH)then
+                                        yh=23522
+                                    else
+                                        yh=7796
+                                    end
+                                elseif yh==-660 then
+                                    vv=jN;
+                                    if HH~=HH then
+                                        yh=23522
+                                    else
+                                        yh=Jr(-15079)
+                                    end
+                                elseif yh==23522 then
+                                    return yF
+                                elseif yh==18242 then
+                                    jN=jN+JU;
+                                    vv=jN;
+                                    if jN~=jN then
+                                        yh=Jr(16576)
+                                    else
+                                        yh=29710
+                                    end
+                                end
+                            end
+                        until yh==-7375
+                    end)('\229\"r\214!p\194','\177M\21')][(function(Ir,qe)
+                        local xu,aa,KS,fj,JD,jB,xU,pG
+                        jB,aa={[-18810]=5468,[-14963]=25524,[29364]=15250,[-26885]=25524,[-26066]=25524,[9240]=-12981,[22425]=3850,[-30028]=5468},function(wX)
+                            return jB[wX+31596]
+                        end
+                        pG=aa(-2232)
+                        repeat
+                            while true do
+                                if pG==25524 then
+                                    return fj
+                                elseif pG==15250 then
+                                    fj='';
+                                    JD,KS,xu=134,1,(#Ir-1)+134
+                                    pG=aa(-22356)
+                                elseif pG==5468 then
+                                    if(KS>=0 and JD>xu)or((KS<0 or KS~=KS)and JD<xu)then
+                                        pG=aa(-46559)
+                                    else
+                                        pG=5475
+                                    end
+                                elseif pG==-12981 then
+                                    xU=JD;
+                                    if xu~=xu then
+                                        pG=aa(-58481)
+                                    else
+                                        pG=aa(-50406)
+                                    end
+                                elseif pG==3850 then
+                                    JD=JD+KS;
+                                    xU=JD;
+                                    if JD~=JD then
+                                        pG=aa(-57662)
+                                    else
+                                        pG=aa(-61624)
+                                    end
+                                elseif pG==5475 then
+                                    fj=fj..iT(TK(ho(Ir,(xU-134)+1),ho(qe,(xU-134)%#qe+1)))
+                                    pG=aa(-9171)
+                                end
+                            end
+                        until pG==11910
+                    end)('\237\182\239\195\51\199\182\194\209(\198','\169\215\131\164\\')]then
+                        qU=Zo(3178)
+                        break
+                    end
+                    qU=Zo(28669)
+                elseif qU==-1390783396+1390777349 then
+                    if not(on[(function(TU,fe)
+                        local Xh,JE,nr,cB,mB,Lv,Pn,st
+                        Pn,mB={[3423]=-21090,[-30608]=-21015,[-31499]=-14390,[-28696]=-29215,[-24559]=-21090,[-27415]=-21090},function(lf)
+                            return Pn[lf- -3602]
+                        end
+                        st=mB(-34210)
+                        repeat
+                            while true do
+                                if st==-25618 then
+                                    Lv=cB;
+                                    if Xh~=Xh then
+                                        st=mB(-179)
+                                    else
+                                        st=-29215
+                                    end
+                                elseif st==-14390 then
+                                    cB=cB+JE;
+                                    Lv=cB;
+                                    if cB~=cB then
+                                        st=mB(-31017)
+                                    else
+                                        st=mB(-32298)
+                                    end
+                                elseif st==-21090 then
+                                    return nr
+                                elseif st==11163 then
+                                    nr=nr..iT(TK(ho(TU,(Lv-204)+1),ho(fe,(Lv-204)%#fe+1)))
+                                    st=mB(-35101)
+                                elseif st==-21015 then
+                                    nr='';
+                                    cB,Xh,JE=204,(#TU-1)+204,1
+                                    st=-25618
+                                elseif st==-29215 then
+                                    if(JE>=0 and cB>Xh)or((JE<0 or JE~=JE)and cB<Xh)then
+                                        st=mB(-28161)
+                                    else
+                                        st=11163
+                                    end
+                                end
+                            end
+                        until st==14646
+                    end)((function(HQ,ff)
+                        local JG,uk,fI,yZ,_C,cq,WA,vd
+                        _C,uk={[21417]=3733,[-26116]=23243,[23565]=3637},function(XV)
+                            return _C[XV- -24903]
+                        end
+                        vd=uk(-1338)
+                        repeat
+                            while true do
+                                if vd==24407 then
+                                    fI=WA;
+                                    if cq~=cq then
+                                        vd=3613
+                                    else
+                                        vd=uk(-3486)
+                                    end
+                                elseif vd==3733 then
+                                    if(JG>=0 and WA>cq)or((JG<0 or JG~=JG)and WA<cq)then
+                                        vd=3613
+                                    else
+                                        vd=6668
+                                    end
+                                elseif vd==6668 then
+                                    yZ=yZ..iT(TK(ho(HQ,(fI-196)+1),ho(ff,(fI-196)%#ff+1)))
+                                    vd=uk(-51019)
+                                elseif vd==3637 then
+                                    yZ='';
+                                    WA,cq,JG=196,(#HQ-1)+196,1
+                                    vd=24407
+                                elseif vd==3613 then
+                                    return yZ
+                                elseif vd==23243 then
+                                    WA=WA+JG;
+                                    fI=WA;
+                                    if WA~=WA then
+                                        vd=3613
+                                    else
+                                        vd=3733
+                                    end
+                                end
+                            end
+                        until vd==-11983
+                    end)('\164\213u\181\195c','\234N\237'),(function(NE,BY)
+                        local in_,sm,_h,DB,EZ,WH,cM,lt
+                        EZ,WH={[-26094]=-21839,[-20612]=18491,[-15983]=-889,[27493]=-13941,[-12184]=-13941,[11100]=-889},function(LQ)
+                            return EZ[LQ-1406]
+                        end
+                        _h=WH(-19206)
+                        repeat
+                            while true do
+                                if _h==-13941 then
+                                    return in_
+                                elseif _h==-21839 then
+                                    DB=DB+lt;
+                                    cM=DB;
+                                    if DB~=DB then
+                                        _h=WH(-10778)
+                                    else
+                                        _h=WH(12506)
+                                    end
+                                elseif _h==-889 then
+                                    if(lt>=0 and DB>sm)or((lt<0 or lt~=lt)and DB<sm)then
+                                        _h=WH(28899)
+                                    else
+                                        _h=-20086
+                                    end
+                                elseif _h==18491 then
+                                    in_='';
+                                    lt,sm,DB=1,(#NE-1)+104,104
+                                    _h=-12173
+                                elseif _h==-12173 then
+                                    cM=DB;
+                                    if sm~=sm then
+                                        _h=-13941
+                                    else
+                                        _h=WH(-14577)
+                                    end
+                                elseif _h==-20086 then
+                                    in_=in_..iT(TK(ho(NE,(cM-104)+1),ho(BY,(cM-104)%#BY+1)))
+                                    _h=WH(-24688)
+                                end
+                            end
+                        until _h==9824
+                    end)('\252$.','\198'))](pL)==(function(Rx,yE)
+                        local so,nN,je,xg,me,nd,ig,sq
+                        ig,nd={[9229]=-30708,[-2998]=-3790,[26431]=-14394,[-12414]=-30708,[-20304]=-30708,[31494]=14506},function(Ff)
+                            return ig[Ff-12081]
+                        end
+                        sq=nd(9083)
+                        repeat
+                            while true do
+                                if sq==-30708 then
+                                    return je
+                                elseif sq==-14032 then
+                                    if(nN>=0 and xg>me)or((nN<0 or nN~=nN)and xg<me)then
+                                        sq=nd(-8223)
+                                    else
+                                        sq=nd(43575)
+                                    end
+                                elseif sq==14506 then
+                                    je=je..iT(TK(ho(Rx,(so-173)+1),ho(yE,(so-173)%#yE+1)))
+                                    sq=nd(38512)
+                                elseif sq==-28440 then
+                                    so=xg;
+                                    if me~=me then
+                                        sq=nd(-333)
+                                    else
+                                        sq=-14032
+                                    end
+                                elseif sq==-14394 then
+                                    xg=xg+nN;
+                                    so=xg;
+                                    if xg~=xg then
+                                        sq=nd(21310)
+                                    else
+                                        sq=-14032
+                                    end
+                                elseif sq==-3790 then
+                                    je='';
+                                    nN,xg,me=1,173,(#Rx-1)+173
+                                    sq=-28440
+                                end
+                            end
+                        until sq==-22592
+                    end)((function(Vx,Mw)
+                        local yb,hD,kb,mw,rZ,sr,aP,Oo
+                        hD,rZ={[11123]=30840,[-27097]=-16352,[-12369]=-3841,[3796]=8256},function(Cf)
+                            return hD[Cf-27952]
+                        end
+                        kb=rZ(31748)
+                        repeat
+                            while true do
+                                if kb==8256 then
+                                    mw='';
+                                    sr,aP,yb=246,(#Vx-1)+246,1
+                                    kb=2461
+                                elseif kb==30840 then
+                                    return mw
+                                elseif kb==-15641 then
+                                    mw=mw..iT(TK(ho(Vx,(Oo-246)+1),ho(Mw,(Oo-246)%#Mw+1)))
+                                    kb=rZ(15583)
+                                elseif kb==-3841 then
+                                    sr=sr+yb;
+                                    Oo=sr;
+                                    if sr~=sr then
+                                        kb=30840
+                                    else
+                                        kb=-16352
+                                    end
+                                elseif kb==2461 then
+                                    Oo=sr;
+                                    if aP~=aP then
+                                        kb=rZ(39075)
+                                    else
+                                        kb=rZ(855)
+                                    end
+                                elseif kb==-16352 then
+                                    if(yb>=0 and sr>aP)or((yb<0 or yb~=yb)and sr<aP)then
+                                        kb=30840
+                                    else
+                                        kb=-15641
+                                    end
+                                end
+                            end
+                        until kb==30899
+                    end)('\231&\242\n\245:\243\a','\233&\3z'),(function(aG,ot)
+                        local bJ,dS,zy,NW,hg,fk,IE,fy
+                        fy,dS={[-10981]=-4569,[-24848]=22418,[30326]=-26494,[-18884]=-26494,[3961]=1995,[27537]=1995},function(FM)
+                            return fy[FM-20810]
+                        end
+                        fk=dS(9829)
+                        repeat
+                            while true do
+                                if fk==-26494 then
+                                    if(NW>=0 and IE>bJ)or((NW<0 or NW~=NW)and IE<bJ)then
+                                        fk=1995
+                                    else
+                                        fk=25844
+                                    end
+                                elseif fk==-4569 then
+                                    hg='';
+                                    NW,bJ,IE=1,(#aG-1)+129,129
+                                    fk=-11239
+                                elseif fk==22418 then
+                                    IE=IE+NW;
+                                    zy=IE;
+                                    if IE~=IE then
+                                        fk=dS(48347)
+                                    else
+                                        fk=dS(51136)
+                                    end
+                                elseif fk==1995 then
+                                    return hg
+                                elseif fk==-11239 then
+                                    zy=IE;
+                                    if bJ~=bJ then
+                                        fk=dS(24771)
+                                    else
+                                        fk=dS(1926)
+                                    end
+                                elseif fk==25844 then
+                                    hg=hg..iT(TK(ho(aG,(zy-129)+1),ho(ot,(zy-129)%#ot+1)))
+                                    fk=dS(-4038)
+                                end
+                            end
+                        until fk==14654
+                    end)('\147xd\30','\251\r'))and on[(function(ZG,_w)
+                        local Vc,zW,_d,Yv,Mk,Sw,lZ,yH
+                        Mk,yH={[-19015]=14919,[29099]=26269,[-29315]=12395,[13917]=-9358,[-30416]=-15973},function(zs)
+                            return Mk[zs+18695]
+                        end
+                        lZ=yH(-49111)
+                        repeat
+                            while true do
+                                if lZ==12395 then
+                                    Vc=Vc+_d;
+                                    Yv=Vc;
+                                    if Vc~=Vc then
+                                        lZ=14919
+                                    else
+                                        lZ=yH(10404)
+                                    end
+                                elseif lZ==-15973 then
+                                    Sw='';
+                                    zW,Vc,_d=(#ZG-1)+120,120,1
+                                    lZ=yH(-4778)
+                                elseif lZ==-16627 then
+                                    Sw=Sw..iT(TK(ho(ZG,(Yv-120)+1),ho(_w,(Yv-120)%#_w+1)))
+                                    lZ=yH(-48010)
+                                elseif lZ==14919 then
+                                    return Sw
+                                elseif lZ==26269 then
+                                    if(_d>=0 and Vc>zW)or((_d<0 or _d~=_d)and Vc<zW)then
+                                        lZ=14919
+                                    else
+                                        lZ=-16627
+                                    end
+                                elseif lZ==-9358 then
+                                    Yv=Vc;
+                                    if zW~=zW then
+                                        lZ=yH(-37710)
+                                    else
+                                        lZ=26269
+                                    end
+                                end
+                            end
+                        until lZ==-18088
+                    end)((function(Zk,PX)
+                        local aM,aN,ay,oR,rv,GA,JV,MQ
+                        aM,oR={[13892]=15501,[-12651]=306,[7238]=-1962,[-5443]=-1962,[13060]=4496,[-22885]=28519},function(lu)
+                            return aM[lu+-31570]
+                        end
+                        MQ=oR(18919)
+                        repeat
+                            while true do
+                                if MQ==-10412 then
+                                    GA=GA..iT(TK(ho(Zk,(JV-18)+1),ho(PX,(JV-18)%#PX+1)))
+                                    MQ=oR(44630)
+                                elseif MQ==-1962 then
+                                    return GA
+                                elseif MQ==4496 then
+                                    ay=ay+rv;
+                                    JV=ay;
+                                    if ay~=ay then
+                                        MQ=oR(38808)
+                                    else
+                                        MQ=oR(45462)
+                                    end
+                                elseif MQ==28519 then
+                                    JV=ay;
+                                    if aN~=aN then
+                                        MQ=oR(26127)
+                                    else
+                                        MQ=15501
+                                    end
+                                elseif MQ==306 then
+                                    GA='';
+                                    ay,rv,aN=18,1,(#Zk-1)+18
+                                    MQ=oR(8685)
+                                elseif MQ==15501 then
+                                    if(rv>=0 and ay>aN)or((rv<0 or rv~=rv)and ay<aN)then
+                                        MQ=-1962
+                                    else
+                                        MQ=-10412
+                                    end
+                                end
+                            end
+                        until MQ==-27816
+                    end)('\174\r\151sY\168\r\142bP','\161\173\141cj'),(function(Gq,Gx)
+                        local yY,lR,Oa,Hi,Po,RX,pX,wF
+                        yY,wF={[-22169]=-2992,[-19313]=7485,[17029]=-7173,[20907]=13561},function(ah)
+                            return yY[ah+-24755]
+                        end
+                        pX=wF(5442)
+                        repeat
+                            while true do
+                                if pX==7485 then
+                                    Po='';
+                                    lR,Oa,RX=(#Gq-1)+102,1,102
+                                    pX=20908
+                                elseif pX==-7173 then
+                                    if(Oa>=0 and RX>lR)or((Oa<0 or Oa~=Oa)and RX<lR)then
+                                        pX=-2992
+                                    else
+                                        pX=-1851
+                                    end
+                                elseif pX==-2992 then
+                                    return Po
+                                elseif pX==20908 then
+                                    Hi=RX;
+                                    if lR~=lR then
+                                        pX=wF(2586)
+                                    else
+                                        pX=-7173
+                                    end
+                                elseif pX==13561 then
+                                    RX=RX+Oa;
+                                    Hi=RX;
+                                    if RX~=RX then
+                                        pX=-2992
+                                    else
+                                        pX=wF(41784)
+                                    end
+                                elseif pX==-1851 then
+                                    Po=Po..iT(TK(ho(Gq,(Hi-102)+1),ho(Gx,(Hi-102)%#Gx+1)))
+                                    pX=wF(45662)
+                                end
+                            end
+                        until pX==11494
+                    end)('z\254j^C','\28-'))](pL))then
+                        qU=Zo(-1540)
+                        break
+                    else
+                        qU=Zo(53107)
+                        break
+                    end
+                    qU=Zo(14461)
+                elseif qU==-1983630019+1983660894 then
+                    qU=-3.4308281275511242e-05*-453476520
+                    break
+                elseif qU==1.44776360465844e-05*-1121730091 then
+                    vo=on[vo]
+                    qU=Zo(-2975)
+                elseif qU==1739835440-1739819882 then
+                    qU=Zo(-879);
+                    break;
+                elseif qU==-762866600- -762874161 then
+                    vo=Jx(vo(_j))
+                    qU=Zo(7155)
+                elseif qU==-67293994+67318970 then
+                    _j,pl,hp=BD(vo[1],1,vo[2]);
+                    qU=Zo(37327)
+                elseif qU==41167765436016/-2084232758 then
+                    _j,pl,hp=BD(vo[1],1,vo[2]);
+                    qU=Zo(10727)
+                elseif qU==-372229821352/-26922452 then
+                    vo=(function(lv,At)
+                        local TG,pW,WS,qV,ak,Sk,RA,M
+                        M,RA={[21867]=6205,[11999]=32391,[13550]=-10879,[30844]=10976},function(Qx)
+                            return M[Qx- -14277]
+                        end
+                        TG=RA(-2278)
+                        repeat
+                            while true do
+                                if TG==22947 then
+                                    if(ak>=0 and Sk>WS)or((ak<0 or ak~=ak)and Sk<WS)then
+                                        TG=-10879
+                                    else
+                                        TG=RA(7590)
+                                    end
+                                elseif TG==32391 then
+                                    qV='';
+                                    WS,ak,Sk=(#lv-1)+186,1,186
+                                    TG=30563
+                                elseif TG==6205 then
+                                    qV=qV..iT(TK(ho(lv,(pW-186)+1),ho(At,(pW-186)%#At+1)))
+                                    TG=RA(16567)
+                                elseif TG==30563 then
+                                    pW=Sk;
+                                    if WS~=WS then
+                                        TG=RA(-727)
+                                    else
+                                        TG=22947
+                                    end
+                                elseif TG==10976 then
+                                    Sk=Sk+ak;
+                                    pW=Sk;
+                                    if Sk~=Sk then
+                                        TG=-10879
+                                    else
+                                        TG=22947
+                                    end
+                                elseif TG==-10879 then
+                                    return qV
+                                end
+                            end
+                        until TG==29813
+                    end)(vo,_g)
+                    qU=1030999838+-1031016078
+                elseif qU==2.5407793649400894e-05*-1181645302 then
+                    vo=Jx(AM(_j))
+                    qU=Zo(56160)
+                elseif qU==8.945885963476175e-06*-703675413 then
+                    _g='fF,sF?'
+                    qU=1908865049+-1908845442
+                elseif qU==-1200758360- -1200738769 then
+                    _g='\223\193\142u\139'
+                    qU=-1.6222694829161636e-05*-852262842
+                elseif qU==-514146187- -514134304 then
+                    vo=vo(pL,_g,qi)
+                    qU=Zo(-6084)
+                elseif qU==163363283-163353070 then
+                    Ht=141161812
+                    qU=13522646753400/1685065016
+                elseif qU==26259789048248/-1879458134 then
+                    vo=iF.__iter
+                    qU=-1.1885465324345908e-05*-636155152
+                elseif qU==-26296497420726/-922975586 then
+                    _j,pl,hp=BD(vo[1],1,vo[2]);
+                    if kl(_j)~='function'then
+                        qU=Zo(3630)
+                        break
+                    end;
+                    qU=Zo(45390);
+                elseif qU==-1380346232- -1380378002 then
+                    iF=BD(vo[1],1,vo[2]);
+                    if iF~=nil and iF.__iter~=nil then
+                        qU=Zo(-6891)
+                        break
+                    elseif kl(_j)==(function(Dq,Lq)
+                        local qp,Eo,Tj,et,uN,_K,vb,hQ
+                        vb,qp={[11460]=19933,[4554]=-29475,[20591]=15739,[-22718]=19933,[25417]=-5412,[-19030]=-5412,[11661]=-998,[-25042]=-31703},function(vI)
+                            return vb[vI+-23249]
+                        end
+                        et=qp(-1793)
+                        repeat
+                            while true do
+                                if et==-5412 then
+                                    if(uN>=0 and hQ>_K)or((uN<0 or uN~=uN)and hQ<_K)then
+                                        et=qp(34709)
+                                    else
+                                        et=qp(43840)
+                                    end
+                                elseif et==-31703 then
+                                    Eo='';
+                                    uN,hQ,_K=1,113,(#Dq-1)+113
+                                    et=qp(27803)
+                                elseif et==-998 then
+                                    hQ=hQ+uN;
+                                    Tj=hQ;
+                                    if hQ~=hQ then
+                                        et=qp(531)
+                                    else
+                                        et=qp(48666)
+                                    end
+                                elseif et==15739 then
+                                    Eo=Eo..iT(TK(ho(Dq,(Tj-113)+1),ho(Lq,(Tj-113)%#Lq+1)))
+                                    et=qp(34910)
+                                elseif et==19933 then
+                                    return Eo
+                                elseif et==-29475 then
+                                    Tj=hQ;
+                                    if _K~=_K then
+                                        et=19933
+                                    else
+                                        et=qp(4219)
+                                    end
+                                end
+                            end
+                        until et==24280
+                    end)('\226b\244o\243','\150\3')then
+                        qU=Zo(46821)
+                        break
+                    end
+                    qU=Zo(27515)
+                elseif qU==2.39579567762637e-05*1094834599 then
+                    qi=63.756619956111074
+                    qU=Zo(46325)
+                elseif qU==30528955241851/1455076271 then
+                    _g='\138\132\234'
+                    qU=10089632714168/-1328632172
+                elseif qU==1.0000508221642122e-05*-1084644876 then
+                    vo='\172\164\250\0\251\169\160\226\0\238'
+                    qU=1.3169027500250077e-05*-1487657308
+                elseif qU==511912249+-511882932 then
+                    _g=on[BD(_g[1],1,_g[2])]
+                    qU=-917343358+917366492
+                elseif qU==-1186551705- -1186549835 then
+                    vo=Jx(hf(_j))
+                    qU=Zo(47171)
+                elseif qU==2119364033-2119362378 then
+                    _g=-1660134330
+                    qU=-2336564856648/84097497
+                end
+            end
+        until qU==794944117+-794921499
+    end
+    local pK
+    local OW,Cb,hh,gO,sK,wA
+    hh,gO={[-10171]=-24071,[7752]=-32716,[10485]=13641,[28047]=-28853,[19503]=-13933,[-7360]=12970,[-5338]=28656,[-23812]=31200,[-30444]=-28853,[1659]=25652},function(JH)
+        return hh[JH- -12628]
+    end
+    sK=gO(-2143)
+    repeat
+        while true do
+            if sK==-13501414+13487481 then
+                Cb=' \b\180\149v\231'
+                sK=gO(-10969)
+            elseif sK==-1.0339322371769188e-06*711845490 then
+                Cb=on[Cb]
+                sK=-1242991104- -1242967186
+            elseif sK==-3643436811100/-280912630 then
+                Cb='\195@g\196Ld\212'
+                sK=25088981451270/-2138873099
+            elseif sK==1778505587-1778529505 then
+                Cb=Cb(hF)
+                sK=gO(-36440)
+            elseif sK==3.8585098690595454e-05*664816234 then
+                wA=Jx((function(Bs,th)
+                    local Ba,OT,jZ,Jt,AR,Hb,oq,to
+                    jZ,AR={[-30017]=-26415,[-5437]=14686,[-28198]=-32185,[-4925]=21346,[8643]=-8479,[29817]=14686,[6259]=-3467},function(aD)
+                        return jZ[aD+27659]
+                    end
+                    to=AR(-57676)
+                    repeat
+                        while true do
+                            if to==14686 then
+                                return oq
+                            elseif to==-3467 then
+                                oq=oq..iT(TK(ho(Bs,(Jt-239)+1),ho(th,(Jt-239)%#th+1)))
+                                to=AR(-19016)
+                            elseif to==21346 then
+                                Jt=Ba;
+                                if OT~=OT then
+                                    to=AR(-33096)
+                                else
+                                    to=AR(-55857)
+                                end
+                            elseif to==-8479 then
+                                Ba=Ba+Hb;
+                                Jt=Ba;
+                                if Ba~=Ba then
+                                    to=14686
+                                else
+                                    to=-32185
+                                end
+                            elseif to==-26415 then
+                                oq='';
+                                Ba,Hb,OT=239,1,(#Bs-1)+239
+                                to=AR(-32584)
+                            elseif to==-32185 then
+                                if(Hb>=0 and Ba>OT)or((Hb<0 or Hb~=Hb)and Ba<OT)then
+                                    to=AR(2158)
+                                else
+                                    to=AR(-21400)
+                                end
+                            end
+                        end
+                    until to==-11137
+                end)(wA,Cb))
+                sK=1689565290+-1689572155
+            elseif sK==-360449773+360442908 then
+                wA=on[BD(wA[1],1,wA[2])]
+                sK=gO(-19988)
+            elseif sK==-478431870+478420140 then
+                OW='\177%\22'
+                sK=-5.4042732190406065e-05*475697637
+            elseif sK==1614157517-1614143876 then
+                wA='Hg\219\254\16\146Nk\192\252\25\137'
+                sK=gO(6875)
+            elseif sK==-1.8414883793294147e-05*1396044650 then
+                Cb=(function(hW,ei)
+                    local Nz,yM,UK,Xa,bn,Jm,AU,cJ
+                    bn,AU={[-26894]=3832,[-13938]=-31189,[14004]=-14272,[-13646]=-20282,[-9473]=31975,[-29450]=3832,[-9572]=-14672},function(qc)
+                        return bn[qc+-2004]
+                    end
+                    Nz=AU(-7469)
+                    repeat
+                        while true do
+                            if Nz==-14672 then
+                                Xa=Xa+cJ;
+                                yM=Xa;
+                                if Xa~=Xa then
+                                    Nz=-20282
+                                else
+                                    Nz=AU(-27446)
+                                end
+                            elseif Nz==-20282 then
+                                return UK
+                            elseif Nz==3832 then
+                                if(cJ>=0 and Xa>Jm)or((cJ<0 or cJ~=cJ)and Xa<Jm)then
+                                    Nz=-20282
+                                else
+                                    Nz=AU(16008)
+                                end
+                            elseif Nz==-14272 then
+                                UK=UK..iT(TK(ho(hW,(yM-201)+1),ho(ei,(yM-201)%#ei+1)))
+                                Nz=AU(-7568)
+                            elseif Nz==-31189 then
+                                yM=Xa;
+                                if Jm~=Jm then
+                                    Nz=AU(-11642)
+                                else
+                                    Nz=AU(-24890)
+                                end
+                            elseif Nz==31975 then
+                                UK='';
+                                cJ,Xa,Jm=1,201,(#hW-1)+201
+                                Nz=AU(-11934)
+                            end
+                        end
+                    until Nz==-18863
+                end)(Cb,OW)
+                sK=-7.1290378516845907e-06*103239738
+            elseif sK==395915158+-395944011 then
+                pK=BD(wA[1],1,wA[2]);
+                sK=gO(-4876);
+                break;
+            elseif sK==3.0209669865125793e-05*1032781892 then
+                wA=Jx(wA(Cb,function(...)
+                    local vc,mJ,cO,nt,ia,Xf,al
+                    mJ,cO={[22466]=-30279,[31906]=-23677,[-20225]=-17589,[-5041]=-21763,[12624]=17595,[-2211]=-29139,[-28355]=32456,[24273]=-7624,[20627]=2451,[-27833]=31128,[-24347]=25427,[-31983]=-17589,[-13381]=-23955,[-21111]=-23677,[4750]=-23677,[7745]=30335,[7492]=-787,[7529]=11016,[-32175]=-23698,[14593]=5507},function(bF)
+                        return mJ[bF+-26378]
+                    end
+                    Xf=cO(21337)
+                    repeat
+                        while true do
+                            if Xf==1761406647-1761430324 then
+                                ia=Jx(...)
+                                Xf=cO(33870)
+                            elseif Xf==-672833735- -672857468 then
+                                vc='\184f'
+                                Xf=-1894117208400/122675985
+                            elseif Xf==-71157082+71127943 then
+                                vc=-1915750587
+                                Xf=1784292855+-1784316713
+                            elseif Xf==510423740+-510398313 then
+                                ia=ia[vc]
+                                Xf=cO(24167)
+                            elseif Xf==2006785782-2006801222 then
+                                ia=(function(XA,Dw)
+                                    local SB,Qf,cx,Pp,vM,OX,Hq,wk
+                                    wk,Qf={[-25117]=29608,[-27202]=28652,[7448]=29608,[-21630]=25964,[-4975]=-316,[-32481]=-98,[-15653]=-24993},function(_q)
+                                        return wk[_q+26130]
+                                    end
+                                    Pp=Qf(-53332)
                                     repeat
                                         while true do
-                                            if Wg==-23312 then
-                                                bs=bs..Sr(Sz(nv(un,(PH-87)+1),nv(Fx,(PH-87)%#Fx+1)))
-                                                Wg=NH(-19266)
-                                            elseif Wg==-1561 then
-                                                return bs
-                                            elseif Wg==-13223 then
-                                                bs='';
-                                                g,XC,uC=1,(#un-1)+87,87
-                                                Wg=-6517
-                                            elseif Wg==-6517 then
-                                                PH=uC;
-                                                if XC~=XC then
-                                                    Wg=-1561
+                                            if Pp==-98 then
+                                                OX=OX..iT(TK(ho(XA,(vM-42)+1),ho(Dw,(vM-42)%#Dw+1)))
+                                                Pp=Qf(-47760)
+                                            elseif Pp==-24993 then
+                                                if(cx>=0 and Hq>SB)or((cx<0 or cx~=cx)and Hq<SB)then
+                                                    Pp=Qf(-51247)
                                                 else
-                                                    Wg=-21683
+                                                    Pp=Qf(-58611)
                                                 end
-                                            elseif Wg==-21683 then
-                                                if(g>=0 and uC>XC)or((g<0 or g~=g)and uC<XC)then
-                                                    Wg=NH(25313)
+                                            elseif Pp==-316 then
+                                                vM=Hq;
+                                                if SB~=SB then
+                                                    Pp=Qf(-18682)
                                                 else
-                                                    Wg=-23312
+                                                    Pp=-24993
                                                 end
-                                            elseif Wg==-29051 then
-                                                uC=uC+g;
-                                                PH=uC;
-                                                if uC~=uC then
-                                                    Wg=-1561
+                                            elseif Pp==25964 then
+                                                Hq=Hq+cx;
+                                                vM=Hq;
+                                                if Hq~=Hq then
+                                                    Pp=29608
                                                 else
-                                                    Wg=NH(-32071)
+                                                    Pp=Qf(-41783)
+                                                end
+                                            elseif Pp==29608 then
+                                                return OX
+                                            elseif Pp==28652 then
+                                                OX='';
+                                                cx,SB,Hq=1,(#XA-1)+42,42
+                                                Pp=Qf(-31105)
+                                            end
+                                        end
+                                    until Pp==-17261
+                                end)(ia,vc)
+                                Xf=1766582886+-1766602699
+                            elseif Xf==-1363682352+1363658397 then
+                                vc='\27\145\19\149\6'
+                                Xf=cO(50651)
+                            elseif Xf==-448853454- -448871049 then
+                                al='\137\223\129}&\255\178'
+                                Xf=-1982949303+1982964446
+                            elseif Xf==-2084815788+2084798199 then
+                                return BD(ia[1],1,ia[2])
+                            elseif Xf==-29787468768204/1368720708 then
+                                ia='\204\a\203\r'
+                                Xf=-2.8108941188416685e-05*-844322091
+                            elseif Xf==769353899+-769342883 then
+                                ia=ia(vc,nt)
+                                Xf=cO(58284)
+                            elseif Xf==2066675577-2066645242 then
+                                vc=vc+nt
+                                Xf=cO(-5797)
+                            elseif Xf==2130111562+-2130112349 then
+                                ia=Jx(pK(BD(ia[1],1,ia[2])))
+                                Xf=cO(-5605)
+                            elseif Xf==2331751305822/951346922 then
+                                nt=on[BD(nt[1],1,nt[2])]
+                                Xf=cO(33907)
+                            elseif Xf==-1.253564791992528e-05*608185556 then
+                                nt='\127\244'
+                                Xf=cO(-1455)
+                            elseif Xf==-9.223267500561713e-06*-1641825958 then
+                                nt=Jx((function(zQ,UX)
+                                    local dh,dr,WJ,Fb,eM,yK,rV,UP
+                                    dh,dr={[-30485]=30989,[19348]=-31415,[3413]=-29350,[23454]=-29350,[-10540]=4806},function(ZE)
+                                        return dh[ZE+-15073]
+                                    end
+                                    Fb=dr(4533)
+                                    repeat
+                                        while true do
+                                            if Fb==-31415 then
+                                                eM=eM+WJ;
+                                                rV=eM;
+                                                if eM~=eM then
+                                                    Fb=dr(-15412)
+                                                else
+                                                    Fb=dr(18486)
+                                                end
+                                            elseif Fb==4806 then
+                                                yK='';
+                                                UP,WJ,eM=(#zQ-1)+204,1,204
+                                                Fb=-14197
+                                            elseif Fb==-14197 then
+                                                rV=eM;
+                                                if UP~=UP then
+                                                    Fb=30989
+                                                else
+                                                    Fb=dr(38527)
+                                                end
+                                            elseif Fb==5186 then
+                                                yK=yK..iT(TK(ho(zQ,(rV-204)+1),ho(UX,(rV-204)%#UX+1)))
+                                                Fb=dr(34421)
+                                            elseif Fb==30989 then
+                                                return yK
+                                            elseif Fb==-29350 then
+                                                if(WJ>=0 and eM>UP)or((WJ<0 or WJ~=WJ)and eM<UP)then
+                                                    Fb=30989
+                                                else
+                                                    Fb=5186
                                                 end
                                             end
                                         end
-                                    until Wg==-43
-                                end)((function(uR,uD)
-                                    local da,zg,aM,IX,D,Ib,If,Fh
-                                    Ib,da={[11027]=28289,[-7684]=-31533,[-22404]=-13577,[7394]=-10184,[-22083]=-741,[18507]=-31533},function(mc)
-                                        return Ib[mc-11763]
+                                    until Fb==-25314
+                                end)(nt,al))
+                                Xf=cO(47005)
+                            elseif Xf==7226926792736/-302914192 then
+                                nt=1915750590
+                                Xf=cO(34123)
+                            elseif Xf==37532684093859/-1894346343 then
+                                ia=on[ia]
+                                Xf=cO(12997)
+                            elseif Xf==2086560859+-2086529731 then
+                                vc=(function(DY,QY)
+                                    local Sq,vJ,tE,Es,HZ,dz,na,Rd
+                                    dz,vJ={[25615]=-4853,[-28200]=19350,[-30222]=-3543},function(_E)
+                                        return dz[_E-29097]
                                     end
-                                    Fh=da(19157)
+                                    HZ=vJ(-1125)
                                     repeat
                                         while true do
-                                            if Fh==-13577 then
-                                                if(D>=0 and zg>IX)or((D<0 or D~=D)and zg<IX)then
-                                                    Fh=da(30270)
+                                            if HZ==23316 then
+                                                if(tE>=0 and Es>na)or((tE<0 or tE~=tE)and Es<na)then
+                                                    HZ=10620
                                                 else
-                                                    Fh=18230
+                                                    HZ=vJ(897)
                                                 end
-                                            elseif Fh==-10184 then
-                                                If='';
-                                                zg,IX,D=235,(#uR-1)+235,1
-                                                Fh=da(-10320)
-                                            elseif Fh==-741 then
-                                                aM=zg;
-                                                if IX~=IX then
-                                                    Fh=-31533
+                                            elseif HZ==6938 then
+                                                Rd=Es;
+                                                if na~=na then
+                                                    HZ=10620
                                                 else
-                                                    Fh=da(-10641)
+                                                    HZ=23316
                                                 end
-                                            elseif Fh==18230 then
-                                                If=If..Sr(Sz(nv(uR,(aM-235)+1),nv(uD,(aM-235)%#uD+1)))
-                                                Fh=da(22790)
-                                            elseif Fh==28289 then
-                                                zg=zg+D;
-                                                aM=zg;
-                                                if zg~=zg then
-                                                    Fh=da(4079)
+                                            elseif HZ==-4853 then
+                                                Es=Es+tE;
+                                                Rd=Es;
+                                                if Es~=Es then
+                                                    HZ=10620
                                                 else
-                                                    Fh=-13577
+                                                    HZ=23316
                                                 end
-                                            elseif Fh==-31533 then
-                                                return If
+                                            elseif HZ==19350 then
+                                                Sq=Sq..iT(TK(ho(DY,(Rd-31)+1),ho(QY,(Rd-31)%#QY+1)))
+                                                HZ=vJ(54712)
+                                            elseif HZ==10620 then
+                                                return Sq
+                                            elseif HZ==-3543 then
+                                                Sq='';
+                                                tE,na,Es=1,(#DY-1)+31,31
+                                                HZ=6938
                                             end
                                         end
-                                    until Fh==-11445
-                                end)('i\nJ\14','\208\49'),(function(ie,cp)
-                                    local Ug,ju,DM,DN,ea,Ms,ur,wl
-                                    DN,ju={[-14123]=-10647,[7358]=14904,[23915]=29871,[879]=-21167,[-13333]=-21167,[27948]=24939,[24483]=14904},function(Pg)
-                                        return DN[Pg+-10210]
+                                    until HZ==5486
+                                end)(vc,nt)
+                                Xf=cO(2031)
+                            elseif Xf==-2.0374474484200809e-05*1163122024 then
+                                nt='\202\176\236\rJ\154\198\236\155\224\17A\144\220\232'
+                                Xf=cO(39002)
+                            end
+                        end
+                    until Xf==1256296901-1256308076
+                end))
+                sK=gO(-43072)
+            end
+        end
+    until sK==1185993313-1186026029
+end;
+hJ[(function(rp,gD)
+    local sc,oA,yS,xj,QM,KX,PN,qC
+    sc,yS={[20239]=-8703,[-496]=-20029,[-17174]=14533,[26288]=-23079,[-5739]=14533,[-25697]=3842,[10632]=-9236,[16060]=14533},function(kV)
+        return sc[kV+13073]
+    end
+    qC=yS(7166)
+    repeat
+        while true do
+            if qC==14533 then
+                return KX
+            elseif qC==-23079 then
+                xj=PN;
+                if oA~=oA then
+                    qC=yS(2987)
+                else
+                    qC=yS(-38770)
+                end
+            elseif qC==-20029 then
+                PN=PN+QM;
+                xj=PN;
+                if PN~=PN then
+                    qC=yS(-30247)
+                else
+                    qC=3842
+                end
+            elseif qC==-8703 then
+                KX='';
+                PN,QM,oA=183,1,(#rp-1)+183
+                qC=yS(13215)
+            elseif qC==3842 then
+                if(QM>=0 and PN>oA)or((QM<0 or QM~=QM)and PN<oA)then
+                    qC=yS(-18812)
+                else
+                    qC=yS(-2441)
+                end
+            elseif qC==-9236 then
+                KX=KX..iT(TK(ho(rp,(xj-183)+1),ho(gD,(xj-183)%#gD+1)))
+                qC=yS(-13569)
+            end
+        end
+    until qC==-4281
+end)('\145+\181$','\220J')][(function(sb,AS)
+    local BS,ji,qu,Hj,jr,br,Gj,BU
+    qu,BU={[22760]=30824,[-16233]=-9402,[7336]=21662,[-2883]=30824,[27909]=30824,[2815]=27949,[28793]=-7037,[-26079]=-15238},function(Aw)
+        return qu[Aw+-10818]
+    end
+    ji=BU(13633)
+    repeat
+        while true do
+            if ji==-9402 then
+                Hj=jr;
+                if br~=br then
+                    ji=BU(38727)
+                else
+                    ji=21662
+                end
+            elseif ji==30824 then
+                return BS
+            elseif ji==21662 then
+                if(Gj>=0 and jr>br)or((Gj<0 or Gj~=Gj)and jr<br)then
+                    ji=BU(7935)
+                else
+                    ji=BU(-15261)
+                end
+            elseif ji==27949 then
+                BS='';
+                jr,br,Gj=163,(#sb-1)+163,1
+                ji=BU(-5415)
+            elseif ji==-15238 then
+                BS=BS..iT(TK(ho(sb,(Hj-163)+1),ho(AS,(Hj-163)%#AS+1)))
+                ji=BU(39611)
+            elseif ji==-7037 then
+                jr=jr+Gj;
+                Hj=jr;
+                if jr~=jr then
+                    ji=BU(33578)
+                else
+                    ji=BU(18154)
+                end
+            end
+        end
+    until ji==4636
+end)('\154\19W\169\16U','\206|0')](hJ[(function(uG,rR)
+    local _N,xq,zu,Wd,NY,xi,DG,AL
+    DG,AL={[25250]=8358,[-8643]=24226,[-10571]=13457,[32260]=-29991},function(fr)
+        return DG[fr+22955]
+    end
+    xi=AL(9305)
+    repeat
+        while true do
+            if xi==13457 then
+                NY=NY+Wd;
+                zu=NY;
+                if NY~=NY then
+                    xi=24226
+                else
+                    xi=AL(2295)
+                end
+            elseif xi==8358 then
+                if(Wd>=0 and NY>_N)or((Wd<0 or Wd~=Wd)and NY<_N)then
+                    xi=AL(-31598)
+                else
+                    xi=-17544
+                end
+            elseif xi==-29991 then
+                xq='';
+                _N,NY,Wd=(#uG-1)+136,136,1
+                xi=-31927
+            elseif xi==-17544 then
+                xq=xq..iT(TK(ho(uG,(zu-136)+1),ho(rR,(zu-136)%#rR+1)))
+                xi=AL(-33526)
+            elseif xi==-31927 then
+                zu=NY;
+                if _N~=_N then
+                    xi=24226
+                else
+                    xi=8358
+                end
+            elseif xi==24226 then
+                return xq
+            end
+        end
+    until xi==17207
+end)('\145+\181$','\220J')],{[(function(Dx,Uh)
+    local er,YM,LD,mP,Mh,jh,Um,bu
+    bu,er={[16703]=20733,[-21949]=20733,[13785]=-5442,[7678]=28072,[-9907]=17679},function(ov)
+        return bu[ov- -31873]
+    end
+    Um=er(-24195)
+    repeat
+        while true do
+            if Um==20733 then
+                return YM
+            elseif Um==-27386 then
+                YM=YM..iT(TK(ho(Dx,(LD-28)+1),ho(Uh,(LD-28)%#Uh+1)))
+                Um=er(-18088)
+            elseif Um==-5442 then
+                mP=mP+Mh;
+                LD=mP;
+                if mP~=mP then
+                    Um=20733
+                else
+                    Um=17679
+                end
+            elseif Um==28072 then
+                YM='';
+                mP,Mh,jh=28,1,(#Dx-1)+28
+                Um=6357
+            elseif Um==17679 then
+                if(Mh>=0 and mP>jh)or((Mh<0 or Mh~=Mh)and mP<jh)then
+                    Um=er(-15170)
+                else
+                    Um=-27386
+                end
+            elseif Um==6357 then
+                LD=mP;
+                if jh~=jh then
+                    Um=er(-53822)
+                else
+                    Um=er(-41780)
+                end
+            end
+        end
+    until Um==-16570
+end)('t\23T\18E',' ~')]=(function(qf,ER)
+    local iH,Qe,ga,HX,ZV,Ik,Ms,SI
+    iH,Ik={[12824]=27851,[-27095]=26349,[-23994]=-16372,[-1119]=-16372,[-14794]=-5523,[-23451]=-23655},function(BL)
+        return iH[BL+-1080]
+    end
+    Qe=Ik(-26015)
+    repeat
+        while true do
+            if Qe==-23655 then
+                SI=SI+HX;
+                ga=SI;
+                if SI~=SI then
+                    Qe=Ik(-22914)
+                else
+                    Qe=-5523
+                end
+            elseif Qe==-16372 then
+                return Ms
+            elseif Qe==20204 then
+                ga=SI;
+                if ZV~=ZV then
+                    Qe=-16372
+                else
+                    Qe=Ik(-13714)
+                end
+            elseif Qe==-5523 then
+                if(HX>=0 and SI>ZV)or((HX<0 or HX~=HX)and SI<ZV)then
+                    Qe=Ik(-39)
+                else
+                    Qe=Ik(13904)
+                end
+            elseif Qe==26349 then
+                Ms='';
+                SI,HX,ZV=31,1,(#qf-1)+31
+                Qe=20204
+            elseif Qe==27851 then
+                Ms=Ms..iT(TK(ho(qf,(ga-31)+1),ho(ER,(ga-31)%#ER+1)))
+                Qe=Ik(-22371)
+            end
+        end
+    until Qe==-16712
+end)('?\192\227Yh-\229\175]\162K\244\241\rhk\149\141P\188','k\181\132y\aK\197\248<\208'),[(function(rE,MV)
+    local I,wu,gp,ls,wc,TV,wj,iz
+    wu,gp={[-12808]=-25339,[-12188]=-15257,[-11877]=-15257,[5910]=2790,[-26685]=-23261,[652]=-23261,[-9210]=-23261,[-30697]=-31734},function(qI)
+        return wu[qI-23850]
+    end
+    TV=gp(11042)
+    repeat
+        while true do
+            if TV==-31734 then
+                wc=wc+iz;
+                ls=wc;
+                if wc~=wc then
+                    TV=gp(24502)
+                else
+                    TV=gp(11662)
+                end
+            elseif TV==-23261 then
+                return wj
+            elseif TV==-15257 then
+                if(iz>=0 and wc>I)or((iz<0 or iz~=iz)and wc<I)then
+                    TV=gp(14640)
+                else
+                    TV=gp(29760)
+                end
+            elseif TV==-25339 then
+                wj='';
+                iz,wc,I=1,94,(#rE-1)+94
+                TV=-26523
+            elseif TV==2790 then
+                wj=wj..iT(TK(ho(rE,(ls-94)+1),ho(MV,(ls-94)%#MV+1)))
+                TV=gp(-6847)
+            elseif TV==-26523 then
+                ls=wc;
+                if I~=I then
+                    TV=gp(-2835)
+                else
+                    TV=gp(11973)
+                end
+            end
+        end
+    until TV==29775
+end)('I\183s\163z','\31\214')]=on[(function(Op,Nw)
+    local RL,K,Dy,Ur,Ie,tk,J,pf
+    Ur,RL={[15706]=-29739,[17544]=-28177,[19119]=26982,[-2946]=13417,[-21349]=28368},function(Oy)
+        return Ur[Oy+-17503]
+    end
+    K=RL(14557)
+    repeat
+        while true do
+            if K==26982 then
+                return tk
+            elseif K==-29739 then
+                tk=tk..iT(TK(ho(Op,(J-187)+1),ho(Nw,(J-187)%#Nw+1)))
+                K=RL(35047)
+            elseif K==-10980 then
+                J=pf;
+                if Ie~=Ie then
+                    K=26982
+                else
+                    K=28368
+                end
+            elseif K==28368 then
+                if(Dy>=0 and pf>Ie)or((Dy<0 or Dy~=Dy)and pf<Ie)then
+                    K=RL(36622)
+                else
+                    K=RL(33209)
+                end
+            elseif K==13417 then
+                tk='';
+                Dy,pf,Ie=1,187,(#Op-1)+187
+                K=-10980
+            elseif K==-28177 then
+                pf=pf+Dy;
+                J=pf;
+                if pf~=pf then
+                    K=26982
+                else
+                    K=RL(-3846)
+                end
+            end
+        end
+    until K==5337
+end)('$\194\208$\194\202\53','C\167\164')]()[(function(Hn,Vw)
+    local Vt,Th,Cn,CM,uE,JF,WO,Lm
+    CM,Cn={[-13023]=-2049,[-18342]=-3884,[3883]=-29067,[26570]=14891,[-29145]=9143,[-11972]=-2049},function(gl)
+        return CM[gl+-9104]
+    end
+    JF=Cn(12987)
+    repeat
+        while true do
+            if JF==-2049 then
+                return WO
+            elseif JF==-3884 then
+                Vt=Lm;
+                if Th~=Th then
+                    JF=Cn(-2868)
+                else
+                    JF=14891
+                end
+            elseif JF==-29067 then
+                WO='';
+                Th,Lm,uE=(#Hn-1)+166,166,1
+                JF=Cn(-9238)
+            elseif JF==14891 then
+                if(uE>=0 and Lm>Th)or((uE<0 or uE~=uE)and Lm<Th)then
+                    JF=Cn(-3919)
+                else
+                    JF=12613
+                end
+            elseif JF==12613 then
+                WO=WO..iT(TK(ho(Hn,(Vt-166)+1),ho(Vw,(Vt-166)%#Vw+1)))
+                JF=Cn(-20041)
+            elseif JF==9143 then
+                Lm=Lm+uE;
+                Vt=Lm;
+                if Lm~=Lm then
+                    JF=-2049
+                else
+                    JF=Cn(35674)
+                end
+            end
+        end
+    until JF==-22783
+end)('\249\165\153\202\166\155\222','\173\202\254')][(function(RS,BN)
+    local Iq,Uz,_X,Zr,bE,xk,DW,aV
+    Iq,Uz={[32404]=14788,[-18151]=-18380,[11363]=24437,[-20530]=-11529,[-31303]=14197},function(rL)
+        return Iq[rL-17509]
+    end
+    _X=Uz(49913)
+    repeat
+        while true do
+            if _X==14788 then
+                xk='';
+                DW,aV,bE=(#RS-1)+165,1,165
+                _X=Uz(-3021)
+            elseif _X==13256 then
+                xk=xk..iT(TK(ho(RS,(Zr-165)+1),ho(BN,(Zr-165)%#BN+1)))
+                _X=Uz(-642)
+            elseif _X==14197 then
+                return xk
+            elseif _X==-11529 then
+                Zr=bE;
+                if DW~=DW then
+                    _X=Uz(-13794)
+                else
+                    _X=Uz(28872)
+                end
+            elseif _X==-18380 then
+                bE=bE+aV;
+                Zr=bE;
+                if bE~=bE then
+                    _X=14197
+                else
+                    _X=24437
+                end
+            elseif _X==24437 then
+                if(aV>=0 and bE>DW)or((aV<0 or aV~=aV)and bE<DW)then
+                    _X=14197
+                else
+                    _X=13256
+                end
+            end
+        end
+    until _X==-17112
+end)('dR\196\142OKQU\226\180]s',"0\'\163\193)\28")]or false,[(function(Cx,_L)
+    local F,_O,jv,Xm,Ip,fM,UT,XQ
+    UT,_O={[-12264]=-30927,[4139]=-28477,[20769]=11288,[27467]=26641,[7111]=13895},function(oL)
+        return UT[oL- -29295]
+    end
+    XQ=_O(-41559)
+    repeat
+        while true do
+            if XQ==13895 then
+                return Ip
+            elseif XQ==26641 then
+                jv=Xm;
+                if fM~=fM then
+                    XQ=13895
+                else
+                    XQ=-28477
+                end
+            elseif XQ==-30927 then
+                Ip='';
+                F,Xm,fM=1,67,(#Cx-1)+67
+                XQ=_O(-1828)
+            elseif XQ==31297 then
+                Ip=Ip..iT(TK(ho(Cx,(jv-67)+1),ho(_L,(jv-67)%#_L+1)))
+                XQ=_O(-8526)
+            elseif XQ==11288 then
+                Xm=Xm+F;
+                jv=Xm;
+                if Xm~=Xm then
+                    XQ=13895
+                else
+                    XQ=_O(-25156)
+                end
+            elseif XQ==-28477 then
+                if(F>=0 and Xm>fM)or((F<0 or F~=F)and Xm<fM)then
+                    XQ=_O(-22184)
+                else
+                    XQ=31297
+                end
+            end
+        end
+    until XQ==-18734
+end)('\157\196\160!\188\196\175&','\222\165\204M')]=function(eH)
+    on[(function(Lo,my)
+        local xp,a,WX,Io,Qd,TH,DL,AK
+        xp,a={[8346]=-1446,[24149]=26856,[8957]=30914,[9792]=26856,[8418]=1696,[2623]=-32516},function(uP)
+            return xp[uP+-24911]
+        end
+        DL=a(33257)
+        repeat
+            while true do
+                if DL==-1446 then
+                    AK='';
+                    Qd,WX,Io=14,1,(#Lo-1)+14
+                    DL=21845
+                elseif DL==1696 then
+                    AK=AK..iT(TK(ho(Lo,(TH-14)+1),ho(my,(TH-14)%#my+1)))
+                    DL=a(27534)
+                elseif DL==21845 then
+                    TH=Qd;
+                    if Io~=Io then
+                        DL=26856
+                    else
+                        DL=30914
+                    end
+                elseif DL==-32516 then
+                    Qd=Qd+WX;
+                    TH=Qd;
+                    if Qd~=Qd then
+                        DL=a(49060)
+                    else
+                        DL=a(33868)
+                    end
+                elseif DL==30914 then
+                    if(WX>=0 and Qd>Io)or((WX<0 or WX~=WX)and Qd<Io)then
+                        DL=a(34703)
+                    else
+                        DL=a(33329)
+                    end
+                elseif DL==26856 then
+                    return AK
+                end
+            end
+        until DL==-29483
+    end)("\'#\136\'#\146\54",'@F\252')]()[(function(cC,hz)
+        local hH,Xg,s,Rp,Al,gy,Yx,ZB
+        Rp,ZB={[-5583]=2248,[13497]=2248,[5265]=27943,[15516]=17804},function(ZL)
+            return Rp[ZL+20585]
+        end
+        Xg=ZB(-15320)
+        repeat
+            while true do
+                if Xg==27943 then
+                    hH='';
+                    Al,s,Yx=1,135,(#cC-1)+135
+                    Xg=15627
+                elseif Xg==15627 then
+                    gy=s;
+                    if Yx~=Yx then
+                        Xg=ZB(-26168)
+                    else
+                        Xg=21307
+                    end
+                elseif Xg==-9380 then
+                    hH=hH..iT(TK(ho(cC,(gy-135)+1),ho(hz,(gy-135)%#hz+1)))
+                    Xg=ZB(-5069)
+                elseif Xg==17804 then
+                    s=s+Al;
+                    gy=s;
+                    if s~=s then
+                        Xg=2248
+                    else
+                        Xg=21307
+                    end
+                elseif Xg==21307 then
+                    if(Al>=0 and s>Yx)or((Al<0 or Al~=Al)and s<Yx)then
+                        Xg=ZB(-7088)
+                    else
+                        Xg=-9380
+                    end
+                elseif Xg==2248 then
+                    return hH
+                end
+            end
+        until Xg==-25176
+    end)('\"\210\235\17\209\233\5','v\189\140')][(function(tm,CH)
+        local KC,JP,ai,fD,Sf,hS,PQ,Ea
+        Sf,ai={[-914]=22833,[-6487]=-17507,[-1959]=-30002,[-15196]=1053,[-11474]=-22749},function(Fg)
+            return Sf[Fg- -9216]
+        end
+        JP=ai(-20690)
+        repeat
+            while true do
+                if JP==15553 then
+                    fD=fD..iT(TK(ho(tm,(hS-227)+1),ho(CH,(hS-227)%#CH+1)))
+                    JP=ai(-10130)
+                elseif JP==1053 then
+                    hS=KC;
+                    if Ea~=Ea then
+                        JP=ai(-15703)
+                    else
+                        JP=-30002
+                    end
+                elseif JP==-22749 then
+                    fD='';
+                    PQ,KC,Ea=1,227,(#tm-1)+227
+                    JP=ai(-24412)
+                elseif JP==22833 then
+                    KC=KC+PQ;
+                    hS=KC;
+                    if KC~=KC then
+                        JP=-17507
+                    else
+                        JP=ai(-11175)
+                    end
+                elseif JP==-30002 then
+                    if(PQ>=0 and KC>Ea)or((PQ<0 or PQ~=PQ)and KC<Ea)then
+                        JP=-17507
+                    else
+                        JP=15553
+                    end
+                elseif JP==-17507 then
+                    return fD
+                end
+            end
+        until JP==-11681
+    end)('\197\222\134\129\179P\240\217\160\187\161h','\145\171\225\206\213\a')]=eH;
+end})
+do
+    local Sp=on[(function(Qq,fa)
+        local Na,lO,hm,pj,_Z,qF,wQ,ib
+        hm,_Z={[-24067]=-26448,[-25997]=1158,[-24158]=-11547,[6400]=22370,[12139]=22370,[-19117]=1158,[-22259]=13583},function(TF)
+            return hm[TF+28832]
+        end
+        pj=_Z(-51091)
+        repeat
+            while true do
+                if pj==1158 then
+                    return ib
+                elseif pj==-11547 then
+                    wQ=qF;
+                    if lO~=lO then
+                        pj=1158
+                    else
+                        pj=_Z(-16693)
+                    end
+                elseif pj==22370 then
+                    if(Na>=0 and qF>lO)or((Na<0 or Na~=Na)and qF<lO)then
+                        pj=_Z(-54829)
+                    else
+                        pj=18050
+                    end
+                elseif pj==-26448 then
+                    qF=qF+Na;
+                    wQ=qF;
+                    if qF~=qF then
+                        pj=_Z(-47949)
+                    else
+                        pj=_Z(-22432)
+                    end
+                elseif pj==13583 then
+                    ib='';
+                    qF,Na,lO=229,1,(#Qq-1)+229
+                    pj=_Z(-52990)
+                elseif pj==18050 then
+                    ib=ib..iT(TK(ho(Qq,(wQ-229)+1),ho(fa,(wQ-229)%#fa+1)))
+                    pj=_Z(-52899)
+                end
+            end
+        until pj==-17100
+    end)('\160\193\170\197','\199\160')][(function(Wn,Ap)
+        local _,CI,fR,zl,JQ,fX,IB,XX
+        JQ,CI={[26297]=5736,[10716]=-26282,[22874]=5736,[3191]=16249,[13743]=5736,[-19927]=-29943},function(tP)
+            return JQ[tP-30723]
+        end
+        _=CI(41439)
+        repeat
+            while true do
+                if _==-29943 then
+                    fX=fX..iT(TK(ho(Wn,(XX-80)+1),ho(Ap,(XX-80)%#Ap+1)))
+                    _=CI(33914)
+                elseif _==-27938 then
+                    XX=fR;
+                    if zl~=zl then
+                        _=CI(53597)
+                    else
+                        _=-22154
+                    end
+                elseif _==5736 then
+                    return fX
+                elseif _==-22154 then
+                    if(IB>=0 and fR>zl)or((IB<0 or IB~=IB)and fR<zl)then
+                        _=CI(57020)
+                    else
+                        _=CI(10796)
+                    end
+                elseif _==-26282 then
+                    fX='';
+                    fR,zl,IB=80,(#Wn-1)+80,1
+                    _=-27938
+                elseif _==16249 then
+                    fR=fR+IB;
+                    XX=fR;
+                    if fR~=fR then
+                        _=CI(44466)
+                    else
+                        _=-22154
+                    end
+                end
+            end
+        until _==-8402
+    end)('\167\192\135\153<\146\211\154\169<','\224\165\243\202Y')](on[(function(Qm,RR)
+        local rY,ef,ow,Cg,bB,Ot,DO,Xe
+        Cg,rY={[4261]=-9774,[-26831]=23970,[-2292]=6720,[-13221]=-9212,[32378]=6720},function(sx)
+            return Cg[sx+23981]
+        end
+        bB=rY(-37202)
+        repeat
+            while true do
+                if bB==6720 then
+                    return DO
+                elseif bB==-9774 then
+                    if(ef>=0 and ow>Ot)or((ef<0 or ef~=ef)and ow<Ot)then
+                        bB=6720
+                    else
+                        bB=18806
+                    end
+                elseif bB==23970 then
+                    ow=ow+ef;
+                    Xe=ow;
+                    if ow~=ow then
+                        bB=rY(-26273)
+                    else
+                        bB=rY(-19720)
+                    end
+                elseif bB==18806 then
+                    DO=DO..iT(TK(ho(Qm,(Xe-13)+1),ho(RR,(Xe-13)%#RR+1)))
+                    bB=rY(-50812)
+                elseif bB==-9212 then
+                    DO='';
+                    ow,ef,Ot=13,1,(#Qm-1)+13
+                    bB=8277
+                elseif bB==8277 then
+                    Xe=ow;
+                    if Ot~=Ot then
+                        bB=rY(8397)
+                    else
+                        bB=-9774
+                    end
+                end
+            end
+        until bB==27218
+    end)('\160\193\170\197','\199\160')],(function(Oq,db)
+        local Qz,Fn,eA,iG,Jb,cb,jc,PR
+        eA,cb={[-30965]=-8241,[-27582]=-7575},function(Ju)
+            return eA[Ju+-30019]
+        end
+        Fn=cb(-946)
+        repeat
+            while true do
+                if Fn==-7575 then
+                    Jb=Jb+PR;
+                    jc=Jb;
+                    if Jb~=Jb then
+                        Fn=-1347
+                    else
+                        Fn=-28299
+                    end
+                elseif Fn==-28299 then
+                    if(PR>=0 and Jb>Qz)or((PR<0 or PR~=PR)and Jb<Qz)then
+                        Fn=-1347
+                    else
+                        Fn=-12977
+                    end
+                elseif Fn==7470 then
+                    jc=Jb;
+                    if Qz~=Qz then
+                        Fn=-1347
+                    else
+                        Fn=-28299
+                    end
+                elseif Fn==-12977 then
+                    iG=iG..iT(TK(ho(Oq,(jc-131)+1),ho(db,(jc-131)%#db+1)))
+                    Fn=cb(2437)
+                elseif Fn==-1347 then
+                    return iG
+                elseif Fn==-8241 then
+                    iG='';
+                    Qz,Jb,PR=(#Oq-1)+131,131,1
+                    Fn=7470
+                end
+            end
+        until Fn==-21894
+    end)('\155 \182\r\17U\28\224\172!\149\21\23D\28\243\172','\201E\198ax6}\148'))
+    local kG,Un=Sp[(function(Ve,mW)
+        local hr,Ee,_T,bo,Mt,gX,bI,TA
+        hr,bo={[-30223]=-19790,[-28580]=-15273,[22747]=20080,[25884]=-18392,[3614]=-3274},function(mA)
+            return hr[mA+-22274]
+        end
+        Ee=bo(-6306)
+        repeat
+            while true do
+                if Ee==20080 then
+                    return bI
+                elseif Ee==-3274 then
+                    if(gX>=0 and _T>Mt)or((gX<0 or gX~=gX)and _T<Mt)then
+                        Ee=bo(45021)
+                    else
+                        Ee=bo(-7949)
+                    end
+                elseif Ee==-19790 then
+                    bI=bI..iT(TK(ho(Ve,(TA-99)+1),ho(mW,(TA-99)%#mW+1)))
+                    Ee=bo(48158)
+                elseif Ee==-18392 then
+                    _T=_T+gX;
+                    TA=_T;
+                    if _T~=_T then
+                        Ee=20080
+                    else
+                        Ee=-3274
+                    end
+                elseif Ee==-3427 then
+                    TA=_T;
+                    if Mt~=Mt then
+                        Ee=20080
+                    else
+                        Ee=bo(25888)
+                    end
+                elseif Ee==-15273 then
+                    bI='';
+                    gX,Mt,_T=1,(#Ve-1)+99,99
+                    Ee=-3427
+                end
+            end
+        until Ee==23786
+    end)('\167\175y\154\190q\134','\245\202\20')][(function(ph,ne)
+        local Er,bH,uC,ex,UB,yU,t,wT
+        wT,UB={[9474]=-11745,[-15229]=30880,[9332]=-14286,[-30917]=23158,[-25883]=30262},function(nC)
+            return wT[nC-21418]
+        end
+        uC=UB(-9499)
+        repeat
+            while true do
+                if uC==30880 then
+                    Er=Er..iT(TK(ho(ph,(bH-218)+1),ho(ne,(bH-218)%#ne+1)))
+                    uC=UB(30892)
+                elseif uC==30262 then
+                    return Er
+                elseif uC==-14286 then
+                    if(ex>=0 and t>yU)or((ex<0 or ex~=ex)and t<yU)then
+                        uC=UB(-4465)
+                    else
+                        uC=UB(6189)
+                    end
+                elseif uC==19234 then
+                    bH=t;
+                    if yU~=yU then
+                        uC=30262
+                    else
+                        uC=-14286
+                    end
+                elseif uC==23158 then
+                    Er='';
+                    ex,t,yU=1,218,(#ph-1)+218
+                    uC=19234
+                elseif uC==-11745 then
+                    t=t+ex;
+                    bH=t;
+                    if t~=t then
+                        uC=30262
+                    else
+                        uC=UB(30750)
+                    end
+                end
+            end
+        until uC==9937
+    end)('\155\48\165\204\210\138$\181\209T\162\5\172=\173\216\255\145+\163\201d\171\1','\207U\200\188\189\248E\199\168\6\199d')],{[(function(LK,zq)
+        local IJ,bU,lo,jX,WB,RN,YB,JC
+        RN,JC={[27486]=-3959,[-19039]=14329,[-3774]=-21712,[24219]=-18428},function(Zn)
+            return RN[Zn- -17303]
+        end
+        IJ=JC(-36342)
+        repeat
+            while true do
+                if IJ==-3959 then
+                    if(lo>=0 and YB>bU)or((lo<0 or lo~=lo)and YB<bU)then
+                        IJ=32412
+                    else
+                        IJ=JC(6916)
+                    end
+                elseif IJ==14329 then
+                    jX='';
+                    YB,bU,lo=93,(#LK-1)+93,1
+                    IJ=11115
+                elseif IJ==-18428 then
+                    jX=jX..iT(TK(ho(LK,(WB-93)+1),ho(zq,(WB-93)%#zq+1)))
+                    IJ=JC(-21077)
+                elseif IJ==-21712 then
+                    YB=YB+lo;
+                    WB=YB;
+                    if YB~=YB then
+                        IJ=32412
+                    else
+                        IJ=JC(10183)
+                    end
+                elseif IJ==11115 then
+                    WB=YB;
+                    if bU~=bU then
+                        IJ=32412
+                    else
+                        IJ=-3959
+                    end
+                elseif IJ==32412 then
+                    return jX
+                end
+            end
+        until IJ==-7265
+    end)('\214\205j-\128\229\220I\31\160','\134\168\24K\229')]=true}
+    local xf,u,TR,fC,jR,wC
+    u,fC={[8732]=-10870,[18764]=-20271,[-16026]=20197,[-28598]=13476,[-32659]=-10981,[12900]=12524,[3651]=13161,[-25610]=13542,[-19922]=-15202,[24036]=-17953,[10140]=31222,[14793]=-17953},function(Qb)
+        return u[Qb+30063]
+    end
+    xf=fC(-21331)
+    repeat
+        while true do
+            if xf==-2.4275003282123519e-05*626240904 then
+                wC='\r\174'
+                xf=fC(-46089)
+            elseif xf==-18222176887213/1014993421 then
+                xf=fC(-19923);
+                break;
+            elseif xf==66998416+-66978219 then
+                TR=(function(kF,ID)
+                    local NM,ug,Ak,HD,Xx,se,YU,gQ
+                    ug,NM={[-1850]=-986,[-3396]=-184,[26071]=-184,[-15118]=-7202,[175]=-20902},function(we)
+                        return ug[we+9671]
+                    end
+                    Xx=NM(-24789)
+                    repeat
+                        while true do
+                            if Xx==-20902 then
+                                gQ=gQ+se;
+                                YU=gQ;
+                                if gQ~=gQ then
+                                    Xx=NM(16400)
+                                else
+                                    Xx=-1779
+                                end
+                            elseif Xx==-7202 then
+                                HD='';
+                                se,gQ,Ak=1,68,(#kF-1)+68
+                                Xx=NM(-11521)
+                            elseif Xx==-986 then
+                                YU=gQ;
+                                if Ak~=Ak then
+                                    Xx=NM(-13067)
+                                else
+                                    Xx=-1779
+                                end
+                            elseif Xx==-1779 then
+                                if(se>=0 and gQ>Ak)or((se<0 or se~=se)and gQ<Ak)then
+                                    Xx=-184
+                                else
+                                    Xx=26106
+                                end
+                            elseif Xx==26106 then
+                                HD=HD..iT(TK(ho(kF,(YU-68)+1),ho(ID,(YU-68)%#ID+1)))
+                                Xx=NM(-9496)
+                            elseif Xx==-184 then
+                                return HD
+                            end
+                        end
+                    until Xx==18736
+                end)(TR,wC)
+                xf=fC(-26412)
+            elseif xf==5.6779686625930888e-06*-1914417047 then
+                TR='y\207~\197'
+                xf=fC(-49985)
+            elseif xf==59739153-59725992 then
+                TR=on[TR]
+                xf=fC(-62722)
+            elseif xf==1451521117-1451507575 then
+                jR='\5\50'
+                xf=fC(-58661)
+            elseif xf==-1795782575- -1795796051 then
+                wC=(function(py,UN)
+                    local ko,KD,Rf,gw,Uj,pk,IA,Vb
+                    gw,Vb={[-29209]=-22846,[25956]=-32368,[-26820]=4410,[9976]=-12865,[-16044]=28727},function(mX)
+                        return gw[mX- -31837]
+                    end
+                    Uj=Vb(-61046)
+                    repeat
+                        while true do
+                            if Uj==-32368 then
+                                if(ko>=0 and Rf>IA)or((ko<0 or ko~=ko)and Rf<IA)then
+                                    Uj=-12314
+                                else
+                                    Uj=Vb(-58657)
+                                end
+                            elseif Uj==4410 then
+                                pk=pk..iT(TK(ho(py,(KD-100)+1),ho(UN,(KD-100)%#UN+1)))
+                                Uj=Vb(-21861)
+                            elseif Uj==-12865 then
+                                Rf=Rf+ko;
+                                KD=Rf;
+                                if Rf~=Rf then
+                                    Uj=-12314
+                                else
+                                    Uj=-32368
+                                end
+                            elseif Uj==28727 then
+                                KD=Rf;
+                                if IA~=IA then
+                                    Uj=-12314
+                                else
+                                    Uj=Vb(-5881)
+                                end
+                            elseif Uj==-12314 then
+                                return pk
+                            elseif Uj==-22846 then
+                                pk='';
+                                ko,Rf,IA=1,100,(#py-1)+100
+                                Uj=Vb(-47881)
+                            end
+                        end
+                    until Uj==-9396
+                end)(wC,jR)
+                xf=-1210472885- -1210484299
+            elseif xf==2078821455-2078832436 then
+                wC='vBdEk'
+                xf=fC(-55673)
+            elseif xf==7571498883364/663351926 then
+                TR=TR[wC]
+                xf=-18062039854224/701601921
+            elseif xf==472809184+-472834928 then
+                TR=TR(function()
+                    local rX,Yn,Je,td,zS
+                    Yn,Je={[18292]=-11314,[1768]=15501,[25902]=-31580,[-15259]=7804,[-12905]=-23661,[1896]=7804,[-27606]=-11762,[-31953]=10515,[12462]=7804,[113]=7804,[-22044]=7804,[24497]=7804,[-25487]=7804,[17377]=13939,[-29108]=-16872,[32459]=13939,[-16443]=16445,[16690]=13939,[-24039]=7804},function(gh)
+                        return Yn[gh+3949]
+                    end
+                    zS=Je(-25993)
+                    repeat
+                        while true do
+                            if zS==-505073615- -505081517 then
+                                if not(on[(function(Cu,MN)
+                                    local eG,am,sY,JW,Ui,XW,YC,pt
+                                    sY,YC={[9393]=-16818,[30487]=-31198,[-25285]=12401,[-9030]=-21270,[-23357]=-1618,[26117]=-16818},function(GT)
+                                        return sY[GT+12768]
                                     end
-                                    wl=ju(-3913)
+                                    XW=YC(-36125)
                                     repeat
                                         while true do
-                                            if wl==-10647 then
-                                                ur='';
-                                                ea,Ug,DM=120,(#ie-1)+120,1
-                                                wl=-16567
-                                            elseif wl==-21167 then
-                                                if(DM>=0 and ea>Ug)or((DM<0 or DM~=DM)and ea<Ug)then
-                                                    wl=ju(34693)
+                                            if XW==-31198 then
+                                                Ui=Ui..iT(TK(ho(Cu,(am-117)+1),ho(MN,(am-117)%#MN+1)))
+                                                XW=YC(-21798)
+                                            elseif XW==-1618 then
+                                                Ui='';
+                                                pt,JW,eG=1,117,(#Cu-1)+117
+                                                XW=19600
+                                            elseif XW==-16818 then
+                                                return Ui
+                                            elseif XW==19600 then
+                                                am=JW;
+                                                if eG~=eG then
+                                                    XW=YC(13349)
                                                 else
-                                                    wl=ju(34125)
+                                                    XW=12401
                                                 end
-                                            elseif wl==14904 then
-                                                return ur
-                                            elseif wl==-16567 then
-                                                Ms=ea;
-                                                if Ug~=Ug then
-                                                    wl=14904
+                                            elseif XW==-21270 then
+                                                JW=JW+pt;
+                                                am=JW;
+                                                if JW~=JW then
+                                                    XW=YC(-3375)
                                                 else
-                                                    wl=ju(-3123)
+                                                    XW=YC(-38053)
                                                 end
-                                            elseif wl==29871 then
-                                                ur=ur..Sr(Sz(nv(ie,(Ms-120)+1),nv(cp,(Ms-120)%#cp+1)))
-                                                wl=ju(38158)
-                                            elseif wl==24939 then
-                                                ea=ea+DM;
-                                                Ms=ea;
-                                                if ea~=ea then
-                                                    wl=ju(17568)
+                                            elseif XW==12401 then
+                                                if(pt>=0 and JW>eG)or((pt<0 or pt~=pt)and JW<eG)then
+                                                    XW=-16818
                                                 else
-                                                    wl=ju(11089)
+                                                    XW=YC(17719)
                                                 end
                                             end
                                         end
-                                    until wl==-20139
-                                end)('\222s',')'))]==(function(Vz,bS)
-                                    local Hx,Vo,xs,bP,fa,WU,LJ,Us
-                                    fa,xs={[22186]=-30444,[-29263]=-12449,[-7951]=-14756,[-4016]=11748,[21100]=24376,[2257]=-12449,[31548]=21182,[15319]=-12449},function(at)
-                                        return fa[at+4511]
+                                    until XW==-2316
+                                end)((function(bY,nK)
+                                    local tX,ud,ci,nM,wa,zt,Fh,yo
+                                    yo,tX={[-16500]=-19761,[25473]=-26848,[21149]=29093,[-30423]=32289},function(wD)
+                                        return yo[wD+-27389]
                                     end
-                                    Hx=xs(17675)
+                                    wa=tX(52862)
                                     repeat
                                         while true do
-                                            if Hx==11748 then
-                                                LJ=LJ+WU;
-                                                bP=LJ;
-                                                if LJ~=LJ then
-                                                    Hx=xs(-33774)
+                                            if wa==29093 then
+                                                if(ci>=0 and nM>Fh)or((ci<0 or ci~=ci)and nM<Fh)then
+                                                    wa=-19761
                                                 else
-                                                    Hx=-14756
+                                                    wa=1397
                                                 end
-                                            elseif Hx==21182 then
-                                                Us=Us..Sr(Sz(nv(Vz,(bP-14)+1),nv(bS,(bP-14)%#bS+1)))
-                                                Hx=xs(-8527)
-                                            elseif Hx==-12449 then
-                                                return Us
-                                            elseif Hx==24376 then
-                                                bP=LJ;
-                                                if Vo~=Vo then
-                                                    Hx=xs(-2254)
+                                            elseif wa==-26848 then
+                                                zt='';
+                                                ci,Fh,nM=1,(#bY-1)+22,22
+                                                wa=9665
+                                            elseif wa==9665 then
+                                                ud=nM;
+                                                if Fh~=Fh then
+                                                    wa=-19761
                                                 else
-                                                    Hx=xs(-12462)
+                                                    wa=tX(48538)
                                                 end
-                                            elseif Hx==-30444 then
-                                                Us='';
-                                                WU,Vo,LJ=1,(#Vz-1)+14,14
-                                                Hx=xs(16589)
-                                            elseif Hx==-14756 then
-                                                if(WU>=0 and LJ>Vo)or((WU<0 or WU~=WU)and LJ<Vo)then
-                                                    Hx=xs(10808)
+                                            elseif wa==32289 then
+                                                nM=nM+ci;
+                                                ud=nM;
+                                                if nM~=nM then
+                                                    wa=tX(10889)
                                                 else
-                                                    Hx=xs(27037)
+                                                    wa=29093
                                                 end
+                                            elseif wa==-19761 then
+                                                return zt
+                                            elseif wa==1397 then
+                                                zt=zt..iT(TK(ho(bY,(ud-22)+1),ho(nK,(ud-22)%#nK+1)))
+                                                wa=tX(-3034)
                                             end
                                         end
-                                    until Hx==22344
-                                end)((function(Pb,IO)
-                                    local Gc,wa,wM,DQ,dF,JV,eR,_H
-                                    _H,Gc={[22556]=17814,[-7913]=-26945,[11806]=-26945,[-8054]=11733,[-4237]=17814,[5759]=7355,[-2078]=17124},function(yK)
-                                        return _H[yK+24858]
+                                    until wa==-22771
+                                end)('VU\213VU\207G','\2{c'),(function(Pt,XM)
+                                    local yX,Uw,JX,qM,uI,oa,vX,Uy
+                                    uI,vX={[14822]=-10356,[20634]=-32202,[22617]=-328,[-32485]=32764,[-7046]=32764},function(pb)
+                                        return uI[pb- -28559]
                                     end
-                                    wa=Gc(-32912)
+                                    JX=vX(-13737)
                                     repeat
                                         while true do
-                                            if wa==-26945 then
-                                                return eR
-                                            elseif wa==17814 then
-                                                if(JV>=0 and dF>DQ)or((JV<0 or JV~=JV)and dF<DQ)then
-                                                    wa=-26945
+                                            if JX==-328 then
+                                                yX=Uw;
+                                                if oa~=oa then
+                                                    JX=vX(-35605)
                                                 else
-                                                    wa=2169
+                                                    JX=10053
                                                 end
-                                            elseif wa==7355 then
-                                                wM=dF;
-                                                if DQ~=DQ then
-                                                    wa=Gc(-13052)
+                                            elseif JX==-32202 then
+                                                Uw=Uw+Uy;
+                                                yX=Uw;
+                                                if Uw~=Uw then
+                                                    JX=32764
                                                 else
-                                                    wa=Gc(-29095)
+                                                    JX=10053
                                                 end
-                                            elseif wa==11733 then
-                                                eR='';
-                                                JV,DQ,dF=1,(#Pb-1)+175,175
-                                                wa=Gc(-19099)
-                                            elseif wa==2169 then
-                                                eR=eR..Sr(Sz(nv(Pb,(wM-175)+1),nv(IO,(wM-175)%#IO+1)))
-                                                wa=Gc(-26936)
-                                            elseif wa==17124 then
-                                                dF=dF+JV;
-                                                wM=dF;
-                                                if dF~=dF then
-                                                    wa=Gc(-32771)
+                                            elseif JX==10053 then
+                                                if(Uy>=0 and Uw>oa)or((Uy<0 or Uy~=Uy)and Uw<oa)then
+                                                    JX=vX(-61044)
                                                 else
-                                                    wa=Gc(-2302)
+                                                    JX=6184
                                                 end
+                                            elseif JX==6184 then
+                                                qM=qM..iT(TK(ho(Pt,(yX-84)+1),ho(XM,(yX-84)%#XM+1)))
+                                                JX=vX(-7925)
+                                            elseif JX==-10356 then
+                                                qM='';
+                                                Uw,Uy,oa=84,1,(#Pt-1)+84
+                                                JX=vX(-5942)
+                                            elseif JX==32764 then
+                                                return qM
                                             end
                                         end
-                                    until wa==-31126
-                                end)('\30\249\235\238\n\229\235\239\r','\251\197\150\137'),(function(Xn,xA)
-                                    local AG,F,Zh,eu,Zc,za,Pw,BG
-                                    Zh,Zc={[18377]=-21862,[-32318]=-17246,[15940]=11599,[6412]=10767,[5180]=3225},function(Jb)
-                                        return Zh[Jb- -26611]
+                                    until JX==-4298
+                                end)('1I\192','\2'))]()[(function(zH,YW)
+                                    local kt,KK,HB,XT,fN,Ys,Wp,_z
+                                    Ys,XT={[18894]=30301,[14008]=-8801,[-28294]=-11212,[31998]=30301,[-4742]=15113},function(oz)
+                                        return Ys[oz+294]
                                     end
-                                    eu=Zc(-58929)
+                                    kt=XT(-28588)
                                     repeat
                                         while true do
-                                            if eu==-21862 then
-                                                if(AG>=0 and BG>F)or((AG<0 or AG~=AG)and BG<F)then
-                                                    eu=-9830
+                                            if kt==17808 then
+                                                _z=_z..iT(TK(ho(zH,(fN-235)+1),ho(YW,(fN-235)%#YW+1)))
+                                                kt=XT(-5036)
+                                            elseif kt==-11212 then
+                                                _z='';
+                                                Wp,KK,HB=1,235,(#zH-1)+235
+                                                kt=-14995
+                                            elseif kt==30301 then
+                                                return _z
+                                            elseif kt==-8801 then
+                                                if(Wp>=0 and KK>HB)or((Wp<0 or Wp~=Wp)and KK<HB)then
+                                                    kt=30301
                                                 else
-                                                    eu=Zc(-20199)
+                                                    kt=17808
                                                 end
-                                            elseif eu==-9830 then
-                                                return za
-                                            elseif eu==11599 then
-                                                Pw=BG;
-                                                if F~=F then
-                                                    eu=-9830
+                                            elseif kt==15113 then
+                                                KK=KK+Wp;
+                                                fN=KK;
+                                                if KK~=KK then
+                                                    kt=XT(18600)
                                                 else
-                                                    eu=Zc(-8234)
+                                                    kt=XT(13714)
                                                 end
-                                            elseif eu==-17246 then
-                                                za='';
-                                                AG,F,BG=1,(#Xn-1)+73,73
-                                                eu=Zc(-10671)
-                                            elseif eu==3225 then
-                                                BG=BG+AG;
-                                                Pw=BG;
-                                                if BG~=BG then
-                                                    eu=-9830
+                                            elseif kt==-14995 then
+                                                fN=KK;
+                                                if HB~=HB then
+                                                    kt=XT(31704)
                                                 else
-                                                    eu=-21862
+                                                    kt=-8801
                                                 end
-                                            elseif eu==10767 then
-                                                za=za..Sr(Sz(nv(Xn,(Pw-73)+1),nv(xA,(Pw-73)%#xA+1)))
-                                                eu=Zc(-21431)
                                             end
                                         end
-                                    until eu==-30563
-                                end)('\237\169s\237','o\249'))and Zf[(function(n,li)
-                                    local Lm,OU,Fa,hO,SY,jx,cu,zm
-                                    OU,hO={[3580]=-7185,[-31783]=-10213,[27915]=-10834,[-31996]=-27501,[9360]=-17950},function(_P)
-                                        return OU[_P- -6197]
+                                    until kt==-24990
+                                end)((function(yP,QC)
+                                    local KT,nz,iM,rM,yv,tr,Yw,BF
+                                    Yw,KT={[26561]=27643,[-25204]=24666,[-5268]=-30779,[3624]=20201,[4665]=-29639,[27336]=7915},function(HN)
+                                        return Yw[HN- -16067]
                                     end
-                                    zm=hO(-37980)
+                                    BF=KT(10494)
                                     repeat
                                         while true do
-                                            if zm==-7185 then
-                                                if(Lm>=0 and SY>jx)or((Lm<0 or Lm~=Lm)and SY<jx)then
-                                                    zm=12397
+                                            if BF==-30779 then
+                                                nz=nz..iT(TK(ho(yP,(yv-117)+1),ho(QC,(yv-117)%#QC+1)))
+                                                BF=KT(-41271)
+                                            elseif BF==27643 then
+                                                nz='';
+                                                tr,iM,rM=1,(#yP-1)+117,117
+                                                BF=KT(11269)
+                                            elseif BF==24666 then
+                                                rM=rM+tr;
+                                                yv=rM;
+                                                if rM~=rM then
+                                                    BF=20201
                                                 else
-                                                    zm=hO(3163)
+                                                    BF=KT(-11402)
                                                 end
-                                            elseif zm==-17950 then
-                                                Fa=Fa..Sr(Sz(nv(n,(cu-138)+1),nv(li,(cu-138)%#li+1)))
-                                                zm=hO(-38193)
-                                            elseif zm==-27501 then
-                                                SY=SY+Lm;
-                                                cu=SY;
-                                                if SY~=SY then
-                                                    zm=12397
+                                            elseif BF==20201 then
+                                                return nz
+                                            elseif BF==-29639 then
+                                                if(tr>=0 and rM>iM)or((tr<0 or tr~=tr)and rM<iM)then
+                                                    BF=KT(-12443)
                                                 else
-                                                    zm=hO(-2617)
+                                                    BF=KT(-21335)
                                                 end
-                                            elseif zm==12397 then
-                                                return Fa
-                                            elseif zm==-10213 then
-                                                Fa='';
-                                                jx,SY,Lm=(#n-1)+138,138,1
-                                                zm=hO(21718)
-                                            elseif zm==-10834 then
-                                                cu=SY;
-                                                if jx~=jx then
-                                                    zm=12397
+                                            elseif BF==7915 then
+                                                yv=rM;
+                                                if iM~=iM then
+                                                    BF=20201
                                                 else
-                                                    zm=-7185
+                                                    BF=-29639
                                                 end
                                             end
                                         end
-                                    until zm==-24531
-                                end)((function(wP,sA)
-                                    local hQ,lz,tC,Rd,uz,zK,kr,GX
-                                    GX,uz={[-2745]=-29083,[-8411]=7541,[26218]=-4252,[3428]=7541,[-5866]=26126},function(gr)
-                                        return GX[gr- -28675]
+                                    until BF==20074
+                                end)('\229\138}\214\137\127\194','q\152\138'),(function(Yr,Gu)
+                                    local zU,Vy,ka,EX,an,hK,jo,mn
+                                    zU,ka={[6462]=-851,[17883]=21990,[-20023]=10135,[6430]=-22242,[-30038]=-8801},function(ik)
+                                        return zU[ik+-31115]
                                     end
-                                    tC=uz(-2457)
+                                    EX=ka(1077)
                                     repeat
                                         while true do
-                                            if tC==-15275 then
-                                                zK=zK..Sr(Sz(nv(wP,(Rd-22)+1),nv(sA,(Rd-22)%#sA+1)))
-                                                tC=uz(-31420)
-                                            elseif tC==7541 then
-                                                return zK
-                                            elseif tC==26126 then
-                                                if(kr>=0 and hQ>lz)or((kr<0 or kr~=kr)and hQ<lz)then
-                                                    tC=uz(-25247)
+                                            if EX==21990 then
+                                                if(Vy>=0 and hK>mn)or((Vy<0 or Vy~=Vy)and hK<mn)then
+                                                    EX=10135
                                                 else
-                                                    tC=-15275
+                                                    EX=ka(37577)
                                                 end
-                                            elseif tC==-4252 then
-                                                zK='';
-                                                hQ,kr,lz=22,1,(#wP-1)+22
-                                                tC=-31311
-                                            elseif tC==-31311 then
-                                                Rd=hQ;
-                                                if lz~=lz then
-                                                    tC=7541
+                                            elseif EX==-13931 then
+                                                an=hK;
+                                                if mn~=mn then
+                                                    EX=10135
                                                 else
-                                                    tC=uz(-34541)
+                                                    EX=21990
                                                 end
-                                            elseif tC==-29083 then
-                                                hQ=hQ+kr;
-                                                Rd=hQ;
-                                                if hQ~=hQ then
-                                                    tC=uz(-37086)
+                                            elseif EX==-8801 then
+                                                jo='';
+                                                Vy,hK,mn=1,224,(#Yr-1)+224
+                                                EX=-13931
+                                            elseif EX==-22242 then
+                                                hK=hK+Vy;
+                                                an=hK;
+                                                if hK~=hK then
+                                                    EX=ka(11092)
                                                 else
-                                                    tC=26126
+                                                    EX=ka(48998)
                                                 end
+                                            elseif EX==-851 then
+                                                jo=jo..iT(TK(ho(Yr,(an-224)+1),ho(Gu,(an-224)%#Gu+1)))
+                                                EX=ka(37545)
+                                            elseif EX==10135 then
+                                                return jo
                                             end
                                         end
-                                    until tC==4768
-                                end)('\144\170\152','\192'),(function(mA,XH)
-                                    local Ur,iM,kS,x,pA,YQ,IB,ao
-                                    IB,pA={[17231]=-27180,[23930]=-2829,[27098]=-27180,[30771]=21388,[9513]=-2983},function(Vv)
-                                        return IB[Vv+22998]
+                                    until EX==31955
+                                end)('/\146\127','\239'))][(function(nx,NB)
+                                    local zg,We,Tw,_l,gu,Rw,Pj,Ro
+                                    _l,Ro={[-31739]=-15560,[179]=15002,[-3585]=24263,[-9751]=27730,[9471]=13363},function(Kq)
+                                        return _l[Kq+-6816]
                                     end
-                                    x=pA(7773)
+                                    Pj=Ro(3231)
                                     repeat
                                         while true do
-                                            if x==21388 then
-                                                iM='';
-                                                YQ,ao,kS=31,1,(#mA-1)+31
-                                                x=6533
-                                            elseif x==-2983 then
-                                                YQ=YQ+ao;
-                                                Ur=YQ;
-                                                if YQ~=YQ then
-                                                    x=-2829
+                                            if Pj==15002 then
+                                                return zg
+                                            elseif Pj==27730 then
+                                                zg=zg..iT(TK(ho(nx,(gu-126)+1),ho(NB,(gu-126)%#NB+1)))
+                                                Pj=Ro(16287)
+                                            elseif Pj==13363 then
+                                                Rw=Rw+We;
+                                                gu=Rw;
+                                                if Rw~=Rw then
+                                                    Pj=15002
                                                 else
-                                                    x=pA(4100)
+                                                    Pj=Ro(-24923)
                                                 end
-                                            elseif x==-27180 then
-                                                if(ao>=0 and YQ>kS)or((ao<0 or ao~=ao)and YQ<kS)then
-                                                    x=pA(932)
+                                            elseif Pj==-15560 then
+                                                if(We>=0 and Rw>Tw)or((We<0 or We~=We)and Rw<Tw)then
+                                                    Pj=15002
                                                 else
-                                                    x=24416
+                                                    Pj=Ro(-2935)
                                                 end
-                                            elseif x==24416 then
-                                                iM=iM..Sr(Sz(nv(mA,(Ur-31)+1),nv(XH,(Ur-31)%#XH+1)))
-                                                x=pA(-13485)
-                                            elseif x==-2829 then
-                                                return iM
-                                            elseif x==6533 then
-                                                Ur=YQ;
-                                                if kS~=kS then
-                                                    x=-2829
+                                            elseif Pj==4839 then
+                                                gu=Rw;
+                                                if Tw~=Tw then
+                                                    Pj=Ro(6995)
                                                 else
-                                                    x=pA(-5767)
+                                                    Pj=-15560
                                                 end
+                                            elseif Pj==24263 then
+                                                zg='';
+                                                Tw,We,Rw=(#nx-1)+126,1,126
+                                                Pj=4839
                                             end
                                         end
-                                    until x==27460
-                                end)('\183','\174'))](Zf,(function(TK,MY)
-                                    local iB,Ya,PI,dG,Ke,NA,Ss,tG
-                                    Ya,NA={[-22840]=15347,[1557]=7560,[-25258]=-9726,[-7519]=14643,[9764]=-32359,[16066]=15347,[29]=-9726},function(gN)
-                                        return Ya[gN+-20861]
+                                    until Pj==17447
+                                end)((function(RP,rq)
+                                    local LI,_P,eE,GX,yp,mu,HP,ox
+                                    ox,HP={[3009]=14287,[20905]=-18875,[31941]=14287,[-28366]=20665,[32620]=-13040,[21394]=-9001,[29734]=-2744},function(FE)
+                                        return ox[FE-27083]
                                     end
-                                    Ke=NA(30625)
+                                    mu=HP(48477)
                                     repeat
                                         while true do
-                                            if Ke==14643 then
-                                                PI=PI+tG;
-                                                iB=PI;
-                                                if PI~=PI then
-                                                    Ke=NA(-1979)
+                                            if mu==-13040 then
+                                                eE=eE..iT(TK(ho(RP,(LI-13)+1),ho(rq,(LI-13)%#rq+1)))
+                                                mu=HP(56817)
+                                            elseif mu==14287 then
+                                                return eE
+                                            elseif mu==-2744 then
+                                                GX=GX+yp;
+                                                LI=GX;
+                                                if GX~=GX then
+                                                    mu=HP(59024)
                                                 else
-                                                    Ke=NA(20890)
+                                                    mu=20665
                                                 end
-                                            elseif Ke==7560 then
-                                                iB=PI;
-                                                if dG~=dG then
-                                                    Ke=NA(36927)
+                                            elseif mu==-18875 then
+                                                LI=GX;
+                                                if _P~=_P then
+                                                    mu=14287
                                                 else
-                                                    Ke=NA(-4397)
+                                                    mu=HP(-1283)
                                                 end
-                                            elseif Ke==15347 then
-                                                return Ss
-                                            elseif Ke==-9726 then
-                                                if(tG>=0 and PI>dG)or((tG<0 or tG~=tG)and PI<dG)then
-                                                    Ke=15347
+                                            elseif mu==20665 then
+                                                if(yp>=0 and GX>_P)or((yp<0 or yp~=yp)and GX<_P)then
+                                                    mu=HP(30092)
                                                 else
-                                                    Ke=-13424
+                                                    mu=HP(59703)
                                                 end
-                                            elseif Ke==-13424 then
-                                                Ss=Ss..Sr(Sz(nv(TK,(iB-135)+1),nv(MY,(iB-135)%#MY+1)))
-                                                Ke=NA(13342)
-                                            elseif Ke==-32359 then
-                                                Ss='';
-                                                tG,PI,dG=1,135,(#TK-1)+135
-                                                Ke=NA(22418)
+                                            elseif mu==-9001 then
+                                                eE='';
+                                                yp,GX,_P=1,13,(#RP-1)+13
+                                                mu=HP(47988)
                                             end
                                         end
-                                    until Ke==-21565
-                                end)((function(uK,iF)
-                                    local dW,Sv,GB,jQ,nq,cS,_c,gh
-                                    dW,jQ={[24409]=-2244,[16123]=-2244,[-188]=15811,[23815]=25845},function(qS)
-                                        return dW[qS+5761]
+                                    until mu==-30591
+                                end)('\206\v\251;F\180\251\f\221\1T\140','P\29b\247\179\19'),(function(xT,eC)
+                                    local YL,Hx,uK,EU,Tc,KG,L,Qi
+                                    EU,Tc={[-10304]=21469,[16746]=-23184,[14408]=-10076,[20774]=7529,[25285]=-5863,[-20679]=7529},function(ny)
+                                        return EU[ny- -1552]
                                     end
-                                    GB=jQ(-5949)
+                                    uK=Tc(15194)
                                     repeat
                                         while true do
-                                            if GB==25845 then
-                                                nq=nq+Sv;
-                                                _c=nq;
-                                                if nq~=nq then
-                                                    GB=jQ(10362)
+                                            if uK==-23184 then
+                                                Qi='';
+                                                KG,Hx,YL=145,(#xT-1)+145,1
+                                                uK=Tc(23733)
+                                            elseif uK==7529 then
+                                                return Qi
+                                            elseif uK==21469 then
+                                                KG=KG+YL;
+                                                L=KG;
+                                                if KG~=KG then
+                                                    uK=7529
                                                 else
-                                                    GB=17317
+                                                    uK=-10076
                                                 end
-                                            elseif GB==15811 then
-                                                cS='';
-                                                Sv,nq,gh=1,165,(#uK-1)+165
-                                                GB=-14800
-                                            elseif GB==-2244 then
-                                                return cS
-                                            elseif GB==-14800 then
-                                                _c=nq;
-                                                if gh~=gh then
-                                                    GB=-2244
+                                            elseif uK==-5863 then
+                                                L=KG;
+                                                if Hx~=Hx then
+                                                    uK=Tc(19222)
                                                 else
-                                                    GB=17317
+                                                    uK=Tc(12856)
                                                 end
-                                            elseif GB==-78 then
-                                                cS=cS..Sr(Sz(nv(uK,(_c-165)+1),nv(iF,(_c-165)%#iF+1)))
-                                                GB=jQ(18054)
-                                            elseif GB==17317 then
-                                                if(Sv>=0 and nq>gh)or((Sv<0 or Sv~=Sv)and nq<gh)then
-                                                    GB=jQ(18648)
+                                            elseif uK==27294 then
+                                                Qi=Qi..iT(TK(ho(xT,(L-145)+1),ho(eC,(L-145)%#eC+1)))
+                                                uK=Tc(-11856)
+                                            elseif uK==-10076 then
+                                                if(YL>=0 and KG>Hx)or((YL<0 or YL~=YL)and KG<Hx)then
+                                                    uK=Tc(-22231)
                                                 else
-                                                    GB=-78
+                                                    uK=27294
                                                 end
                                             end
                                         end
-                                    until GB==-29280
-                                end)('K;\153DY;\152U','\215\3\239\\'),(function(KG,DH)
-                                    local Aa,bh,aq,Gk,fx,Yj,LK,eK
-                                    bh,Aa={[-20701]=23340,[-19102]=-18567,[743]=4958,[28146]=2782},function(kD)
-                                        return bh[kD-23838]
-                                    end
-                                    eK=Aa(24581)
-                                    repeat
-                                        while true do
-                                            if eK==-7749 then
-                                                if(fx>=0 and Gk>LK)or((fx<0 or fx~=fx)and Gk<LK)then
-                                                    eK=2782
-                                                else
-                                                    eK=Aa(3137)
-                                                end
-                                            elseif eK==-18567 then
-                                                Gk=Gk+fx;
-                                                aq=Gk;
-                                                if Gk~=Gk then
-                                                    eK=2782
-                                                else
-                                                    eK=-7749
-                                                end
-                                            elseif eK==4958 then
-                                                Yj='';
-                                                LK,Gk,fx=(#KG-1)+147,147,1
-                                                eK=3693
-                                            elseif eK==3693 then
-                                                aq=Gk;
-                                                if LK~=LK then
-                                                    eK=Aa(51984)
-                                                else
-                                                    eK=-7749
-                                                end
-                                            elseif eK==2782 then
-                                                return Yj
-                                            elseif eK==23340 then
-                                                Yj=Yj..Sr(Sz(nv(KG,(aq-147)+1),nv(DH,(aq-147)%#DH+1)))
-                                                eK=Aa(4736)
-                                            end
-                                        end
-                                    until eK==-1686
-                                end)('\0^\219z','\222\a'))))then
-                                    Hp=gw(-3544)
+                                    until uK==-25286
+                                end)('2\217\198{)\200','\248\186\56'))])then
+                                    zS=Je(20548)
                                     break
                                 else
-                                    Hp=gw(-6636)
+                                    zS=Je(-20392)
                                     break
                                 end
-                                Hp=-3.811449313870163e-06*-993322930
-                            elseif Hp==6.1856632510515789e-06*612060477 then
-                                Hp=gw(-6166);
+                                zS=Je(-19208)
+                            elseif zS==786190612-786204331 then
+                                rX=kG[rX]
+                                zS=Je(-33057)
+                            elseif zS==1517522476+-1517511973 then
+                                td='\140\188*\238t'
+                                zS=Je(21953)
+                            elseif zS==-655178982- -655162110 then
+                                rX=rX(kG,Un)
+                                zS=Je(-2053)
+                            elseif zS==1.2525256400739436e-05*1920280051 then
+                                zS=Je(14343);
+                                break;
+                            elseif zS==30805551+-30797747 then
+                                if on[(function(VD,hM)
+                                    local nL,uS,eB,NN,aK,DJ,uQ,Kt
+                                    uS,eB={[-26559]=-30514,[-17757]=-5438,[-32308]=-30514,[-28054]=-31021},function(TO)
+                                        return uS[TO- -20024]
+                                    end
+                                    uQ=eB(-37781)
+                                    repeat
+                                        while true do
+                                            if uQ==-5438 then
+                                                NN='';
+                                                aK,DJ,Kt=69,(#VD-1)+69,1
+                                                uQ=-8138
+                                            elseif uQ==-30514 then
+                                                return NN
+                                            elseif uQ==-31021 then
+                                                aK=aK+Kt;
+                                                nL=aK;
+                                                if aK~=aK then
+                                                    uQ=eB(-52332)
+                                                else
+                                                    uQ=4841
+                                                end
+                                            elseif uQ==27294 then
+                                                NN=NN..iT(TK(ho(VD,(nL-69)+1),ho(hM,(nL-69)%#hM+1)))
+                                                uQ=eB(-48078)
+                                            elseif uQ==4841 then
+                                                if(Kt>=0 and aK>DJ)or((Kt<0 or Kt~=Kt)and aK<DJ)then
+                                                    uQ=-30514
+                                                else
+                                                    uQ=27294
+                                                end
+                                            elseif uQ==-8138 then
+                                                nL=aK;
+                                                if DJ~=DJ then
+                                                    uQ=eB(-46583)
+                                                else
+                                                    uQ=4841
+                                                end
+                                            end
+                                        end
+                                    until uQ==4645
+                                end)('6\170\49\160','B\203')][(function(HS,cZ)
+                                    local MX,vE,jM,aU,aT,RJ,JS,Wf
+                                    JS,RJ={[5453]=-29771,[25240]=-17233,[32506]=-17233,[-14712]=6006,[30480]=15239,[-28625]=-25312,[17737]=6694},function(bZ)
+                                        return JS[bZ+29429]
+                                    end
+                                    aU=RJ(1051)
+                                    repeat
+                                        while true do
+                                            if aU==6694 then
+                                                if(Wf>=0 and jM>aT)or((Wf<0 or Wf~=Wf)and jM<aT)then
+                                                    aU=RJ(3077)
+                                                else
+                                                    aU=RJ(-23976)
+                                                end
+                                            elseif aU==-29771 then
+                                                MX=MX..iT(TK(ho(HS,(vE-69)+1),ho(cZ,(vE-69)%#cZ+1)))
+                                                aU=RJ(-44141)
+                                            elseif aU==-17233 then
+                                                return MX
+                                            elseif aU==15239 then
+                                                MX='';
+                                                jM,Wf,aT=69,1,(#HS-1)+69
+                                                aU=RJ(-58054)
+                                            elseif aU==-25312 then
+                                                vE=jM;
+                                                if aT~=aT then
+                                                    aU=RJ(-4189)
+                                                else
+                                                    aU=RJ(-11692)
+                                                end
+                                            elseif aU==6006 then
+                                                jM=jM+Wf;
+                                                vE=jM;
+                                                if jM~=jM then
+                                                    aU=-17233
+                                                else
+                                                    aU=6694
+                                                end
+                                            end
+                                        end
+                                    until aU==-18154
+                                end)('\180\155\170\142','\195\250')](-21565150.125/-862606005)then
+                                    zS=-7.156291484268703e-06*-1104203206
+                                else
+                                    zS=-93852544- -93876596
+                                end
+                            elseif zS==-11931125006700/377806365 then
+                                rX=(function(tW,fU)
+                                    local Fu,oY,Jv,Z,zo,WE,Ln,pz
+                                    oY,WE={[12947]=18307,[-26324]=-3877,[16472]=25866,[16109]=-13094},function(iv)
+                                        return oY[iv-17945]
+                                    end
+                                    pz=WE(34417)
+                                    repeat
+                                        while true do
+                                            if pz==23667 then
+                                                Fu=Fu..iT(TK(ho(tW,(zo-184)+1),ho(fU,(zo-184)%#fU+1)))
+                                                pz=WE(34054)
+                                            elseif pz==-17665 then
+                                                zo=Jv;
+                                                if Ln~=Ln then
+                                                    pz=18307
+                                                else
+                                                    pz=WE(-8379)
+                                                end
+                                            elseif pz==25866 then
+                                                Fu='';
+                                                Jv,Z,Ln=184,1,(#tW-1)+184
+                                                pz=-17665
+                                            elseif pz==18307 then
+                                                return Fu
+                                            elseif pz==-13094 then
+                                                Jv=Jv+Z;
+                                                zo=Jv;
+                                                if Jv~=Jv then
+                                                    pz=WE(30892)
+                                                else
+                                                    pz=-3877
+                                                end
+                                            elseif pz==-3877 then
+                                                if(Z>=0 and Jv>Ln)or((Z<0 or Z~=Z)and Jv<Ln)then
+                                                    pz=18307
+                                                else
+                                                    pz=23667
+                                                end
+                                            end
+                                        end
+                                    until pz==2326
+                                end)(rX,td)
+                                zS=2.4410098928549321e-05*-562021483
+                            elseif zS==-24259019290220/-1475160796 then
+                                rX="\202\213X\139\'\233\206\\\139\6"
+                                zS=1114982330+-1114971827
+                            end
+                        end
+                    until zS==-1.0628875014193479e-05*1064458843
+                end)
+                xf=fC(-6027)
+            end
+        end
+    until xf==-815246833- -815278055
+end;
+hJ[(function(NG,nl)
+    local XN,ij,Yk,DD,UU,HU,CF,he
+    XN,Yk={[-22356]=-8255,[-30909]=30665,[-20040]=-17335},function(eJ)
+        return XN[eJ+10193]
+    end
+    CF=Yk(-30233)
+    repeat
+        while true do
+            if CF==-28178 then
+                DD=DD..iT(TK(ho(NG,(HU-8)+1),ho(nl,(HU-8)%#nl+1)))
+                CF=Yk(-41102)
+            elseif CF==-8255 then
+                if(he>=0 and ij>UU)or((he<0 or he~=he)and ij<UU)then
+                    CF=20174
+                else
+                    CF=-28178
+                end
+            elseif CF==-17335 then
+                DD='';
+                UU,ij,he=(#NG-1)+8,8,1
+                CF=-28137
+            elseif CF==-28137 then
+                HU=ij;
+                if UU~=UU then
+                    CF=20174
+                else
+                    CF=Yk(-32549)
+                end
+            elseif CF==20174 then
+                return DD
+            elseif CF==30665 then
+                ij=ij+he;
+                HU=ij;
+                if ij~=ij then
+                    CF=20174
+                else
+                    CF=-8255
+                end
+            end
+        end
+    until CF==-31637
+end)('\250\v\222\4','\183j')][(function(wH,Cm)
+    local CA,_f,iR,Uu,bT,Yz,Kh,Lu
+    _f,bT={[13506]=-23058,[-17789]=2569,[14704]=-23058,[-26557]=-19554,[21657]=-15937,[16001]=13633,[23974]=13633,[-18220]=18458},function(hV)
+        return _f[hV-3007]
+    end
+    Yz=bT(-14782)
+    repeat
+        while true do
+            if Yz==-23058 then
+                return iR
+            elseif Yz==-15937 then
+                CA=CA+Uu;
+                Kh=CA;
+                if CA~=CA then
+                    Yz=bT(16513)
+                else
+                    Yz=bT(26981)
+                end
+            elseif Yz==13633 then
+                if(Uu>=0 and CA>Lu)or((Uu<0 or Uu~=Uu)and CA<Lu)then
+                    Yz=-23058
+                else
+                    Yz=bT(-15213)
+                end
+            elseif Yz==18458 then
+                iR=iR..iT(TK(ho(wH,(Kh-144)+1),ho(Cm,(Kh-144)%#Cm+1)))
+                Yz=bT(24664)
+            elseif Yz==2569 then
+                iR='';
+                CA,Lu,Uu=144,(#wH-1)+144,1
+                Yz=bT(-23550)
+            elseif Yz==-19554 then
+                Kh=CA;
+                if Lu~=Lu then
+                    Yz=bT(17711)
+                else
+                    Yz=bT(19008)
+                end
+            end
+        end
+    until Yz==30606
+end)('\218l.\233o,','\142\3I')](hJ[(function(AC,Ii)
+    local sM,qO,DT,ML,aZ,Me,mQ,rG
+    rG,ML={[-16862]=-14259,[21485]=-837,[-21037]=32305,[-25593]=-32264,[1272]=15255},function(uR)
+        return rG[uR+-13521]
+    end
+    DT=ML(-3341)
+    repeat
+        while true do
+            if DT==-837 then
+                return Me
+            elseif DT==-14259 then
+                Me='';
+                sM,mQ,qO=(#AC-1)+76,76,1
+                DT=-24622
+            elseif DT==-32264 then
+                Me=Me..iT(TK(ho(AC,(aZ-76)+1),ho(Ii,(aZ-76)%#Ii+1)))
+                DT=ML(-7516)
+            elseif DT==-24622 then
+                aZ=mQ;
+                if sM~=sM then
+                    DT=-837
+                else
+                    DT=ML(14793)
+                end
+            elseif DT==15255 then
+                if(qO>=0 and mQ>sM)or((qO<0 or qO~=qO)and mQ<sM)then
+                    DT=ML(35006)
+                else
+                    DT=ML(-12072)
+                end
+            elseif DT==32305 then
+                mQ=mQ+qO;
+                aZ=mQ;
+                if mQ~=mQ then
+                    DT=-837
+                else
+                    DT=15255
+                end
+            end
+        end
+    until DT==-6986
+end)('\250\v\222\4','\183j')],{[(function(Dm,HL)
+    local sw,iI,Ou,IV,Ky,ad,Ox,vF
+    Ky,iI={[-9267]=-9203,[7394]=-32135,[-15000]=-9203,[16737]=15418,[25028]=25497},function(Se)
+        return Ky[Se+31862]
+    end
+    vF=iI(-24468)
+    repeat
+        while true do
+            if vF==-9203 then
+                return ad
+            elseif vF==-27501 then
+                IV=Ou;
+                if Ox~=Ox then
+                    vF=iI(-46862)
+                else
+                    vF=15418
+                end
+            elseif vF==-32135 then
+                ad='';
+                sw,Ox,Ou=1,(#Dm-1)+248,248
+                vF=-27501
+            elseif vF==25497 then
+                Ou=Ou+sw;
+                IV=Ou;
+                if Ou~=Ou then
+                    vF=iI(-41129)
+                else
+                    vF=iI(-15125)
+                end
+            elseif vF==15418 then
+                if(sw>=0 and Ou>Ox)or((sw<0 or sw~=sw)and Ou<Ox)then
+                    vF=-9203
+                else
+                    vF=-14546
+                end
+            elseif vF==-14546 then
+                ad=ad..iT(TK(ho(Dm,(IV-248)+1),ho(HL,(IV-248)%#HL+1)))
+                vF=iI(-6834)
+            end
+        end
+    until vF==-4425
+end)('\131\152\163\157\178','\215\241')]=(function(rN,Fo)
+    local yC,vC,bg,_F,YE,Iv,pp,JJ
+    yC,vC={[7119]=30354,[-2857]=7129,[-30577]=8147},function(ca)
+        return yC[ca-24147]
+    end
+    _F=vC(31266)
+    repeat
+        while true do
+            if _F==30813 then
+                Iv=Iv..iT(TK(ho(rN,(YE-75)+1),ho(Fo,(YE-75)%#Fo+1)))
+                _F=vC(-6430)
+            elseif _F==-17106 then
+                YE=bg;
+                if pp~=pp then
+                    _F=vC(21290)
+                else
+                    _F=-9934
+                end
+            elseif _F==7129 then
+                return Iv
+            elseif _F==8147 then
+                bg=bg+JJ;
+                YE=bg;
+                if bg~=bg then
+                    _F=7129
+                else
+                    _F=-9934
+                end
+            elseif _F==30354 then
+                Iv='';
+                pp,bg,JJ=(#rN-1)+75,75,1
+                _F=-17106
+            elseif _F==-9934 then
+                if(JJ>=0 and bg>pp)or((JJ<0 or JJ~=JJ)and bg<pp)then
+                    _F=7129
+                else
+                    _F=30813
+                end
+            end
+        end
+    until _F==-32
+end)('n\184Y\"4\191\17\146@\176_4g\218\0\176',')\212\56QG\159S\224'),[(function(De,CD)
+    local VT,DU,LL,Sx,nc,gd,cW,Vj
+    LL,Vj={[-24068]=-25789,[12014]=28471,[16650]=-18975,[30804]=-13204,[-24095]=-26543,[-8109]=-18975,[-22548]=28471},function(GW)
+        return LL[GW-32512]
+    end
+    VT=Vj(63316)
+    repeat
+        while true do
+            if VT==-13204 then
+                gd='';
+                DU,nc,Sx=1,(#De-1)+135,135
+                VT=Vj(8444)
+            elseif VT==4401 then
+                gd=gd..iT(TK(ho(De,(cW-135)+1),ho(CD,(cW-135)%#CD+1)))
+                VT=Vj(8417)
+            elseif VT==-25789 then
+                cW=Sx;
+                if nc~=nc then
+                    VT=28471
+                else
+                    VT=Vj(24403)
+                end
+            elseif VT==-26543 then
+                Sx=Sx+DU;
+                cW=Sx;
+                if Sx~=Sx then
+                    VT=Vj(44526)
+                else
+                    VT=Vj(49162)
+                end
+            elseif VT==28471 then
+                return gd
+            elseif VT==-18975 then
+                if(DU>=0 and Sx>nc)or((DU<0 or DU~=DU)and Sx<nc)then
+                    VT=Vj(9964)
+                else
+                    VT=4401
+                end
+            end
+        end
+    until VT==16209
+end)('Em\127yv','\19\f')]=on[(function(nW,hl)
+    local cF,Tf,lY,Ho,bS,IG,LS,im
+    LS,Ho={[22759]=-1122,[24036]=-26496,[-1590]=5130,[16978]=-23716,[23576]=29493},function(VW)
+        return LS[VW+-21754]
+    end
+    IG=Ho(38732)
+    repeat
+        while true do
+            if IG==-26496 then
+                return lY
+            elseif IG==-1122 then
+                if(Tf>=0 and im>bS)or((Tf<0 or Tf~=Tf)and im<bS)then
+                    IG=-26496
+                else
+                    IG=Ho(45330)
+                end
+            elseif IG==5130 then
+                im=im+Tf;
+                cF=im;
+                if im~=im then
+                    IG=-26496
+                else
+                    IG=-1122
+                end
+            elseif IG==29493 then
+                lY=lY..iT(TK(ho(nW,(cF-56)+1),ho(hl,(cF-56)%#hl+1)))
+                IG=Ho(20164)
+            elseif IG==28781 then
+                cF=im;
+                if bS~=bS then
+                    IG=Ho(45790)
+                else
+                    IG=Ho(44513)
+                end
+            elseif IG==-23716 then
+                lY='';
+                bS,im,Tf=(#nW-1)+56,56,1
+                IG=28781
+            end
+        end
+    until IG==-7140
+end)('\247\147\53\247\147/\230','\144\246A')]()[(function(zp,aQ)
+    local va,Bl,UI,Zd,TT,pR,Eb,Xv
+    Eb,Bl={[-12501]=16608,[30787]=-11533,[21816]=22937,[11004]=22937,[-29388]=31854},function(fA)
+        return Eb[fA- -21637]
+    end
+    TT=Bl(9150)
+    repeat
+        while true do
+            if TT==-11619 then
+                Xv=pR;
+                if Zd~=Zd then
+                    TT=-1715
+                else
+                    TT=Bl(179)
+                end
+            elseif TT==-11533 then
+                UI='';
+                Zd,va,pR=(#zp-1)+229,1,229
+                TT=-11619
+            elseif TT==-1715 then
+                return UI
+            elseif TT==31854 then
+                pR=pR+va;
+                Xv=pR;
+                if pR~=pR then
+                    TT=-1715
+                else
+                    TT=Bl(-10633)
+                end
+            elseif TT==16608 then
+                UI=UI..iT(TK(ho(zp,(Xv-229)+1),ho(aQ,(Xv-229)%#aQ+1)))
+                TT=Bl(-51025)
+            elseif TT==22937 then
+                if(va>=0 and pR>Zd)or((va<0 or va~=va)and pR<Zd)then
+                    TT=-1715
+                else
+                    TT=Bl(-34138)
+                end
+            end
+        end
+    until TT==2021
+end)('8\160j\v\163h\31','l\207\r')][(function(JI,mI)
+    local rn,tv,IQ,gP,tw,ti,MO,az
+    tv,az={[-10327]=-23215,[-29374]=18044,[20381]=888,[-18305]=-23215},function(Ty)
+        return tv[Ty- -26912]
+    end
+    rn=az(-6531)
+    repeat
+        while true do
+            if rn==888 then
+                IQ='';
+                gP,MO,ti=188,1,(#JI-1)+188
+                rn=-31240
+            elseif rn==-23215 then
+                return IQ
+            elseif rn==18044 then
+                gP=gP+MO;
+                tw=gP;
+                if gP~=gP then
+                    rn=az(-45217)
+                else
+                    rn=32576
+                end
+            elseif rn==12152 then
+                IQ=IQ..iT(TK(ho(JI,(tw-188)+1),ho(mI,(tw-188)%#mI+1)))
+                rn=az(-56286)
+            elseif rn==32576 then
+                if(MO>=0 and gP>ti)or((MO<0 or MO~=MO)and gP<ti)then
+                    rn=az(-37239)
+                else
+                    rn=12152
+                end
+            elseif rn==-31240 then
+                tw=gP;
+                if ti~=ti then
+                    rn=-23215
+                else
+                    rn=32576
+                end
+            end
+        end
+    until rn==7564
+end)('b\159\237\206\183\179\156L\151\235\216\129\162\190','%\243\140\189\196\241\238')]or false,[(function(KY,EG)
+    local vP,UD,Zt,TB,nQ,gL,MJ,eb
+    UD,MJ={[-12697]=7142,[-23356]=-20295,[30209]=-17208,[-6968]=-11870,[32462]=-20295,[-10493]=32691,[-17891]=-11870},function(iw)
+        return UD[iw+12060]
+    end
+    Zt=MJ(18149)
+    repeat
+        while true do
+            if Zt==-20295 then
+                return vP
+            elseif Zt==-17208 then
+                vP='';
+                nQ,gL,TB=175,(#KY-1)+175,1
+                Zt=MJ(-22553)
+            elseif Zt==-11870 then
+                if(TB>=0 and nQ>gL)or((TB<0 or TB~=TB)and nQ<gL)then
+                    Zt=MJ(-35416)
+                else
+                    Zt=30256
+                end
+            elseif Zt==7142 then
+                nQ=nQ+TB;
+                eb=nQ;
+                if nQ~=nQ then
+                    Zt=MJ(20402)
+                else
+                    Zt=MJ(-19028)
+                end
+            elseif Zt==32691 then
+                eb=nQ;
+                if gL~=gL then
+                    Zt=-20295
+                else
+                    Zt=MJ(-29951)
+                end
+            elseif Zt==30256 then
+                vP=vP..iT(TK(ho(KY,(eb-175)+1),ho(EG,(eb-175)%#EG+1)))
+                Zt=MJ(-24757)
+            end
+        end
+    until Zt==-26626
+end)('\134\1-\251\167\1\"\252','\197\96A\151')]=function(Mn)
+    on[(function(mb,oN)
+        local No,YN,vx,ts,yJ,nR,TY,yl
+        yJ,nR={[7295]=8960,[-10393]=5028,[22565]=20576,[9485]=-23025,[-24905]=8960},function(DI)
+            return yJ[DI+-11672]
+        end
+        ts=nR(21157)
+        repeat
+            while true do
+                if ts==21663 then
+                    YN=YN..iT(TK(ho(mb,(vx-134)+1),ho(oN,(vx-134)%#oN+1)))
+                    ts=nR(1279)
+                elseif ts==6683 then
+                    vx=TY;
+                    if yl~=yl then
+                        ts=nR(34237)
+                    else
+                        ts=nR(18967)
+                    end
+                elseif ts==5028 then
+                    TY=TY+No;
+                    vx=TY;
+                    if TY~=TY then
+                        ts=20576
+                    else
+                        ts=nR(-13233)
+                    end
+                elseif ts==-23025 then
+                    YN='';
+                    TY,yl,No=134,(#mb-1)+134,1
+                    ts=6683
+                elseif ts==8960 then
+                    if(No>=0 and TY>yl)or((No<0 or No~=No)and TY<yl)then
+                        ts=20576
+                    else
+                        ts=21663
+                    end
+                elseif ts==20576 then
+                    return YN
+                end
+            end
+        until ts==472
+    end)('Sr\5Sr\31B','4\23q')]()[(function(cA,MY)
+        local da,Xj,Gv,gc,DM,wZ,ms,nH
+        DM,gc={[5931]=-4436,[-6253]=20534,[-27424]=20695,[20817]=23551,[25575]=23551},function(VP)
+            return DM[VP+503]
+        end
+        wZ=gc(5428)
+        repeat
+            while true do
+                if wZ==6082 then
+                    Xj=da;
+                    if Gv~=Gv then
+                        wZ=gc(20314)
+                    else
+                        wZ=27673
+                    end
+                elseif wZ==23551 then
+                    return nH
+                elseif wZ==20695 then
+                    nH=nH..iT(TK(ho(cA,(Xj-198)+1),ho(MY,(Xj-198)%#MY+1)))
+                    wZ=gc(-6756)
+                elseif wZ==20534 then
+                    da=da+ms;
+                    Xj=da;
+                    if da~=da then
+                        wZ=23551
+                    else
+                        wZ=27673
+                    end
+                elseif wZ==27673 then
+                    if(ms>=0 and da>Gv)or((ms<0 or ms~=ms)and da<Gv)then
+                        wZ=gc(25072)
+                    else
+                        wZ=gc(-27927)
+                    end
+                elseif wZ==-4436 then
+                    nH='';
+                    ms,Gv,da=1,(#cA-1)+198,198
+                    wZ=6082
+                end
+            end
+        until wZ==-31913
+    end)('\"\224\194\17\227\192\5','v\143\165')][(function(rj,pY)
+        local Mr,ue,kQ,qx,bs,uT,Rc,us
+        Mr,ue={[-18623]=-4786,[-25550]=-22061,[-17607]=24357,[16899]=-10489,[18051]=18457},function(fP)
+            return Mr[fP+27723]
+        end
+        bs=ue(-46346)
+        repeat
+            while true do
+                if bs==24357 then
+                    us=us+Rc;
+                    uT=us;
+                    if us~=us then
+                        bs=-10489
+                    else
+                        bs=-22061
+                    end
+                elseif bs==-4786 then
+                    qx='';
+                    us,kQ,Rc=225,(#rj-1)+225,1
+                    bs=-24214
+                elseif bs==18457 then
+                    qx=qx..iT(TK(ho(rj,(uT-225)+1),ho(pY,(uT-225)%#pY+1)))
+                    bs=ue(-45330)
+                elseif bs==-22061 then
+                    if(Rc>=0 and us>kQ)or((Rc<0 or Rc~=Rc)and us<kQ)then
+                        bs=-10489
+                    else
+                        bs=ue(-9672)
+                    end
+                elseif bs==-24214 then
+                    uT=us;
+                    if kQ~=kQ then
+                        bs=ue(-10824)
+                    else
+                        bs=ue(-53273)
+                    end
+                elseif bs==-10489 then
+                    return qx
+                end
+            end
+        until bs==28263
+    end)('\200\212\170\184\244\206\225\230\220\172\174\194\223\195','\143\184\203\203\135\140\147')]=Mn;
+end})
+do
+    local Dr=on[(function(lB,Zf)
+        local kT,mF,SJ,rU,gR,Cr,AZ,ip
+        Cr,rU={[-10878]=25833,[20346]=-19855,[-26603]=-26057,[-16446]=-19855,[24262]=-26057,[21759]=29895},function(rz)
+            return Cr[rz+2724]
+        end
+        kT=rU(-13602)
+        repeat
+            while true do
+                if kT==-26057 then
+                    return ip
+                elseif kT==-19855 then
+                    if(SJ>=0 and mF>gR)or((SJ<0 or SJ~=SJ)and mF<gR)then
+                        kT=-26057
+                    else
+                        kT=27006
+                    end
+                elseif kT==-123 then
+                    AZ=mF;
+                    if gR~=gR then
+                        kT=rU(21538)
+                    else
+                        kT=rU(-19170)
+                    end
+                elseif kT==27006 then
+                    ip=ip..iT(TK(ho(lB,(AZ-83)+1),ho(Zf,(AZ-83)%#Zf+1)))
+                    kT=rU(19035)
+                elseif kT==29895 then
+                    mF=mF+SJ;
+                    AZ=mF;
+                    if mF~=mF then
+                        kT=rU(-29327)
+                    else
+                        kT=rU(17622)
+                    end
+                elseif kT==25833 then
+                    ip='';
+                    gR,SJ,mF=(#lB-1)+83,1,83
+                    kT=-123
+                end
+            end
+        until kT==8309
+    end)('\213\129\169\164\209\158\186\172\199','\162\238\219\207')][(function(nv,sI)
+        local nu,mg,gg,ll,dR,xn,AY,it
+        nu,mg={[5265]=6666,[14037]=20786,[-29707]=-19842,[-4971]=-19842,[-23032]=-5954},function(yz)
+            return nu[yz+-80]
+        end
+        ll=mg(14117)
+        repeat
+            while true do
+                if ll==-1068 then
+                    gg=it;
+                    if AY~=AY then
+                        ll=mg(-29627)
+                    else
+                        ll=-5954
+                    end
+                elseif ll==6666 then
+                    it=it+dR;
+                    gg=it;
+                    if it~=it then
+                        ll=mg(-4891)
+                    else
+                        ll=mg(-22952)
+                    end
+                elseif ll==20786 then
+                    xn='';
+                    AY,it,dR=(#nv-1)+160,160,1
+                    ll=-1068
+                elseif ll==-5954 then
+                    if(dR>=0 and it>AY)or((dR<0 or dR~=dR)and it<AY)then
+                        ll=-19842
+                    else
+                        ll=-16868
+                    end
+                elseif ll==-19842 then
+                    return xn
+                elseif ll==-16868 then
+                    xn=xn..iT(TK(ho(nv,(gg-160)+1),ho(sI,(gg-160)%#sI+1)))
+                    ll=mg(5345)
+                end
+            end
+        until ll==-17765
+    end)('\t\250r\152X\4,\216s\133r\15','^\155\27\236\30k')](on[(function(pF,IU)
+        local RF,dT,hX,xo,lb,dY,kz,lm
+        xo,dY={[-19566]=-19921,[-27734]=28115,[-3952]=2896,[-20227]=24725,[6009]=28115},function(vn)
+            return xo[vn+30257]
+        end
+        dT=dY(-50484)
+        repeat
+            while true do
+                if dT==24725 then
+                    kz='';
+                    RF,lb,hX=1,108,(#pF-1)+108
+                    dT=dY(-34209)
+                elseif dT==-19921 then
+                    lb=lb+RF;
+                    lm=lb;
+                    if lb~=lb then
+                        dT=28115
+                    else
+                        dT=-906
+                    end
+                elseif dT==-906 then
+                    if(RF>=0 and lb>hX)or((RF<0 or RF~=RF)and lb<hX)then
+                        dT=dY(-24248)
+                    else
+                        dT=-32724
+                    end
+                elseif dT==28115 then
+                    return kz
+                elseif dT==2896 then
+                    lm=lb;
+                    if hX~=hX then
+                        dT=dY(-57991)
+                    else
+                        dT=-906
+                    end
+                elseif dT==-32724 then
+                    kz=kz..iT(TK(ho(pF,(lm-108)+1),ho(IU,(lm-108)%#IU+1)))
+                    dT=dY(-49823)
+                end
+            end
+        until dT==-15403
+    end)('\213\129\169\164\209\158\186\172\199','\162\238\219\207')],(function(oe,oI)
+        local bw,gF,eX,yi,MI,vW,Gf,pc
+        gF,vW={[20029]=-6584,[-21530]=30384,[-21396]=22621,[-17704]=-6584,[-18674]=11982},function(tb)
+            return gF[tb+8085]
+        end
+        pc=vW(-29481)
+        repeat
+            while true do
+                if pc==11982 then
+                    MI=MI+yi;
+                    bw=MI;
+                    if MI~=MI then
+                        pc=30384
+                    else
+                        pc=vW(-25789)
+                    end
+                elseif pc==-11452 then
+                    bw=MI;
+                    if Gf~=Gf then
+                        pc=30384
+                    else
+                        pc=vW(11944)
+                    end
+                elseif pc==30384 then
+                    return eX
+                elseif pc==22621 then
+                    eX='';
+                    MI,yi,Gf=46,1,(#oe-1)+46
+                    pc=-11452
+                elseif pc==-22291 then
+                    eX=eX..iT(TK(ho(oe,(bw-46)+1),ho(oI,(bw-46)%#oI+1)))
+                    pc=vW(-26759)
+                elseif pc==-6584 then
+                    if(yi>=0 and MI>Gf)or((yi<0 or yi~=yi)and MI<Gf)then
+                        pc=vW(-29615)
+                    else
+                        pc=-22291
+                    end
+                end
+            end
+        until pc==16808
+    end)('\228\174\168\31\174\225\176\160\b\186\198','\163\194\201l\221'))[(function(ir,uh)
+        local ag,rD,MU,jT,Yo,zI,DN,Bg
+        ag,Yo={[1464]=14611,[16383]=-14472,[12747]=-546,[-19138]=8397,[-3628]=8397,[-16053]=2366},function(tS)
+            return ag[tS-10044]
+        end
+        DN=Yo(26427)
+        repeat
+            while true do
+                if DN==14611 then
+                    Bg=Bg..iT(TK(ho(ir,(rD-181)+1),ho(uh,(rD-181)%#uh+1)))
+                    DN=Yo(-6009)
+                elseif DN==-14472 then
+                    Bg='';
+                    zI,jT,MU=1,(#ir-1)+181,181
+                    DN=30087
+                elseif DN==2366 then
+                    MU=MU+zI;
+                    rD=MU;
+                    if MU~=MU then
+                        DN=-546
+                    else
+                        DN=Yo(-9094)
+                    end
+                elseif DN==-546 then
+                    return Bg
+                elseif DN==8397 then
+                    if(zI>=0 and MU>jT)or((zI<0 or zI~=zI)and MU<jT)then
+                        DN=Yo(22791)
+                    else
+                        DN=Yo(11508)
+                    end
+                elseif DN==30087 then
+                    rD=MU;
+                    if jT~=jT then
+                        DN=-546
+                    else
+                        DN=Yo(6416)
+                    end
+                end
+            end
+        until DN==14912
+    end)('&\146\143%\237f\3\176\142\56\199m','q\243\230Q\171\t')](on[(function(aW,DX)
+        local JT,qv,pn,XJ,DZ,H,EA,og
+        XJ,og={[-22928]=10354,[-3127]=14816,[25894]=-3879,[-11870]=-3879,[492]=-12061,[-28893]=-12251},function(Sn)
+            return XJ[Sn+-6989]
+        end
+        DZ=og(-21904)
+        repeat
+            while true do
+                if DZ==-12251 then
+                    pn='';
+                    JT,H,EA=1,237,(#aW-1)+237
+                    DZ=og(7481)
+                elseif DZ==10354 then
+                    H=H+JT;
+                    qv=H;
+                    if H~=H then
+                        DZ=-11461
+                    else
+                        DZ=og(-4881)
+                    end
+                elseif DZ==-12061 then
+                    qv=H;
+                    if EA~=EA then
+                        DZ=-11461
+                    else
+                        DZ=og(32883)
+                    end
+                elseif DZ==-11461 then
+                    return pn
+                elseif DZ==-3879 then
+                    if(JT>=0 and H>EA)or((JT<0 or JT~=JT)and H<EA)then
+                        DZ=-11461
+                    else
+                        DZ=og(3862)
+                    end
+                elseif DZ==14816 then
+                    pn=pn..iT(TK(ho(aW,(qv-237)+1),ho(DX,(qv-237)%#DX+1)))
+                    DZ=og(-15939)
+                end
+            end
+        until DZ==-17364
+    end)('\213\129\169\164\209\158\186\172\199','\162\238\219\207')][(function(dD,oJ)
+        local yd,uj,ol,Kx,Mu,Sj,FA,Fx
+        yd,Mu={[31545]=2165,[-12680]=-1209,[28048]=-2906,[-21070]=-24200,[11489]=-24200,[-2802]=-20644,[-14530]=4424},function(qD)
+            return yd[qD+-5752]
+        end
+        Kx=Mu(37297)
+        repeat
+            while true do
+                if Kx==2165 then
+                    Sj='';
+                    FA,Fx,ol=(#dD-1)+56,1,56
+                    Kx=Mu(-6928)
+                elseif Kx==-24200 then
+                    return Sj
+                elseif Kx==-2906 then
+                    if(Fx>=0 and ol>FA)or((Fx<0 or Fx~=Fx)and ol<FA)then
+                        Kx=-24200
+                    else
+                        Kx=Mu(2950)
+                    end
+                elseif Kx==-20644 then
+                    Sj=Sj..iT(TK(ho(dD,(uj-56)+1),ho(oJ,(uj-56)%#oJ+1)))
+                    Kx=Mu(-8778)
+                elseif Kx==-1209 then
+                    uj=ol;
+                    if FA~=FA then
+                        Kx=Mu(-15318)
+                    else
+                        Kx=-2906
+                    end
+                elseif Kx==4424 then
+                    ol=ol+Fx;
+                    uj=ol;
+                    if ol~=ol then
+                        Kx=Mu(17241)
+                    else
+                        Kx=Mu(33800)
+                    end
+                end
+            end
+        until Kx==-13211
+    end)('\t\250r\152X\4,\216s\133r\15','^\155\27\236\30k')](on[(function(kR,Qp)
+        local UW,Qn,ZK,EO,Bw,zM,kw,p
+        ZK,kw={[30597]=3801,[21630]=-3247,[-5021]=-11682},function(Oj)
+            return ZK[Oj-3920]
+        end
+        UW=kw(25550)
+        repeat
+            while true do
+                if UW==-3247 then
+                    p='';
+                    Qn,Bw,zM=(#kR-1)+246,1,246
+                    UW=kw(34517)
+                elseif UW==-27915 then
+                    return p
+                elseif UW==-5072 then
+                    p=p..iT(TK(ho(kR,(EO-246)+1),ho(Qp,(EO-246)%#Qp+1)))
+                    UW=kw(-1101)
+                elseif UW==3801 then
+                    EO=zM;
+                    if Qn~=Qn then
+                        UW=-27915
+                    else
+                        UW=20114
+                    end
+                elseif UW==20114 then
+                    if(Bw>=0 and zM>Qn)or((Bw<0 or Bw~=Bw)and zM<Qn)then
+                        UW=-27915
+                    else
+                        UW=-5072
+                    end
+                elseif UW==-11682 then
+                    zM=zM+Bw;
+                    EO=zM;
+                    if zM~=zM then
+                        UW=-27915
+                    else
+                        UW=20114
+                    end
+                end
+            end
+        until UW==-30312
+    end)('\213\129\169\164\209\158\186\172\199','\162\238\219\207')],(function(bC,Wk)
+        local pJ,JA,NL,KF,Ma,Hk,kf,rw
+        Hk,KF={[-2158]=-19514,[-10294]=6177,[12107]=-19514,[-23213]=16055,[19368]=15063,[5700]=-27371},function(Rh)
+            return Hk[Rh+-4578]
+        end
+        NL=KF(10278)
+        repeat
+            while true do
+                if NL==-6020 then
+                    JA=JA..iT(TK(ho(bC,(kf-114)+1),ho(Wk,(kf-114)%#Wk+1)))
+                    NL=KF(-5716)
+                elseif NL==6177 then
+                    Ma=Ma+pJ;
+                    kf=Ma;
+                    if Ma~=Ma then
+                        NL=KF(16685)
+                    else
+                        NL=KF(23946)
+                    end
+                elseif NL==15063 then
+                    if(pJ>=0 and Ma>rw)or((pJ<0 or pJ~=pJ)and Ma<rw)then
+                        NL=-19514
+                    else
+                        NL=-6020
+                    end
+                elseif NL==16055 then
+                    kf=Ma;
+                    if rw~=rw then
+                        NL=KF(2420)
+                    else
+                        NL=15063
+                    end
+                elseif NL==-27371 then
+                    JA='';
+                    Ma,pJ,rw=114,1,(#bC-1)+114
+                    NL=KF(-18635)
+                elseif NL==-19514 then
+                    return JA
+                end
+            end
+        until NL==-16491
+    end)('\228\174\168\31\174\225\176\160\b\186\198','\163\194\201l\221')),(function(Qr,Ly)
+        local FP,zc,Eq,_e,GL,NO,bz,qz
+        NO,Eq={[-6480]=26036,[-1212]=21819,[13546]=14025,[-30458]=-8665},function(SF)
+            return NO[SF-13960]
+        end
+        zc=Eq(27506)
+        repeat
+            while true do
+                if zc==14025 then
+                    qz='';
+                    GL,_e,FP=(#Qr-1)+202,1,202
+                    zc=22679
+                elseif zc==22679 then
+                    bz=FP;
+                    if GL~=GL then
+                        zc=-19967
+                    else
+                        zc=26036
+                    end
+                elseif zc==-19967 then
+                    return qz
+                elseif zc==26036 then
+                    if(_e>=0 and FP>GL)or((_e<0 or _e~=_e)and FP<GL)then
+                        zc=-19967
+                    else
+                        zc=Eq(-16498)
+                    end
+                elseif zc==-8665 then
+                    qz=qz..iT(TK(ho(Qr,(bz-202)+1),ho(Ly,(bz-202)%#Ly+1)))
+                    zc=Eq(12748)
+                elseif zc==21819 then
+                    FP=FP+_e;
+                    bz=FP;
+                    if FP~=FP then
+                        zc=-19967
+                    else
+                        zc=Eq(7480)
+                    end
+                end
+            end
+        until zc==15545
+    end)('\149\249\240\205\2\154\250\253\218\20\160','\210\149\145\190q'))
+    local function nm(Pd)
+        local ie,Id,Y,cd,uH,GY,lz,ou,FB,Bh,Eg
+        uH,ie={[23688]=6022,[-12272]=-27822,[-129]=1087,[-23484]=-22743,[16072]=-21722,[27819]=-20153,[-7074]=21891,[-4293]=22179,[-28035]=20940,[-27914]=-15623,[18241]=-11900,[15057]=-28748,[-17205]=-30290,[-16864]=-855,[29142]=32531,[-28583]=27475,[-2466]=-26312,[10087]=-14288,[-18737]=-631,[-30593]=19879,[-4376]=1494,[11633]=-219,[-10029]=-27123,[-398]=8978,[1919]=-31166,[8369]=-9168,[10726]=17867,[-8527]=-32322,[-20700]=5281,[-27682]=9254,[-23604]=6498,[30411]=-10552,[26416]=-9942,[19248]=-6570,[20084]=-631,[-5823]=27625,[-14208]=-9870,[-13175]=21306,[-10995]=-5856,[31608]=-5022,[-28489]=1087,[898]=-29687,[22960]=12150,[-27087]=23606,[11242]=-1662,[-971]=-8394,[-27355]=22033,[16251]=-28015,[-4749]=21891,[3120]=-27979,[10849]=31963,[28489]=-26999,[27653]=-29687,[-18024]=-14288,[27353]=-23783,[15417]=21306,[-2135]=10468,[-17196]=18981,[4221]=-14408,[-12449]=-30911,[-9361]=9254,[26770]=-10552,[-30404]=22988,[27487]=7702,[-16543]=-5359,[-23481]=-17627,[5957]=-29355,[21721]=7411,[30652]=-5244,[-26791]=-6577,[27323]=-15379,[25316]=22033,[13624]=6022,[-23960]=-14677,[-9774]=23606,[-12955]=-23139,[9381]=24648,[-26141]=-11250},function(Bi)
+            return uH[Bi+-241]
+        end
+        FB=ie(-20459)
+        repeat
+            while true do
+                if FB==988975006752/-71375217 then
+                    ou=54466551128
+                    FB=-967248565+967238876
+                elseif FB==3.9437772688451162e-05*151808776 then
+                    Id=Jx((function(zx,LN)
+                        local PT,JY,cy,oM,dK,Td,cw,SE
+                        oM,Td={[-10619]=23904,[27033]=10414,[32524]=-24677,[-10655]=20745,[9122]=-16692,[-29709]=-16692,[18632]=10414},function(oG)
+                            return oM[oG+9907]
+                        end
+                        dK=Td(22617)
+                        repeat
+                            while true do
+                                if dK==20745 then
+                                    SE=SE..iT(TK(ho(zx,(PT-247)+1),ho(LN,(PT-247)%#LN+1)))
+                                    dK=Td(-20526)
+                                elseif dK==23904 then
+                                    cw=cw+JY;
+                                    PT=cw;
+                                    if cw~=cw then
+                                        dK=10414
+                                    else
+                                        dK=Td(-39616)
+                                    end
+                                elseif dK==10414 then
+                                    return SE
+                                elseif dK==-16692 then
+                                    if(JY>=0 and cw>cy)or((JY<0 or JY~=JY)and cw<cy)then
+                                        dK=Td(8725)
+                                    else
+                                        dK=Td(-20562)
+                                    end
+                                elseif dK==-23589 then
+                                    PT=cw;
+                                    if cy~=cy then
+                                        dK=Td(17126)
+                                    else
+                                        dK=Td(-785)
+                                    end
+                                elseif dK==-24677 then
+                                    SE='';
+                                    cw,cy,JY=247,(#zx-1)+247,1
+                                    dK=-23589
+                                end
+                            end
+                        until dK==-2500
+                    end)(Id,lz))
+                    FB=1728832260-1728831979
+                elseif FB==-28054005305760/1337433510 then
+                    Id=Id[BD(lz[1],1,lz[2])]
+                    FB=ie(-26846)
+                elseif FB==1.7296901409002377e-05*-1619654257 then
+                    cd=cd-Eg
+                    FB=ie(26657)
+                elseif FB==-863301665- -863301446 then
+                    cd=1883880922
+                    FB=1.7689894962505854e-05*-1778077262
+                elseif FB==1275165172+-1275193920 then
+                    GY=BD(ou[1],1,ou[2])
+                    FB=ie(18482)
+                elseif FB==4610409328556/598598978 then
+                    Y=564243437
+                    FB=-3.7330773109534711e-06*1875396467
+                elseif FB==592633955+-592654108 then
+                    lz='\164\55\208k\155?\197b'
+                    FB=ie(27564)
+                elseif FB==1567395929+-1567376050 then
+                    lz=Jx((function(aX,Nb)
+                        local kN,iY,tZ,pV,Pf,Ux,It,zC
+                        It,tZ={[-32340]=-28490,[-16915]=30204,[31960]=30204,[20042]=18617,[-1996]=-2384},function(So)
+                            return It[So-15998]
+                        end
+                        zC=tZ(14002)
+                        repeat
+                            while true do
+                                if zC==30204 then
+                                    return iY
+                                elseif zC==-28490 then
+                                    iY=iY..iT(TK(ho(aX,(Ux-156)+1),ho(Nb,(Ux-156)%#Nb+1)))
+                                    zC=tZ(36040)
+                                elseif zC==23189 then
+                                    Ux=kN;
+                                    if pV~=pV then
+                                        zC=30204
+                                    else
+                                        zC=-19163
+                                    end
+                                elseif zC==18617 then
+                                    kN=kN+Pf;
+                                    Ux=kN;
+                                    if kN~=kN then
+                                        zC=tZ(-917)
+                                    else
+                                        zC=-19163
+                                    end
+                                elseif zC==-19163 then
+                                    if(Pf>=0 and kN>pV)or((Pf<0 or Pf~=Pf)and kN<pV)then
+                                        zC=tZ(47958)
+                                    else
+                                        zC=tZ(-16342)
+                                    end
+                                elseif zC==-2384 then
+                                    iY='';
+                                    Pf,pV,kN=1,(#aX-1)+156,156
+                                    zC=23189
+                                end
+                            end
+                        until zC==9198
+                    end)(lz,ou))
+                    FB=9044126486334/-631617186
+                elseif FB==893171163+-893186542 then
+                    ou='\233V\164\14'
+                    FB=ie(-4135)
+                elseif FB==16428007072264/1569354898 then
+                    ou=ou[BD(GY[1],1,GY[2])]
+                    FB=2102111575-2102112392
+                elseif FB==-1540824765- -1540838638 then
+                    ou='\30J\241\251\178\163\57\181'
+                    FB=1.8574414845909125e-05*396513164
+                elseif FB==8.3373376814209653e-05*63341563 then
+                    if not(not on[(function(yN,gK)
+                        local GP,iX,bL,En,FR,no,Zw,mt
+                        iX,GP={[-5277]=7770,[14685]=-5372,[14005]=-24398,[31267]=1325,[22332]=-26134,[-1019]=-17962},function(rs)
+                            return iX[rs+-29997]
+                        end
+                        En=GP(28978)
+                        repeat
+                            while true do
+                                if En==-5372 then
+                                    return bL
+                                elseif En==-17962 then
+                                    bL='';
+                                    mt,no,FR=115,1,(#yN-1)+115
+                                    En=GP(61264)
+                                elseif En==-24398 then
+                                    if(no>=0 and mt>FR)or((no<0 or no~=no)and mt<FR)then
+                                        En=-5372
+                                    else
+                                        En=GP(24720)
+                                    end
+                                elseif En==1325 then
+                                    Zw=mt;
+                                    if FR~=FR then
+                                        En=GP(44682)
+                                    else
+                                        En=GP(44002)
+                                    end
+                                elseif En==7770 then
+                                    bL=bL..iT(TK(ho(yN,(Zw-115)+1),ho(gK,(Zw-115)%#gK+1)))
+                                    En=GP(52329)
+                                elseif En==-26134 then
+                                    mt=mt+no;
+                                    Zw=mt;
+                                    if mt~=mt then
+                                        En=-5372
+                                    else
+                                        En=-24398
+                                    end
+                                end
+                            end
+                        until En==-25121
+                    end)((function(OS,NH)
+                        local uw,ev,bp,Fd,XD,Nd,Ru,zk
+                        Ru,zk={[-10171]=-16724,[10262]=-10797,[6243]=-10797,[-10665]=20765},function(gt)
+                            return Ru[gt-14249]
+                        end
+                        uw=zk(3584)
+                        repeat
+                            while true do
+                                if uw==-16232 then
+                                    if(Fd>=0 and Nd>ev)or((Fd<0 or Fd~=Fd)and Nd<ev)then
+                                        uw=-10797
+                                    else
+                                        uw=8313
+                                    end
+                                elseif uw==-10797 then
+                                    return XD
+                                elseif uw==-16724 then
+                                    Nd=Nd+Fd;
+                                    bp=Nd;
+                                    if Nd~=Nd then
+                                        uw=zk(20492)
+                                    else
+                                        uw=-16232
+                                    end
+                                elseif uw==-10922 then
+                                    bp=Nd;
+                                    if ev~=ev then
+                                        uw=zk(24511)
+                                    else
+                                        uw=-16232
+                                    end
+                                elseif uw==20765 then
+                                    XD='';
+                                    Nd,ev,Fd=154,(#OS-1)+154,1
+                                    uw=-10922
+                                elseif uw==8313 then
+                                    XD=XD..iT(TK(ho(OS,(bp-154)+1),ho(NH,(bp-154)%#NH+1)))
+                                    uw=zk(4078)
+                                end
+                            end
+                        until uw==17716
+                    end)("e\217=e\217\'t","\'\170b"),(function(zP,CQ)
+                        local sk,Ss,Xs,CP,A,zK,xm,yy
+                        sk,xm={[-8561]=13723,[-813]=21638,[-27494]=-2523,[6156]=16951,[-641]=14476,[-16135]=-26171},function(Lh)
+                            return sk[Lh- -13489]
+                        end
+                        A=xm(-14130)
+                        repeat
+                            while true do
+                                if A==16951 then
+                                    Xs=Xs..iT(TK(ho(zP,(zK-209)+1),ho(CQ,(zK-209)%#CQ+1)))
+                                    A=xm(-14302)
+                                elseif A==-26171 then
+                                    zK=yy;
+                                    if CP~=CP then
+                                        A=13723
+                                    else
+                                        A=xm(-40983)
+                                    end
+                                elseif A==21638 then
+                                    yy=yy+Ss;
+                                    zK=yy;
+                                    if yy~=yy then
+                                        A=xm(-22050)
+                                    else
+                                        A=-2523
+                                    end
+                                elseif A==14476 then
+                                    Xs='';
+                                    Ss,yy,CP=1,209,(#zP-1)+209
+                                    A=xm(-29624)
+                                elseif A==-2523 then
+                                    if(Ss>=0 and yy>CP)or((Ss<0 or Ss~=Ss)and yy<CP)then
+                                        A=13723
+                                    else
+                                        A=xm(-7333)
+                                    end
+                                elseif A==13723 then
+                                    return Xs
+                                end
+                            end
+                        until A==-13037
+                    end)(']nS','x'))]()[(function(gv,is)
+                        local LB,MB,jP,iN,qb,_b,if_,qY
+                        jP,LB={[-29185]=16359,[-10368]=1629,[-17458]=16359,[3416]=17354,[8151]=-13691,[14533]=17354,[-27490]=-23203},function(Vu)
+                            return jP[Vu+-31006]
+                        end
+                        MB=LB(20638)
+                        repeat
+                            while true do
+                                if MB==17354 then
+                                    return qb
+                                elseif MB==1629 then
+                                    qb='';
+                                    _b,qY,iN=(#gv-1)+213,1,213
+                                    MB=3927
+                                elseif MB==-23203 then
+                                    iN=iN+qY;
+                                    if_=iN;
+                                    if iN~=iN then
+                                        MB=17354
+                                    else
+                                        MB=LB(1821)
+                                    end
+                                elseif MB==-13691 then
+                                    qb=qb..iT(TK(ho(gv,(if_-213)+1),ho(is,(if_-213)%#is+1)))
+                                    MB=LB(3516)
+                                elseif MB==3927 then
+                                    if_=iN;
+                                    if _b~=_b then
+                                        MB=LB(45539)
+                                    else
+                                        MB=LB(13548)
+                                    end
+                                elseif MB==16359 then
+                                    if(qY>=0 and iN>_b)or((qY<0 or qY~=qY)and iN<_b)then
+                                        MB=LB(34422)
+                                    else
+                                        MB=LB(39157)
+                                    end
+                                end
+                            end
+                        until MB==-2761
+                    end)((function(mC,pO)
+                        local oo,Tb,BC,lG,WD,cu,Ex,Ck
+                        Ex,Tb={[6217]=897,[-53]=4830,[-13645]=25451,[-20648]=4830},function(fQ)
+                            return Ex[fQ- -303]
+                        end
+                        BC=Tb(5914)
+                        repeat
+                            while true do
+                                if BC==-21614 then
+                                    if(Ck>=0 and oo>cu)or((Ck<0 or Ck~=Ck)and oo<cu)then
+                                        BC=4830
+                                    else
+                                        BC=18162
+                                    end
+                                elseif BC==-32108 then
+                                    lG=oo;
+                                    if cu~=cu then
+                                        BC=Tb(-20951)
+                                    else
+                                        BC=-21614
+                                    end
+                                elseif BC==4830 then
+                                    return WD
+                                elseif BC==25451 then
+                                    oo=oo+Ck;
+                                    lG=oo;
+                                    if oo~=oo then
+                                        BC=Tb(-356)
+                                    else
+                                        BC=-21614
+                                    end
+                                elseif BC==897 then
+                                    WD='';
+                                    oo,Ck,cu=22,1,(#mC-1)+22
+                                    BC=-32108
+                                elseif BC==18162 then
+                                    WD=WD..iT(TK(ho(mC,(lG-22)+1),ho(pO,(lG-22)%#pO+1)))
+                                    BC=Tb(-13948)
+                                end
+                            end
+                        until BC==28878
+                    end)('0\234{\3\233y\23','\16\246c'),(function(AQ,kW)
+                        local oC,PU,v,Ae,Ah,tz,Bb,XG
+                        tz,oC={[-6253]=23698,[-24327]=-27141,[16161]=-15101,[-2505]=-6448,[-14588]=-15101},function(Ze)
+                            return tz[Ze- -10924]
+                        end
+                        XG=oC(-35251)
+                        repeat
+                            while true do
+                                if XG==-27141 then
+                                    Ae='';
+                                    PU,Ah,Bb=(#AQ-1)+187,1,187
+                                    XG=23509
+                                elseif XG==23509 then
+                                    v=Bb;
+                                    if PU~=PU then
+                                        XG=-6448
+                                    else
+                                        XG=oC(5237)
+                                    end
+                                elseif XG==23698 then
+                                    Bb=Bb+Ah;
+                                    v=Bb;
+                                    if Bb~=Bb then
+                                        XG=oC(-13429)
+                                    else
+                                        XG=oC(-25512)
+                                    end
+                                elseif XG==16270 then
+                                    Ae=Ae..iT(TK(ho(AQ,(v-187)+1),ho(kW,(v-187)%#kW+1)))
+                                    XG=oC(-17177)
+                                elseif XG==-6448 then
+                                    return Ae
+                                elseif XG==-15101 then
+                                    if(Ah>=0 and Bb>PU)or((Ah<0 or Ah~=Ah)and Bb<PU)then
+                                        XG=-6448
+                                    else
+                                        XG=16270
+                                    end
+                                end
+                            end
+                        until XG==-1505
+                    end)('\150\145\157','\226'))][(function(xI,kJ)
+                        local xl,eh,tT,Bn,iO,ng,rl,oE
+                        eh,iO={[1021]=13523,[10124]=-28985,[-8045]=30381,[10933]=-9612,[13435]=30381,[20280]=21095,[-3862]=28724},function(UA)
+                            return eh[UA-25693]
+                        end
+                        xl=iO(45973)
+                        repeat
+                            while true do
+                                if xl==28724 then
+                                    rl=rl+ng;
+                                    tT=rl;
+                                    if rl~=rl then
+                                        xl=30381
+                                    else
+                                        xl=iO(35817)
+                                    end
+                                elseif xl==-9612 then
+                                    oE=oE..iT(TK(ho(xI,(tT-246)+1),ho(kJ,(tT-246)%#kJ+1)))
+                                    xl=iO(21831)
+                                elseif xl==13523 then
+                                    tT=rl;
+                                    if Bn~=Bn then
+                                        xl=iO(39128)
+                                    else
+                                        xl=-28985
+                                    end
+                                elseif xl==30381 then
+                                    return oE
+                                elseif xl==-28985 then
+                                    if(ng>=0 and rl>Bn)or((ng<0 or ng~=ng)and rl<Bn)then
+                                        xl=iO(17648)
+                                    else
+                                        xl=iO(36626)
+                                    end
+                                elseif xl==21095 then
+                                    oE='';
+                                    ng,rl,Bn=1,246,(#xI-1)+246
+                                    xl=iO(26714)
+                                end
+                            end
+                        until xl==13738
+                    end)((function(lJ,qX)
+                        local Ph,_S,EN,hC,Fc,Nf,lh,jS
+                        EN,_S={[-6943]=-27635,[-967]=14651,[16214]=20757,[27563]=5140,[18870]=2224,[-21938]=14651},function(bf)
+                            return EN[bf+-465]
+                        end
+                        hC=_S(-6478)
+                        repeat
+                            while true do
+                                if hC==2224 then
+                                    lh=lh..iT(TK(ho(lJ,(Fc-180)+1),ho(qX,(Fc-180)%#qX+1)))
+                                    hC=_S(16679)
+                                elseif hC==-27635 then
+                                    lh='';
+                                    Nf,Ph,jS=(#lJ-1)+180,1,180
+                                    hC=_S(28028)
+                                elseif hC==14651 then
+                                    return lh
+                                elseif hC==5140 then
+                                    Fc=jS;
+                                    if Nf~=Nf then
+                                        hC=_S(-21473)
+                                    else
+                                        hC=-12063
+                                    end
+                                elseif hC==-12063 then
+                                    if(Ph>=0 and jS>Nf)or((Ph<0 or Ph~=Ph)and jS<Nf)then
+                                        hC=14651
+                                    else
+                                        hC=_S(19335)
+                                    end
+                                elseif hC==20757 then
+                                    jS=jS+Ph;
+                                    Fc=jS;
+                                    if jS~=jS then
+                                        hC=_S(-502)
+                                    else
+                                        hC=-12063
+                                    end
+                                end
+                            end
+                        until hC==6033
+                    end)('o(\0^\241\157\169A \6H\199\140\139','\18\23\140\170\247\140C'),(function(PK,E)
+                        local sz,dN,Ug,fl,TJ,vg,Di,FN
+                        dN,Di={[17262]=10276,[26589]=-21182,[21595]=12231,[5963]=20996},function(wB)
+                            return dN[wB-22016]
+                        end
+                        vg=Di(27979)
+                        repeat
+                            while true do
+                                if vg==-96 then
+                                    Ug=fl;
+                                    if sz~=sz then
+                                        vg=10276
+                                    else
+                                        vg=12231
+                                    end
+                                elseif vg==10276 then
+                                    return FN
+                                elseif vg==20208 then
+                                    FN=FN..iT(TK(ho(PK,(Ug-42)+1),ho(E,(Ug-42)%#E+1)))
+                                    vg=Di(48605)
+                                elseif vg==12231 then
+                                    if(TJ>=0 and fl>sz)or((TJ<0 or TJ~=TJ)and fl<sz)then
+                                        vg=10276
+                                    else
+                                        vg=20208
+                                    end
+                                elseif vg==20996 then
+                                    FN='';
+                                    fl,TJ,sz=42,1,(#PK-1)+42
+                                    vg=-96
+                                elseif vg==-21182 then
+                                    fl=fl+TJ;
+                                    Ug=fl;
+                                    if fl~=fl then
+                                        vg=Di(39278)
+                                    else
+                                        vg=Di(43611)
+                                    end
+                                end
+                            end
+                        until vg==-28507
+                    end)('\214\168pk\142\206t','\236\251\157'))])then
+                        FB=ie(112)
+                        break
+                    else
+                        FB=ie(-18496)
+                        break
+                    end
+                    FB=-110692160- -110714051
+                elseif FB==-2014863531- -2014841017 then
+                    cd=268865765
+                    FB=-233922926- -233944728
+                elseif FB==5.8175950780274469e-05*374759668 then
+                    GY=GY*cd
+                    FB=ie(-25900)
+                elseif FB==-43452295511601/-1984938811 then
+                    FB=ie(8610);
+                    break;
+                elseif FB==-6.0440191726075707e-05*-538234560 then
+                    lz=lz/ou
+                    FB=-1946155329- -1946141473
+                elseif FB==-10852712367334/-1208811803 then
+                    ou='\147]\214\191@\137'
+                    FB=-565177551+565170805
+                elseif FB==1251817627-1251843939 then
+                    GY=1883881028
+                    FB=ie(11874)
+                elseif FB==1096539043+-1096570209 then
+                    Id=Id[BD(lz[1],1,lz[2])]
+                    FB=ie(-9788)
+                elseif FB==1329775950+-1329782520 then
+                    GY='\178\55F\185\23n\150'
+                    FB=1465400940-1465384393
+                elseif FB==-210902126- -210870672 then
+                    GY=GY-cd
+                    FB=-1730469955+1730441669
+                elseif FB==-541833031+541849578 then
+                    cd='\212E)'
+                    FB=ie(-26550)
+                elseif FB==-320984093- -320991458 then
+                    lz=Jx((function(sZ,_x)
+                        local tl,ch,oW,Br,wG,pd,jy,fd
+                        ch,Br={[-20686]=-28785,[22430]=17998,[-22587]=4379,[20355]=-23370,[11310]=4379,[-26429]=24194},function(Fi)
+                            return ch[Fi+-10483]
+                        end
+                        fd=Br(-10203)
+                        repeat
+                            while true do
+                                if fd==-28785 then
+                                    tl='';
+                                    wG,pd,oW=235,(#sZ-1)+235,1
+                                    fd=Br(32913)
+                                elseif fd==4379 then
+                                    return tl
+                                elseif fd==17998 then
+                                    jy=wG;
+                                    if pd~=pd then
+                                        fd=Br(-12104)
+                                    else
+                                        fd=24194
+                                    end
+                                elseif fd==-18643 then
+                                    tl=tl..iT(TK(ho(sZ,(jy-235)+1),ho(_x,(jy-235)%#_x+1)))
+                                    fd=Br(30838)
+                                elseif fd==-23370 then
+                                    wG=wG+oW;
+                                    jy=wG;
+                                    if wG~=wG then
+                                        fd=4379
+                                    else
+                                        fd=Br(-15946)
+                                    end
+                                elseif fd==24194 then
+                                    if(oW>=0 and wG>pd)or((oW<0 or oW~=oW)and wG<pd)then
+                                        fd=Br(21793)
+                                    else
+                                        fd=-18643
+                                    end
+                                end
+                            end
+                        until fd==26953
+                    end)(lz,ou))
+                    FB=ie(-4052)
+                elseif FB==26604057446400/968300544 then
+                    GY=GY-cd
+                    FB=ie(-23363)
+                elseif FB==1665116035-1665086344 then
+                    ou='\200*-[\211\54'
+                    FB=ie(-30352)
+                elseif FB==1612666705+-1612694684 then
+                    Id=Id-lz
+                    FB=ie(27894)
+                elseif FB==752130128+-752137129 then
+                    Eg=Eg/Y
+                    FB=ie(-8286)
+                elseif FB==348501533-348515941 then
+                    ou=ou/GY
+                    FB=ie(-2225)
+                elseif FB==-1659143005- -1659174968 then
+                    Id=Id/lz
+                    FB=ie(-27441)
+                elseif FB==-34217905995316/1156518268 then
+                    cd='\188IN'
+                    FB=-1235174763- -1235191511
+                elseif FB==-5.0771439752292647e-06*1958187526 then
+                    Eg=49089179019
+                    FB=ie(27728)
+                elseif FB==-1988764909830/-1331167945 then
+                    lz=Jx((function(cp,jb)
+                        local ry,Jf,pZ,eI,qw,mx,EE,Pr
+                        Pr,mx={[-12675]=23004,[-1718]=-21079,[25993]=-26580,[-8888]=-17299,[9723]=-14018,[-4373]=-14018},function(Tk)
+                            return Pr[Tk+27105]
+                        end
+                        EE=mx(-35993)
+                        repeat
+                            while true do
+                                if EE==-14018 then
+                                    return eI
+                                elseif EE==-26580 then
+                                    qw=qw+Jf;
+                                    pZ=qw;
+                                    if qw~=qw then
+                                        EE=-14018
+                                    else
+                                        EE=14656
+                                    end
+                                elseif EE==-17299 then
+                                    eI='';
+                                    ry,qw,Jf=(#cp-1)+182,182,1
+                                    EE=mx(-28823)
+                                elseif EE==14656 then
+                                    if(Jf>=0 and qw>ry)or((Jf<0 or Jf~=Jf)and qw<ry)then
+                                        EE=mx(-31478)
+                                    else
+                                        EE=mx(-39780)
+                                    end
+                                elseif EE==-21079 then
+                                    pZ=qw;
+                                    if ry~=ry then
+                                        EE=mx(-17382)
+                                    else
+                                        EE=14656
+                                    end
+                                elseif EE==23004 then
+                                    eI=eI..iT(TK(ho(cp,(pZ-182)+1),ho(jb,(pZ-182)%#jb+1)))
+                                    EE=mx(-1112)
+                                end
+                            end
+                        until EE==-776
+                    end)(lz,ou))
+                    FB=ie(6198)
+                elseif FB==-847000288+846969377 then
+                    cd=-1950968478
+                    FB=ie(-28342)
+                elseif FB==1.3369068157380092e-05*-1168593040 then
+                    Id=Id[BD(lz[1],1,lz[2])]
+                    FB=-1177047227+1177075882
+                elseif FB==-580313723- -580334663 then
+                    GY=-1950968230
+                    FB=ie(-12208)
+                elseif FB==1826262580-1826272269 then
+                    GY=513835388
+                    FB=ie(4462)
+                elseif FB==-26476297856338/-1201665586 then
+                    Pd[(function(fH,Cd)
+                        local cv,iJ,DH,gZ,Dn,cP,bq,Px
+                        cv,Px={[-3481]=22522,[-23515]=-6013,[-28015]=-7161,[21043]=-31460,[-29444]=2339,[-30818]=-6488},function(Vv)
+                            return cv[Vv-1903]
+                        end
+                        DH=Px(-28915)
+                        repeat
+                            while true do
+                                if DH==22522 then
+                                    Dn=bq;
+                                    if iJ~=iJ then
+                                        DH=-31460
+                                    else
+                                        DH=Px(-27541)
+                                    end
+                                elseif DH==-7161 then
+                                    bq=bq+gZ;
+                                    Dn=bq;
+                                    if bq~=bq then
+                                        DH=-31460
+                                    else
+                                        DH=2339
+                                    end
+                                elseif DH==-31460 then
+                                    return cP
+                                elseif DH==-6488 then
+                                    cP='';
+                                    gZ,bq,iJ=1,189,(#fH-1)+189
+                                    DH=Px(-1578)
+                                elseif DH==-6013 then
+                                    cP=cP..iT(TK(ho(fH,(Dn-189)+1),ho(Cd,(Dn-189)%#Cd+1)))
+                                    DH=Px(-26112)
+                                elseif DH==2339 then
+                                    if(gZ>=0 and bq>iJ)or((gZ<0 or gZ~=gZ)and bq<iJ)then
+                                        DH=Px(22946)
+                                    else
+                                        DH=Px(-21612)
+                                    end
+                                end
+                            end
+                        until DH==12430
+                    end)('L\242c\242}','\15\157')]=BD(Id[1],1,Id[2]);
+                    FB=ie(-23719);
+                elseif FB==-2097954934- -2097976240 then
+                    Bh=Id;
+                    FB=ie(23929);
+                elseif FB==-435867732- -435860986 then
+                    GY='\208\50\186'
+                    FB=ie(21962)
+                elseif FB==18028291894308/-2011188297 then
+                    ou=-1267128065
+                    FB=ie(29383)
+                elseif FB==-7410041698518/1475516069 then
+                    Eg=Eg/Y
+                    FB=ie(-10754)
+                elseif FB==-1795159268+1795153784 then
+                    Id=840614825
+                    FB=ie(-12714)
+                elseif FB==545721407-545713430 then
+                    Id=Jx((function(Wu,QN)
+                        local uZ,ea,Hd,Xr,Kg,Hc,aj,nk
+                        Hd,Kg={[1654]=262,[32697]=78,[-6016]=-12557,[-31394]=24197,[20881]=10196,[-6090]=-1456},function(IR)
+                            return Hd[IR- -16433]
+                        end
+                        uZ=Kg(16264)
+                        repeat
+                            while true do
+                                if uZ==24197 then
+                                    nk=nk..iT(TK(ho(Wu,(ea-181)+1),ho(QN,(ea-181)%#QN+1)))
+                                    uZ=Kg(-22449)
+                                elseif uZ==-12557 then
+                                    Xr=Xr+aj;
+                                    ea=Xr;
+                                    if Xr~=Xr then
+                                        uZ=10196
+                                    else
+                                        uZ=-1456
+                                    end
+                                elseif uZ==-1456 then
+                                    if(aj>=0 and Xr>Hc)or((aj<0 or aj~=aj)and Xr<Hc)then
+                                        uZ=Kg(4448)
+                                    else
+                                        uZ=Kg(-47827)
+                                    end
+                                elseif uZ==10196 then
+                                    return nk
+                                elseif uZ==262 then
+                                    ea=Xr;
+                                    if Hc~=Hc then
+                                        uZ=10196
+                                    else
+                                        uZ=Kg(-22523)
+                                    end
+                                elseif uZ==78 then
+                                    nk='';
+                                    Hc,aj,Xr=(#Wu-1)+181,1,181
+                                    uZ=Kg(-14779)
+                                end
+                            end
+                        until uZ==16726
+                    end)(Id,lz))
+                    FB=ie(-23243)
+                elseif FB==2040463005+-2040466085 then
+                    Eg=18701606217
+                    FB=-197373695+197367282
+                elseif FB==1940032670-1940050599 then
+                    lz='\180\249\54\26\139\241#\19'
+                    FB=1.8742141459512684e-05*1122337063
+                elseif FB==37371245118680/1304178856 then
+                    lz=-134315574890
+                    FB=-16623736780896/1854499864
+                elseif FB==-962107190+962130796 then
+                    Pd[(function(Kp,ui)
+                        local Do,Cv,Re,LJ,LC,Cw,nb,SW
+                        Cv,nb={[-30177]=-1261,[-5488]=13251,[-32448]=13251,[2769]=-8790,[17400]=-1261,[-12762]=5346,[436]=20324},function(B)
+                            return Cv[B+1017]
+                        end
+                        Do=nb(-13779)
+                        repeat
+                            while true do
+                                if Do==13251 then
+                                    if(SW>=0 and LJ>Re)or((SW<0 or SW~=SW)and LJ<Re)then
+                                        Do=nb(16383)
+                                    else
+                                        Do=-20503
+                                    end
+                                elseif Do==5346 then
+                                    Cw='';
+                                    Re,LJ,SW=(#Kp-1)+255,255,1
+                                    Do=nb(1752)
+                                elseif Do==-8790 then
+                                    LC=LJ;
+                                    if Re~=Re then
+                                        Do=nb(-31194)
+                                    else
+                                        Do=nb(-6505)
+                                    end
+                                elseif Do==20324 then
+                                    LJ=LJ+SW;
+                                    LC=LJ;
+                                    if LJ~=LJ then
+                                        Do=-1261
+                                    else
+                                        Do=nb(-33465)
+                                    end
+                                elseif Do==-20503 then
+                                    Cw=Cw..iT(TK(ho(Kp,(LC-255)+1),ho(ui,(LC-255)%#ui+1)))
+                                    Do=nb(-581)
+                                elseif Do==-1261 then
+                                    return Cw
+                                end
+                            end
+                        until Do==-30528
+                    end)('\225P\155\232\222X\142\225','\172\49\239\141')]=Id;
+                    FB=ie(-6833)
+                elseif FB==-797712705- -797731176 then
+                    Id=Jx((function(Bz,Ib)
+                        local wN,OC,QF,As,GU,In,Ne,eO
+                        QF,wN={[22583]=26774,[28272]=-23829,[24092]=8419,[-899]=-21841,[24419]=10587,[4748]=10286,[25209]=-21841},function(tM)
+                            return QF[tM+19274]
+                        end
+                        eO=wN(5145)
+                        repeat
+                            while true do
+                                if eO==8419 then
+                                    OC=Ne;
+                                    if GU~=GU then
+                                        eO=wN(5935)
+                                    else
+                                        eO=10286
+                                    end
+                                elseif eO==26774 then
+                                    In=In..iT(TK(ho(Bz,(OC-233)+1),ho(Ib,(OC-233)%#Ib+1)))
+                                    eO=wN(8998)
+                                elseif eO==-21841 then
+                                    return In
+                                elseif eO==10587 then
+                                    In='';
+                                    As,GU,Ne=1,(#Bz-1)+233,233
+                                    eO=wN(4818)
+                                elseif eO==-23829 then
+                                    Ne=Ne+As;
+                                    OC=Ne;
+                                    if Ne~=Ne then
+                                        eO=-21841
+                                    else
+                                        eO=wN(-14526)
+                                    end
+                                elseif eO==10286 then
+                                    if(As>=0 and Ne>GU)or((As<0 or As~=As)and Ne<GU)then
+                                        eO=wN(-20173)
+                                    else
+                                        eO=wN(3309)
+                                    end
+                                end
+                            end
+                        until eO==11141
+                    end)(Id,lz))
+                    FB=2.9886198809235999e-05*-746933397
+                elseif FB==-500333301+500329120 then
+                    lz=Id
+                    FB=1958591668-1958587950
+                elseif FB==-1330952524- -1330952503 then
+                    lz='\231\169\198\162'
+                    FB=-9.4974046526459161e-05*-329279431
+                elseif FB==8932921433134/-991335194 then
+                    GY=BD(ou[1],1,ou[2])
+                    FB=-1421569846+1421569873
+                elseif FB==3.2526697507563652e-06*-1800367221 then
+                    ou=Jx(ou(GY,cd,Eg))
+                    FB=-879245756865/97574715
+                elseif FB==-2352680811918/1415572089 then
+                    Eg=-1755425782
+                    FB=ie(16492)
+                elseif FB==-1.3468362823585253e-05*1718026185 then
+                    lz=840614825
+                    FB=ie(3361)
+                elseif FB==2.1222018218284101e-05*-1332860980 then
+                    Id=Jx(Id(lz,ou,GY))
+                    FB=ie(25557)
+                elseif FB==33634730570049/-1478904743 then
+                    Id=on[BD(Id[1],1,Id[2])]
+                    FB=ie(28060)
+                elseif FB==-10168887385500/1897534500 then
+                    cd=cd/Eg
+                    FB=-664374536- -664371456
+                elseif FB==-541919727- -541892604 then
+                    lz='\155GB4\167^\152FL(\167_\171'
+                    FB=-1119688401- -1119718092
+                elseif FB==63389706904965/-2135268195 then
+                    Pd[(function(WW,Cs)
+                        local vw,YK,ld,UO,AX,qk,Fe,Rm
+                        ld,YK={[-23200]=-5276,[6084]=18839,[26218]=9748,[-28281]=9748,[-25347]=18839,[-26047]=8496,[12842]=18839},function(YP)
+                            return ld[YP+-27180]
+                        end
+                        AX=YK(3980)
+                        repeat
+                            while true do
+                                if AX==8496 then
+                                    UO=UO+qk;
+                                    vw=UO;
+                                    if UO~=UO then
+                                        AX=YK(33264)
+                                    else
+                                        AX=YK(-1101)
+                                    end
+                                elseif AX==30175 then
+                                    vw=UO;
+                                    if Fe~=Fe then
+                                        AX=YK(1833)
+                                    else
+                                        AX=YK(53398)
+                                    end
+                                elseif AX==-9447 then
+                                    Rm=Rm..iT(TK(ho(WW,(vw-200)+1),ho(Cs,(vw-200)%#Cs+1)))
+                                    AX=YK(1133)
+                                elseif AX==9748 then
+                                    if(qk>=0 and UO>Fe)or((qk<0 or qk~=qk)and UO<Fe)then
+                                        AX=YK(40022)
+                                    else
+                                        AX=-9447
+                                    end
+                                elseif AX==18839 then
+                                    return Rm
+                                elseif AX==-5276 then
+                                    Rm='';
+                                    qk,UO,Fe=1,200,(#WW-1)+200
+                                    AX=30175
+                                end
+                            end
+                        until AX==24571
+                    end)('E+GN\4\162p+CN\20\171','\17Y& w\210')]=Id;
+                    FB=ie(-23240);
+                elseif FB==-3.594796412914165e-06*1458775240 then
+                    lz=Jx((function(ut,FZ)
+                        local jW,zE,Rj,Lr,VS,HK,dC,jk
+                        Lr,dC={[-25114]=2863,[-28866]=32296,[-9505]=32296,[-24601]=2863,[-16518]=31012,[-4083]=16548,[4139]=20120},function(xv)
+                            return Lr[xv-22034]
+                        end
+                        jk=dC(17951)
+                        repeat
+                            while true do
+                                if jk==20120 then
+                                    HK=HK..iT(TK(ho(ut,(jW-211)+1),ho(FZ,(jW-211)%#FZ+1)))
+                                    jk=dC(5516)
+                                elseif jk==2863 then
+                                    if(VS>=0 and Rj>zE)or((VS<0 or VS~=VS)and Rj<zE)then
+                                        jk=32296
+                                    else
+                                        jk=dC(26173)
+                                    end
+                                elseif jk==8419 then
+                                    jW=Rj;
+                                    if zE~=zE then
+                                        jk=dC(12529)
+                                    else
+                                        jk=dC(-2567)
+                                    end
+                                elseif jk==16548 then
+                                    HK='';
+                                    zE,VS,Rj=(#ut-1)+211,1,211
+                                    jk=8419
+                                elseif jk==31012 then
+                                    Rj=Rj+VS;
+                                    jW=Rj;
+                                    if Rj~=Rj then
+                                        jk=dC(-6832)
+                                    else
+                                        jk=dC(-3080)
+                                    end
+                                elseif jk==32296 then
+                                    return HK
+                                end
+                            end
+                        until jk==24255
+                    end)(lz,ou))
+                    FB=ie(2160)
+                elseif FB==0.00017233317863960421*181468248 then
+                    ou='\169\204'
+                    FB=6.3233179000133288e-05*311007612
+                elseif FB==-4879313554375/-176626735 then
+                    lz=BD(Id[1],1,Id[2])
+                    FB=ie(16313)
+                elseif FB==-1244902080- -1244874258 then
+                    GY='\218;!\209\27\t\254'
+                    FB=-502860959- -502831372
+                elseif FB==-667787369410/1058300110 then
+                    Id='\240vg\220k8'
+                    FB=ie(23201)
+                elseif FB==-24446024303568/-751237648 then
+                    ou=on[BD(ou[1],1,ou[2])]
+                    FB=ie(-12031)
+                elseif FB==-7.7421480026973198e-05*417481040 then
+                    ou=Jx(ou(GY,cd,Eg))
+                    FB=ie(15298)
+                elseif FB==577182241801/530986423 then
+                    Id='\24\168P\198\228\18-\164F\242\228\3'
+                    FB=5501701588760/872593432
+                elseif FB==623341266-623365131 then
+                    ou='\200\143\\'
+                    FB=6.18954673953113e-05*463135690
+                elseif FB==-525185269- -525167642 then
+                    Id='e|U\127'
+                    FB=82217356+-82247311
+                elseif FB==-2.1284882115067294e-07*-1038295626 then
+                    Eg=-2143111479
+                    FB=ie(-16302)
+                elseif FB==-1465761037- -1465770291 then
+                    Pd[(function(xz,ln)
+                        local BG,Qk,bX,IN,Yl,df,Xu,Nt
+                        IN,Xu={[-23158]=-21768,[17083]=20675,[16314]=-2452},function(EH)
+                            return IN[EH+-12506]
+                        end
+                        BG=Xu(-10652)
+                        repeat
+                            while true do
+                                if BG==12033 then
+                                    bX=bX..iT(TK(ho(xz,(Nt-251)+1),ho(ln,(Nt-251)%#ln+1)))
+                                    BG=Xu(29589)
+                                elseif BG==20675 then
+                                    Qk=Qk+Yl;
+                                    Nt=Qk;
+                                    if Qk~=Qk then
+                                        BG=-13352
+                                    else
+                                        BG=-2452
+                                    end
+                                elseif BG==-2452 then
+                                    if(Yl>=0 and Qk>df)or((Yl<0 or Yl~=Yl)and Qk<df)then
+                                        BG=-13352
+                                    else
+                                        BG=12033
+                                    end
+                                elseif BG==-14091 then
+                                    Nt=Qk;
+                                    if df~=df then
+                                        BG=-13352
+                                    else
+                                        BG=Xu(28820)
+                                    end
+                                elseif BG==-21768 then
+                                    bX='';
+                                    df,Qk,Yl=(#xz-1)+251,251,1
+                                    BG=-14091
+                                elseif BG==-13352 then
+                                    return bX
+                                end
+                            end
+                        until BG==-4245
+                    end)('\204M\27;\19\156\249M\31;\3\149','\152?zU\96\236')]=Id;
+                    FB=ie(10967);
+                elseif FB==1923392781+-1923392754 then
+                    lz=GY
+                    FB=ie(30652)
+                elseif FB==11073513901125/1756306725 then
+                    lz='_\205$\135\144f'
+                    FB=1480457339+-1480438868
+                elseif FB==45299067-45320897 then
+                    lz=1293834428
+                    FB=ie(11090)
+                elseif FB==-2110707070- -2110719220 then
+                    lz='\179\25\v'
+                    FB=1550469956-1550500869
+                elseif FB==1132021709-1132004961 then
+                    GY=Jx((function(bP,pi)
+                        local Iw,fv,WU,Ku,ZH,Hu,Ny,Wb
+                        WU,Wb={[30051]=30298,[-18966]=20493,[5298]=-29698,[16079]=25270,[-22594]=25270},function(px)
+                            return WU[px+2818]
+                        end
+                        fv=Wb(2480)
+                        repeat
+                            while true do
+                                if fv==-14945 then
+                                    if(Ny>=0 and Iw>Ku)or((Ny<0 or Ny~=Ny)and Iw<Ku)then
+                                        fv=25270
+                                    else
+                                        fv=Wb(-21784)
+                                    end
+                                elseif fv==30298 then
+                                    Iw=Iw+Ny;
+                                    ZH=Iw;
+                                    if Iw~=Iw then
+                                        fv=Wb(13261)
+                                    else
+                                        fv=-14945
+                                    end
+                                elseif fv==-29698 then
+                                    Hu='';
+                                    Ny,Iw,Ku=1,77,(#bP-1)+77
+                                    fv=-18675
+                                elseif fv==-18675 then
+                                    ZH=Iw;
+                                    if Ku~=Ku then
+                                        fv=Wb(-25412)
+                                    else
+                                        fv=-14945
+                                    end
+                                elseif fv==20493 then
+                                    Hu=Hu..iT(TK(ho(bP,(ZH-77)+1),ho(pi,(ZH-77)%#pi+1)))
+                                    fv=Wb(27233)
+                                elseif fv==25270 then
+                                    return Hu
+                                end
+                            end
+                        until fv==20592
+                    end)(GY,cd))
+                    FB=-1187688809+1187656732
+                elseif FB==623541045-623520010 then
+                    ou='\249\152B\127'
+                    FB=ie(30893)
+                elseif FB==-1612969712+1612947389 then
+                    Id=Pd[BD(Id[1],1,Id[2])]
+                    FB=ie(-16955)
+                elseif FB==1300814126+-1300785460 then
+                    lz=Jx((function(IP,Jy)
+                        local CO,Mc,Yc,mc,ba,QB,Vg,ab
+                        QB,Yc={[-31158]=-5149,[20886]=25088,[-9712]=6085,[6140]=2324},function(vB)
+                            return QB[vB- -25052]
+                        end
+                        mc=Yc(-56210)
+                        repeat
+                            while true do
+                                if mc==6085 then
+                                    ab=ab+Vg;
+                                    CO=ab;
+                                    if ab~=ab then
+                                        mc=2324
+                                    else
+                                        mc=5918
+                                    end
+                                elseif mc==2324 then
+                                    return ba
+                                elseif mc==5918 then
+                                    if(Vg>=0 and ab>Mc)or((Vg<0 or Vg~=Vg)and ab<Mc)then
+                                        mc=Yc(-18912)
+                                    else
+                                        mc=15999
+                                    end
+                                elseif mc==25088 then
+                                    CO=ab;
+                                    if Mc~=Mc then
+                                        mc=2324
+                                    else
+                                        mc=5918
+                                    end
+                                elseif mc==-5149 then
+                                    ba='';
+                                    ab,Vg,Mc=159,1,(#IP-1)+159
+                                    mc=Yc(-4166)
+                                elseif mc==15999 then
+                                    ba=ba..iT(TK(ho(IP,(CO-159)+1),ho(Jy,(CO-159)%#Jy+1)))
+                                    mc=Yc(-34764)
+                                end
+                            end
+                        until mc==7306
+                    end)(lz,ou))
+                    FB=ie(-27673)
+                elseif FB==-1878021904- -1877991614 then
+                    lz='\174\253\51\165\221\27\138'
+                    FB=31456279350105/-1318092577
+                elseif FB==2.1887029945592934e-05*-482112010 then
+                    Id=lz
+                    FB=ie(15658)
+                elseif FB==1994338906+-1994345483 then
+                    GY=Jx((function(fG,PS)
+                        local Bp,rP,yW,i,RD,kS,dA,ZJ
+                        RD,i={[-28826]=24767,[-12624]=14657,[-13335]=-28849,[14301]=-16640},function(GR)
+                            return RD[GR-430]
+                        end
+                        rP=i(-12905)
+                        repeat
+                            while true do
+                                if rP==22848 then
+                                    dA=dA..iT(TK(ho(fG,(ZJ-221)+1),ho(PS,(ZJ-221)%#PS+1)))
+                                    rP=i(-28396)
+                                elseif rP==24767 then
+                                    kS=kS+yW;
+                                    ZJ=kS;
+                                    if kS~=kS then
+                                        rP=i(14731)
+                                    else
+                                        rP=i(-12194)
+                                    end
+                                elseif rP==10400 then
+                                    ZJ=kS;
+                                    if Bp~=Bp then
+                                        rP=-16640
+                                    else
+                                        rP=14657
+                                    end
+                                elseif rP==-16640 then
+                                    return dA
+                                elseif rP==14657 then
+                                    if(yW>=0 and kS>Bp)or((yW<0 or yW~=yW)and kS<Bp)then
+                                        rP=-16640
+                                    else
+                                        rP=22848
+                                    end
+                                elseif rP==-28849 then
+                                    dA='';
+                                    Bp,kS,yW=(#fG-1)+221,221,1
+                                    rP=10400
+                                end
+                            end
+                        until rP==30578
+                    end)(GY,cd))
+                    FB=ie(-1894)
+                elseif FB==1874953415+-1874968092 then
+                    Id=582225492.60000002
+                    FB=-3.2814130957102023e-05*665262171
+                elseif FB==1759397963+-1759378297 then
+                    lz=Jx((function(QR,pB)
+                        local OH,Ci,pA,UJ,qS,BJ,fF,jC
+                        pA,BJ={[1291]=-19076,[-3204]=55,[9949]=3403,[2892]=9353,[-19796]=3988},function(Yh)
+                            return pA[Yh+8422]
+                        end
+                        UJ=BJ(-7131)
+                        repeat
+                            while true do
+                                if UJ==55 then
+                                    qS=jC;
+                                    if Ci~=Ci then
+                                        UJ=BJ(-5530)
+                                    else
+                                        UJ=6985
+                                    end
+                                elseif UJ==-19076 then
+                                    OH='';
+                                    Ci,fF,jC=(#QR-1)+154,1,154
+                                    UJ=BJ(-11626)
+                                elseif UJ==3988 then
+                                    OH=OH..iT(TK(ho(QR,(qS-154)+1),ho(pB,(qS-154)%#pB+1)))
+                                    UJ=BJ(1527)
+                                elseif UJ==3403 then
+                                    jC=jC+fF;
+                                    qS=jC;
+                                    if jC~=jC then
+                                        UJ=9353
+                                    else
+                                        UJ=6985
+                                    end
+                                elseif UJ==9353 then
+                                    return OH
+                                elseif UJ==6985 then
+                                    if(fF>=0 and jC>Ci)or((fF<0 or fF~=fF)and jC<Ci)then
+                                        UJ=9353
+                                    else
+                                        UJ=BJ(-28218)
+                                    end
+                                end
+                            end
+                        until UJ==-17107
+                    end)(lz,ou))
+                    FB=12173905998768/-580373093
+                elseif FB==9113351869180/1624773020 then
+                    Id=on[BD(Id[1],1,Id[2])]
+                    FB=ie(-16964)
+                elseif FB==-1.4287660253726826e-05*1000023779 then
+                    Pd[(function(tO,Ij)
+                        local Hg,el,CE,BP,cg,FI,AV,hL
+                        FI,AV={[28260]=6006,[-18771]=-8923,[2403]=15773,[-27371]=12041,[10524]=14219},function(mS)
+                            return FI[mS+-23888]
+                        end
+                        BP=AV(34412)
+                        repeat
+                            while true do
+                                if BP==6006 then
+                                    cg=cg+el;
+                                    hL=cg;
+                                    if cg~=cg then
+                                        BP=15773
+                                    else
+                                        BP=12041
+                                    end
+                                elseif BP==12041 then
+                                    if(el>=0 and cg>Hg)or((el<0 or el~=el)and cg<Hg)then
+                                        BP=AV(26291)
+                                    else
+                                        BP=AV(5117)
+                                    end
+                                elseif BP==14219 then
+                                    CE='';
+                                    el,cg,Hg=1,49,(#tO-1)+49
+                                    BP=12425
+                                elseif BP==-8923 then
+                                    CE=CE..iT(TK(ho(tO,(hL-49)+1),ho(Ij,(hL-49)%#Ij+1)))
+                                    BP=AV(52148)
+                                elseif BP==12425 then
+                                    hL=cg;
+                                    if Hg~=Hg then
+                                        BP=15773
+                                    else
+                                        BP=AV(-3483)
+                                    end
+                                elseif BP==15773 then
+                                    return CE
+                                end
+                            end
+                        until BP==17205
+                    end)('\148E\141\v\171M\152\2','\217$\249n')]=Id;
+                    FB=ie(-4508)
+                elseif FB==1537150619+-1537182696 then
+                    ou=ou[BD(GY[1],1,GY[2])]
+                    FB=ie(-27794)
+                elseif FB==-29625280- -29595925 then
+                    Id=Id[BD(lz[1],1,lz[2])]
+                    FB=1624260601+-1624260622
+                elseif FB==-878285130+878278717 then
+                    Y=214960991
+                    FB=ie(31849)
+                elseif FB==-8.8745981973779842e-05*244766011 then
+                    if not lz then
+                        FB=ie(-30163)
+                        break
+                    end
+                    FB=ie(-157)
+                elseif FB==121189550178/431279538 then
+                    Id=on[BD(Id[1],1,Id[2])]
+                    FB=-1.1398763758072303e-05*1572889866
+                elseif FB==-19509875757361/1618673837 then
+                    ou='\147\196\243\191\217\172'
+                    FB=ie(9622)
+                elseif FB==1982707862+-1982701364 then
+                    cd=-1755425695
+                    FB=ie(11483)
+                elseif FB==-647243006+647246688 then
+                    lz='\24I'
+                    FB=8831989914538/1475194574
+                elseif FB==103507688+-103538601 then
+                    Id=Jx((function(vT,VF)
+                        local Ar,gW,uM,DS,x,Yt,mr,xE
+                        gW,Ar={[-18902]=-22607,[-18138]=27233,[-3904]=-1334,[12791]=-22607},function(aO)
+                            return gW[aO+4867]
+                        end
+                        DS=Ar(-8771)
+                        repeat
+                            while true do
+                                if DS==27233 then
+                                    xE=xE+Yt;
+                                    mr=xE;
+                                    if xE~=xE then
+                                        DS=-22607
+                                    else
+                                        DS=28676
+                                    end
+                                elseif DS==-22607 then
+                                    return uM
+                                elseif DS==-19456 then
+                                    uM=uM..iT(TK(ho(vT,(mr-41)+1),ho(VF,(mr-41)%#VF+1)))
+                                    DS=Ar(-23005)
+                                elseif DS==-1334 then
+                                    uM='';
+                                    x,Yt,xE=(#vT-1)+41,1,41
+                                    DS=-8662
+                                elseif DS==-8662 then
+                                    mr=xE;
+                                    if x~=x then
+                                        DS=Ar(-23769)
+                                    else
+                                        DS=28676
+                                    end
+                                elseif DS==28676 then
+                                    if(Yt>=0 and xE>x)or((Yt<0 or Yt~=Yt)and xE<x)then
+                                        DS=Ar(7924)
+                                    else
+                                        DS=-19456
+                                    end
+                                end
+                            end
+                        until DS==8353
+                    end)(Id,lz))
+                    FB=6832315619518/1218098702
+                elseif FB==-632507600+632495700 then
+                    lz=GY
+                    FB=8915429994156/387829737
+                elseif FB==-52064812- -52034857 then
+                    lz=' \18'
+                    FB=-499974002- -499981979
+                elseif FB==-6.8070215060301468e-06*-546200713 then
+                    if lz then
+                        FB=ie(27011)
+                        break
+                    end
+                    FB=-27378789+27366736
+                elseif FB==-239617933- -239642581 then
+                    GY='\208\171\159'
+                    FB=ie(27594)
+                elseif FB==8134778762096/1350843368 then
+                    Pd[(function(xH,od)
+                        local Rl,Xi,Gw,FO,GO,zm,Ai,gS
+                        Rl,GO={[-31722]=-8822,[-8234]=-23139,[28968]=19524},function(IL)
+                            return Rl[IL- -32572]
+                        end
+                        Gw=GO(-40806)
+                        repeat
+                            while true do
+                                if Gw==19524 then
+                                    gS=gS+Xi;
+                                    zm=gS;
+                                    if gS~=gS then
+                                        Gw=-1341
+                                    else
+                                        Gw=-18297
+                                    end
+                                elseif Gw==-1341 then
+                                    return Ai
+                                elseif Gw==32432 then
+                                    zm=gS;
+                                    if FO~=FO then
+                                        Gw=-1341
+                                    else
+                                        Gw=-18297
+                                    end
+                                elseif Gw==-18297 then
+                                    if(Xi>=0 and gS>FO)or((Xi<0 or Xi~=Xi)and gS<FO)then
+                                        Gw=-1341
+                                    else
+                                        Gw=GO(-64294)
+                                    end
+                                elseif Gw==-8822 then
+                                    Ai=Ai..iT(TK(ho(xH,(zm-156)+1),ho(od,(zm-156)%#od+1)))
+                                    Gw=GO(-3604)
+                                elseif Gw==-23139 then
+                                    Ai='';
+                                    Xi,FO,gS=1,(#xH-1)+156,156
+                                    Gw=32432
+                                end
+                            end
+                        until Gw==16011
+                    end)('\142\29\161\29\191','\205r')]=Bh;
+                    FB=828962003-828967487;
+                elseif FB==-1083982317+1083981500 then
+                    GY=1.0414118733190148e-07
+                    FB=1665927880+-1665950394
+                elseif FB==1.1464651467181432e-05*-2074463412 then
+                    ou=Jx((function(fZ,iS)
+                        local sp,ic,Bm,FS,jx,ax,TP,Yi
+                        Bm,Yi={[27519]=-12957,[265]=26877,[8427]=-5031},function(Cp)
+                            return Bm[Cp- -16214]
+                        end
+                        sp=Yi(-7787)
+                        repeat
+                            while true do
+                                if sp==-5031 then
+                                    ax='';
+                                    ic,FS,jx=1,132,(#fZ-1)+132
+                                    sp=25241
+                                elseif sp==-12957 then
+                                    FS=FS+ic;
+                                    TP=FS;
+                                    if FS~=FS then
+                                        sp=26877
+                                    else
+                                        sp=16551
+                                    end
+                                elseif sp==25241 then
+                                    TP=FS;
+                                    if jx~=jx then
+                                        sp=26877
+                                    else
+                                        sp=16551
+                                    end
+                                elseif sp==26877 then
+                                    return ax
+                                elseif sp==16551 then
+                                    if(ic>=0 and FS>jx)or((ic<0 or ic~=ic)and FS<jx)then
+                                        sp=Yi(-15949)
+                                    else
+                                        sp=-5022
+                                    end
+                                elseif sp==-5022 then
+                                    ax=ax..iT(TK(ho(fZ,(TP-132)+1),ho(iS,(TP-132)%#iS+1)))
+                                    sp=Yi(11305)
+                                end
+                            end
+                        until sp==-28641
+                    end)(ou,GY))
+                    FB=ie(28730)
+                elseif FB==-1715825131- -1715842998 then
+                    Id="]\'m$"
+                    FB=2.7196879559154389e-06*1353831785
+                elseif FB==2135004438+-2135018757 then
+                    Id=Id[BD(lz[1],1,lz[2])]
+                    FB=ie(-17783)
+                elseif FB==-8.9055933503867024e-06*-2131357143 then
+                    lz='{2\129\151\221\202M\220p-\152\136\215\213P\217'
+                    FB=-11010615304599/-793672263
+                elseif FB==6.0820341677862134e-05*-443913981 then
+                    ou=on[BD(ou[1],1,ou[2])]
+                    FB=ie(19489)
+                elseif FB==42733491244808/1858947766 then
+                    Id=lz
+                    FB=1.007093583247472e-05*-415155063
+                elseif FB==-77642797+77631547 then
+                    cd=-503631197565
+                    FB=1674657158-1674656937
+                elseif FB==2.8235092178136258e-05*785511868 then
+                    Id=Jx(Id(Pd,BD(lz[1],1,lz[2])))
+                    FB=ie(-5582)
+                elseif FB==-4214196983622/-568640802 then
+                    ou=Jx((function(Mv,qL)
+                        local Ob,MP,qJ,ix,jF,dP,rS,ve
+                        Ob,ve={[-22292]=27005,[10234]=-28277,[-25926]=-9098,[-23814]=17849,[21548]=-9098},function(bN)
+                            return Ob[bN+3353]
+                        end
+                        jF=ve(-25645)
+                        repeat
+                            while true do
+                                if jF==27005 then
+                                    rS='';
+                                    ix,qJ,MP=(#Mv-1)+203,1,203
+                                    jF=-28625
+                                elseif jF==-28625 then
+                                    dP=MP;
+                                    if ix~=ix then
+                                        jF=ve(-29279)
+                                    else
+                                        jF=-28277
+                                    end
+                                elseif jF==-28277 then
+                                    if(qJ>=0 and MP>ix)or((qJ<0 or qJ~=qJ)and MP<ix)then
+                                        jF=-9098
+                                    else
+                                        jF=-15634
+                                    end
+                                elseif jF==-9098 then
+                                    return rS
+                                elseif jF==17849 then
+                                    MP=MP+qJ;
+                                    dP=MP;
+                                    if MP~=MP then
+                                        jF=ve(18195)
+                                    else
+                                        jF=ve(6881)
+                                    end
+                                elseif jF==-15634 then
+                                    rS=rS..iT(TK(ho(Mv,(dP-203)+1),ho(qL,(dP-203)%#qL+1)))
+                                    jF=ve(-27167)
+                                end
+                            end
+                        until jF==-26643
+                    end)(ou,GY))
+                    FB=267253984+-267221443
+                end
+            end
+        until FB==-11571383077152/1262149114
+    end
+    local function b()
+        local cj,iL,vN,Vi,ZY,uU,_M,aS,Lp,_M,LE,Ca,Lj,le,NV,ZY,nZ,Lf,dI,Rs,_r,Rs,aS
+        NV,Lj={[24050]=27368,[-30360]=-6904,[-4190]=19553,[7420]=4223,[-25948]=-19679,[-6649]=3976,[17495]=-6296,[7319]=-32400,[-31827]=-25956,[-16634]=-19575,[29109]=4223,[-25709]=4223,[-16398]=31256,[-14163]=-28685,[30287]=-2321,[-30431]=26292,[31368]=-25956,[8547]=-9848,[-14550]=-23618,[-28903]=8727,[-4098]=19540,[-4052]=16116,[-11868]=13348,[3388]=-18668,[1135]=31256,[-12086]=14233,[5480]=-6376,[-42]=-9848,[-13834]=-9848,[5410]=12233,[12447]=-22344,[-8381]=-9848,[1712]=-9848,[-29399]=-9848,[16527]=16077,[-24187]=23792,[12499]=12233,[29521]=15381,[-23057]=-9848,[30679]=-9848,[-15557]=6056,[21849]=-15617,[-5798]=23792,[-21341]=-9848,[24436]=-30498,[-18271]=4223,[14965]=-10558,[-14909]=-30431,[-32591]=-9848,[25982]=5395,[16239]=13348,[-8730]=-19679,[30500]=-9848,[-21636]=-6296,[-29510]=19641,[-28282]=-13506,[-19806]=9314,[6766]=30023,[-25787]=3874,[9737]=-8859,[-235]=7158,[31693]=1283,[-5291]=-9231,[31614]=31876,[13120]=-16737,[11959]=4223,[-29641]=-16737,[12490]=17434,[-18926]=16077,[-8119]=23892,[-6788]=-32400,[10503]=-30431,[-13649]=5395,[-22862]=15389,[-7582]=20065,[22494]=-9848,[492]=1283,[7222]=-17904,[10236]=-19575,[-10280]=-9848,[28095]=15791,[-22091]=-5094,[15137]=30023,[-12989]=4223,[-12591]=-32541,[13408]=-6744,[12355]=14802,[-22077]=15791,[-16548]=8727,[23922]=4223,[-7502]=-15617},function(nY)
+            return NV[nY- -16301]
+        end
+        LE=Lj(-21592)
+        repeat
+            while true do
+                if LE==-1538559354- -1538530669 then
+                    le=Jx((function(KO,QA)
+                        local lr,Hm,bG,CV,ok,bb,RT,QI
+                        bG,CV={[6202]=25271,[1485]=30594,[5162]=30594,[10491]=-9897,[31748]=-23962,[5849]=25271,[-18992]=-1191,[13033]=25271},function(nE)
+                            return bG[nE+1821]
+                        end
+                        Hm=CV(29927)
+                        repeat
+                            while true do
+                                if Hm==-19660 then
+                                    ok=QI;
+                                    if RT~=RT then
+                                        Hm=CV(4028)
+                                    else
+                                        Hm=CV(3341)
+                                    end
+                                elseif Hm==30594 then
+                                    if(lr>=0 and QI>RT)or((lr<0 or lr~=lr)and QI<RT)then
+                                        Hm=CV(11212)
+                                    else
+                                        Hm=CV(8670)
+                                    end
+                                elseif Hm==-23962 then
+                                    bb='';
+                                    QI,RT,lr=247,(#KO-1)+247,1
+                                    Hm=-19660
+                                elseif Hm==-9897 then
+                                    bb=bb..iT(TK(ho(KO,(ok-247)+1),ho(QA,(ok-247)%#QA+1)))
+                                    Hm=CV(-20813)
+                                elseif Hm==25271 then
+                                    return bb
+                                elseif Hm==-1191 then
+                                    QI=QI+lr;
+                                    ok=QI;
+                                    if QI~=QI then
+                                        Hm=CV(4381)
+                                    else
+                                        Hm=CV(-336)
+                                    end
+                                end
+                            end
+                        until Hm==23433
+                    end)(le,uU))
+                    LE=-1392633655- -1392613977
+                elseif LE==1.4673590171253335e-05*1621416417 then
+                    Vi=BD(Ca[1],1,Ca[2]);
+                    if not(Vi)then
+                        LE=Lj(-16343)
+                        break
+                    else
+                        LE=Lj(-9535)
+                        break
+                    end
+                    LE=Lj(-39358)
+                elseif LE==-234772044+234752365 then
+                    Ca=Jx(AM(_r))
+                    LE=Lj(-5798)
+                elseif LE==248393804516/275381158 then
+                    Ca=Jx((function(kE,sF)
+                        local ST,VM,Ks,Jz,cI,uu,Zc,km
+                        ST,Ks={[9000]=-20853,[-31072]=-9344,[28552]=-3088,[-13842]=-3088,[15294]=-12172,[16205]=-4045},function(kg)
+                            return ST[kg+7637]
+                        end
+                        Jz=Ks(7657)
+                        repeat
+                            while true do
+                                if Jz==-12172 then
+                                    uu='';
+                                    cI,VM,km=(#kE-1)+167,167,1
+                                    Jz=Ks(1363)
+                                elseif Jz==-9344 then
+                                    return uu
+                                elseif Jz==-4045 then
+                                    VM=VM+km;
+                                    Zc=VM;
+                                    if VM~=VM then
+                                        Jz=-9344
+                                    else
+                                        Jz=Ks(20915)
+                                    end
+                                elseif Jz==-3088 then
+                                    if(km>=0 and VM>cI)or((km<0 or km~=km)and VM<cI)then
+                                        Jz=-9344
+                                    else
+                                        Jz=29105
+                                    end
+                                elseif Jz==29105 then
+                                    uu=uu..iT(TK(ho(kE,(Zc-167)+1),ho(sF,(Zc-167)%#sF+1)))
+                                    Jz=Ks(8568)
+                                elseif Jz==-20853 then
+                                    Zc=VM;
+                                    if cI~=cI then
+                                        Jz=Ks(-38709)
+                                    else
+                                        Jz=Ks(-21479)
+                                    end
+                                end
+                            end
+                        until Jz==-16606
+                    end)(Ca,le))
+                    LE=1404580225+-1404609828
+                elseif LE==-7857146756034/299183107 then
+                    Ca=Jx((function(Rv,ss)
+                        local Zv,Ih,LP,sl,kp,Qg,sh,JK
+                        Ih,Zv={[-4881]=19868,[1428]=22148,[6917]=-24038,[-21475]=22148,[10306]=25580,[-16880]=-26806},function(xx)
+                            return Ih[xx+17512]
+                        end
+                        kp=Zv(-10595)
+                        repeat
+                            while true do
+                                if kp==-26806 then
+                                    LP=LP+sl;
+                                    JK=LP;
+                                    if LP~=LP then
+                                        kp=19868
+                                    else
+                                        kp=Zv(-38987)
+                                    end
+                                elseif kp==22148 then
+                                    if(sl>=0 and LP>sh)or((sl<0 or sl~=sl)and LP<sh)then
+                                        kp=19868
+                                    else
+                                        kp=28274
+                                    end
+                                elseif kp==28274 then
+                                    Qg=Qg..iT(TK(ho(Rv,(JK-144)+1),ho(ss,(JK-144)%#ss+1)))
+                                    kp=Zv(-34392)
+                                elseif kp==-24038 then
+                                    Qg='';
+                                    sl,LP,sh=1,144,(#Rv-1)+144
+                                    kp=Zv(-7206)
+                                elseif kp==25580 then
+                                    JK=LP;
+                                    if sh~=sh then
+                                        kp=Zv(-22393)
+                                    else
+                                        kp=Zv(-16084)
+                                    end
+                                elseif kp==19868 then
+                                    return Qg
+                                end
+                            end
+                        until kp==-15808
+                    end)(Ca,le))
+                    LE=-820367315+820350902
+                elseif LE==37280055865650/1530254325 then
+                    LE=Lj(-23883);
+                    break;
+                elseif LE==-10981310549802/-1534131119 then
+                    Ca=Jx(Ca(_r))
+                    LE=Lj(-29950)
+                elseif LE==-1213925327+1213905649 then
+                    le=aS[BD(le[1],1,le[2])]
+                    LE=Lj(-6564)
+                elseif LE==5694516110712/208072059 then
+                    Ca=on[BD(Ca[1],1,Ca[2])]
+                    LE=Lj(-20353)
+                elseif LE==2190515696670/-358278655 then
+                    le=Jx((function(lS,QP)
+                        local Xc,Js,Nq,yg,Mm,vj,uJ,pu
+                        pu,Mm={[27580]=3752,[11028]=-7748,[13970]=-15263,[-13584]=-2247,[-610]=13171},function(HC)
+                            return pu[HC- -17276]
+                        end
+                        Xc=Mm(-17886)
+                        repeat
+                            while true do
+                                if Xc==3752 then
+                                    if(yg>=0 and Js>vj)or((yg<0 or yg~=yg)and Js<vj)then
+                                        Xc=-2247
+                                    else
+                                        Xc=-29775
+                                    end
+                                elseif Xc==-29775 then
+                                    Nq=Nq..iT(TK(ho(lS,(uJ-139)+1),ho(QP,(uJ-139)%#QP+1)))
+                                    Xc=Mm(-6248)
+                                elseif Xc==13171 then
+                                    Nq='';
+                                    yg,Js,vj=1,139,(#lS-1)+139
+                                    Xc=Mm(-3306)
+                                elseif Xc==-2247 then
+                                    return Nq
+                                elseif Xc==-7748 then
+                                    Js=Js+yg;
+                                    uJ=Js;
+                                    if Js~=Js then
+                                        Xc=-2247
+                                    else
+                                        Xc=Mm(10304)
+                                    end
+                                elseif Xc==-15263 then
+                                    uJ=Js;
+                                    if vj~=vj then
+                                        Xc=Mm(-30860)
+                                    else
+                                        Xc=3752
+                                    end
+                                end
+                            end
+                        until Xc==13539
+                    end)(le,uU))
+                    LE=2.1317459810788902e-06*-1771317987
+                elseif LE==3.6881256347562445e-06*1462802663 then
+                    _r,Lp,cj=BD(Ca[1],1,Ca[2]);
+                    LE=Lj(-45700)
+                elseif LE==2129155787-2129186285 then
+                    Ca=dI.__iter
+                    LE=Lj(-44583)
+                elseif LE==20953320886062/1415573631 then
+                    Ca=Jx(Ca(BD(le[1],1,le[2])))
+                    LE=Lj(5548)
+                elseif LE==1506191734-1506209638 then
+                    le='Kq\159'
+                    LE=Lj(-24420)
+                elseif LE==-1090139346- -1090116601 then
+                    le='\174\227\188\96\186\255\188a\189'
+                    LE=Lj(-36107)
+                elseif LE==2081309733+-2081309171 then
+                    le='\15\246\184\nAQw'
+                    LE=1797755372820/1993076910
+                elseif LE==8808077521184/1454438164 then
+                    uU='0 \225\138V'
+                    LE=531382215-531388329
+                elseif LE==461419814-461410500 then
+                    uU='\201\143\221\19'
+                    LE=1004586585830/61483970
+                elseif LE==50279085258409/1674685583 then
+                    Ca=nm(Vi)
+                    LE=Lj(-24682)
+                elseif LE==-735499980- -735486474 then
+                    Ca=Jx(Ca(Lf))
+                    LE=Lj(-32849)
+                elseif LE==34832571479130/-2122255010 then
+                    Ca=on[BD(Ca[1],1,Ca[2])]
+                    LE=Lj(-42088)
+                elseif LE==24909221431041/1475577361 then
+                    Ca=Jx(Ca(BD(le[1],1,le[2])))
+                    LE=Lj(-3802)
+                elseif LE==-874154517- -874145658 then
+                    le=Jx(le(aS))
+                    LE=Lj(-3946)
+                elseif LE==1377753258-1377739910 then
+                    Ca='/\221\186/\223\168'
+                    LE=-11430135676266/1435585993
+                elseif LE==-978314154- -978340446 then
+                    uU='\"\216 \215\56'
+                    LE=Lj(-30464)
+                elseif LE==113981539+-113965748 then
+                    Lf,nZ,iL=BD(Ca[1],1,Ca[2]);
+                    LE=Lj(-29290)
+                elseif LE==-8747508676902/-1002350026 then
+                    Lf,nZ,iL=BD(Ca[1],1,Ca[2]);
+                    LE=Lj(-4342)
+                elseif LE==-0.00010495805164953706*282046013 then
+                    Ca=Rs[BD(Ca[1],1,Ca[2])]
+                    LE=683650347+-683673092
+                elseif LE==-11410274310960/483117720 then
+                    Ca=Jx(hf(_r))
+                    LE=Lj(-37937)
+                elseif LE==12592374678096/-1278673302 then
+                    _M,Rs=_r(Lp,cj);
+                    cj=_M;
+                    if cj==nil then
+                        LE=Lj(-42010)
+                    else
+                        LE=Lj(-39163)
+                    end
+                elseif LE==1368519304-1368503188 then
+                    le='wE\149\201>YL\133\248\51^'
+                    LE=Lj(-31858)
+                elseif LE==1838269806+-1838254417 then
+                    Ca='I\159\214n\a8\5|\130\251b(=\19'
+                    LE=-1112095538970/-1978817685
+                elseif LE==-950510220- -950511503 then
+                    dI=BD(Ca[1],1,Ca[2]);
+                    if dI~=nil and dI.__iter~=nil then
+                        LE=Lj(8135)
+                        break
+                    elseif kl(Lf)==(function(Xp,By)
+                        local iu,cK,Sr,aF,OJ,gB,xS,OY
+                        xS,OY={[3211]=-9027,[4641]=-17461,[-16345]=-20925,[-24561]=-28132,[-13656]=-31405},function(Mo)
+                            return xS[Mo+14826]
+                        end
+                        iu=OY(-11615)
+                        repeat
+                            while true do
+                                if iu==-28132 then
+                                    if(OJ>=0 and gB>Sr)or((OJ<0 or OJ~=OJ)and gB<Sr)then
+                                        iu=OY(-31171)
+                                    else
+                                        iu=-21460
+                                    end
+                                elseif iu==-21460 then
+                                    aF=aF..iT(TK(ho(Xp,(cK-56)+1),ho(By,(cK-56)%#By+1)))
+                                    iu=OY(-10185)
+                                elseif iu==-20925 then
+                                    return aF
+                                elseif iu==-31405 then
+                                    cK=gB;
+                                    if Sr~=Sr then
+                                        iu=-20925
+                                    else
+                                        iu=OY(-39387)
+                                    end
+                                elseif iu==-17461 then
+                                    gB=gB+OJ;
+                                    cK=gB;
+                                    if gB~=gB then
+                                        iu=-20925
+                                    else
+                                        iu=-28132
+                                    end
+                                elseif iu==-9027 then
+                                    aF='';
+                                    OJ,gB,Sr=1,56,(#Xp-1)+56
+                                    iu=OY(-28482)
+                                end
+                            end
+                        until iu==15435
+                    end)('\244\194\226\207\229','\128\163')then
+                        LE=Lj(-20399)
+                        break
+                    end
+                    LE=Lj(12808)
+                elseif LE==1326290933-1326323333 then
+                    Ca=vN.__iter
+                    LE=Lj(-16536)
+                elseif LE==1780029826+-1779998570 then
+                    Ca=Jx(AM(Lf))
+                    LE=Lj(-15809)
+                elseif LE==1394134310+-1394117971 then
+                    le=Jx((function(Te,fL)
+                        local YY,Rb,DV,Ej,ck,wR,h,xa
+                        wR,DV={[-24498]=26843,[-28096]=-15025,[-11061]=-15025,[11158]=2131,[-24434]=-22794,[17659]=-32121},function(Tg)
+                            return wR[Tg-17053]
+                        end
+                        YY=DV(-7381)
+                        repeat
+                            while true do
+                                if YY==28015 then
+                                    if(Ej>=0 and Rb>xa)or((Ej<0 or Ej~=Ej)and Rb<xa)then
+                                        YY=DV(-11043)
+                                    else
+                                        YY=DV(28211)
+                                    end
+                                elseif YY==26843 then
+                                    h=Rb;
+                                    if xa~=xa then
+                                        YY=-15025
+                                    else
+                                        YY=28015
+                                    end
+                                elseif YY==-22794 then
+                                    ck='';
+                                    Ej,Rb,xa=1,182,(#Te-1)+182
+                                    YY=DV(-7445)
+                                elseif YY==-32121 then
+                                    Rb=Rb+Ej;
+                                    h=Rb;
+                                    if Rb~=Rb then
+                                        YY=DV(5992)
+                                    else
+                                        YY=28015
+                                    end
+                                elseif YY==2131 then
+                                    ck=ck..iT(TK(ho(Te,(h-182)+1),ho(fL,(h-182)%#fL+1)))
+                                    YY=DV(34712)
+                                elseif YY==-15025 then
+                                    return ck
+                                end
+                            end
+                        until YY==-30745
+                    end)(le,uU))
+                    LE=Lj(-3854)
+                elseif LE==9.796912682961109e-06*1248658674 then
+                    Lf,nZ,iL=BD(Ca[1],1,Ca[2]);
+                    if kl(Lf)~='function'then
+                        LE=Lj(-32699)
+                        break
+                    end;
+                    LE=Lj(7621);
+                elseif LE==-8435123083566/1059422643 then
+                    le='F\173\219'
+                    LE=-2.4356898218404283e-05*1078216108
+                elseif LE==2191169971068/565609182 then
+                    le='e\189T\148PK\180D\165]L'
+                    LE=Lj(-46732)
+                elseif LE==-1286635638+1286613294 then
+                    Ca=Jx(Ca(Rs,BD(le[1],1,le[2])))
+                    LE=Lj(-22099)
+                elseif LE==591590694-591621125 then
+                    vN=BD(Ca[1],1,Ca[2]);
+                    if vN~=nil and vN.__iter~=nil then
+                        LE=Lj(-8982)
+                        break
+                    elseif kl(_r)==(function(jI,Fa)
+                        local uv,Xd,lT,gq,HA,hq,bc,ku
+                        lT,hq={[17382]=11466,[2290]=-16555,[13450]=-28632,[11587]=-16555,[15398]=-29918},function(vO)
+                            return lT[vO+13080]
+                        end
+                        ku=hq(370)
+                        repeat
+                            while true do
+                                if ku==-16555 then
+                                    return uv
+                                elseif ku==-29918 then
+                                    bc=bc+gq;
+                                    HA=bc;
+                                    if bc~=bc then
+                                        ku=hq(-10790)
+                                    else
+                                        ku=hq(4302)
+                                    end
+                                elseif ku==11466 then
+                                    if(gq>=0 and bc>Xd)or((gq<0 or gq~=gq)and bc<Xd)then
+                                        ku=hq(-1493)
+                                    else
+                                        ku=-27380
+                                    end
+                                elseif ku==-28632 then
+                                    uv='';
+                                    Xd,gq,bc=(#jI-1)+172,1,172
+                                    ku=14528
+                                elseif ku==-27380 then
+                                    uv=uv..iT(TK(ho(jI,(HA-172)+1),ho(Fa,(HA-172)%#Fa+1)))
+                                    ku=hq(2318)
+                                elseif ku==14528 then
+                                    HA=bc;
+                                    if Xd~=Xd then
+                                        ku=-16555
+                                    else
+                                        ku=11466
+                                    end
+                                end
+                            end
+                        until ku==13951
+                    end)('N\226X\239_',':\131')then
+                        LE=Lj(-30851)
+                        break
+                    end
+                    LE=Lj(-37642)
+                elseif LE==-18916611306537/2049248327 then
+                    Ca='\"\1\254\"\3\236'
+                    LE=Lj(-9079)
+                elseif LE==16516632-16512409 then
+                    ZY,aS=Lf(nZ,iL);
+                    iL=ZY;
+                    if iL==nil then
+                        LE=4.8747972693035308e-05*499754116
+                    else
+                        LE=Lj(-28169)
+                    end
+                elseif LE==1614733130+-1614736906 then
+                    le=Dr[BD(le[1],1,le[2])]
+                    LE=Lj(-46661)
+                elseif LE==1040385299+-1040400916 then
+                    _r,Lp,cj=BD(Ca[1],1,Ca[2]);
+                    if kl(_r)~='function'then
+                        LE=Lj(-42249)
+                        break
+                    end;
+                    LE=Lj(-7754);
+                elseif LE==1.5543081907957816e-05*1257150938 then
+                    Ca=Jx(hf(Lf))
+                    LE=Lj(-38378)
+                elseif LE==-664760300- -664753396 then
+                    le=Jx(le(Dr))
+                    LE=-9122976175698/-540428658
+                elseif LE==0.0003395203571529061*70369860 then
+                    Ca=Jx((function(pE,oQ)
+                        local Vk,vQ,Ni,G,FY,hT,GF,Gt
+                        G,Ni={[-10894]=-4514,[32446]=-16112,[29029]=-4514,[-15581]=-16112,[6770]=-17467,[5853]=-13425},function(Fk)
+                            return G[Fk+-21456]
+                        end
+                        vQ=Ni(27309)
+                        repeat
+                            while true do
+                                if vQ==6239 then
+                                    Gt=Gt..iT(TK(ho(pE,(Vk-5)+1),ho(oQ,(Vk-5)%#oQ+1)))
+                                    vQ=Ni(28226)
+                                elseif vQ==-16112 then
+                                    if(GF>=0 and hT>FY)or((GF<0 or GF~=GF)and hT<FY)then
+                                        vQ=-4514
+                                    else
+                                        vQ=6239
+                                    end
+                                elseif vQ==19826 then
+                                    Vk=hT;
+                                    if FY~=FY then
+                                        vQ=Ni(10562)
+                                    else
+                                        vQ=Ni(53902)
+                                    end
+                                elseif vQ==-4514 then
+                                    return Gt
+                                elseif vQ==-17467 then
+                                    hT=hT+GF;
+                                    Vk=hT;
+                                    if hT~=hT then
+                                        vQ=Ni(50485)
+                                    else
+                                        vQ=Ni(5875)
+                                    end
+                                elseif vQ==-13425 then
+                                    Gt='';
+                                    FY,hT,GF=(#pE-1)+5,5,1
+                                    vQ=19826
+                                end
+                            end
+                        until vQ==28982
+                    end)(Ca,le))
+                    LE=Lj(7749)
+                elseif LE==-7.3962030247862437e-05*85124759 then
+                    _r,Lp,cj=BD(Ca[1],1,Ca[2]);
+                    LE=Lj(-26581)
+                end
+            end
+        until LE==913053141+-913033076
+    end;
+    local T,ZN,CY,Ec,rk,xe,GD
+    ZN,xe={[30102]=-25668,[-28704]=-30054,[3345]=8743,[29399]=20120,[-7109]=-8918,[-6240]=15359,[-25339]=28393,[-7412]=631,[11801]=-27207,[29087]=15359,[-3263]=604,[24685]=-9229,[10916]=-16894,[-13140]=21954,[-6953]=7938,[22883]=-30054,[-27902]=631,[-3974]=-11123,[7182]=11381,[-13464]=-3856,[-20041]=6991,[-32321]=11395,[-6731]=-22714,[-13867]=-18867,[-29157]=21954,[-30704]=14870,[18728]=30853,[-15458]=15359},function(zj)
+        return ZN[zj+27349]
+    end
+    rk=xe(-40489)
+    repeat
+        while true do
+            if rk==1740969853+-1740964763 then
+                CY='Eaw\192'
+                rk=6.6828816088509227e-06*-2063630752
+            elseif rk==-1748741079+1748711025 then
+                T=b()
+                rk=xe(-34761)
+            elseif rk==9.2325499264716146e-06*-2052629030 then
+                GD=(function(jA,lE)
+                    local sE,Au,mN,VV,lU,Bj,ks,TC
+                    sE,ks={[-9776]=-27707,[-27627]=-6249,[-22296]=-7413,[-6912]=-22901,[6090]=-21999},function(SO)
+                        return sE[SO-2410]
+                    end
+                    Au=ks(8500)
+                    repeat
+                        while true do
+                            if Au==-6249 then
+                                return TC
+                            elseif Au==-7413 then
+                                TC=TC..iT(TK(ho(jA,(Bj-98)+1),ho(lE,(Bj-98)%#lE+1)))
+                                Au=ks(-7366)
+                            elseif Au==-27707 then
+                                mN=mN+VV;
+                                Bj=mN;
+                                if mN~=mN then
+                                    Au=-6249
+                                else
+                                    Au=-10922
+                                end
+                            elseif Au==-22901 then
+                                Bj=mN;
+                                if lU~=lU then
+                                    Au=ks(-25217)
+                                else
+                                    Au=-10922
+                                end
+                            elseif Au==-21999 then
+                                TC='';
+                                mN,VV,lU=98,1,(#jA-1)+98
+                                Au=ks(-4502)
+                            elseif Au==-10922 then
+                                if(VV>=0 and mN>lU)or((VV<0 or VV~=VV)and mN<lU)then
+                                    Au=-6249
+                                else
+                                    Au=ks(-19886)
+                                end
+                            end
+                        end
+                    until Au==6987
+                end)(GD,CY)
+                rk=1091456261+-1091428717
+            elseif rk==-640755233+640770592 then
+                T='-}\254\175|\211\55\bv\249\141}\217\54\r'
+                rk=xe(-40813)
+            elseif rk==-3648274256766/264540226 then
+                GD=(function(nP,oB)
+                    local fb,Dc,Ue,Jw,NI,vA,XH,eP
+                    Ue,vA={[-27841]=18047,[29233]=-6255,[-19170]=-15023,[-4921]=-6255,[-13120]=28286,[-7057]=-31758},function(SV)
+                        return Ue[SV+20261]
+                    end
+                    NI=vA(-48102)
+                    repeat
+                        while true do
+                            if NI==18047 then
+                                eP='';
+                                Jw,fb,Dc=(#nP-1)+13,13,1
+                                NI=vA(-39431)
+                            elseif NI==-31758 then
+                                eP=eP..iT(TK(ho(nP,(XH-13)+1),ho(oB,(XH-13)%#oB+1)))
+                                NI=vA(-33381)
+                            elseif NI==-15023 then
+                                XH=fb;
+                                if Jw~=Jw then
+                                    NI=-6255
+                                else
+                                    NI=-23392
+                                end
+                            elseif NI==-23392 then
+                                if(Dc>=0 and fb>Jw)or((Dc<0 or Dc~=Dc)and fb<Jw)then
+                                    NI=vA(8972)
+                                else
+                                    NI=vA(-27318)
+                                end
+                            elseif NI==-6255 then
+                                return eP
+                            elseif NI==28286 then
+                                fb=fb+Dc;
+                                XH=fb;
+                                if fb~=fb then
+                                    NI=vA(-25182)
+                                else
+                                    NI=-23392
+                                end
+                            end
+                        end
+                    until NI==-11002
+                end)(GD,CY)
+                rk=xe(-34302)
+            elseif rk==-6.5913868229413661e-05*344601229 then
+                GD=on[GD]
+                rk=618780064+-618792481
+            elseif rk==102420000+-102413009 then
+                GD='6m?'
+                rk=-4.5602239888644066e-05*688803885
+            elseif rk==-13441858793552/1208474224 then
+                GD=(function(PY,uz)
+                    local cN,Om,Gg,Nc,hv,Ym,rx,Xw
+                    rx,Om={[20151]=23384,[-14463]=20249,[967]=14174,[16520]=16863,[-4329]=31589},function(nO)
+                        return rx[nO+-19780]
+                    end
+                    Xw=Om(20747)
+                    repeat
+                        while true do
+                            if Xw==16863 then
+                                hv=hv..iT(TK(ho(PY,(Nc-202)+1),ho(uz,(Nc-202)%#uz+1)))
+                                Xw=Om(5317)
+                            elseif Xw==25757 then
+                                if(Gg>=0 and Ym>cN)or((Gg<0 or Gg~=Gg)and Ym<cN)then
+                                    Xw=31589
+                                else
+                                    Xw=Om(36300)
+                                end
+                            elseif Xw==14174 then
+                                hv='';
+                                Ym,Gg,cN=202,1,(#PY-1)+202
+                                Xw=Om(39931)
+                            elseif Xw==23384 then
+                                Nc=Ym;
+                                if cN~=cN then
+                                    Xw=Om(15451)
+                                else
+                                    Xw=25757
+                                end
+                            elseif Xw==20249 then
+                                Ym=Ym+Gg;
+                                Nc=Ym;
+                                if Ym~=Ym then
+                                    Xw=31589
+                                else
+                                    Xw=25757
+                                end
+                            elseif Xw==31589 then
+                                return hv
+                            end
+                        end
+                    until Xw==-5774
+                end)(GD,CY)
+                rk=-15816462464700/-1161267435
+            elseif rk==-1580087489+1580068622 then
+                CY=(function(zh,VY)
+                    local OI,TD,HG,MH,nh,cY,Xq,Em
+                    OI,nh={[-6641]=-18861,[-30349]=-16426,[-18238]=-7854,[19861]=24269,[7876]=24269},function(lM)
+                        return OI[lM+20854]
+                    end
+                    Xq=nh(-39092)
+                    repeat
+                        while true do
+                            if Xq==-16426 then
+                                cY=MH;
+                                if TD~=TD then
+                                    Xq=nh(-993)
+                                else
+                                    Xq=-1176
+                                end
+                            elseif Xq==-7854 then
+                                HG='';
+                                Em,MH,TD=1,145,(#zh-1)+145
+                                Xq=nh(-51203)
+                            elseif Xq==-18861 then
+                                MH=MH+Em;
+                                cY=MH;
+                                if MH~=MH then
+                                    Xq=nh(-12978)
+                                else
+                                    Xq=-1176
+                                end
+                            elseif Xq==-1176 then
+                                if(Em>=0 and MH>TD)or((Em<0 or Em~=Em)and MH<TD)then
+                                    Xq=24269
+                                else
+                                    Xq=5373
+                                end
+                            elseif Xq==5373 then
+                                HG=HG..iT(TK(ho(zh,(cY-145)+1),ho(VY,(cY-145)%#VY+1)))
+                                Xq=nh(-27495)
+                            elseif Xq==24269 then
+                                return HG
+                            end
+                        end
+                    until Xq==-29783
+                end)(CY,Ec)
+                rk=1.5419860621667426e-05*1870120665
+            elseif rk==1230932284658/1950764318 then
+                rk=xe(-20167);
+                break;
+            elseif rk==-636944069+636912658 then
+                T=(function(xZ,IZ)
+                    local Jp,Uk,cD,RU,ZT,Kn,pD,RO
+                    RU,RO={[-2701]=29449,[-19880]=15673,[20158]=-22001,[-4811]=-28161,[5790]=4766,[-9218]=29449,[5433]=-26125,[-11390]=29449},function(cS)
+                        return RU[cS+30896]
+                    end
+                    cD=RO(-10738)
+                    repeat
+                        while true do
+                            if cD==4766 then
+                                pD=Kn;
+                                if ZT~=ZT then
+                                    cD=RO(-33597)
+                                else
+                                    cD=-26125
+                                end
+                            elseif cD==-22001 then
+                                Jp='';
+                                ZT,Uk,Kn=(#xZ-1)+61,1,61
+                                cD=RO(-25106)
+                            elseif cD==-28161 then
+                                Kn=Kn+Uk;
+                                pD=Kn;
+                                if Kn~=Kn then
+                                    cD=RO(-40114)
+                                else
+                                    cD=RO(-25463)
+                                end
+                            elseif cD==-26125 then
+                                if(Uk>=0 and Kn>ZT)or((Uk<0 or Uk~=Uk)and Kn<ZT)then
+                                    cD=RO(-42286)
+                                else
+                                    cD=RO(-50776)
+                                end
+                            elseif cD==15673 then
+                                Jp=Jp..iT(TK(ho(xZ,(pD-61)+1),ho(IZ,(pD-61)%#IZ+1)))
+                                cD=RO(-35707)
+                            elseif cD==29449 then
+                                return Jp
+                            end
+                        end
+                    until cD==9476
+                end)(T,GD)
+                rk=2131664624-2131633744
+            elseif rk==2.5058002137744259e-05*732779888 then
+                GD='\n\15\52\168$\15\16\165!'
+                rk=6.6192510252442826e-06*768969175
+            elseif rk==567780620-567767000 then
+                T=T[GD]
+                rk=9.0469132113928146e-05*202964255
+            elseif rk==7.4085926521994175e-06*1538078895 then
+                GD=(function(TM,RW)
+                    local vL,Oe,Hp,qZ,yk,IX,aE,VK
+                    Hp,aE={[-26475]=-18486,[26447]=31620,[-29773]=30956,[-22818]=31620,[11329]=-17009},function(xX)
+                        return Hp[xX+-12455]
+                    end
+                    yk=aE(23784)
+                    repeat
+                        while true do
+                            if yk==2656 then
+                                IX=VK;
+                                if qZ~=qZ then
+                                    yk=aE(-10363)
+                                else
+                                    yk=-14616
+                                end
+                            elseif yk==-17009 then
+                                vL='';
+                                Oe,VK,qZ=1,164,(#TM-1)+164
+                                yk=2656
+                            elseif yk==-14616 then
+                                if(Oe>=0 and VK>qZ)or((Oe<0 or Oe~=Oe)and VK<qZ)then
+                                    yk=31620
+                                else
+                                    yk=aE(-17318)
+                                end
+                            elseif yk==30956 then
+                                vL=vL..iT(TK(ho(TM,(IX-164)+1),ho(RW,(IX-164)%#RW+1)))
+                                yk=aE(-14020)
+                            elseif yk==31620 then
+                                return vL
+                            elseif yk==-18486 then
+                                VK=VK+Oe;
+                                IX=VK;
+                                if VK~=VK then
+                                    yk=aE(38902)
+                                else
+                                    yk=-14616
+                                end
+                            end
+                        end
+                    until yk==-30114
+                end)(GD,CY)
+                rk=-1094160678- -1094153121
+            elseif rk==-1758301614- -1758316484 then
+                GD='<-\208\161c;\142\18%\214\183U*\172'
+                rk=-1667429865- -1667442959
+            elseif rk==5470967313344/-1418819324 then
+                GD='i\24\141\204\25\189S'
+                rk=-4.6690036746549266e-05*44956058
+            elseif rk==808091921-808063084 then
+                GD=GD[CY]
+                rk=xe(-8621)
+            elseif rk==1.2332415779868182e-06*1840677480 then
+                GD='\236:F\193\48K\219'
+                rk=-2.7943087570295704e-05*617827216
+            elseif rk==-1845099281- -1845082387 then
+                T=Dr[T]
+                rk=1176582397+-1176580127
+            elseif rk==-1432964185- -1432938517 then
+                Ec='{A\177\210\16y\252'
+                rk=xe(-41216)
+            elseif rk==16621021484382/1269361653 then
+                CY='{A\177\210\16y\252'
+                rk=xe(-31323)
+            elseif rk==-0.00014771658596003315*189430319 then
+                GD=(function(qW,XS)
+                    local Kz,Bu,YA,Yf,NU,vp,Pq,hA
+                    Yf,Pq={[29729]=30351,[6261]=-11441,[-26364]=-19431,[-25939]=30351,[29935]=-18863,[-13291]=12713},function(fc)
+                        return Yf[fc-6013]
+                    end
+                    vp=Pq(35948)
+                    repeat
+                        while true do
+                            if vp==-19431 then
+                                if(NU>=0 and Kz>hA)or((NU<0 or NU~=NU)and Kz<hA)then
+                                    vp=Pq(35742)
+                                else
+                                    vp=25446
+                                end
+                            elseif vp==-11441 then
+                                Kz=Kz+NU;
+                                YA=Kz;
+                                if Kz~=Kz then
+                                    vp=Pq(-19926)
+                                else
+                                    vp=Pq(-20351)
+                                end
+                            elseif vp==25446 then
+                                Bu=Bu..iT(TK(ho(qW,(YA-19)+1),ho(XS,(YA-19)%#XS+1)))
+                                vp=Pq(12274)
+                            elseif vp==12713 then
+                                YA=Kz;
+                                if hA~=hA then
+                                    vp=30351
+                                else
+                                    vp=-19431
+                                end
+                            elseif vp==-18863 then
+                                Bu='';
+                                Kz,NU,hA=19,1,(#qW-1)+19
+                                vp=Pq(-7278)
+                            elseif vp==30351 then
+                                return Bu
+                            end
+                        end
+                    until vp==18840
+                end)(GD,CY)
+                rk=xe(-34080)
+            elseif rk==-16134268177863/593019009 then
+                CY='6m?'
+                rk=743152440-743180422
+            elseif rk==1.0768484412881585e-05*-1153087057 then
+                CY='<-\208\161c;\142\18%\214\183U*\172'
+                rk=xe(2753)
+            elseif rk==-1054789468+1054781911 then
+                GD=Dr[GD]
+                rk=xe(-24004)
+            elseif rk==-1646266486- -1646297366 then
+                T=on[T]
+                rk=xe(-58053)
+            elseif rk==18813447090256/-1089750179 then
+                CY='\175U('
+                rk=-9.5389835091859112e-05*198668967
+            elseif rk==-136395513748/-225820387 then
+                GD='b\2XQ\1ZE'
+                rk=xe(-15548)
+            elseif rk==8.0511960729799242e-06*985940465 then
+                T=T[GD]
+                rk=xe(-30612)
+            elseif rk==-35384766044172/-1611768518 then
+                T='b\2XQ\1ZE'
+                rk=xe(-47390)
+            elseif rk==-4.1688844835276504e-06*2139181365 then
+                CY='i\24\141\204\25\189S'
+                rk=xe(-59670)
+            elseif rk==-655519299- -655546843 then
+                T=T[GD]
+                rk=975607961+-975592002
+            elseif rk==-2.8867854181996294e-06*727106347 then
+                T=(function(Ps,ee)
+                    local YQ,zL,tK,lV,C,_n,NQ,Jk
+                    C,YQ={[32529]=25613,[-25452]=25613,[32525]=-7748,[24360]=-31108,[-17700]=-10632},function(DC)
+                        return C[DC+-23219]
+                    end
+                    Jk=YQ(55744)
+                    repeat
+                        while true do
+                            if Jk==-14149 then
+                                if(_n>=0 and zL>NQ)or((_n<0 or _n~=_n)and zL<NQ)then
+                                    Jk=YQ(-2233)
+                                else
+                                    Jk=11593
+                                end
+                            elseif Jk==-7748 then
+                                lV='';
+                                _n,zL,NQ=1,147,(#Ps-1)+147
+                                Jk=YQ(47579)
+                            elseif Jk==11593 then
+                                lV=lV..iT(TK(ho(Ps,(tK-147)+1),ho(ee,(tK-147)%#ee+1)))
+                                Jk=YQ(5519)
+                            elseif Jk==25613 then
+                                return lV
+                            elseif Jk==-10632 then
+                                zL=zL+_n;
+                                tK=zL;
+                                if zL~=zL then
+                                    Jk=YQ(55748)
+                                else
+                                    Jk=-14149
+                                end
+                            elseif Jk==-31108 then
+                                tK=zL;
+                                if NQ~=NQ then
+                                    Jk=25613
+                                else
+                                    Jk=-14149
+                                end
+                            end
+                        end
+                    until Jk==-8327
+                end)(T,GD)
+                rk=xe(-16433)
+            elseif rk==661776990+-661768247 then
+                T=T(GD,function(Yg)
+                    local eR,JR,qB,_s
+                    eR,JR={[-2263]=-26149,[29230]=-26149,[31025]=-18475,[30192]=-26149,[-31119]=-26149,[-29001]=30930,[30403]=31814,[12051]=-3056,[9389]=-3056,[17902]=24035},function(gJ)
+                        return eR[gJ- -11900]
+                    end
+                    qB=JR(19125)
+                    repeat
+                        while true do
+                            if qB==-34451193490425/1864746603 then
+                                if Yg[(function(DK,be)
+                                    local nG,WR,de,IK,HT,lD,aJ,qq
+                                    qq,HT={[29801]=-32072,[3787]=-14455,[9320]=-14259,[-11353]=-14259,[16140]=15721},function(Qs)
+                                        return qq[Qs-15245]
+                                    end
+                                    de=HT(31385)
+                                    repeat
+                                        while true do
+                                            if de==-14259 then
+                                                if(nG>=0 and aJ>IK)or((nG<0 or nG~=nG)and aJ<IK)then
+                                                    de=-32072
+                                                else
+                                                    de=5475
+                                                end
+                                            elseif de==6818 then
+                                                lD=aJ;
+                                                if IK~=IK then
+                                                    de=-32072
+                                                else
+                                                    de=HT(3892)
+                                                end
+                                            elseif de==15721 then
+                                                WR='';
+                                                nG,IK,aJ=1,(#DK-1)+133,133
+                                                de=6818
+                                            elseif de==-32072 then
+                                                return WR
+                                            elseif de==5475 then
+                                                WR=WR..iT(TK(ho(DK,(lD-133)+1),ho(be,(lD-133)%#be+1)))
+                                                de=HT(19032)
+                                            elseif de==-14455 then
+                                                aJ=aJ+nG;
+                                                lD=aJ;
+                                                if aJ~=aJ then
+                                                    de=HT(45046)
+                                                else
+                                                    de=HT(24565)
+                                                end
+                                            end
+                                        end
+                                    until de==-4247
+                                end)('^k}o','\16\n')]==(function(_I,Iz)
+                                    local dx,NA,Lw,c,lX,sU,WM,XK
+                                    Lw,lX={[-16726]=24187,[-3028]=-32419,[-5246]=12353},function(Ad)
+                                        return Lw[Ad- -344]
+                                    end
+                                    c=lX(-3372)
+                                    repeat
+                                        while true do
+                                            if c==12353 then
+                                                dx=dx+NA;
+                                                WM=dx;
+                                                if dx~=dx then
+                                                    c=12389
+                                                else
+                                                    c=24187
+                                                end
+                                            elseif c==13482 then
+                                                WM=dx;
+                                                if sU~=sU then
+                                                    c=12389
+                                                else
+                                                    c=lX(-17070)
+                                                end
+                                            elseif c==24187 then
+                                                if(NA>=0 and dx>sU)or((NA<0 or NA~=NA)and dx<sU)then
+                                                    c=12389
+                                                else
+                                                    c=7010
+                                                end
+                                            elseif c==7010 then
+                                                XK=XK..iT(TK(ho(_I,(WM-228)+1),ho(Iz,(WM-228)%#Iz+1)))
+                                                c=lX(-5590)
+                                            elseif c==12389 then
+                                                return XK
+                                            elseif c==-32419 then
+                                                XK='';
+                                                sU,dx,NA=(#_I-1)+228,228,1
+                                                c=13482
+                                            end
+                                        end
+                                    until c==20965
+                                end)('k\196\214\20\127\216\214\21x','\f\168\183g')and Yg[(function(Gp,XI)
+                                    local GM,qn,Nh,os,BR,GC,Vq,fu
+                                    BR,Vq={[26540]=13198,[-1167]=14970,[3145]=24229,[-31089]=-8591},function(ql)
+                                        return BR[ql+-8535]
+                                    end
+                                    os=Vq(11680)
+                                    repeat
+                                        while true do
+                                            if os==22171 then
+                                                Nh=GM;
+                                                if qn~=qn then
+                                                    os=13198
+                                                else
+                                                    os=-8591
+                                                end
+                                            elseif os==13198 then
+                                                return fu
+                                            elseif os==-8591 then
+                                                if(GC>=0 and GM>qn)or((GC<0 or GC~=GC)and GM<qn)then
+                                                    os=Vq(35075)
+                                                else
+                                                    os=8598
+                                                end
+                                            elseif os==8598 then
+                                                fu=fu..iT(TK(ho(Gp,(Nh-162)+1),ho(XI,(Nh-162)%#XI+1)))
+                                                os=Vq(7368)
+                                            elseif os==24229 then
+                                                fu='';
+                                                qn,GC,GM=(#Gp-1)+162,1,162
+                                                os=22171
+                                            elseif os==14970 then
+                                                GM=GM+GC;
+                                                Nh=GM;
+                                                if GM~=GM then
+                                                    os=13198
+                                                else
+                                                    os=Vq(-22554)
+                                                end
+                                            end
+                                        end
+                                    until os==-25392
+                                end)('\165\159\173','\236')](Yg,(function(YS,Ic)
+                                    local Is,Ao,Kl,Wj,NC,tj,Gz,QT
+                                    Wj,QT={[-30477]=9641,[-13385]=11960,[-1133]=-7144,[-25225]=9759,[24898]=11960,[-27394]=-17593,[10596]=7699},function(Uc)
+                                        return Wj[Uc- -5805]
+                                    end
+                                    NC=QT(-33199)
+                                    repeat
+                                        while true do
+                                            if NC==11960 then
+                                                return Kl
+                                            elseif NC==7699 then
+                                                Is=Is+tj;
+                                                Ao=Is;
+                                                if Is~=Is then
+                                                    NC=11960
+                                                else
+                                                    NC=QT(-36282)
+                                                end
+                                            elseif NC==-17593 then
+                                                Kl='';
+                                                Gz,tj,Is=(#YS-1)+180,1,180
+                                                NC=QT(-6938)
+                                            elseif NC==9641 then
+                                                if(tj>=0 and Is>Gz)or((tj<0 or tj~=tj)and Is<Gz)then
+                                                    NC=QT(-19190)
+                                                else
+                                                    NC=QT(-31030)
+                                                end
+                                            elseif NC==9759 then
+                                                Kl=Kl..iT(TK(ho(YS,(Ao-180)+1),ho(Ic,(Ao-180)%#Ic+1)))
+                                                NC=QT(4791)
+                                            elseif NC==-7144 then
+                                                Ao=Is;
+                                                if Gz~=Gz then
+                                                    NC=QT(19093)
+                                                else
+                                                    NC=9641
+                                                end
+                                            end
+                                        end
+                                    until NC==19651
+                                end)('J\222\193\246X\222\192\231','\b\191\178\147'))then
+                                    qB=JR(151)
+                                    break
+                                end
+                                qB=JR(-14163)
+                            elseif qB==-1821377191- -1821374135 then
+                                _s=nm(Yg)
+                                qB=JR(17330)
+                            elseif qB==-1.3370534606716344e-05*1955718359 then
+                                qB=JR(-40901);
                                 break;
                             end
                         end
-                    until Hp==-287046202+287052331
+                    until qB==7118828107830/230159331
                 end)
-                hg=FY(-24739)
-            elseif hg==-185674668+185696135 then
-                aa=(function(Ap,ee)
-                    local SU,Ne,ge,cX,We,zH,TH,Ha
-                    Ne,We={[4573]=-29643,[-10299]=11295,[-12049]=-19131,[-13233]=-19131,[17463]=846,[970]=-9513,[13396]=-29643},function(rK)
-                        return Ne[rK-28805]
-                    end
-                    SU=We(46268)
-                    repeat
-                        while true do
-                            if SU==11295 then
-                                TH=TH+Ha;
-                                cX=TH;
-                                if TH~=TH then
-                                    SU=We(15572)
-                                else
-                                    SU=We(33378)
-                                end
-                            elseif SU==-29643 then
-                                if(Ha>=0 and TH>zH)or((Ha<0 or Ha~=Ha)and TH<zH)then
-                                    SU=-19131
-                                else
-                                    SU=We(29775)
-                                end
-                            elseif SU==-9513 then
-                                ge=ge..Sr(Sz(nv(Ap,(cX-190)+1),nv(ee,(cX-190)%#ee+1)))
-                                SU=We(18506)
-                            elseif SU==-4747 then
-                                cX=TH;
-                                if zH~=zH then
-                                    SU=We(16756)
-                                else
-                                    SU=We(42201)
-                                end
-                            elseif SU==846 then
-                                ge='';
-                                TH,Ha,zH=190,1,(#Ap-1)+190
-                                SU=-4747
-                            elseif SU==-19131 then
-                                return ge
-                            end
-                        end
-                    until SU==-8252
-                end)(aa,Ra)
-                hg=-238764835933/1080383873
-            elseif hg==-44783601522525/-1811268009 then
-                aa=(function(Jm,ez)
-                    local bL,gK,NV,DO,lJ,Vt,WP,vT
-                    NV,Vt={[18188]=21308,[4915]=25832,[-16292]=-7030,[26497]=-27127,[-16518]=-18651},function(nA)
-                        return NV[nA-1192]
-                    end
-                    lJ=Vt(6107)
-                    repeat
-                        while true do
-                            if lJ==21671 then
-                                return bL
-                            elseif lJ==21308 then
-                                bL=bL..Sr(Sz(nv(Jm,(vT-240)+1),nv(ez,(vT-240)%#ez+1)))
-                                lJ=Vt(27689)
-                            elseif lJ==-18651 then
-                                vT=DO;
-                                if gK~=gK then
-                                    lJ=21671
-                                else
-                                    lJ=Vt(-15100)
-                                end
-                            elseif lJ==25832 then
-                                bL='';
-                                WP,gK,DO=1,(#Jm-1)+240,240
-                                lJ=Vt(-15326)
-                            elseif lJ==-7030 then
-                                if(WP>=0 and DO>gK)or((WP<0 or WP~=WP)and DO<gK)then
-                                    lJ=21671
-                                else
-                                    lJ=Vt(19380)
-                                end
-                            elseif lJ==-27127 then
-                                DO=DO+WP;
-                                vT=DO;
-                                if DO~=DO then
-                                    lJ=21671
-                                else
-                                    lJ=-7030
-                                end
-                            end
-                        end
-                    until lJ==-17862
-                end)(aa,Ra)
-                hg=684048912+-684044040
-            elseif hg==8.0934708633440262e-07*-1693958035 then
-                Zu='ob\191\158d__Ji\184\188eU^O'
-                hg=8645052039750/-495418455
-            elseif hg==1612975668+-1612952137 then
-                Ra='\27\224\16\23\241O\205'
-                hg=5.9803556744143576e-07*-413018913
-            elseif hg==1726152134-1726155773 then
-                aa='ob\191\158d__Ji\184\188eU^O'
-                hg=-574068197- -574060640
-            elseif hg==-1353140756+1353141146 then
-                Ra='\206\48p'
-                hg=-1741054996+1741063038
-            elseif hg==2226139364875/1732404175 then
-                Zu=pk[Zu]
-                hg=FY(26408)
-            elseif hg==798474716-798469834 then
-                Zu=A[Zu]
-                hg=FY(5156)
-            elseif hg==8.6281596755848349e-06*-2022447504 then
-                aa='+\a\204\253\1\49;'
-                hg=FY(-30808)
-            elseif hg==-3.8579250411152505e-05*531062677 then
-                Zu=(function(mV,SP)
-                    local Ak,hw,Op,Va,sh,Bo,mr,DG
-                    Ak,Op={[-3933]=5829,[-18272]=-15731,[-2873]=6705,[20457]=21330,[-17398]=5829,[-26441]=7953},function(oO)
-                        return Ak[oO- -18953]
-                    end
-                    sh=Op(-45394)
-                    repeat
-                        while true do
-                            if sh==7953 then
-                                Va='';
-                                Bo,hw,mr=142,1,(#mV-1)+142
-                                sh=Op(-37225)
-                            elseif sh==5829 then
-                                if(hw>=0 and Bo>mr)or((hw<0 or hw~=hw)and Bo<mr)then
-                                    sh=21330
-                                else
-                                    sh=29820
-                                end
-                            elseif sh==-15731 then
-                                DG=Bo;
-                                if mr~=mr then
-                                    sh=Op(1504)
-                                else
-                                    sh=Op(-22886)
-                                end
-                            elseif sh==6705 then
-                                Bo=Bo+hw;
-                                DG=Bo;
-                                if Bo~=Bo then
-                                    sh=21330
-                                else
-                                    sh=Op(-36351)
-                                end
-                            elseif sh==21330 then
-                                return Va
-                            elseif sh==29820 then
-                                Va=Va..Sr(Sz(nv(mV,(DG-142)+1),nv(SP,(DG-142)%#SP+1)))
-                                sh=Op(-21826)
-                            end
-                        end
-                    until sh==-14615
-                end)(Zu,aa)
-                hg=FY(-8545)
-            elseif hg==-386308763+386301206 then
-                Ra='+\a\204\253\1\49;'
-                hg=FY(20241)
-            elseif hg==-1572040238+1572064969 then
-                Ra='\\\140qd\130\r\191r\132wr\180\28\157'
-                hg=FY(6994)
-            elseif hg==4.5876006152220134e-07*-1009242170 then
-                aa=aa[Ra]
-                hg=FY(30129)
-            elseif hg==-937054240+937038848 then
-                Zu=od()
-                hg=FY(-3550)
-            elseif hg==28268263907546/-1025587342 then
-                Zu=Zu[aa]
-                hg=1085870293-1085873932
-            elseif hg==-1587112392+1587132351 then
-                Ra='\222\5\21\1'
-                hg=FY(2146)
-            elseif hg==6.6371783277584405e-06*-410716703 then
-                Zu=Zu[aa]
-                hg=982671808+-982665991
-            elseif hg==1791244293+-1791237590 then
-                Ra=(function(ey,Ix)
-                    local R,OD,Ys,oX,nG,Hi,ZF,FJ
-                    Ys,R={[-15017]=18956,[21219]=-3557,[22268]=-25380,[32333]=-2493},function(zE)
-                        return Ys[zE-7675]
-                    end
-                    Hi=R(-7342)
-                    repeat
-                        while true do
-                            if Hi==18956 then
-                                nG='';
-                                ZF,oX,FJ=176,(#ey-1)+176,1
-                                Hi=R(29943)
-                            elseif Hi==29184 then
-                                if(FJ>=0 and ZF>oX)or((FJ<0 or FJ~=FJ)and ZF<oX)then
-                                    Hi=R(28894)
-                                else
-                                    Hi=-16619
-                                end
-                            elseif Hi==-3557 then
-                                return nG
-                            elseif Hi==-25380 then
-                                OD=ZF;
-                                if oX~=oX then
-                                    Hi=-3557
-                                else
-                                    Hi=29184
-                                end
-                            elseif Hi==-2493 then
-                                ZF=ZF+FJ;
-                                OD=ZF;
-                                if ZF~=ZF then
-                                    Hi=-3557
-                                else
-                                    Hi=29184
-                                end
-                            elseif Hi==-16619 then
-                                nG=nG..Sr(Sz(nv(ey,(OD-176)+1),nv(Ix,(OD-176)%#Ix+1)))
-                                Hi=R(40008)
-                            end
-                        end
-                    until Hi==-7626
-                end)(Ra,Ls)
-                hg=FY(19431)
-            elseif hg==2644796168388/1484172934 then
-                aa="h$\246[\'\244O"
-                hg=32521576548320/-1974355060
-            elseif hg==-1353555126+1353554905 then
-                aa=A[aa]
-                hg=FY(3384)
-            elseif hg==-1.9343144113691759e-05*-1229893127 then
-                aa='\141_\30\160U\19\186'
-                hg=5.4478296672859699e-07*715881413
-            elseif hg==-1.3040111988212534e-05*-1990933822 then
-                aa=pk[aa]
-                hg=FY(-421)
+                rk=xe(-56053)
+            elseif rk==53802934785015/1743847755 then
+                T=T(GD,b)
+                rk=xe(-42807)
+            elseif rk==6660623599304/417358456 then
+                GD='-}\254\175|\211\55\bv\249\141}\217\54\r'
+                rk=xe(-34458)
             end
         end
-    until hg==349657737+-349644143
+    until rk==1296803060+-1296791679
 end
