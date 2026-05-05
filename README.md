@@ -6,5 +6,5 @@
 </p>
 
 <p align="center" style="color:#888">
-  💻 Crafted with <span style="color:#FF66C4">💗</span>Vexzoram Hub On top</strong>
+  💻 Crafted with <span style="color:#FF66C4">💗</span>Vexzoram Hub On Top</strong>
 </p>
